@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using BraveHaxvius;
+﻿using BraveHaxvius;
 using BraveHaxvius.Data;
 
 namespace Testing
@@ -14,19 +7,13 @@ namespace Testing
     {
         static void Main(string[] args)
         {
-            var fb = new Facebook();
-            fb.Login("email@gmail.com", "password");
-            if (fb.TwoFactorAuth)
-                fb.FinishTwoFactorAuth("1234 5678");
-            fb.AllowFFBE();
-            var b = new BraveExvius
-            {
-                FacebookUserId = fb.Id,
-                FacebookToken = fb.AccessToken,
-            };
+            
+            var b = new BraveExvius{};
             b.Login();
-            b.DoMission(Mission.AirshipDeck, false, null, null, null, false, false, false, false, false, null, 0);
-            b.DoMission(Mission.AirshipDeck);
+            var iw = b.Network.SendPacket(request: Request.EquipGrowEntry);
+            Logger.Out($"Current Item : {iw[GameObject.EquipGrowEventInfo][0][Variable.EquipId].ToString()}");
+
+
         }
     }
 }

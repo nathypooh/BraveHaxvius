@@ -29,5 +29,23 @@ namespace BraveHaxvius
                 return encrypt ? Convert.ToBase64String(memoryStream.ToArray()) : Encoding.UTF8.GetString(memoryStream.ToArray());
             }
         }
+        public static String NewCryto(String data, String key)
+        {
+            string iv = "dZMjkk8gFDzKHlsx";
+            var ivBytes = Encoding.UTF8.GetBytes(iv);
+
+            var keyBytes = new Byte[16];
+            Array.Copy(Encoding.UTF8.GetBytes(key), keyBytes, key.Length);
+            var aes = new AesManaged { Mode = CipherMode.CBC, Key = keyBytes, IV = ivBytes };
+            Byte[] uncryptedBytes = Convert.FromBase64String(data);
+            ICryptoTransform transform = aes.CreateDecryptor();
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                using (CryptoStream cryptoStream = new CryptoStream(memoryStream, transform, CryptoStreamMode.Write))
+                    cryptoStream.Write(uncryptedBytes, 0, uncryptedBytes.Length);
+                var tmp = Encoding.UTF8.GetString(memoryStream.ToArray());
+                return tmp.Substring(0, 1 + tmp.LastIndexOf("}"));
+            }
+        }
     }
 }

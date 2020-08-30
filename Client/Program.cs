@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Client
 {
@@ -17,6 +15,7 @@ namespace Client
         [STAThread]
         static void Main()
         {
+            
             /*var dlls = Directory.GetFiles(@".\", "*.dll");
             var files = dlls.ToList().Concat(dlls.ToList());
             foreach (var file in files)
@@ -41,7 +40,7 @@ namespace Client
             using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(file))
             {
                 if (stream != null)
-                {
+                {   
                     var assemblyData = new Byte[stream.Length];
                     stream.Read(assemblyData, 0, assemblyData.Length);
                     using (var compressedStream = new MemoryStream(assemblyData))

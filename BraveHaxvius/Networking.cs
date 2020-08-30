@@ -78,7 +78,7 @@ namespace BraveHaxvius
             var encryptedData = Crypto.Encrypt(decryptedDataString, request.EncodeKey);
             var packet = Packet(request.RequestID, encryptedData);
             var packetString = JsonConvert.SerializeObject(packet, Formatting.None);
-            var url = "https://lapisv230.gumi.sg/lapisProd/app/php/gme/actionSymbol/";
+            var url = "https://v405-lapis.gumi.sg/lapisProd/app/php/gme/actionSymbol/";
             //url = "https://lapis-dev.gumi.sg/lapisDev/app/php/gme/actionSymbol/";
             if (client.Locale == "JP")
                 url = "https://v29-android.game.exvius.com/lapis/app/php/gme/actionSymbol/";
@@ -163,7 +163,7 @@ namespace BraveHaxvius
             webRequest.Timeout = 150000;
             webRequest.ContentType = "application/x-www-form-urlencoded";
             webRequest.Accept = "*/*";
-            webRequest.UserAgent = "FF%20EXVIUS/" + client.BuildVersion.Replace("ver.", "") + " CFNetwork/808.3 Darwin/16.3.0";
+            webRequest.UserAgent = "FF%20EXVIUS/" + client.BuildVersion.Replace("ver.", "") + " CFNetwork/1121.2.2 Darwin/19.3.0";
             webRequest.AutomaticDecompression = DecompressionMethods.GZip;
             webRequest.Headers[HttpRequestHeader.AcceptEncoding] = "gzip";
             webRequest.Headers[HttpRequestHeader.AcceptLanguage] = "en-us";

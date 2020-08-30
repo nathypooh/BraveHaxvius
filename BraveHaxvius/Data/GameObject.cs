@@ -5,6 +5,28 @@ namespace BraveHaxvius.Data
 {
     public class GameObject
     {
+        public static readonly String EventType = "qnUhs32P";
+        public static readonly String EquipGrowEventInfo = "1P4YjSbT";
+        public static readonly String UserAdsGachaInfo = "UoSdrRHO";
+        public static readonly String sgPermitInfo = "yd6IiVGT";
+        public static readonly String OpeSlot = "b7Ay4Ju8";
+        public static readonly String UserCustomEquipItemInfo = "uRZxw78i";
+        public static readonly String OAuthCount = "GOCgFIo3";
+        public static readonly String OAuthInfo = "c402FmRD";
+        public static readonly String sgMissionCollaborative = "Aok0ngwa";
+        public static readonly String DailyLoginBonusBanner = "DM63p52N";
+        public static readonly String BundleSubscrMst = "p4nO88X4";
+        public static readonly String UserExploreInfo = "2J1wCyhQ";
+        public static readonly String UserUnitEquipInfoLis = "UR9Ng3wk";
+        public static readonly String UserUnitEquipInfoList = "DW7uH6Mn";
+        public static readonly String DispStartTime = "NTXoA6e2";
+        public static readonly String DispEndTime = "7Gvw6J82";
+        public static readonly String CondType = "0iWgxc1X";
+        public static readonly String BannerId = "fSxqkF10";
+        public static readonly String Priority = "w7VR6ypY";
+        public static readonly String CondParam = "B2FW5Qjq";
+        public static readonly String IsGetReward = "QCLs6SV8";
+        public static readonly String IsClear = "Ag8bisM0";
         public static readonly String GuestMst_W4Pz5kYu = "W4Pz5kYu";
         public static readonly String UserItemInfo_4rC0aLkA = "4rC0aLkA";
         public static readonly String GameSetting = "PJm9d197";
@@ -201,9 +223,33 @@ namespace BraveHaxvius.Data
         public static readonly String SpChallengeStatus_diY0g3S5 = "diY0g3S5";
         public static readonly String UserPurchaseListInfo = "TxDI2r9g";
         public static readonly String sgExpdMileStoneClaim = "5Xh859hl";
+        public static readonly String CurrentRelicsCounter = "nv1j95sC";
+        public static readonly String LoginBonusAdData = "SLf2h04A";
 
 		public static readonly Dictionary<String, String> GameObjects = new Dictionary<String, String>
 		{
+            {EventType, "EventType"},
+            {EquipGrowEventInfo, "EquipGrowEventInfo"},
+            {UserAdsGachaInfo, "UserAdsGachaInfo"},
+            {sgPermitInfo, "sgPermitInfo"},
+            {OpeSlot, "OpeSlot"},
+            {UserCustomEquipItemInfo, "UserCustomEquipItemInfo"},
+            {OAuthCount, "OAuthCount"},
+            {OAuthInfo, "OAuthInfo"},
+            {sgMissionCollaborative, "sgMissionCollaborative"},
+            {DailyLoginBonusBanner, "DailyLoginBonusBanner"},
+            {BundleSubscrMst, "BundleSubscrMst"},
+            {UserExploreInfo, "UserExploreInfo"},
+            {UserUnitEquipInfoLis, "UserUnitEquipInfoLis"},
+            {UserUnitEquipInfoList, "UserUnitEquipInfoList"},
+            {DispStartTime, "DispStartTime"},
+            {DispEndTime, "DispEndTime"},
+            {CondType, "CondType"},
+            {BannerId, "BannerId"},
+            {Priority, "Priority"},
+            {CondParam, "CondParam"},
+            {IsGetReward, "IsGetReward"},
+            {IsClear, "IsClear"},
             {GuestMst_W4Pz5kYu, "GuestMst_W4Pz5kYu"},
             {UserItemInfo_4rC0aLkA, "UserItemInfo_4rC0aLkA"},
             {GameSetting, "GameSetting"},
@@ -400,6 +446,8 @@ namespace BraveHaxvius.Data
             {SpChallengeStatus_diY0g3S5, "SpChallengeStatus_diY0g3S5"},
             {UserPurchaseListInfo, "UserPurchaseListInfo"},
             {sgExpdMileStoneClaim, "sgExpdMileStoneClaim"},
+            {CurrentRelicsCounter, "CurrentRelicsCounter"},
+            {LoginBonusAdData, "LoginBonusAdData"},
 		};
     }
 }

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Net;
 using System.IO;
 using System.Threading;
 using Newtonsoft.Json;
@@ -13,16 +11,16 @@ namespace BraveHaxvius
 {
     public class BraveExvius
     {
-        public String AppVersion { get; set; } = "1028";
+        public String AppVersion { get; set; } = "1105";
         public String RscVersion { get; set; } = "0";
-        public String MstVersion { get; set; } = "1004";
-        public String Device { get; set; } = "iPhone9,3";
+        public String MstVersion { get; set; } = "22226";
+        public String Device { get; set; } = "iPhone8,2";
         //public String Device { get; set; } = "XT890";
         //public String Device { get; set; } = "SM-E7000";
-        public String OperatingSystem { get; set; } = "ios10.2.1";
+        public String OperatingSystem { get; set; } = "ios13.4.1";
         //public String OperatingSystem { get; set; } = "android4.4.2";
         public String Locale { get; set; } = "US";
-        public String BuildVersion { get { return Locale == "JP" ? "ver.2.9.3" : "ver.2.3.1"; } }
+        public String BuildVersion { get { return Locale == "JP" ? "ver.2.9.3" : "ver.5000"; } }
         public String UserName { get; set; }
         public String UserId { get; set; }
         public String Password { get; set; }
@@ -106,6 +104,7 @@ namespace BraveHaxvius
         public List<String> GachaId { get; set; } = new List<String>();
         public List<String> GachaDetailId { get; set; } = new List<String>();
         public JObject GetUserInfo;
+        public JObject GetUserInfo2;
         public void Login()
         {
             if (Locale != "JP" && FacebookUserId.Contains("@"))
@@ -125,6 +124,7 @@ namespace BraveHaxvius
                 FacebookUserId = fb.Id;
                 FacebookToken = fb.AccessToken;
             }
+
             //DeviceId = Guid.NewGuid().ToString().ToUpper();
             //b.ContactId = Crypto.Encrypt(b.DeviceId, "Zy3MDURw");
             //AdvertisingId = Guid.NewGuid().ToString().ToUpper();
@@ -136,7 +136,7 @@ namespace BraveHaxvius
                 UpdateNews();
                 UpdateExpeditions();
             }
-            //UpdateMail();
+            UpdateMail();
             UpdateGachaList();
         }
         public void LoginUnlinkedAccount(String userId, String pw, String gumiId, String gumiToken)
@@ -198,7 +198,7 @@ namespace BraveHaxvius
         }
         public void UpdateGachaList()
         {
-            var gachaList = GetUserInfo[GameObject.GachaMst];
+            var gachaList = GetUserInfo2[GameObject.GachaMst];
             foreach (var gacha in gachaList)
                 GachaId.Add(gacha[Variable.GachaId] + " : " + gacha[Variable.Description] + " , " + gacha[Variable.InternalDescription]);
         }
@@ -218,7 +218,7 @@ namespace BraveHaxvius
                         new JObject(
                             new JProperty("gdR2tJI9", slotId),
                             new JProperty(Variable.ItemCount, itemId),
-                            new JProperty("Vt2I4RjX", "20:" + Item.SummonTicket.ItemId + ":1")))));
+                            new JProperty("Vt2I4RjX", "20:" + Item.SummonTicket_1300000005.ItemId + ":1")))));
         }
         public void UnfavoriteAll()
         {
@@ -396,7 +396,7 @@ namespace BraveHaxvius
             while (newUnits.Count(u => u.UnitId == unit.BaseUnitId) == 0)
             {
                 newUnits.Clear();
-                //DoMission(Mission.AirshipDeck, false, "20:" + Item.SummonTicket.ItemId + ":9");
+                //DoMission(Mission.AirshipDeck, false, "20:" + Item.SummonTicket_1300000005.ItemId + ":9");
                 for (int j = 0; j < 9; j++)
                 {
                     status?.Invoke(iteration++);
@@ -481,7 +481,7 @@ namespace BraveHaxvius
             while (newUnits.Count(u => u.UnitId == unit.BaseUnitId) == 0)
             {
                 newUnits.Clear();
-                DoMission(Mission.AirshipDeck, false, "20:" + Item.SummonTicket.ItemId + ":9");
+                DoMission(Mission.AirshipDeck, false, "20:" + Item.SummonTicket_1300000005.ItemId + ":9");
                 for (int j = 0; j < 9; j++)
                 {
                     status?.Invoke(iteration++);
@@ -615,7 +615,7 @@ namespace BraveHaxvius
         public void UpdateNews()
         {
             News.Clear();
-            var newsList = GetUserInfo[GameObject.NoticeMstNew].Select(n => new News
+            var newsList = GetUserInfo2[GameObject.NoticeMstNew].Select(n => new News
             {
                 Id = n[Variable.NoticeId].ToString(),
                 Type = n[Variable.NoticeType].ToString(),
@@ -637,15 +637,15 @@ namespace BraveHaxvius
         {
             Mail.Clear();
             var MailList = Network.SendPacket(Request.MailList);
-            if (MailList == null || MailList[GameObject.UserMailInfo] != null)
+            if (MailList == null || MailList[GameObject.UserMailInfo] == null)
                 return;
-            var mailList = Network.SendPacket(Request.MailList)[GameObject.UserMailInfo].Select(m => new Mail
+            var mailList = MailList[GameObject.UserMailInfo].Select(m => new Mail
             {
                 Id = m[Variable.MailId].ToString(),
                 Title = m[Variable.MailTitle].ToString().StartsWith("{") ?
-                     ((JObject)JsonConvert.DeserializeObject(m[Variable.MailTitle].ToString()))["en"].ToString() : Text.Texts[m[Variable.MailTitle].ToString()],
+                     ((JObject)JsonConvert.DeserializeObject(m[Variable.MailTitle].ToString()))["en"]?.ToString() ?? ((JObject)JsonConvert.DeserializeObject(m[Variable.MailTitle].ToString()))["message"]?.ToString() : Text.Texts[m[Variable.MailTitle].ToString()],
                 Message = m[Variable.MailTitle].ToString().StartsWith("{") ?
-                    ((JObject)JsonConvert.DeserializeObject(m[Variable.Message].ToString()))["en"].ToString() :
+                    ((JObject)JsonConvert.DeserializeObject(m[Variable.Message].ToString()))["en"]?.ToString() ?? ((JObject)JsonConvert.DeserializeObject(m[Variable.MailTitle].ToString()))["message"]?.ToString() :
                         Text.Texts.ContainsKey(m[Variable.Message].ToString()) ? Text.Texts[m[Variable.Message].ToString()] : m[Variable.Message].ToString(),
                 Type = m[Variable.MailType].ToString(),
                 Items = m[Variable.MailItems].ToString(),
@@ -724,7 +724,7 @@ namespace BraveHaxvius
         }
         public JObject DoMission(Mission mission, Boolean useFriend = false, String itemHax = null,
             String equipHax = null, String materiaHax = null, Boolean getTrophies = false, Boolean completeChallenges = false, Boolean collectLoot = false,
-            Boolean collectUnits = false, Boolean exploreTreasure = false, String lbIncrease = null, UInt16 SleepTime = 0)
+            Boolean collectUnits = false, Boolean exploreTreasure = false, String lbIncrease = null, UInt16 SleepTime = 0, bool isParadeMissionEnd = false)
         {
             JToken reinforcement = null;
             if (useFriend)
@@ -833,6 +833,7 @@ namespace BraveHaxvius
 
             var FieldTreasureMst = MissionInfo[GameObject.FieldTreasureMst];
             var itemsTreasure = new List<String>();
+            var materiaTreasure = new List<String>();
             var equipmentTreasure = new List<String>();
             var recipeTreasure = new List<String>();
             var newSwitches = new List<String>();
@@ -850,6 +851,8 @@ namespace BraveHaxvius
                         itemsTreasure.Add(item);
                     else if (item.StartsWith("21"))
                         equipmentTreasure.Add(item);
+                    else if (item.StartsWith("22"))
+                        materiaTreasure.Add(item);
                     else if (item.StartsWith("60"))
                         recipeTreasure.Add(item);
                     else
@@ -858,6 +861,7 @@ namespace BraveHaxvius
             }
 
             var ItemsTreasure = exploreTreasure ? String.Join(",", itemsTreasure) : "";
+            var MaterialTreasure = exploreTreasure ? String.Join(",", materiaTreasure) : "";
             var EquipmentTreasure = exploreTreasure ? String.Join(",", equipmentTreasure) : "";
             var RecipeTreasure = exploreTreasure ? String.Join(",", recipeTreasure) : "";
             var NewSwitches = String.Join(",", newSwitches);
@@ -891,6 +895,8 @@ namespace BraveHaxvius
             {
                 foreach (var item in itemsTreasure)
                     Logger.Out("Treasure item : " + Item.Items.FindAll(i => i.ItemId != null).First(i => item.Contains(i.ItemId)).Name);
+                foreach (var item in materiaTreasure)
+                    Logger.Out("Treasure materia : " + Materia.Materias.FindAll(i => i.MateriaId != null).First(i => item.Contains(i.MateriaId)).Name);
                 foreach (var eq in equipmentTreasure)
                     Logger.Out("Treasure equipment : " + Equipment.Equipments.FindAll(i => i.EquipId != null).First(i => eq.Contains(i.EquipId)).Name);
                 foreach (var r in recipeTreasure)
@@ -922,6 +928,8 @@ namespace BraveHaxvius
                 MissionResult.Add(Variable.ItemsStolen, ItemsStolen);
             if (!String.IsNullOrEmpty(ItemsTreasure))
                 MissionResult.Add(Variable.ItemsTreasure, ItemsTreasure);
+            if (!String.IsNullOrEmpty(MaterialTreasure))
+                MissionResult.Add(Variable.ItemsTreasure, MaterialTreasure);
             if (!String.IsNullOrEmpty(ItemsFound))
                 MissionResult.Add(Variable.ItemsFound, ItemsFound);
             if (!String.IsNullOrEmpty(EquipmentTreasure))
@@ -946,6 +954,7 @@ namespace BraveHaxvius
             MissionResult.Add(Variable.EncounteredMonsters, EncounteredMonsters);
             MissionResult.Add(Variable.MonstersKilledCount, MonstersKilledCount);
             MissionResult.Add(Variable.MonsterParts, MonsterParts);
+			MissionResult.Add("nZ1gR2h3","1562956924000-207000107@10010:999:999:999:999:999");
 
             var lbTotal = 1;
 
@@ -971,15 +980,15 @@ namespace BraveHaxvius
                 new JObject(new JProperty(Variable.ArchiveName, "TOTAL_LB_CRISTAL"),
                                              new JProperty(Variable.ArchiveValue, "12")),
                 new JObject(new JProperty(Variable.ArchiveName, "MAX_CHAIN_TURN"),
-                                             new JProperty(Variable.ArchiveValue, "0")),
+                                             new JProperty(Variable.ArchiveValue, new Random().Next(50,100))),
                 new JObject(new JProperty(Variable.ArchiveName, "MAX_SPARK_CHAIN_TURN"),
-                                             new JProperty(Variable.ArchiveValue, "0")),
+                                             new JProperty(Variable.ArchiveValue, new Random().Next(10,40))),
                 new JObject(new JProperty(Variable.ArchiveName, "MAX_ELEMENT_CHAIN_TURN"),
                                              new JProperty(Variable.ArchiveValue, "0")),
                 new JObject(new JProperty(Variable.ArchiveName, "MAX_DAMAGE_HIT"),
                                              new JProperty(Variable.ArchiveValue, ((Int32)TotalDamage / 4).ToString())),
                 new JObject(new JProperty(Variable.ArchiveName, "MAX_ELEMENT_CHAIN_TURN"),
-                                             new JProperty(Variable.ArchiveValue, "0")),
+                                             new JProperty(Variable.ArchiveValue, new Random().Next(10,40))),
                 new JObject(new JProperty(Variable.ArchiveName, "TOTAL_MISSION_BATTLE_WIN"),
                                              new JProperty(Variable.ArchiveValue, EncounterIds.Split(new char[1] { ',' }).Count().ToString())),
                 new JObject(new JProperty(Variable.ArchiveName, "TOTAL_LB_USE"),
@@ -1033,6 +1042,8 @@ namespace BraveHaxvius
                     //29 no espers
                     //69 exclude rain/lasswell 2001
                     //20 no abilities
+					// syntax = wave ID @ monster ID : 1 @ killing move type : killing move ID
+						// killing move types 1 = ABILITY, 2 = MAGIC, 3 = ESPER, 5 = LIMIT BURST
                     if (challenge.ChallengeRequirement.StartsWith("34:"))
                     {
                         var partyOfAtleast = challenge.ChallengeRequirement.Split(new char[1] { ':' })[1]; // +1
@@ -1051,6 +1062,8 @@ namespace BraveHaxvius
                         //var KillBossWithLb = KillBossWithLbObj[Variable.MissionWaveId].ToString() + "@" + KillBossWithLbObj[Variable.MonsterPartId].ToString() + ":1@5:" + "100000102";
                         //MissionChallenge.Add(Variable.LimitBreaks, "100000102:6");
                         // MissionChallenge.Add(Variable.KnockOuts, "");
+						// syntax = wave ID @ monster ID : 1 @ killing move type : killing move ID
+						// killing move types 1 = ABILITY, 2 = MAGIC, 3 = ESPER, 5 = LIMIT BURST
                     }
                     else if (challenge.ChallengeRequirement.StartsWith("15:")) // magic
                     {
@@ -1134,8 +1147,8 @@ namespace BraveHaxvius
             };
             if (GetUserInfo != null)
                 inputList.Add(new JProperty(GameObject.UserCarryItemInfo, new JArray(new JObject(new JProperty(Variable.Items_jsvoa0I2, GetUserInfo[GameObject.UserCarryItemInfo][0][Variable.Items_jsvoa0I2].ToString())))));
-            
-            var MissionEnd = Network.SendPacket(Request.MissionEnd, inputList);
+            var MissionEndHolder = (isParadeMissionEnd) ? Request.ParadeMissionEnd : Request.MissionEnd  ;
+            var MissionEnd = Network.SendPacket(MissionEndHolder, inputList);
             return MissionEnd;
         }
         public void LevelUnit(Unit unit)
@@ -1389,6 +1402,7 @@ namespace BraveHaxvius
         public JObject UpdateGetUserInfo()
         {
             GetUserInfo = Network.SendPacket(Request.GetUserInfo);
+            GetUserInfo2 = Network.SendPacket(Request.GetUserInfo2);
             return GetUserInfo;
         }
         public void UpdateUserName(String name, String msg)
@@ -1507,7 +1521,7 @@ namespace BraveHaxvius
                             new JProperty(Variable.ArchiveName, "ARENA_TOTAL_LB_CRISTAL"),
                             new JProperty(Variable.Value, new Random().Next(40, 60).ToString())))));
                 orbs = UInt16.Parse(RbEnd[GameObject.UserTeamInfo][0][Variable.ColosseumOrb].ToString());
-                Thread.Sleep(15000);
+                Thread.Sleep(10000);
             }
         }
         void ClearRaid()

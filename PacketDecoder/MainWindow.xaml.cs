@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
@@ -20,6 +18,7 @@ namespace PacketDecoder
     public partial class MainWindow
     {
         ObservableCollection<Packet> people = new ObservableCollection<Packet>();
+        private bool UseNewCryto = true;
         public MainWindow()
         {
             InitializeComponent();
@@ -42,11 +41,21 @@ namespace PacketDecoder
             FiddlerApplication.AfterSessionComplete += FiddlerApplication_AfterSessionComplete;
             FiddlerApplication.Startup(8888, true, true, true);
         }
+        private void HandleChecked(object sender, RoutedEventArgs e)
+        {
+            UseNewCryto = true;
+        }
+
+        private void HandleUnchecked(object sender, RoutedEventArgs e)
+        {
+            UseNewCryto = false;
+        }
 
         Boolean installCertificateMessage = false;
         private void CurrentDomain_FirstChanceException(object sender, System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs e)
         {
             BraveHaxvius.Logger.Out(e.ToString());
+            BraveHaxvius.Logger.Out(e.Exception.Message);
             if (e.Exception.Message == "A call to SSPI failed, see inner exception.")
             {
                 if (installCertificateMessage)
@@ -90,8 +99,12 @@ namespace PacketDecoder
         {
             UninstallCertificate();
         }
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            people.Clear();
+        }
         int packetCount = 0;
-        
+
         private void FiddlerApplication_BeforeRequest(Session oSession)
         {
             if (oSession.RequestMethod == "CONNECT")
@@ -110,16 +123,18 @@ namespace PacketDecoder
                 return;
             headers = firstLine + "\r\n" + headers.Substring(at + 1);
             var url = oSession.fullUrl.Substring(oSession.fullUrl.IndexOf("actionSymbol") + 13).Replace(".php", "");
-            var request = Request.Requests.First(r => r.Url == url);
+
+            var request = new Request { Name = "GachaBoxNextRequest", Url = "tULiKh5j", EncodeKey = "U2Lm8vcS", RequestID = "xa9uR3pI" };//Request.Requests.First(r => r.Url == url);
             {
                 dynamic json = JsonConvert.DeserializeObject(reqBody);
                 if (json != null)
                 {
+                    request = Request.Requests.First(r => r.RequestID == json[GameObject.Header][Variable.RequestID].ToString());
                     var encryptedObject = json[Variable.Encrypted];
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = Crypto.Decrypt(encryptedData, request.EncodeKey);
+                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey) ;
                         if (decryptedJson.Contains(""))
                         {
                         }
@@ -153,11 +168,13 @@ namespace PacketDecoder
                 dynamic json = JsonConvert.DeserializeObject(respBody);
                 if (json != null)
                 {
+                    try { request = Request.Requests.First(r => r.RequestID == json[GameObject.Header][Variable.RequestID].ToString()); }
+                    catch { }
                     var encryptedObject = json[Variable.Encrypted];
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = Crypto.Decrypt(encryptedData, request.EncodeKey);
+                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey);
                     }
                 }
             }
@@ -191,9 +208,10 @@ namespace PacketDecoder
 
             {
                 dynamic json = JsonConvert.DeserializeObject(reqBody);
+                request = Request.Requests.First(r => r.RequestID == json[GameObject.Header][Variable.RequestID].ToString());
                 var encryptedObject = json[Variable.Encrypted];
                 var encryptedData = encryptedObject[Variable.Data].Value;
-                var decryptedJson = Crypto.Decrypt(encryptedData, request.EncodeKey);
+                var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey);
                 var sendpacket = new Packet
                 {
                     Time = time,
@@ -204,6 +222,14 @@ namespace PacketDecoder
                     EncryptedJson = reqBody,
                     DecryptedJson = decryptedJson,
                 };
+
+                var decryptedDataString = decryptedJson;
+                foreach (var v in Variable.Variables)
+                    decryptedDataString = decryptedDataString.Replace(v.Key, v.Value);
+                foreach (var v in GameObject.GameObjects)
+                    decryptedDataString = decryptedDataString.Replace(v.Key, v.Value);
+                if (Directory.Exists(@"../packages_dump/"))
+                    File.WriteAllText(@"../packages_dump/" + sendpacket.Num + "_Send_" + sendpacket.Type, decryptedDataString);
                 packetGrid.BeginInvoke(new Action(() => { people.Add(sendpacket); }));
             }
             {
@@ -214,8 +240,7 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = Crypto.Decrypt(encryptedData, request.EncodeKey);
-                        var recievepacket = new Packet
+                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey); var recievepacket = new Packet
                         {
                             Time = time,
                             Num = packetCount++,
@@ -225,6 +250,13 @@ namespace PacketDecoder
                             EncryptedJson = respBody,
                             DecryptedJson = decryptedJson,
                         };
+                        var decryptedDataString = decryptedJson;
+                        foreach (var v in Variable.Variables)
+                            decryptedDataString = decryptedDataString.Replace(v.Key, v.Value);
+                        foreach (var v in GameObject.GameObjects)
+                            decryptedDataString = decryptedDataString.Replace(v.Key, v.Value);
+                        if (Directory.Exists(@"../packages_dump/"))
+                            File.WriteAllText(@"../packages_dump/" + recievepacket.Num + "_Receive_" + recievepacket.Type, decryptedDataString);
                         packetGrid.BeginInvoke(new Action(() => { people.Add(recievepacket); }));
                     }
                     else

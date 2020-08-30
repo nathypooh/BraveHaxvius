@@ -83,6 +83,6 @@ for funcea in Functions(0x100000, 0x14ea010):
 	#dumpbody(functionName, funcea, 'createBody')
 print requests
 import json
-filename = os.path.expanduser("~/OneDrive/Documents/GitHub/BraveHaxvius/DataExtractor/network2.json")
+filename = os.path.expanduser("~/nate2.json")
 with open(filename, 'w') as fp:
     json.dump(requests, fp)

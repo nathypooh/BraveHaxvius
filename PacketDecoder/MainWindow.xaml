@@ -7,6 +7,13 @@
         Title="FFBE Packet Decoder" Height="600" Width="1200" Closing="MetroWindow_Closing">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
+            <ToggleButton x:Name="UseNewCrypto" ToolTip="Use New Crypto" Style="{DynamicResource MetroCircleToggleButtonStyle}" IsChecked="True"
+                          Checked="HandleChecked" Unchecked="HandleUnchecked">
+                <iconPacks:PackIconModern Kind="Lock" Width="24" Height="24"/>
+            </ToggleButton>
+            <Button ToolTip="Clear Request List" Click="Button2_Click">
+                <iconPacks:PackIconModern Kind="Clean" Width="24" Height="24"/>
+            </Button>
             <Button ToolTip="Uninstall certificate" Click="Button_Click">
                 <iconPacks:PackIconModern Kind="DoorLeave" Width="24" Height="24"/>
             </Button>

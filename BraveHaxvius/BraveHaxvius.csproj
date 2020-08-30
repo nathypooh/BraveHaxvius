@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BraveExvius.cs" />
+    <Compile Include="Data\Ability.cs" />
     <Compile Include="Data\Challenge.cs" />
     <Compile Include="Data\ImportantItem.cs" />
     <Compile Include="Data\Sublimation.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Data\Mail.cs" />
     <Compile Include="Data\News.cs" />
     <Compile Include="Crypto.cs" />
+    <Compile Include="Data\VisionCard.cs" />
     <Compile Include="Facebook.cs" />
   </ItemGroup>
   <ItemGroup>

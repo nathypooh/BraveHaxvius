@@ -5,7 +5,34 @@ namespace BraveHaxvius.Data
 {
     public class Variable
     {
+        public static readonly String VisionCardID = "5giCMUd2";
+        public static readonly String WeaknessElemAttackLog = "dHyXJC27";
+        public static readonly String WeaknessElemAttackLogDv = "qY8cL2yI";
+        public static readonly String WeaknessTribeAttackLog = "7m5NDeaj";
+        public static readonly String MaxParameterInfo = "e6ha3LUX";
+        public static readonly String MonsterLog = "vMo5cnmx";
+        public static readonly String HarvestLog = "MyIhjd6W";
+        public static readonly String Rare = "2EusAP6T";
+        public static readonly String AbilityInfo = "1Zsh27mS";
+        public static readonly String MagicInfo = "i6kc1jN0";
+        public static readonly String AttackType = "Isb1GDe2";
+        public static readonly String SkillType = "yjY4GK3X";
+        public static readonly String SkillKind = "aR5i4ewA";
+        public static readonly String MoveType = "Af2Pc0Jz";
+        public static readonly String ProcessType = "2kq0BpnD";
+        public static readonly String ProcessFrame = "PI18xnkD";
+        public static readonly String MotioinType = "5w1o9DPV";
+        public static readonly String SpFunction = "7irj9hAb";
+        public static readonly String IWEquipId = "XjLm3Y0r";
+        public static readonly String ArchiveUpdate = "dP2f71TL";
+        public static readonly String NextHomeUpdateTime = "0Zpuzj7E";
+        public static readonly String CurrentAbilities = "nM63Zvtp";
+        public static readonly String InStoreAbilities = "2p9qywBL";
+        public static readonly String Status = "cEVau7d8";
         public static readonly String Encrypted = "t7n6cVWf";
+        public static readonly String IWOrb = "9vBE36PW";
+        public static readonly String IWOrbTimer = "p81guTGJ";
+        public static readonly String IWOrbMax = "n3G5ItVX";
         public static readonly String UserId = "9Tbns0eI";
         public static readonly String UserName = "9qh17ZUf";
         public static readonly String Password = "JC61TPqS";
@@ -66,7 +93,8 @@ namespace BraveHaxvius.Data
         public static readonly String Rarity = "9fW0TePj";
         public static readonly String GenderId = "UbSL8C7i";
         public static readonly String JobId = "IWv3u1xX";
-        public static readonly String TribeId = "a9qg8vnP";
+        public static readonly String TribeId2 = "a9qg8vnP";
+        public static readonly String TribeId = "zcPrZ20s";
         public static readonly String GameId = "taQ69cIx";
         public static readonly String BaseUnitId = "woghJa61";
         public static readonly String UnitMaxLevel = "aU3o2D4t";
@@ -97,7 +125,7 @@ namespace BraveHaxvius.Data
         public static readonly String QuestStatus = "4kcAD9fW";
         public static readonly String AcceptedDate = "VjJQ51uG";
         public static readonly String CompletedDate = "m8ivD4NX";
-        public static readonly String EsperId = "Iwfx42Wo";
+        public static readonly String BeastId = "Iwfx42Wo";
         public static readonly String ColosseumId = "i5pd8xr3";
         public static readonly String Description = "G4L0YIB2";
         public static readonly String GachaId = "X1IuZnj2";
@@ -164,6 +192,7 @@ namespace BraveHaxvius.Data
         public static readonly String FriendRank = "QSf4NDq3";
         public static readonly String FriendLevel = "wjX34YxG";
         public static readonly String FriendIdFrom = "bUfq8BJ3";
+        public static readonly String EsperParty = "XZ4Kh7Ic";
         public static readonly String MonsterHp = "fh31sk7B";
         public static readonly String MonsterMp = "PC97pWQj";
         public static readonly String MonsterAtk = "9NBV1XCS";
@@ -345,12 +374,11 @@ namespace BraveHaxvius.Data
         public static readonly String RmDungeon = "9Zok3IK2";
         public static readonly String RoutineRaidMenuUpdate = "3uy7DzGB";
         public static readonly String TownInfo = "JcxS6A8N";
-        public static readonly String Expedition = "67l03PW2";
         public static readonly String ExpeditionId = "Ko86047K";
         public static readonly String ExpeditionRewardId = "k60s8T42";
         public static readonly String ExpeditionRelic = "p1H8307H";
         public static readonly String ExpeditionRewardItem = "23tA3948";
-        public static readonly String ExpeditionRewardClaimed = "O7s2496M";
+        public static readonly String ExpeditionRewardClaimed = "3JND4wjr";
         public static readonly String ExpeditionUnits = "7mA422N6";
         public static readonly String ExpeditionBonus = "sO308L0M";
         public static readonly String PartySelect = "CN92arJK";
@@ -358,7 +386,6 @@ namespace BraveHaxvius.Data
         public static readonly String CompanionParty = "MBIYc89Q";
         public static readonly String ColosseumParty = "Isc1ga3G";
         public static readonly String ArenaParty = "igrz05CY";
-        public static readonly String EsperParty = "XZ4Kh7Ic";
         public static readonly String EquipmentRarity = "52KBR9qV";
         public static readonly String EquipmentSlotId = "znGsI4f8";
         public static readonly String EquipmentTypeId = "8DZGF4Nn";
@@ -375,11 +402,51 @@ namespace BraveHaxvius.Data
         public static readonly String SublimationItems = "HS7V6Ww1";
         public static readonly String SublimationUnitId = "25oxcKwN";
         public static readonly String ClassUpItems = "KCk8u0am";
+        public static readonly String P_GOOGLE_TOKEN = "P_GOOGLE_TOKEN";
+        public static readonly String P_GOOGLE_ID = "P_GOOGLE_ID";
         public static readonly String LBExperience = "A90DrNfp";
+        public static readonly String AbilityId = "Ga5V42LZ";
+        public static readonly String Ha9G5sCS = "Ha9G5sCS";
+        public static readonly String ImportantId = "2dfixko3";
+        public static readonly String RelicsCollected = "92l3W8pW";
+        public static readonly String Corridas = "mqbn4Gdm";
+        public static readonly String MaxPorDias = "sx4kyW0i";
+        public static readonly String ProcetajeDeExito = "hKcId7sNVR";
+        public static readonly String DateFinish = "2x2W5439";
+        public static readonly String AdvertisingId2 = "0k5yZ82d";
+        public static readonly String AdTrackingEnabled = "ZAUaPx36";
+        public static readonly String EventBonusItem = "Vy9YXBE7";
 
 		public static readonly Dictionary<String, String> Variables = new Dictionary<String, String>
 		{
+            {VisionCardID, "VisionCardID"},
+            {WeaknessElemAttackLog, "WeaknessElemAttackLog"},
+            {WeaknessElemAttackLogDv, "WeaknessElemAttackLogDv"},
+            {WeaknessTribeAttackLog, "WeaknessTribeAttackLog"},
+            {MaxParameterInfo, "MaxParameterInfo"},
+            {MonsterLog, "MonsterLog"},
+            {HarvestLog, "HarvestLog"},
+            {Rare, "Rare"},
+            {AbilityInfo, "AbilityInfo"},
+            {MagicInfo, "MagicInfo"},
+            {AttackType, "AttackType"},
+            {SkillType, "SkillType"},
+            {SkillKind, "SkillKind"},
+            {MoveType, "MoveType"},
+            {ProcessType, "ProcessType"},
+            {ProcessFrame, "ProcessFrame"},
+            {MotioinType, "MotioinType"},
+            {SpFunction, "SpFunction"},
+            {IWEquipId, "IWEquipId"},
+            {ArchiveUpdate, "ArchiveUpdate"},
+            {NextHomeUpdateTime, "NextHomeUpdateTime"},
+            {CurrentAbilities, "CurrentAbilities"},
+            {InStoreAbilities, "InStoreAbilities"},
+            {Status, "Status"},
             {Encrypted, "Encrypted"},
+            {IWOrb, "IWOrb"},
+            {IWOrbTimer, "IWOrbTimer"},
+            {IWOrbMax, "IWOrbMax"},
             {UserId, "UserId"},
             {UserName, "UserName"},
             {Password, "Password"},
@@ -440,6 +507,7 @@ namespace BraveHaxvius.Data
             {Rarity, "Rarity"},
             {GenderId, "GenderId"},
             {JobId, "JobId"},
+            {TribeId2, "TribeId2"},
             {TribeId, "TribeId"},
             {GameId, "GameId"},
             {BaseUnitId, "BaseUnitId"},
@@ -471,7 +539,7 @@ namespace BraveHaxvius.Data
             {QuestStatus, "QuestStatus"},
             {AcceptedDate, "AcceptedDate"},
             {CompletedDate, "CompletedDate"},
-            {EsperId, "EsperId"},
+            {BeastId, "BeastId"},
             {ColosseumId, "ColosseumId"},
             {Description, "Description"},
             {GachaId, "GachaId"},
@@ -538,6 +606,7 @@ namespace BraveHaxvius.Data
             {FriendRank, "FriendRank"},
             {FriendLevel, "FriendLevel"},
             {FriendIdFrom, "FriendIdFrom"},
+            {EsperParty, "EsperParty"},
             {MonsterHp, "MonsterHp"},
             {MonsterMp, "MonsterMp"},
             {MonsterAtk, "MonsterAtk"},
@@ -719,7 +788,6 @@ namespace BraveHaxvius.Data
             {RmDungeon, "RmDungeon"},
             {RoutineRaidMenuUpdate, "RoutineRaidMenuUpdate"},
             {TownInfo, "TownInfo"},
-            {Expedition, "Expedition"},
             {ExpeditionId, "ExpeditionId"},
             {ExpeditionRewardId, "ExpeditionRewardId"},
             {ExpeditionRelic, "ExpeditionRelic"},
@@ -732,7 +800,6 @@ namespace BraveHaxvius.Data
             {CompanionParty, "CompanionParty"},
             {ColosseumParty, "ColosseumParty"},
             {ArenaParty, "ArenaParty"},
-            {EsperParty, "EsperParty"},
             {EquipmentRarity, "EquipmentRarity"},
             {EquipmentSlotId, "EquipmentSlotId"},
             {EquipmentTypeId, "EquipmentTypeId"},
@@ -749,7 +816,20 @@ namespace BraveHaxvius.Data
             {SublimationItems, "SublimationItems"},
             {SublimationUnitId, "SublimationUnitId"},
             {ClassUpItems, "ClassUpItems"},
+            {P_GOOGLE_TOKEN, "P_GOOGLE_TOKEN"},
+            {P_GOOGLE_ID, "P_GOOGLE_ID"},
             {LBExperience, "LBExperience"},
+            {AbilityId, "AbilityId"},
+            {Ha9G5sCS, "Ha9G5sCS"},
+            {ImportantId, "ImportantId"},
+            {RelicsCollected, "RelicsCollected"},
+            {Corridas, "Corridas"},
+            {MaxPorDias, "MaxPorDias"},
+            {ProcetajeDeExito, "ProcetajeDeExito"},
+            {DateFinish, "DateFinish"},
+            {AdvertisingId2, "AdvertisingId2"},
+            {AdTrackingEnabled, "AdTrackingEnabled"},
+            {EventBonusItem, "EventBonusItem"},
 		};
     }
 }

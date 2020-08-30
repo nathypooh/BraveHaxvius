@@ -41,6 +41,7 @@
             this.unitSelect = new System.Windows.Forms.ComboBox();
             this.summonButton = new System.Windows.Forms.Button();
             this.missionsTab = new System.Windows.Forms.TabPage();
+            this.CBIsParadeMissionEnd = new System.Windows.Forms.CheckBox();
             this.RepeatMission = new System.Windows.Forms.TextBox();
             this.RepeatLabel = new System.Windows.Forms.Label();
             this.RBAmazon = new System.Windows.Forms.RadioButton();
@@ -71,6 +72,13 @@
             this.JPLogin = new System.Windows.Forms.Button();
             this.GachaSummon = new System.Windows.Forms.Button();
             this.JPGacha = new System.Windows.Forms.ComboBox();
+            this.newMailTab = new System.Windows.Forms.TabPage();
+            this.mailDataGrid = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.NewdataGrid = new System.Windows.Forms.DataGridView();
+            this.weaponTab = new System.Windows.Forms.TabPage();
+            this.IWGrid = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
             this.donateButton = new System.Windows.Forms.Button();
             this.consoleLog = new System.Windows.Forms.RichTextBox();
             this.ProxyPort = new System.Windows.Forms.TextBox();
@@ -82,6 +90,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.gitHubLink = new System.Windows.Forms.Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.injectionTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.injectDataGrid)).BeginInit();
@@ -90,6 +100,11 @@
             this.levelingTab.SuspendLayout();
             this.sellTab.SuspendLayout();
             this.jpSummonTab.SuspendLayout();
+            this.newMailTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mailDataGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewdataGrid)).BeginInit();
+            this.weaponTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.IWGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -100,7 +115,9 @@
             this.tabControl1.Controls.Add(this.levelingTab);
             this.tabControl1.Controls.Add(this.sellTab);
             this.tabControl1.Controls.Add(this.jpSummonTab);
-            this.tabControl1.Location = new System.Drawing.Point(13, 13);
+            this.tabControl1.Controls.Add(this.newMailTab);
+            this.tabControl1.Controls.Add(this.weaponTab);
+            this.tabControl1.Location = new System.Drawing.Point(13, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(789, 231);
@@ -143,6 +160,7 @@
             // 
             // injectButton
             // 
+            this.injectButton.Enabled = false;
             this.injectButton.Location = new System.Drawing.Point(698, 176);
             this.injectButton.Name = "injectButton";
             this.injectButton.Size = new System.Drawing.Size(77, 23);
@@ -232,6 +250,7 @@
             // 
             // missionsTab
             // 
+            this.missionsTab.Controls.Add(this.CBIsParadeMissionEnd);
             this.missionsTab.Controls.Add(this.RepeatMission);
             this.missionsTab.Controls.Add(this.RepeatLabel);
             this.missionsTab.Controls.Add(this.RBAmazon);
@@ -254,6 +273,16 @@
             this.missionsTab.TabIndex = 4;
             this.missionsTab.Text = "Missions";
             this.missionsTab.UseVisualStyleBackColor = true;
+            // 
+            // CBIsParadeMissionEnd
+            // 
+            this.CBIsParadeMissionEnd.AutoSize = true;
+            this.CBIsParadeMissionEnd.Location = new System.Drawing.Point(451, 11);
+            this.CBIsParadeMissionEnd.Name = "CBIsParadeMissionEnd";
+            this.CBIsParadeMissionEnd.Size = new System.Drawing.Size(125, 17);
+            this.CBIsParadeMissionEnd.TabIndex = 17;
+            this.CBIsParadeMissionEnd.Text = "Is PadareMissionEnd";
+            this.CBIsParadeMissionEnd.UseVisualStyleBackColor = true;
             // 
             // RepeatMission
             // 
@@ -412,6 +441,7 @@
             this.missionSelect.Name = "missionSelect";
             this.missionSelect.Size = new System.Drawing.Size(380, 21);
             this.missionSelect.TabIndex = 1;
+            this.missionSelect.SelectedIndexChanged += new System.EventHandler(this.missionSelect_SelectedIndexChanged);
             // 
             // levelingTab
             // 
@@ -554,6 +584,95 @@
             this.JPGacha.Size = new System.Drawing.Size(380, 21);
             this.JPGacha.TabIndex = 0;
             // 
+            // newMailTab
+            // 
+            this.newMailTab.Controls.Add(this.mailDataGrid);
+            this.newMailTab.Controls.Add(this.button1);
+            this.newMailTab.Controls.Add(this.NewdataGrid);
+            this.newMailTab.Location = new System.Drawing.Point(4, 22);
+            this.newMailTab.Name = "newMailTab";
+            this.newMailTab.Padding = new System.Windows.Forms.Padding(3);
+            this.newMailTab.Size = new System.Drawing.Size(781, 205);
+            this.newMailTab.TabIndex = 6;
+            this.newMailTab.Text = "New/Mail";
+            this.newMailTab.UseVisualStyleBackColor = true;
+            // 
+            // mailDataGrid
+            // 
+            this.mailDataGrid.AllowUserToAddRows = false;
+            this.mailDataGrid.AllowUserToDeleteRows = false;
+            this.mailDataGrid.AllowUserToResizeRows = false;
+            this.mailDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.mailDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.mailDataGrid.Location = new System.Drawing.Point(369, 0);
+            this.mailDataGrid.Name = "mailDataGrid";
+            this.mailDataGrid.ReadOnly = true;
+            this.mailDataGrid.RowHeadersVisible = false;
+            this.mailDataGrid.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.mailDataGrid.Size = new System.Drawing.Size(412, 151);
+            this.mailDataGrid.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(703, 176);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Load Data";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // NewdataGrid
+            // 
+            this.NewdataGrid.AllowUserToAddRows = false;
+            this.NewdataGrid.AllowUserToDeleteRows = false;
+            this.NewdataGrid.AllowUserToResizeRows = false;
+            this.NewdataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.NewdataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.NewdataGrid.Location = new System.Drawing.Point(0, 3);
+            this.NewdataGrid.Name = "NewdataGrid";
+            this.NewdataGrid.ReadOnly = true;
+            this.NewdataGrid.RowHeadersVisible = false;
+            this.NewdataGrid.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.NewdataGrid.Size = new System.Drawing.Size(354, 196);
+            this.NewdataGrid.TabIndex = 0;
+            this.NewdataGrid.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.NewdataGrid_CellContentClick);
+            // 
+            // weaponTab
+            // 
+            this.weaponTab.Controls.Add(this.IWGrid);
+            this.weaponTab.Controls.Add(this.button2);
+            this.weaponTab.Location = new System.Drawing.Point(4, 22);
+            this.weaponTab.Name = "weaponTab";
+            this.weaponTab.Padding = new System.Windows.Forms.Padding(3);
+            this.weaponTab.Size = new System.Drawing.Size(781, 205);
+            this.weaponTab.TabIndex = 7;
+            this.weaponTab.Text = "Weapon";
+            this.weaponTab.UseVisualStyleBackColor = true;
+            // 
+            // IWGrid
+            // 
+            this.IWGrid.AllowUserToAddRows = false;
+            this.IWGrid.AllowUserToDeleteRows = false;
+            this.IWGrid.AllowUserToResizeRows = false;
+            this.IWGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.IWGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.IWGrid.Location = new System.Drawing.Point(7, 4);
+            this.IWGrid.Name = "IWGrid";
+            this.IWGrid.RowHeadersVisible = false;
+            this.IWGrid.Size = new System.Drawing.Size(645, 195);
+            this.IWGrid.TabIndex = 1;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(700, 176);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Load Data";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // donateButton
             // 
             this.donateButton.Location = new System.Drawing.Point(689, 248);
@@ -659,6 +778,16 @@
             this.gitHubLink.UseVisualStyleBackColor = true;
             this.gitHubLink.Click += new System.EventHandler(this.GitHubButton_Click);
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Column2";
+            this.Column2.Name = "Column2";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -690,9 +819,19 @@
             this.sellTab.ResumeLayout(false);
             this.sellTab.PerformLayout();
             this.jpSummonTab.ResumeLayout(false);
+            this.newMailTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.mailDataGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewdataGrid)).EndInit();
+            this.weaponTab.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.IWGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void NewdataGrid_DataSourceChanged(object sender, System.EventArgs e)
+        {
+            this.NewdataGrid.ScrollBars = System.Windows.Forms.ScrollBars.Both;
         }
 
         #endregion
@@ -751,6 +890,16 @@
         private System.Windows.Forms.Button sellButton;
         private System.Windows.Forms.ComboBox sellItemSelect;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TabPage newMailTab;
+        private System.Windows.Forms.DataGridView NewdataGrid;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridView mailDataGrid;
+        private System.Windows.Forms.TabPage weaponTab;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView IWGrid;
+        private System.Windows.Forms.CheckBox CBIsParadeMissionEnd;
     }
 }
 

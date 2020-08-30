@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Windows.Forms;
-using BraveHaxvius;
+﻿using BraveHaxvius;
 using BraveHaxvius.Data;
 using Client.Properties;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Threading;
+using System.Windows.Forms;
 
 namespace Client
 {
@@ -21,6 +16,10 @@ namespace Client
         BraveExvius client = new BraveExvius();
         DataTable injectDataTable = new DataTable();
         JToken Gachas;
+        DataTable IWTable = new DataTable();
+        DataTable newsTable = new DataTable();
+        DataTable mailTable = new DataTable();
+
 
         public MainWindow()
         {
@@ -37,10 +36,36 @@ namespace Client
         public void Hook(String s)
         {
             consoleLog.Focus();
-            consoleLog.AppendText(s+ "\r\n");
+            consoleLog.AppendText(s + "\r\n");
+            consoleLog.ScrollToCaret();
         }
         private void InitStaticItems()
         {
+            
+            IWTable.Columns.Add("Name");
+            IWTable.Columns.Add("EquipID");
+            IWTable.Columns.Add("Unique EquipID");
+            IWTable.Columns.Add("Current Abilities 1");
+            IWTable.Columns.Add("Current Abilities 2");
+            for (var i = 0; i < 10; i++)
+                IWTable.Rows.Add(" ", " ", " ", " ", " ");
+
+            IWGrid.DataSource = IWTable;
+            
+            IWGrid.EditMode = DataGridViewEditMode.EditOnF2;
+
+            mailTable.Columns.Add("Title");
+            mailTable.Columns.Add("Discription");
+            for (var i = 0; i < 10; i++)
+                mailTable.Rows.Add(" ", " ");
+            mailDataGrid.DataSource = mailTable;
+            newsTable.Columns.Add("Text");
+            newsTable.Columns.Add("Link");
+            for(var i = 0; i < 10; i++) 
+            newsTable.Rows.Add(" ", " ");
+            NewdataGrid.DataSource = newsTable;
+            
+
             injectDataTable.Columns.Add("Count");
             injectDataTable.Columns.Add("Type");
             injectDataTable.Columns.Add("Name");
@@ -49,16 +74,16 @@ namespace Client
             Equipment.Equipments.FindAll(i => i.Description != null).ForEach(i => injectDataTable.Rows.Add(0, "equip", i.Name, i.EquipId));
             Materia.Materias.FindAll(i => i.Description != null).ForEach(i => injectDataTable.Rows.Add(0, "materia", i.Name, i.MateriaId));
             injectDataGrid.DataSource = injectDataTable;
-            
+
             Unit.Units.FindAll(u => u.Description != null && u.IsSummonable == "1" && u.UnitId == u.BaseUnitId);
-            List<Mission> list = new List<Mission>();
-            Mission.Missions.FindAll(i => i.Description != null).ForEach(i => list.Add(i));
+            List<Mission> missionList = new List<Mission>();
+            Mission.Missions.FindAll(i => i.Description != null).ForEach(i => { i.Description = string.Format("{0} ({1} {2})", i.Name, i.Energy, i.MissionId); missionList.Add(i); });
 
             unitSelect.DataSource = Unit.Units.FindAll(u => u.Description != null && u.IsSummonable == "1" && u.UnitId == u.BaseUnitId);
             unitSelect.DisplayMember = "Name";
-            
-            missionSelect.DataSource = Mission.Missions.FindAll(i => i.Description != null);
-            missionSelect.DisplayMember = "Name";
+
+            missionSelect.DataSource = missionList;
+            missionSelect.DisplayMember = "Description";
         }
         private void InitGacha(BraveExvius b)
         {
@@ -80,6 +105,7 @@ namespace Client
         }
         private void InjectButton_Click(object sender, EventArgs e)
         {
+            //Injection is not working.
             var t = new Thread(() =>
             {
                 injectButton.Enabled = false;
@@ -183,10 +209,10 @@ namespace Client
             var t = new Thread(() =>
             {
                 GachaSummon.Enabled = false;
-                
+
                 var GachaId = JPGacha.Text.Split(':').Select(p => p.Trim()).ToList().First();
                 var Gacha = Gachas.First(g => g[Variable.GachaId].ToString() == GachaId);
-                var GachaTicket = Ticket.Tickets.First(x => x.Name == JPGachaTicket.Text).Id;
+                var GachaTicket = Ticket.Tickets.First(x => x.Name == JPGachaTicket.Text).ImportantId;
                 var GachaSubId = Gacha[Variable.Options].ToString().Split(',').Last();
                 client.Summon(Gacha[Variable.GachaId].ToString(), GachaSubId, "1", GachaTicket);
 
@@ -205,11 +231,11 @@ namespace Client
                 client.OperatingSystem = RBiOS.Checked ? "ios10.2.1" : RBAndroid.Checked ? "android4.4.2" : "amazon";
                 client.Login();
                 var mission = missionSelect.SelectedItem as Mission;
-                client.DoMission(mission, CBFriends.Checked, null, null, null, CBTrophies.Checked, CBChallenge.Checked, CBLoot.Checked, CBUnits.Checked, CBExplore.Checked, LBLevel.Text, 3000);
+                client.DoMission(mission, CBFriends.Checked, null, null, null, CBTrophies.Checked, CBChallenge.Checked, CBLoot.Checked, CBUnits.Checked, CBExplore.Checked, LBLevel.Text, 3000,CBIsParadeMissionEnd.Checked);
                 var count = 1;
                 while (!String.IsNullOrEmpty(RepeatMission.Text.Replace(" ", "")) && count < Int32.Parse(RepeatMission.Text.Replace(" ", "")))
                 {
-                    client.DoMission(mission, CBFriends.Checked, null, null, null, CBTrophies.Checked, CBChallenge.Checked, CBLoot.Checked, CBUnits.Checked, CBExplore.Checked, LBLevel.Text, 3000);
+                    client.DoMission(mission, CBFriends.Checked, null, null, null, CBTrophies.Checked, CBChallenge.Checked, CBLoot.Checked, CBUnits.Checked, CBExplore.Checked, LBLevel.Text, 3000, CBIsParadeMissionEnd.Checked);
                     count++;
                     Thread.Sleep(3000);
                 }
@@ -358,6 +384,131 @@ namespace Client
             });
             t.IsBackground = true;
             t.Start();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            var t = new Thread(() =>
+            {
+                
+                if (client.GetUserInfo2 == null)
+                    client.Login();
+                //client.UpdateNews();
+            mailTable.Clear();
+            client.Mail.ForEach(m =>
+            //mails.ForEach(m =>
+            {
+            if (m.Title.StartsWith("Expe")) {
+                Console.WriteLine("DD");
+            }
+
+            var unitList = m.Items.ToString().Split(new char[1] { ',' });
+            var itemsAndTickets = new List<String>();
+
+            foreach (var unitToken in unitList)
+            {
+                var parts = unitToken.Split(new char[1] { ':' });
+                Boolean addx = (UInt16.Parse((parts.Count() > 2) ? parts[2] : "0") > 1);
+                switch (parts[0])
+                {
+                    case "10":
+                        var selectedTurstMoggle = Unit.Units.FirstOrDefault(u => u.UnitId.ToString() == parts[1]).Name;
+                        if (selectedTurstMoggle.Contains("Moogle"))
+                        {
+                            addx = false;
+                            if (parts[6].Contains("100000001"))
+                                selectedTurstMoggle += " 5%";
+                            if (parts[6].Contains("100000008"))
+                                selectedTurstMoggle += " 50%";
+                            if (parts[6].Contains("100000005"))
+                                selectedTurstMoggle += " 1%";
+                                //if (selectedTurstMoggle.StartsWith("20"))
+                                //    selectedTurstMoggleContain = Item.Items.First(i => i.ItemId == parts[6]).Name;
+                                //if (selectedTurstMoggle.StartsWith("21"))
+                                //    selectedTurstMoggleContain = Equipment.Equipments.First(i => i.EquipId == parts[6]).Name;
+                            }
+                        itemsAndTickets.Add(string.Join(" ", selectedTurstMoggle + (addx ? " X " + parts[2] : "")));
+                        break;
+                    case "20":
+                        itemsAndTickets.Add(Item.Items.First(i => i.ItemId == parts[1]).Name + (addx ? " X " + parts[2] : ""));
+                        break;
+                    case "22":
+                        itemsAndTickets.Add(Materia.Materias.First(ma => ma.MateriaId == parts[1]).Name);
+                        break;
+                    case "23":
+                        itemsAndTickets.Add(ImportantItem.ImportantItems.First(i => i.ImportantId == parts[1]).Name + (addx ? " X " + parts[2] : ""));
+                        break;
+                    case "27":
+                        itemsAndTickets.Add(VisionCard.VisionCards.First(v => v.VisionCardID == parts[1]).Name + (addx ? " X " + parts[2] : ""));
+                        break;
+                        case "30":
+                        itemsAndTickets.Add(string.Join(" ", parts[1] + " Gils"));
+                        break;
+                    case "50":
+                        itemsAndTickets.Add(string.Join(" ", parts[2] + " lapiz?"));
+                        break;
+                    case "60": itemsAndTickets.Add("Recipe for " + Recipe.Recipes.FindAll(i => i.RecipeBookId != null).First(i => parts[1].Contains(i.RecipeBookId)).Name);
+                        break;
+                    default:
+                              itemsAndTickets.Add("Default case");
+                          break;
+                        }
+                    }
+                if (m.Title.Contains("_MAIL_"))
+                    m.Title = BraveHaxvius.Data.Text.Texts.ContainsKey(m.Title) ? BraveHaxvius.Data.Text.Texts[m.Title] : "No Name";
+
+                    mailTable.Rows.Add(m.Title, string.Join(",", itemsAndTickets.ToList()) );
+                //Logger.Out(m.Title);
+
+            });
+
+                newsTable.Clear();
+                client.News.ForEach(n =>
+                {
+                    newsTable.Rows.Add(n.Translation, n.Link);
+                });
+                
+
+
+            });
+            t.IsBackground = true;
+            t.Start();
+
+        }
+
+        private void NewdataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var dd= NewdataGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
+            
+
+            System.Diagnostics.Process.Start(dd.ToString());
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var t = new Thread(() =>
+            {
+
+                
+                if (client.GetUserInfo2 == null)
+                    client.Login();
+                IWTable.Clear();
+                client.GetUserInfo2[GameObject.UserCustomEquipItemInfo].ToList().FindAll(f =>
+                       f[Variable.IWEquipId] != null).ForEach(f =>
+                        IWTable.Rows.Add(Equipment.Equipments.First(i => i.EquipId == f[Variable.EquipId].ToString()).Name, " " + f[Variable.EquipId].ToString(), " " + f[Variable.IWEquipId].ToString(), string.Join(", ", f["nM63Zvtp"].ToString().Split(new char[1] { ',' }).ToList().FindAll(w => w.Contains("24:")).ToList().Select(w => Ability.Abilitys.First(a => a.AbilityId == w?.Split(new char[1] { ':' })[1].ToString()).Name).ToList().Select(d => String.Format("{0}", d.Trim()))), string.Join(", ", f["2p9qywBL"].ToString().Split(new char[1] { ',' }).ToList().FindAll(w => w.Contains("24:")).ToList().Select(w => Ability.Abilitys.First(a => a.AbilityId == w?.Split(new char[1] { ':' })[1].ToString()).Name).ToList().Select(d => String.Format("{0}", d.Trim())))));
+                IWGrid.Refresh();
+
+            });
+            t.IsBackground = true;
+            t.Start();
+
+        }
+
+        private void missionSelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
