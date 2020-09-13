@@ -39,7 +39,7 @@ namespace PacketDecoder
             FiddlerApplication.BeforeRequest += FiddlerApplication_BeforeRequest;
             FiddlerApplication.BeforeResponse += FiddlerApplication_BeforeResponse;
             FiddlerApplication.AfterSessionComplete += FiddlerApplication_AfterSessionComplete;
-            FiddlerApplication.Startup(8888, true, true, true);
+            FiddlerApplication.Startup(8888, false, true, true);
         }
         private void HandleChecked(object sender, RoutedEventArgs e)
         {
@@ -124,7 +124,7 @@ namespace PacketDecoder
             headers = firstLine + "\r\n" + headers.Substring(at + 1);
             var url = oSession.fullUrl.Substring(oSession.fullUrl.IndexOf("actionSymbol") + 13).Replace(".php", "");
 
-            var request = new Request { Name = "GachaBoxNextRequest", Url = "tULiKh5j", EncodeKey = "U2Lm8vcS", RequestID = "xa9uR3pI" };//Request.Requests.First(r => r.Url == url);
+            var request = new Request { Name = "Test", Url = "tULiKh5j", EncodeKey = "uG1jRky6", RequestID = "6nTcSp4R" };//Request.Requests.First(r => r.Url == url);
             {
                 dynamic json = JsonConvert.DeserializeObject(reqBody);
                 if (json != null)
