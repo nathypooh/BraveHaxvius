@@ -39,7 +39,7 @@ namespace PacketDecoder
             FiddlerApplication.BeforeRequest += FiddlerApplication_BeforeRequest;
             FiddlerApplication.BeforeResponse += FiddlerApplication_BeforeResponse;
             FiddlerApplication.AfterSessionComplete += FiddlerApplication_AfterSessionComplete;
-            FiddlerApplication.Startup(8888, false, true, true);
+            FiddlerApplication.Startup(8888, true, true, true);
         }
         private void HandleChecked(object sender, RoutedEventArgs e)
         {
