@@ -903,5 +903,20 @@
 		"Url": "Nhn93ukW",
 		"EncodeKey": "Hi0FJU3c",
 		"RequestID": "i0woEP4B"
+	},
+	"GachaSelectEntry": {
+		"Url": "6RI813OP",
+		"EncodeKey": "uG1jRky6",
+		"RequestID": "6nTcSp4R"
+	},
+	"MateriaFavorite": {
+		"Url": "lW4xfpvS",
+		"EncodeKey": "La3si8kz",
+		"RequestID": "k5v0hMd8"
+	},
+	"GachaSelectExchangeExe": {
+		"Url": "ROLuCfi2",
+		"EncodeKey": "98yAYp5c",
+		"RequestID": "W58vo4Hp"
 	}
 }

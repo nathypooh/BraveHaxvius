@@ -191,6 +191,9 @@ namespace BraveHaxvius.Data
         public static readonly Request ParadeEntry = new Request { Name = "ParadeEntry", Url = "9i4b61rU", EncodeKey = "kF7Z5vCK", RequestID = "Q46YTgWo"};
         public static readonly Request ParadeMissionEnd = new Request { Name = "ParadeMissionEnd", Url = "hC8r9p81", EncodeKey = "Pv08w12y", RequestID = "4cACW7y3"};
         public static readonly Request VariableStoreCheck = new Request { Name = "VariableStoreCheck", Url = "Nhn93ukW", EncodeKey = "Hi0FJU3c", RequestID = "i0woEP4B"};
+        public static readonly Request GachaSelectEntry = new Request { Name = "GachaSelectEntry", Url = "6RI813OP", EncodeKey = "uG1jRky6", RequestID = "6nTcSp4R"};
+        public static readonly Request MateriaFavorite = new Request { Name = "MateriaFavorite", Url = "lW4xfpvS", EncodeKey = "La3si8kz", RequestID = "k5v0hMd8"};
+        public static readonly Request GachaSelectExchangeExe = new Request { Name = "GachaSelectExchangeExe", Url = "ROLuCfi2", EncodeKey = "98yAYp5c", RequestID = "W58vo4Hp"};
 
 		public static readonly List<Request> Requests = new List<Request>
 		{
@@ -375,6 +378,9 @@ namespace BraveHaxvius.Data
            ParadeEntry,
            ParadeMissionEnd,
            VariableStoreCheck,
+           GachaSelectEntry,
+           MateriaFavorite,
+           GachaSelectExchangeExe,
 		};
     }
 }
