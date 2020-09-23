@@ -1,4 +1,4 @@
-//MST_RECIPEBOOK_NAME_904003860^Dark Coat^Dark Coat---VersionControl
+//MST_RECIPEBOOK_NAME_903020830^Soiree Steward's Clothes+^Soiree Steward's Clothes+---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -811,11 +811,17 @@ namespace BraveHaxvius.Data
         public static readonly Recipe DarkGandiva_903020660 = new Recipe { Name = "Dark Gandiva+ (8★)", RecipeBookId = "903020660", Description = "ダークガーンディーヴァ改(★8)", CountId = "653", Gil = "39000"};
         public static readonly Recipe DarkGandiva_903020670 = new Recipe { Name = "Dark Gandiva+ (9★)", RecipeBookId = "903020670", Description = "ダークガーンディーヴァ改(★9)", CountId = "654", Gil = "78000"};
         public static readonly Recipe DarkGandiva_903020680 = new Recipe { Name = "Dark Gandiva++ (10★)", RecipeBookId = "903020680", Description = "真・ダークガーンディーヴァ(★10)", CountId = "655", Gil = "156000"};
-        public static readonly Recipe TrueDarkCoat_9030207900 = new Recipe { Name = "True Dark Coat", RecipeBookId = "903020790", Description = "真・ダークコート", CountId = "672", Gil = "15000"};
-        public static readonly Recipe ObliteratingDarkCoat_9030208001 = new Recipe { Name = "Obliterating Dark Coat", RecipeBookId = "903020800", Description = "絶・ダークコート", CountId = "673", Gil = "30000"};
-        public static readonly Recipe DarkCoat_9040038602 = new Recipe { Name = "Dark Coat", RecipeBookId = "904003860", Description = "ダークコート", CountId = "671", Gil = "6000"};
+        public static readonly Recipe TrueDarkCoat_903020790 = new Recipe { Name = "True Dark Coat", RecipeBookId = "903020790", Description = "真・ダークコート", CountId = "672", Gil = "15000"};
+        public static readonly Recipe ObliteratingDarkCoat_903020800 = new Recipe { Name = "Obliterating Dark Coat", RecipeBookId = "903020800", Description = "絶・ダークコート", CountId = "673", Gil = "30000"};
+        public static readonly Recipe DarkCoat_904003860 = new Recipe { Name = "Dark Coat", RecipeBookId = "904003860", Description = "ダークコート", CountId = "671", Gil = "6000"};
+        public static readonly Recipe ShinraShotgun_904003870 = new Recipe { Name = "Shinra Shotgun", RecipeBookId = "904003870", Description = "神羅製ショットガン", CountId = "674", Gil = "36000"};
+        public static readonly Recipe GuardStick_904003880 = new Recipe { Name = "Guard Stick", RecipeBookId = "904003880", Description = "ガードロッド", CountId = "675", Gil = "21000"};
+        public static readonly Recipe MythrilArmlet_904003890 = new Recipe { Name = "Mythril Armlet", RecipeBookId = "904003890", Description = "ミスリルの腕輪", CountId = "676", Gil = "6000"};
+        public static readonly Recipe SupernaturalWristguard_904003900 = new Recipe { Name = "Supernatural Wristguard", RecipeBookId = "904003900", Description = "フルパワーリスト", CountId = "677", Gil = "6000"};
+        public static readonly Recipe MoraqueBlade_903020810 = new Recipe { Name = "Moraque Blade+", RecipeBookId = "903020810"};
+        public static readonly Recipe PearlWhip_903020820 = new Recipe { Name = "Pearl Whip+", RecipeBookId = "903020820"};
+        public static readonly Recipe SoireeStewardsClothes_903020830 = new Recipe { Name = "Soiree Steward's Clothes+", RecipeBookId = "903020830"};
 /*VersionControldefinitions*/
-
 		public static readonly List<Recipe> Recipes = new List<Recipe>
 		{
            Potion,
@@ -1617,10 +1623,16 @@ namespace BraveHaxvius.Data
            DarkGandiva_903020660,
            DarkGandiva_903020670,
            DarkGandiva_903020680,
-           TrueDarkCoat_9030207900,
-           ObliteratingDarkCoat_9030208001,
-           DarkCoat_9040038602,
-/*VersionControldefinitionsList*/
-		};
+           TrueDarkCoat_903020790,
+           ObliteratingDarkCoat_903020800,
+           DarkCoat_904003860,
+           ShinraShotgun_904003870,
+           GuardStick_904003880,
+           MythrilArmlet_904003890,
+           SupernaturalWristguard_904003900,
+           MoraqueBlade_903020810,
+           PearlWhip_903020820,
+           SoireeStewardsClothes_903020830,
+/*VersionControldefinitionsList*/		};
     }
 }

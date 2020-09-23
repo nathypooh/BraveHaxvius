@@ -1,4 +1,4 @@
-//MST_VISION_CARD_NAME_100000501^In Order to Change the World^In Order to Change the World---VersionControl
+//MST_VISION_CARD_NAME_100000601^Guiding the Youth^Guiding the Youth---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -36,6 +36,9 @@ namespace BraveHaxvius.Data
         public static readonly VisionCard MetalGigantuarsHere = new VisionCard { Name = "Metal Gigantuar's Here!", VisionCardID = "900020101", Description = "", Rarity = "1", GameId = "11001", CountId = "5", UnitMaxLevel = "1", UnitHp = "10,10,0,0", UnitMp = "10,10,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "6", IsPotUnit = "1", UnitGilSell = "0", JobId = "910"};
         public static readonly VisionCard thAnniversaryCelebration = new VisionCard { Name = "4th Anniversary Celebration", VisionCardID = "401000301", Description = "", Rarity = "1", GameId = "11001", CountId = "9001", UnitMaxLevel = "10", UnitHp = "100,100,0,0", UnitMp = "50,50,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "9001", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
         public static readonly VisionCard InOrdertoChangetheWorld = new VisionCard { Name = "In Order to Change the World", VisionCardID = "100000501", Description = "", Rarity = "1", GameId = "11001", CountId = "9", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "40,100,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "9", IsPotUnit = "0", UnitGilSell = "400", JobId = "95"};
+        public static readonly VisionCard PlanetsWhisper_207000301 = new VisionCard { Name = "Planet's Whisper", VisionCardID = "207000301", Description = "", Rarity = "1", GameId = "10007", CountId = "10", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "40,65,0,0", UnitSpr = "40,65,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "10", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
+        public static readonly VisionCard ScorpionSentinelBattle_207000201 = new VisionCard { Name = "Scorpion Sentinel Battle", VisionCardID = "207000201", Description = "", Rarity = "1", GameId = "10007", CountId = "7", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "0,0,0,0", UnitDef = "20,60,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "7", IsPotUnit = "0", UnitGilSell = "400", JobId = "95"};
+        public static readonly VisionCard GuidingtheYouth_100000601 = new VisionCard { Name = "Guiding the Youth", VisionCardID = "100000601", Description = "", Rarity = "1", GameId = "11001", CountId = "11", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "40,100,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "11", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
 /*VersionControldefinitions*/
 		public static readonly List<VisionCard> VisionCards = new List<VisionCard>
 		{
@@ -46,6 +49,9 @@ namespace BraveHaxvius.Data
            MetalGigantuarsHere,
            thAnniversaryCelebration,
            InOrdertoChangetheWorld,
+           PlanetsWhisper_207000301,
+           ScorpionSentinelBattle_207000201,
+           GuidingtheYouth_100000601,
 /*VersionControldefinitionsList*/		};
     }
 }

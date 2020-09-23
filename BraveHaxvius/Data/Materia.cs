@@ -1,4 +1,4 @@
-//MST_MATERIA_NAME_504235120^Last Judgment Grimoire^Last Judgment Grimoire---VersionControl
+//MST_MATERIA_NAME_504236549^Snowstorm Katana^Snowstorm Katana---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -917,13 +917,23 @@ namespace BraveHaxvius.Data
         public static readonly Materia NothingPersonal_504236242 = new Materia { Name = "Nothing Personal", MateriaId = "504236242", Description = "仕事の時間だぞ、と", CountId = "2114037", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236242", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1154"};
         public static readonly Materia MakoEnergy_504236246 = new Materia { Name = "Mako Energy", MateriaId = "504236246", Description = "魔晄エネルギー", CountId = "2113255", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236246", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1155"};
         public static readonly Materia SaviorsofthePlanet_504236247 = new Materia { Name = "Saviors of the Planet", MateriaId = "504236247", Description = "星の命を守る者", CountId = "2111330", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236247", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000078", BitNumber = "1156"};
-        public static readonly Materia ANewPower_5042362700 = new Materia { Name = "A New Power", MateriaId = "504236270", Description = "新しい力", CountId = "2171084", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236270", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1157"};
-        public static readonly Materia AFathersConviction_5042362761 = new Materia { Name = "A Father's Conviction", MateriaId = "504236276", Description = "父の信念", CountId = "2151992", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236276", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1160"};
-        public static readonly Materia IllusionaryGun_5042362722 = new Materia { Name = "Illusionary Gun", MateriaId = "504236272", Description = "ガンイリュージョン", CountId = "2113256", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236272", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1158"};
-        public static readonly Materia TrainConductor_5042362743 = new Materia { Name = "Train Conductor", MateriaId = "504236274", Description = "トレインコンダクター", CountId = "2111331", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236274", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000004", BitNumber = "1159"};
-        public static readonly Materia LastJudgmentGrimoire_5042351204 = new Materia { Name = "Last Judgment Grimoire", MateriaId = "504235120", Description = "真・断撃のグリモア", CountId = "2111323", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235120", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1114"};
+        public static readonly Materia ANewPower_504236270 = new Materia { Name = "A New Power", MateriaId = "504236270", Description = "新しい力", CountId = "2171084", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236270", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1157"};
+        public static readonly Materia AFathersConviction_504236276 = new Materia { Name = "A Father's Conviction", MateriaId = "504236276", Description = "父の信念", CountId = "2151992", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236276", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1160"};
+        public static readonly Materia IllusionaryGun_504236272 = new Materia { Name = "Illusionary Gun", MateriaId = "504236272", Description = "ガンイリュージョン", CountId = "2113256", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236272", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1158"};
+        public static readonly Materia TrainConductor_504236274 = new Materia { Name = "Train Conductor", MateriaId = "504236274", Description = "トレインコンダクター", CountId = "2111331", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236274", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000004", BitNumber = "1159"};
+        public static readonly Materia LastJudgmentGrimoire_504235120 = new Materia { Name = "Last Judgment Grimoire", MateriaId = "504235120", Description = "真・断撃のグリモア", CountId = "2111323", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235120", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1114"};
+        public static readonly Materia LegacyoftheAncients_504236415 = new Materia { Name = "Legacy of the Ancients", MateriaId = "504236415", Description = "古代種の遺産", CountId = "2112073", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236415", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1163"};
+        public static readonly Materia ShinraSupportSystem_504236416 = new Materia { Name = "Shinra Support System", MateriaId = "504236416", Description = "神羅式支援システム", CountId = "2113257", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236416", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1164"};
+        public static readonly Materia TheNewBoss_504236413 = new Materia { Name = "The New Boss", MateriaId = "504236413", Description = "新たな指導者", CountId = "2151993", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236413", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1162"};
+        public static readonly Materia APrayertoChangetheFuture_504236410 = new Materia { Name = "A Prayer to Change the Future", MateriaId = "504236410", Description = "未来を変える祈り", CountId = "2115738", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236410", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000018", BitNumber = "1161"};
+        public static readonly Materia AwakenedDragon_504236540 = new Materia { Name = "Awakened Dragon", MateriaId = "504236540", Description = "目覚めし臥竜", CountId = "2113258", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236540", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1167"};
+        public static readonly Materia CalloftheWild_504236417 = new Materia { Name = "Call of the Wild", MateriaId = "504236417", Description = "獣性の目覚め", CountId = "2173052", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236417", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1165"};
+        public static readonly Materia CoeurlsBlaster_504236418 = new Materia { Name = "Coeurl's Blaster", MateriaId = "504236418", Description = "ブラスター", CountId = "2216002", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236418", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000009", BitNumber = "1166"};
+        public static readonly Materia SoCuteItsCriminal_504236544 = new Materia { Name = "So Cute It's Criminal", MateriaId = "504236544", Description = "罪な可愛さ", CountId = "2113259", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236544", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000083", BitNumber = "1169"};
+        public static readonly Materia DreamofBecomingMadam_504236542 = new Materia { Name = "Dream of Becoming Madam", MateriaId = "504236542", Description = "マダムになる夢", CountId = "2112074", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236542", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1168"};
+        public static readonly Materia DemonicDestruction_504236548 = new Materia { Name = "Demonic Destruction", MateriaId = "504236548", Description = "壊魔の力", CountId = "2113260", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236548", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1170"};
+        public static readonly Materia SnowstormKatana_504236549 = new Materia { Name = "Snowstorm Katana", MateriaId = "504236549", Description = "破氷の操刀術", CountId = "2151994", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236549", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1171"};
 /*VersionControldefinitions*/
-
 
 
 
@@ -1849,13 +1859,23 @@ namespace BraveHaxvius.Data
            NothingPersonal_504236242,
            MakoEnergy_504236246,
            SaviorsofthePlanet_504236247,
-           ANewPower_5042362700,
-           AFathersConviction_5042362761,
-           IllusionaryGun_5042362722,
-           TrainConductor_5042362743,
-           LastJudgmentGrimoire_5042351204,
+           ANewPower_504236270,
+           AFathersConviction_504236276,
+           IllusionaryGun_504236272,
+           TrainConductor_504236274,
+           LastJudgmentGrimoire_504235120,
+           LegacyoftheAncients_504236415,
+           ShinraSupportSystem_504236416,
+           TheNewBoss_504236413,
+           APrayertoChangetheFuture_504236410,
+           AwakenedDragon_504236540,
+           CalloftheWild_504236417,
+           CoeurlsBlaster_504236418,
+           SoCuteItsCriminal_504236544,
+           DreamofBecomingMadam_504236542,
+           DemonicDestruction_504236548,
+           SnowstormKatana_504236549,
 /*VersionControldefinitionsList*/
-
 
 
 

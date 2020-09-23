@@ -1,4 +1,4 @@
-//MST_ITEM_NAME_300002630^Tyro's Prism^Tyro's Prism---VersionControl
+//MST_ITEM_NAME_235028900^Morze's Soiree Crest^Morze's Soiree Crest---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -6,21 +6,21 @@ namespace BraveHaxvius.Data
 {
     public class Item
     {
-        public String Name { get; set; } 
-        public String ItemId { get; set; } 
-        public String Description { get; set; } 
-        public String EquipmentRarity { get; set; } 
-        public String CountId { get; set; } 
-        public String IsPotUnit { get; set; } 
-        public String KeyName { get; set; } 
-        public String ProcessType { get; set; } 
-        public String ProcessFrame { get; set; } 
-        public String Ha9G5sCS { get; set; } 
-        public String ItemStack { get; set; } 
-        public String ItemBuyPrice { get; set; } 
-        public String ItemSellPrice { get; set; } 
-        public String ItemIdClone { get; set; } 
-        public String BitNumber { get; set; } 
+        public String Name { get; set; }
+        public String ItemId { get; set; }
+        public String Description { get; set; }
+        public String EquipmentRarity { get; set; }
+        public String CountId { get; set; }
+        public String IsPotUnit { get; set; }
+        public String KeyName { get; set; }
+        public String ProcessType { get; set; }
+        public String ProcessFrame { get; set; }
+        public String Ha9G5sCS { get; set; }
+        public String ItemStack { get; set; }
+        public String ItemBuyPrice { get; set; }
+        public String ItemSellPrice { get; set; }
+        public String ItemIdClone { get; set; }
+        public String BitNumber { get; set; }
 
         public static readonly Item Potion = new Item { Name = "Potion", ItemId = "101000100", Description = "ポーション", EquipmentRarity = "1", CountId = "1", IsPotUnit = "1", KeyName = "6", ProcessType = "71", ProcessFrame = "40", Ha9G5sCS = "300210,1", ItemStack = "99", ItemBuyPrice = "100", ItemSellPrice = "10", ItemIdClone = "101000100", BitNumber = "1"};
         public static readonly Item HiPotion = new Item { Name = "Hi-Potion", ItemId = "101000200", Description = "ハイポーション", EquipmentRarity = "3", CountId = "2", IsPotUnit = "1", KeyName = "6", ProcessType = "71", ProcessFrame = "40", Ha9G5sCS = "300220,1", ItemStack = "99", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "101000200", BitNumber = "2"};
@@ -1674,8 +1674,28 @@ namespace BraveHaxvius.Data
         public static readonly Item PlayingCards = new Item { Name = "Playing Cards", ItemId = "235027700", Description = "トランプカード", EquipmentRarity = "5", CountId = "1537", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235027700", BitNumber = "1637"};
         public static readonly Item BraveInsigniaHeroesoftheLapisRebellion = new Item { Name = "Brave Insignia (Heroes of the Lapis Rebellion)", ItemId = "260000020", Description = "ラピス動乱の英雄達のブレイブ", EquipmentRarity = "8", CountId = "1549", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000020", BitNumber = "1649"};
         public static readonly Item TyrosPrism = new Item { Name = "Tyro's Prism", ItemId = "300002630", Description = "デシの輝源", EquipmentRarity = "8", CountId = "1398", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1317"};
+        public static readonly Item CloudFragment_250000070 = new Item { Name = "Cloud Fragment", ItemId = "250000070", Description = "クラウドの欠片", EquipmentRarity = "8", CountId = "1561", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000070", BitNumber = "1661"};
+        public static readonly Item AerithFFVIIREMAKEFragment_250000060 = new Item { Name = "Aerith (FFVII REMAKE) Fragment", ItemId = "250000060", Description = "エアリス(FFVII REMAKE)の欠片", EquipmentRarity = "8", CountId = "1560", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000060", BitNumber = "1660"};
+        public static readonly Item ShinraRaidCoin_106311300 = new Item { Name = "Shinra Raid Coin", ItemId = "106311300", Description = "神羅レイドコイン", EquipmentRarity = "3", CountId = "1554", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "500", ItemSellPrice = "10", ItemIdClone = "106311300", BitNumber = "1654"};
+        public static readonly Item YellowFlower_235028200 = new Item { Name = "Yellow Flower", ItemId = "235028200", Description = "黄色い花", EquipmentRarity = "5", CountId = "1555", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235028200", BitNumber = "1655"};
+        public static readonly Item SpecialShinramadeCoin_235028300 = new Item { Name = "Special Shinra-made Coin", ItemId = "235028300", Description = "神羅製特殊コイン", EquipmentRarity = "5", CountId = "1556", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235028300", BitNumber = "1656"};
+        public static readonly Item MetalShinraBox_235028400 = new Item { Name = "Metal Shinra Box", ItemId = "235028400", Description = "鉄製神羅ボックス", EquipmentRarity = "4", CountId = "1557", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "235028400", BitNumber = "1657"};
+        public static readonly Item WoodenShinraBox_235028500 = new Item { Name = "Wooden Shinra Box", ItemId = "235028500", Description = "木製神羅ボックス", EquipmentRarity = "3", CountId = "1558", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "235028500", BitNumber = "1658"};
+        public static readonly Item ScrapMetal_235028600 = new Item { Name = "Scrap Metal", ItemId = "235028600", Description = "スクラップ", EquipmentRarity = "3", CountId = "1559", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "235028600", BitNumber = "1659"};
+        public static readonly Item BraveInsigniaGuardiansofthePlanetII_260000030 = new Item { Name = "Brave Insignia (Guardians of the Planet II)", ItemId = "260000030", Description = "更に星を護りし者達のブレイブ", EquipmentRarity = "8", CountId = "1562", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000030", BitNumber = "1662"};
+        public static readonly Item RufusShinrasPrism_300002940 = new Item { Name = "Rufus Shinra's Prism", ItemId = "300002940", Description = "ルーファウス神羅の輝源", EquipmentRarity = "8", CountId = "1563", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1663"};
+        public static readonly Item thAnniversaryPlayersVoiceTicketPart_1209001276 = new Item { Name = "4th Anniversary Player's Voice Ticket (Part 2)", ItemId = "1209001276", Description = "4th Anniversary Player's Voice Ticket (Part 2)", EquipmentRarity = "8", CountId = "9573", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001276", BitNumber = "9573"};
+        public static readonly Item RedXIIIFragment_250000030 = new Item { Name = "Red XIII Fragment", ItemId = "250000030", Description = "レッドXIIIの欠片", EquipmentRarity = "8", CountId = "1515", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000030", BitNumber = "1615"};
+        public static readonly Item PyroGlacialLasswellFragment_250000100 = new Item { Name = "Pyro Glacial Lasswell Fragment", ItemId = "250000100", Description = "氷炎の騎士ラスウェルの欠片", EquipmentRarity = "8", CountId = "1571", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000100", BitNumber = "1671"};
+        public static readonly Item BraveInsigniaPiercingConviction_260000040 = new Item { Name = "Brave Insignia (Piercing Conviction)", ItemId = "260000040", Description = "信念を貫きし英雄達のブレイブ", EquipmentRarity = "8", CountId = "1572", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000040", BitNumber = "1672"};
+        public static readonly Item AwakenedDragonAkstarFragment_250000080 = new Item { Name = "Awakened Dragon Akstar Fragment", ItemId = "250000080", Description = "目覚めし臥竜アクスターの欠片", EquipmentRarity = "8", CountId = "1569", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000080", BitNumber = "1669"};
+        public static readonly Item StylishStewardPecciottasPrism_300002960 = new Item { Name = "Stylish Steward Pecciotta's Prism", ItemId = "300002960", Description = "ダンディな獣人ペツォッタの輝源", EquipmentRarity = "8", CountId = "1574", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1674"};
+        public static readonly Item LivelyStewardShinjusPrism_300002950 = new Item { Name = "Lively Steward Shinju's Prism", ItemId = "300002950", Description = "幼心の少女執事シンジュの輝源", EquipmentRarity = "8", CountId = "1573", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1673"};
+        public static readonly Item GemOre_106311400 = new Item { Name = "Gem Ore", ItemId = "106311400", Description = "ジェムオール", EquipmentRarity = "3", CountId = "1565", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "500", ItemSellPrice = "10", ItemIdClone = "106311400", BitNumber = "1665"};
+        public static readonly Item SoilSardonyx_235028800 = new Item { Name = "Soil Sardonyx", ItemId = "235028800", Description = "ソイルペルル", EquipmentRarity = "5", CountId = "1567", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235028800", BitNumber = "1667"};
+        public static readonly Item PolishingTool_235028700 = new Item { Name = "Polishing Tool", ItemId = "235028700", Description = "打粉", EquipmentRarity = "5", CountId = "1566", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235028700", BitNumber = "1666"};
+        public static readonly Item MorzesSoireeCrest_235028900 = new Item { Name = "Morze's Soiree Crest", ItemId = "235028900", Description = "モールズの夜会の紋章", EquipmentRarity = "5", CountId = "1568", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235028900", BitNumber = "1668"};
 /*VersionControldefinitions*/
-
 		public static readonly List<Item> Items = new List<Item>
 		{
            Potion,
@@ -3330,7 +3350,27 @@ namespace BraveHaxvius.Data
            PlayingCards,
            BraveInsigniaHeroesoftheLapisRebellion,
            TyrosPrism,
-/*VersionControldefinitionsList*/
-		};
+           CloudFragment_250000070,
+           AerithFFVIIREMAKEFragment_250000060,
+           ShinraRaidCoin_106311300,
+           YellowFlower_235028200,
+           SpecialShinramadeCoin_235028300,
+           MetalShinraBox_235028400,
+           WoodenShinraBox_235028500,
+           ScrapMetal_235028600,
+           BraveInsigniaGuardiansofthePlanetII_260000030,
+           RufusShinrasPrism_300002940,
+           thAnniversaryPlayersVoiceTicketPart_1209001276,
+           RedXIIIFragment_250000030,
+           PyroGlacialLasswellFragment_250000100,
+           BraveInsigniaPiercingConviction_260000040,
+           AwakenedDragonAkstarFragment_250000080,
+           StylishStewardPecciottasPrism_300002960,
+           LivelyStewardShinjusPrism_300002950,
+           GemOre_106311400,
+           SoilSardonyx_235028800,
+           PolishingTool_235028700,
+           MorzesSoireeCrest_235028900,
+/*VersionControldefinitionsList*/		};
     }
 }
