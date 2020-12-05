@@ -351,8 +351,8 @@ namespace BraveHaxvius.Data
         public static readonly Sublimation Sublimation_204800002 = new Sublimation { SublimationId = "204800002", UnitId = "100005304", Items = "20:270004600:23,20:270004700:12,20:270004800:8,20:270004900:2,20:270005000:1"};
         public static readonly Sublimation Sublimation_204960001 = new Sublimation { SublimationId = "204960001", UnitId = "202000505", Items = "20:270003100:15,20:270003200:8,20:270003300:5,20:270003400:1"};
         public static readonly Sublimation Sublimation_204960002 = new Sublimation { SublimationId = "204960002", UnitId = "202000505", Items = "20:270003100:23,20:270003200:12,20:270003300:8,20:270003400:2,20:270003500:1"};
-        public static readonly Sublimation Sublimation_204980001 = new Sublimation { SublimationId = "204980001", UnitId = "202000505", Items = "20:270000600:15,20:270000700:8,20:270000800:5,20:270000900:1"};
-        public static readonly Sublimation Sublimation_204980002 = new Sublimation { SublimationId = "204980002", UnitId = "202000505", Items = "20:270000600:23,20:270000700:12,20:270000800:8,20:270000900:2,20:270001000:1"};
+        public static readonly Sublimation Sublimation_204980001 = new Sublimation { SublimationId = "204980001", UnitId = "202000505,202000527", Items = "20:270000600:15,20:270000700:8,20:270000800:5,20:270000900:1"};
+        public static readonly Sublimation Sublimation_204980002 = new Sublimation { SublimationId = "204980002", UnitId = "202000505,202000527", Items = "20:270000600:23,20:270000700:12,20:270000800:8,20:270000900:2,20:270001000:1"};
         public static readonly Sublimation Sublimation_205000001 = new Sublimation { SublimationId = "205000001", UnitId = "202000505", Items = "20:270004100:15,20:270004200:8,20:270004300:5,20:270004400:1"};
         public static readonly Sublimation Sublimation_205000002 = new Sublimation { SublimationId = "205000002", UnitId = "202000505", Items = "20:270004100:23,20:270004200:12,20:270004300:8,20:270004400:2,20:270004500:1"};
         public static readonly Sublimation Sublimation_205001001 = new Sublimation { SublimationId = "205001001", UnitId = "214000504", Items = "20:270004100:10,20:270004200:5,20:270004300:1"};
@@ -1775,6 +1775,46 @@ namespace BraveHaxvius.Data
         public static readonly Sublimation Sublimation_230493002 = new Sublimation { SublimationId = "230493002", UnitId = "100022305", Items = "20:270003100:15,20:270003200:12,20:270003300:5,20:270003400:1,20:270003500:1"};
         public static readonly Sublimation Sublimation_230496001 = new Sublimation { SublimationId = "230496001", UnitId = "100022305", Items = "20:270002600:10,20:270002700:8,20:270002800:2,20:270002900:1"};
         public static readonly Sublimation Sublimation_230496002 = new Sublimation { SublimationId = "230496002", UnitId = "100022305", Items = "20:270002600:15,20:270002700:12,20:270002800:4,20:270002900:1,20:270003000:1"};
+        public static readonly Sublimation Sublimation_230846001 = new Sublimation { SublimationId = "230846001", UnitId = "335000105", Items = "20:270004100:10,20:270004200:8,20:270004300:2"};
+        public static readonly Sublimation Sublimation_230846002 = new Sublimation { SublimationId = "230846002", UnitId = "335000105", Items = "20:270004100:15,20:270004200:12,20:270004300:4,20:270004400:1"};
+        public static readonly Sublimation Sublimation_230855001 = new Sublimation { SublimationId = "230855001", UnitId = "335000105", Items = "20:270004600:10,20:270004700:8,20:270004800:2,20:270004900:1"};
+        public static readonly Sublimation Sublimation_230855002 = new Sublimation { SublimationId = "230855002", UnitId = "335000105", Items = "20:270004600:15,20:270004700:12,20:270004800:4,20:270004900:1,20:270005000:1"};
+        public static readonly Sublimation Sublimation_230856001 = new Sublimation { SublimationId = "230856001", UnitId = "335000105", Items = "20:270003600:10,20:270003700:8,20:270003800:3,20:270003900:1,20:270004000:1"};
+        public static readonly Sublimation Sublimation_230856002 = new Sublimation { SublimationId = "230856002", UnitId = "335000105", Items = "20:270003600:15,20:270003700:12,20:270003800:5,20:270003900:1,20:270004000:1"};
+        public static readonly Sublimation Sublimation_230857001 = new Sublimation { SublimationId = "230857001", UnitId = "335000105", Items = "20:270002600:10,20:270002700:8,20:270002800:3,20:270002900:1"};
+        public static readonly Sublimation Sublimation_230857002 = new Sublimation { SublimationId = "230857002", UnitId = "335000105", Items = "20:270002600:15,20:270002700:12,20:270002800:5,20:270002900:1,20:270003000:1"};
+        public static readonly Sublimation Sublimation_230858001 = new Sublimation { SublimationId = "230858001", UnitId = "335000105", Items = "20:270000600:10,20:270000700:8,20:270000800:2,20:270000900:1"};
+        public static readonly Sublimation Sublimation_230858002 = new Sublimation { SublimationId = "230858002", UnitId = "335000105", Items = "20:270000600:15,20:270000700:12,20:270000800:4,20:270000900:1,20:270001000:1"};
+        public static readonly Sublimation Sublimation_230875001 = new Sublimation { SublimationId = "230875001", UnitId = "335000205", Items = "20:270004600:10,20:270004700:8,20:270004800:3,20:270004900:1"};
+        public static readonly Sublimation Sublimation_230875002 = new Sublimation { SublimationId = "230875002", UnitId = "335000205", Items = "20:270004600:15,20:270004700:12,20:270004800:5,20:270004900:1,20:270005000:1"};
+        public static readonly Sublimation Sublimation_230876001 = new Sublimation { SublimationId = "230876001", UnitId = "335000205", Items = "20:270003100:10,20:270003200:8,20:270003300:2,20:270003400:1"};
+        public static readonly Sublimation Sublimation_230876002 = new Sublimation { SublimationId = "230876002", UnitId = "335000205", Items = "20:270003100:15,20:270003200:12,20:270003300:4,20:270003400:1,20:270003500:1"};
+        public static readonly Sublimation Sublimation_230877001 = new Sublimation { SublimationId = "230877001", UnitId = "335000205", Items = "20:270004600:10,20:270004700:8,20:270004800:3,20:270004900:1,20:270005000:1"};
+        public static readonly Sublimation Sublimation_230877002 = new Sublimation { SublimationId = "230877002", UnitId = "335000205", Items = "20:270004600:15,20:270004700:12,20:270004800:5,20:270004900:1,20:270005000:1"};
+        public static readonly Sublimation Sublimation_230878001 = new Sublimation { SublimationId = "230878001", UnitId = "335000205", Items = "20:270002600:10,20:270002700:8,20:270002800:2"};
+        public static readonly Sublimation Sublimation_230878002 = new Sublimation { SublimationId = "230878002", UnitId = "335000205", Items = "20:270002600:15,20:270002700:12,20:270002800:4,20:270002900:1"};
+        public static readonly Sublimation Sublimation_230879001 = new Sublimation { SublimationId = "230879001", UnitId = "335000205", Items = "20:270000600:10,20:270000700:8,20:270000800:2,20:270000900:1"};
+        public static readonly Sublimation Sublimation_230879002 = new Sublimation { SublimationId = "230879002", UnitId = "335000205", Items = "20:270000600:15,20:270000700:12,20:270000800:4,20:270000900:1,20:270001000:1"};
+        public static readonly Sublimation Sublimation_232957001 = new Sublimation { SublimationId = "232957001", UnitId = "335000405", Items = "20:270000600:10,20:270000700:8,20:270000800:3,20:270000900:1"};
+        public static readonly Sublimation Sublimation_232957002 = new Sublimation { SublimationId = "232957002", UnitId = "335000405", Items = "20:270000600:15,20:270000700:12,20:270000800:5,20:270000900:1"};
+        public static readonly Sublimation Sublimation_232958001 = new Sublimation { SublimationId = "232958001", UnitId = "335000405", Items = "20:270004100:10,20:270004200:8,20:270004300:3,20:270004400:1"};
+        public static readonly Sublimation Sublimation_232958002 = new Sublimation { SublimationId = "232958002", UnitId = "335000405", Items = "20:270004100:15,20:270004200:12,20:270004300:5,20:270004400:1,20:270004500:1"};
+        public static readonly Sublimation Sublimation_232959001 = new Sublimation { SublimationId = "232959001", UnitId = "335000405", Items = "20:270002600:10,20:270002700:8,20:270002800:3,20:270002900:1"};
+        public static readonly Sublimation Sublimation_232959002 = new Sublimation { SublimationId = "232959002", UnitId = "335000405", Items = "20:270002600:15,20:270002700:12,20:270002800:5,20:270002900:1"};
+        public static readonly Sublimation Sublimation_232965001 = new Sublimation { SublimationId = "232965001", UnitId = "335000405", Items = "20:270000100:10,20:270000200:8,20:270000300:3,20:270000400:1"};
+        public static readonly Sublimation Sublimation_232965002 = new Sublimation { SublimationId = "232965002", UnitId = "335000405", Items = "20:270000100:15,20:270000200:12,20:270000300:5,20:270000400:1,20:270000500:1"};
+        public static readonly Sublimation Sublimation_232966001 = new Sublimation { SublimationId = "232966001", UnitId = "335000405", Items = "20:270004600:10,20:270004700:8,20:270004800:2,20:270004900:1"};
+        public static readonly Sublimation Sublimation_232966002 = new Sublimation { SublimationId = "232966002", UnitId = "335000405", Items = "20:270004600:15,20:270004700:12,20:270004800:4,20:270004900:1,20:270005000:1"};
+        public static readonly Sublimation Sublimation_232973001 = new Sublimation { SublimationId = "232973001", UnitId = "335000305", Items = "20:270002600:10,20:270002700:8,20:270002800:3,20:270002900:1"};
+        public static readonly Sublimation Sublimation_232973002 = new Sublimation { SublimationId = "232973002", UnitId = "335000305", Items = "20:270002600:15,20:270002700:12,20:270002800:5,20:270002900:1"};
+        public static readonly Sublimation Sublimation_232981001 = new Sublimation { SublimationId = "232981001", UnitId = "335000305", Items = "20:270000600:10,20:270000700:8,20:270000800:3,20:270000900:1"};
+        public static readonly Sublimation Sublimation_232981002 = new Sublimation { SublimationId = "232981002", UnitId = "335000305", Items = "20:270000600:15,20:270000700:12,20:270000800:5,20:270000900:1,20:270001000:1"};
+        public static readonly Sublimation Sublimation_232982001 = new Sublimation { SublimationId = "232982001", UnitId = "335000305", Items = "20:270000100:10,20:270000200:8,20:270000300:3,20:270000400:1"};
+        public static readonly Sublimation Sublimation_232982002 = new Sublimation { SublimationId = "232982002", UnitId = "335000305", Items = "20:270000100:15,20:270000200:12,20:270000300:5,20:270000400:1,20:270000500:1"};
+        public static readonly Sublimation Sublimation_232988001 = new Sublimation { SublimationId = "232988001", UnitId = "335000305", Items = "20:270004600:10,20:270004700:8,20:270004800:3,20:270004900:1"};
+        public static readonly Sublimation Sublimation_232988002 = new Sublimation { SublimationId = "232988002", UnitId = "335000305", Items = "20:270004600:15,20:270004700:12,20:270004800:5,20:270004900:1,20:270005000:1"};
+        public static readonly Sublimation Sublimation_232991001 = new Sublimation { SublimationId = "232991001", UnitId = "335000305", Items = "20:270003100:10,20:270003200:8,20:270003300:2,20:270003400:1"};
+        public static readonly Sublimation Sublimation_232991002 = new Sublimation { SublimationId = "232991002", UnitId = "335000305", Items = "20:270003100:15,20:270003200:12,20:270003300:4,20:270003400:1,20:270003500:1"};
         public static readonly Sublimation Sublimation_300000002 = new Sublimation { SublimationId = "300000002", UnitId = "207002007,207002017", Items = "20:271000100:20,20:271000200:10"};
         public static readonly Sublimation Sublimation_300000003 = new Sublimation { SublimationId = "300000003", UnitId = "207002007,207002017", Items = "20:271000100:30,20:271000200:20,20:260000010:10"};
         public static readonly Sublimation Sublimation_300000004 = new Sublimation { SublimationId = "300000004", UnitId = "207002007,207002017", Items = "20:271000100:50,20:271000200:30,20:271000300:5,20:260000010:20"};
@@ -2028,25 +2068,25 @@ namespace BraveHaxvius.Data
         public static readonly Sublimation Sublimation_300000269 = new Sublimation { SublimationId = "300000269", UnitId = "212000527", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000060:15"};
         public static readonly Sublimation Sublimation_300000270 = new Sublimation { SublimationId = "300000270", UnitId = "212000527", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000060:20"};
         public static readonly Sublimation Sublimation_300000271 = new Sublimation { SublimationId = "300000271", UnitId = "100009105,100009127", Items = "20:271001300:15,20:271001400:8"};
-        public static readonly Sublimation Sublimation_300000272 = new Sublimation { SublimationId = "300000272", UnitId = "100009105,100009127", Items = "20:271001300:20,20:271001400:15"};
-        public static readonly Sublimation Sublimation_300000273 = new Sublimation { SublimationId = "300000273", UnitId = "100009105,100009127", Items = "20:271001300:35,20:271001400:22,20:271001500:3"};
-        public static readonly Sublimation Sublimation_300000274 = new Sublimation { SublimationId = "300000274", UnitId = "100009105,100009127", Items = "20:271001300:75,20:271001400:37,20:271001500:5"};
+        public static readonly Sublimation Sublimation_300000272 = new Sublimation { SublimationId = "300000272", UnitId = "100009105,100009127", Items = "20:271001300:20,20:271001400:15,20:260000020:10"};
+        public static readonly Sublimation Sublimation_300000273 = new Sublimation { SublimationId = "300000273", UnitId = "100009105,100009127", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000020:15"};
+        public static readonly Sublimation Sublimation_300000274 = new Sublimation { SublimationId = "300000274", UnitId = "100009105,100009127", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000020:20"};
         public static readonly Sublimation Sublimation_300000275 = new Sublimation { SublimationId = "300000275", UnitId = "100009105", Items = "20:271000400:15,20:271000500:8"};
-        public static readonly Sublimation Sublimation_300000276 = new Sublimation { SublimationId = "300000276", UnitId = "100009105", Items = "20:271000400:20,20:271000500:15"};
-        public static readonly Sublimation Sublimation_300000277 = new Sublimation { SublimationId = "300000277", UnitId = "100009105", Items = "20:271000400:35,20:271000500:22,20:271000600:3"};
-        public static readonly Sublimation Sublimation_300000278 = new Sublimation { SublimationId = "300000278", UnitId = "100009105", Items = "20:271000400:75,20:271000500:37,20:271000600:5"};
+        public static readonly Sublimation Sublimation_300000276 = new Sublimation { SublimationId = "300000276", UnitId = "100009105", Items = "20:271000400:20,20:271000500:15,20:260000020:10"};
+        public static readonly Sublimation Sublimation_300000277 = new Sublimation { SublimationId = "300000277", UnitId = "100009105", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000020:15"};
+        public static readonly Sublimation Sublimation_300000278 = new Sublimation { SublimationId = "300000278", UnitId = "100009105", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000020:20"};
         public static readonly Sublimation Sublimation_300000279 = new Sublimation { SublimationId = "300000279", UnitId = "100009105", Items = "20:271000700:15,20:271000800:8"};
-        public static readonly Sublimation Sublimation_300000280 = new Sublimation { SublimationId = "300000280", UnitId = "100009105", Items = "20:271000700:20,20:271000800:15"};
-        public static readonly Sublimation Sublimation_300000281 = new Sublimation { SublimationId = "300000281", UnitId = "100009105", Items = "20:271000700:35,20:271000800:22,20:271000900:3"};
-        public static readonly Sublimation Sublimation_300000282 = new Sublimation { SublimationId = "300000282", UnitId = "100009105", Items = "20:271000700:75,20:271000800:37,20:271000900:5"};
+        public static readonly Sublimation Sublimation_300000280 = new Sublimation { SublimationId = "300000280", UnitId = "100009105", Items = "20:271000700:20,20:271000800:15,20:260000020:10"};
+        public static readonly Sublimation Sublimation_300000281 = new Sublimation { SublimationId = "300000281", UnitId = "100009105", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000020:15"};
+        public static readonly Sublimation Sublimation_300000282 = new Sublimation { SublimationId = "300000282", UnitId = "100009105", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000020:20"};
         public static readonly Sublimation Sublimation_300000283 = new Sublimation { SublimationId = "300000283", UnitId = "100009127", Items = "20:271000100:15,20:271000200:8"};
-        public static readonly Sublimation Sublimation_300000284 = new Sublimation { SublimationId = "300000284", UnitId = "100009127", Items = "20:271000100:20,20:271000200:15"};
-        public static readonly Sublimation Sublimation_300000285 = new Sublimation { SublimationId = "300000285", UnitId = "100009127", Items = "20:271000100:35,20:271000200:22,20:271000300:3"};
-        public static readonly Sublimation Sublimation_300000286 = new Sublimation { SublimationId = "300000286", UnitId = "100009127", Items = "20:271000100:75,20:271000200:37,20:271000300:5"};
+        public static readonly Sublimation Sublimation_300000284 = new Sublimation { SublimationId = "300000284", UnitId = "100009127", Items = "20:271000100:20,20:271000200:15,20:260000020:10"};
+        public static readonly Sublimation Sublimation_300000285 = new Sublimation { SublimationId = "300000285", UnitId = "100009127", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000020:15"};
+        public static readonly Sublimation Sublimation_300000286 = new Sublimation { SublimationId = "300000286", UnitId = "100009127", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000020:20"};
         public static readonly Sublimation Sublimation_300000287 = new Sublimation { SublimationId = "300000287", UnitId = "100009127", Items = "20:271001000:15,20:271001100:8"};
-        public static readonly Sublimation Sublimation_300000288 = new Sublimation { SublimationId = "300000288", UnitId = "100009127", Items = "20:271001000:20,20:271001100:15"};
-        public static readonly Sublimation Sublimation_300000289 = new Sublimation { SublimationId = "300000289", UnitId = "100009127", Items = "20:271001000:35,20:271001100:22,20:271001200:3"};
-        public static readonly Sublimation Sublimation_300000290 = new Sublimation { SublimationId = "300000290", UnitId = "100009127", Items = "20:271001000:75,20:271001100:37,20:271001200:5"};
+        public static readonly Sublimation Sublimation_300000288 = new Sublimation { SublimationId = "300000288", UnitId = "100009127", Items = "20:271001000:20,20:271001100:15,20:260000020:10"};
+        public static readonly Sublimation Sublimation_300000289 = new Sublimation { SublimationId = "300000289", UnitId = "100009127", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000020:15"};
+        public static readonly Sublimation Sublimation_300000290 = new Sublimation { SublimationId = "300000290", UnitId = "100009127", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000020:20"};
         public static readonly Sublimation Sublimation_300000291 = new Sublimation { SublimationId = "300000291", UnitId = "202001907,202001917", Items = "20:271001300:20,20:271001400:10"};
         public static readonly Sublimation Sublimation_300000292 = new Sublimation { SublimationId = "300000292", UnitId = "202001907,202001917", Items = "20:271001300:30,20:271001400:20,20:260000070:10"};
         public static readonly Sublimation Sublimation_300000293 = new Sublimation { SublimationId = "300000293", UnitId = "202001907,202001917", Items = "20:271001300:50,20:271001400:30,20:271001500:5,20:260000070:20"};
@@ -2079,10 +2119,10 @@ namespace BraveHaxvius.Data
         public static readonly Sublimation Sublimation_300000320 = new Sublimation { SublimationId = "300000320", UnitId = "202000527", Items = "20:271001300:20,20:271001400:15,20:260000070:10"};
         public static readonly Sublimation Sublimation_300000321 = new Sublimation { SublimationId = "300000321", UnitId = "202000527", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000070:15"};
         public static readonly Sublimation Sublimation_300000322 = new Sublimation { SublimationId = "300000322", UnitId = "202000527", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000070:20"};
-        public static readonly Sublimation Sublimation_300000323 = new Sublimation { SublimationId = "300000323", UnitId = "202001705,202001717", Items = "20:271001600:15,20:271001700:8"};
-        public static readonly Sublimation Sublimation_300000324 = new Sublimation { SublimationId = "300000324", UnitId = "202001705,202001717", Items = "20:271001600:20,20:271001700:15,20:260000070:10"};
-        public static readonly Sublimation Sublimation_300000325 = new Sublimation { SublimationId = "300000325", UnitId = "202001705,202001717", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000070:15"};
-        public static readonly Sublimation Sublimation_300000326 = new Sublimation { SublimationId = "300000326", UnitId = "202001705,202001717", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000070:20"};
+        public static readonly Sublimation Sublimation_300000323 = new Sublimation { SublimationId = "300000323", UnitId = "202001705,202001727", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000324 = new Sublimation { SublimationId = "300000324", UnitId = "202001705,202001727", Items = "20:271001600:20,20:271001700:15,20:260000070:10"};
+        public static readonly Sublimation Sublimation_300000325 = new Sublimation { SublimationId = "300000325", UnitId = "202001705,202001727", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000070:15"};
+        public static readonly Sublimation Sublimation_300000326 = new Sublimation { SublimationId = "300000326", UnitId = "202001705,202001727", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000070:20"};
         public static readonly Sublimation Sublimation_300000327 = new Sublimation { SublimationId = "300000327", UnitId = "202001705", Items = "20:271000700:15,20:271000800:8"};
         public static readonly Sublimation Sublimation_300000328 = new Sublimation { SublimationId = "300000328", UnitId = "202001705", Items = "20:271000700:20,20:271000800:15,20:260000070:10"};
         public static readonly Sublimation Sublimation_300000329 = new Sublimation { SublimationId = "300000329", UnitId = "202001705", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000070:15"};
@@ -2099,6 +2139,230 @@ namespace BraveHaxvius.Data
         public static readonly Sublimation Sublimation_300000340 = new Sublimation { SublimationId = "300000340", UnitId = "202001727", Items = "20:271000400:20,20:271000500:15,20:260000070:10"};
         public static readonly Sublimation Sublimation_300000341 = new Sublimation { SublimationId = "300000341", UnitId = "202001727", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000070:15"};
         public static readonly Sublimation Sublimation_300000342 = new Sublimation { SublimationId = "300000342", UnitId = "202001727", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000070:20"};
+        public static readonly Sublimation Sublimation_300000343 = new Sublimation { SublimationId = "300000343", UnitId = "100031707,100031717", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_300000344 = new Sublimation { SublimationId = "300000344", UnitId = "100031707,100031717", Items = "20:271001000:30,20:271001100:20,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000345 = new Sublimation { SublimationId = "300000345", UnitId = "100031707,100031717", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000346 = new Sublimation { SublimationId = "300000346", UnitId = "100031707,100031717", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:260000080:30"};
+        public static readonly Sublimation Sublimation_300000347 = new Sublimation { SublimationId = "300000347", UnitId = "100031707", Items = "20:271000700:20,20:271000800:10"};
+        public static readonly Sublimation Sublimation_300000348 = new Sublimation { SublimationId = "300000348", UnitId = "100031707", Items = "20:271000700:30,20:271000800:20,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000349 = new Sublimation { SublimationId = "300000349", UnitId = "100031707", Items = "20:271000700:50,20:271000800:30,20:271000900:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000350 = new Sublimation { SublimationId = "300000350", UnitId = "100031707", Items = "20:271000700:100,20:271000800:50,20:271000900:10,20:260000080:30"};
+        public static readonly Sublimation Sublimation_300000351 = new Sublimation { SublimationId = "300000351", UnitId = "100031717", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_300000352 = new Sublimation { SublimationId = "300000352", UnitId = "100031717", Items = "20:271000400:30,20:271000500:20,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000353 = new Sublimation { SublimationId = "300000353", UnitId = "100031717", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000354 = new Sublimation { SublimationId = "300000354", UnitId = "100031717", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:260000080:30"};
+        public static readonly Sublimation Sublimation_300000355 = new Sublimation { SublimationId = "300000355", UnitId = "100020505,100020527", Items = "20:271001000:15,20:271001100:8"};
+        public static readonly Sublimation Sublimation_300000356 = new Sublimation { SublimationId = "300000356", UnitId = "100020505,100020527", Items = "20:271001000:20,20:271001100:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000357 = new Sublimation { SublimationId = "300000357", UnitId = "100020505,100020527", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000358 = new Sublimation { SublimationId = "300000358", UnitId = "100020505,100020527", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000359 = new Sublimation { SublimationId = "300000359", UnitId = "100020505", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_300000360 = new Sublimation { SublimationId = "300000360", UnitId = "100020505", Items = "20:271001300:20,20:271001400:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000361 = new Sublimation { SublimationId = "300000361", UnitId = "100020505", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000362 = new Sublimation { SublimationId = "300000362", UnitId = "100020505", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000363 = new Sublimation { SublimationId = "300000363", UnitId = "100020505", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000364 = new Sublimation { SublimationId = "300000364", UnitId = "100020505", Items = "20:271001600:20,20:271001700:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000365 = new Sublimation { SublimationId = "300000365", UnitId = "100020505", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000366 = new Sublimation { SublimationId = "300000366", UnitId = "100020505", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000367 = new Sublimation { SublimationId = "300000367", UnitId = "100020527", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_300000368 = new Sublimation { SublimationId = "300000368", UnitId = "100020527", Items = "20:271000700:20,20:271000800:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000369 = new Sublimation { SublimationId = "300000369", UnitId = "100020527", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000370 = new Sublimation { SublimationId = "300000370", UnitId = "100020527", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000371 = new Sublimation { SublimationId = "300000371", UnitId = "100020527", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_300000372 = new Sublimation { SublimationId = "300000372", UnitId = "100020527", Items = "20:271000100:20,20:271000200:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000373 = new Sublimation { SublimationId = "300000373", UnitId = "100020527", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000374 = new Sublimation { SublimationId = "300000374", UnitId = "100020527", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000375 = new Sublimation { SublimationId = "300000375", UnitId = "100020905,100020927", Items = "20:271000400:15,20:271000500:8"};
+        public static readonly Sublimation Sublimation_300000376 = new Sublimation { SublimationId = "300000376", UnitId = "100020905,100020927", Items = "20:271000400:20,20:271000500:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000377 = new Sublimation { SublimationId = "300000377", UnitId = "100020905,100020927", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000378 = new Sublimation { SublimationId = "300000378", UnitId = "100020905,100020927", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000379 = new Sublimation { SublimationId = "300000379", UnitId = "100020905", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000380 = new Sublimation { SublimationId = "300000380", UnitId = "100020905", Items = "20:271001600:20,20:271001700:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000381 = new Sublimation { SublimationId = "300000381", UnitId = "100020905", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000382 = new Sublimation { SublimationId = "300000382", UnitId = "100020905", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000383 = new Sublimation { SublimationId = "300000383", UnitId = "100020905", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_300000384 = new Sublimation { SublimationId = "300000384", UnitId = "100020905", Items = "20:271000100:20,20:271000200:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000385 = new Sublimation { SublimationId = "300000385", UnitId = "100020905", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000386 = new Sublimation { SublimationId = "300000386", UnitId = "100020905", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000387 = new Sublimation { SublimationId = "300000387", UnitId = "100020927", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_300000388 = new Sublimation { SublimationId = "300000388", UnitId = "100020927", Items = "20:271000700:20,20:271000800:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000389 = new Sublimation { SublimationId = "300000389", UnitId = "100020927", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000390 = new Sublimation { SublimationId = "300000390", UnitId = "100020927", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000391 = new Sublimation { SublimationId = "300000391", UnitId = "100020927", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_300000392 = new Sublimation { SublimationId = "300000392", UnitId = "100020927", Items = "20:271001300:20,20:271001400:15,20:260000080:10"};
+        public static readonly Sublimation Sublimation_300000393 = new Sublimation { SublimationId = "300000393", UnitId = "100020927", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000080:15"};
+        public static readonly Sublimation Sublimation_300000394 = new Sublimation { SublimationId = "300000394", UnitId = "100020927", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000080:20"};
+        public static readonly Sublimation Sublimation_300000395 = new Sublimation { SublimationId = "300000395", UnitId = "100031907,100031917", Items = "20:271001300:20,20:271001400:10"};
+        public static readonly Sublimation Sublimation_300000396 = new Sublimation { SublimationId = "300000396", UnitId = "100031907,100031917", Items = "20:271001300:30,20:271001400:20,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000397 = new Sublimation { SublimationId = "300000397", UnitId = "100031907,100031917", Items = "20:271001300:50,20:271001400:30,20:271001500:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000398 = new Sublimation { SublimationId = "300000398", UnitId = "100031907,100031917", Items = "20:271001300:100,20:271001400:50,20:271001500:10,20:260000090:30"};
+        public static readonly Sublimation Sublimation_300000399 = new Sublimation { SublimationId = "300000399", UnitId = "100031907", Items = "20:271000700:20,20:271000800:10"};
+        public static readonly Sublimation Sublimation_300000400 = new Sublimation { SublimationId = "300000400", UnitId = "100031907", Items = "20:271000700:30,20:271000800:20,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000401 = new Sublimation { SublimationId = "300000401", UnitId = "100031907", Items = "20:271000700:50,20:271000800:30,20:271000900:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000402 = new Sublimation { SublimationId = "300000402", UnitId = "100031907", Items = "20:271000700:100,20:271000800:50,20:271000900:10,20:260000090:30"};
+        public static readonly Sublimation Sublimation_300000403 = new Sublimation { SublimationId = "300000403", UnitId = "100031917", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_300000404 = new Sublimation { SublimationId = "300000404", UnitId = "100031917", Items = "20:271001000:30,20:271001100:20,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000405 = new Sublimation { SublimationId = "300000405", UnitId = "100031917", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000406 = new Sublimation { SublimationId = "300000406", UnitId = "100031917", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:260000090:30"};
+        public static readonly Sublimation Sublimation_300000407 = new Sublimation { SublimationId = "300000407", UnitId = "100015405,100015427", Items = "20:271000400:15,20:271000500:8"};
+        public static readonly Sublimation Sublimation_300000408 = new Sublimation { SublimationId = "300000408", UnitId = "100015405,100015427", Items = "20:271000400:20,20:271000500:15,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000409 = new Sublimation { SublimationId = "300000409", UnitId = "100015405,100015427", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000090:15"};
+        public static readonly Sublimation Sublimation_300000410 = new Sublimation { SublimationId = "300000410", UnitId = "100015405,100015427", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000411 = new Sublimation { SublimationId = "300000411", UnitId = "100015405", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000412 = new Sublimation { SublimationId = "300000412", UnitId = "100015405", Items = "20:271001600:20,20:271001700:15,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000413 = new Sublimation { SublimationId = "300000413", UnitId = "100015405", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000090:15"};
+        public static readonly Sublimation Sublimation_300000414 = new Sublimation { SublimationId = "300000414", UnitId = "100015405", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000415 = new Sublimation { SublimationId = "300000415", UnitId = "100015405", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_300000416 = new Sublimation { SublimationId = "300000416", UnitId = "100015405", Items = "20:271000700:20,20:271000800:15,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000417 = new Sublimation { SublimationId = "300000417", UnitId = "100015405", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000090:15"};
+        public static readonly Sublimation Sublimation_300000418 = new Sublimation { SublimationId = "300000418", UnitId = "100015405", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000419 = new Sublimation { SublimationId = "300000419", UnitId = "100015427", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_300000420 = new Sublimation { SublimationId = "300000420", UnitId = "100015427", Items = "20:271001300:20,20:271001400:15,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000421 = new Sublimation { SublimationId = "300000421", UnitId = "100015427", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000090:15"};
+        public static readonly Sublimation Sublimation_300000422 = new Sublimation { SublimationId = "300000422", UnitId = "100015427", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000423 = new Sublimation { SublimationId = "300000423", UnitId = "100015427", Items = "20:271001000:15,20:271001100:8"};
+        public static readonly Sublimation Sublimation_300000424 = new Sublimation { SublimationId = "300000424", UnitId = "100015427", Items = "20:271001000:20,20:271001100:15,20:260000090:10"};
+        public static readonly Sublimation Sublimation_300000425 = new Sublimation { SublimationId = "300000425", UnitId = "100015427", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000090:15"};
+        public static readonly Sublimation Sublimation_300000426 = new Sublimation { SublimationId = "300000426", UnitId = "100015427", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000090:20"};
+        public static readonly Sublimation Sublimation_300000427 = new Sublimation { SublimationId = "300000427", UnitId = "340000107,340000117", Items = "20:271000100:20,20:271000200:10"};
+        public static readonly Sublimation Sublimation_300000428 = new Sublimation { SublimationId = "300000428", UnitId = "340000107,340000117", Items = "20:271000100:30,20:271000200:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000429 = new Sublimation { SublimationId = "300000429", UnitId = "340000107,340000117", Items = "20:271000100:50,20:271000200:30,20:271000300:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000430 = new Sublimation { SublimationId = "300000430", UnitId = "340000107,340000117", Items = "20:271000100:100,20:271000200:50,20:271000300:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000431 = new Sublimation { SublimationId = "300000431", UnitId = "340000107", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_300000432 = new Sublimation { SublimationId = "300000432", UnitId = "340000107", Items = "20:271000400:30,20:271000500:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000433 = new Sublimation { SublimationId = "300000433", UnitId = "340000107", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000434 = new Sublimation { SublimationId = "300000434", UnitId = "340000107", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000435 = new Sublimation { SublimationId = "300000435", UnitId = "340000117", Items = "20:271001300:20,20:271001400:10"};
+        public static readonly Sublimation Sublimation_300000436 = new Sublimation { SublimationId = "300000436", UnitId = "340000117", Items = "20:271001300:30,20:271001400:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000437 = new Sublimation { SublimationId = "300000437", UnitId = "340000117", Items = "20:271001300:50,20:271001400:30,20:271001500:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000438 = new Sublimation { SublimationId = "300000438", UnitId = "340000117", Items = "20:271001300:100,20:271001400:50,20:271001500:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000439 = new Sublimation { SublimationId = "300000439", UnitId = "340000207,340000217", Items = "20:271001600:20,20:271001700:10"};
+        public static readonly Sublimation Sublimation_300000440 = new Sublimation { SublimationId = "300000440", UnitId = "340000207,340000217", Items = "20:271001600:30,20:271001700:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000441 = new Sublimation { SublimationId = "300000441", UnitId = "340000207,340000217", Items = "20:271001600:50,20:271001700:30,20:271001800:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000442 = new Sublimation { SublimationId = "300000442", UnitId = "340000207,340000217", Items = "20:271001600:100,20:271001700:50,20:271001800:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000443 = new Sublimation { SublimationId = "300000443", UnitId = "340000207", Items = "20:271000700:20,20:271000800:10"};
+        public static readonly Sublimation Sublimation_300000444 = new Sublimation { SublimationId = "300000444", UnitId = "340000207", Items = "20:271000700:30,20:271000800:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000445 = new Sublimation { SublimationId = "300000445", UnitId = "340000207", Items = "20:271000700:50,20:271000800:30,20:271000900:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000446 = new Sublimation { SublimationId = "300000446", UnitId = "340000207", Items = "20:271000700:100,20:271000800:50,20:271000900:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000447 = new Sublimation { SublimationId = "300000447", UnitId = "340000217", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_300000448 = new Sublimation { SublimationId = "300000448", UnitId = "340000217", Items = "20:271001000:30,20:271001100:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000449 = new Sublimation { SublimationId = "300000449", UnitId = "340000217", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000450 = new Sublimation { SublimationId = "300000450", UnitId = "340000217", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000451 = new Sublimation { SublimationId = "300000451", UnitId = "340000307,340000317", Items = "20:271001300:20,20:271001400:10"};
+        public static readonly Sublimation Sublimation_300000452 = new Sublimation { SublimationId = "300000452", UnitId = "340000307,340000317", Items = "20:271001300:30,20:271001400:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000453 = new Sublimation { SublimationId = "300000453", UnitId = "340000307,340000317", Items = "20:271001300:50,20:271001400:30,20:271001500:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000454 = new Sublimation { SublimationId = "300000454", UnitId = "340000307,340000317", Items = "20:271001300:100,20:271001400:50,20:271001500:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000455 = new Sublimation { SublimationId = "300000455", UnitId = "340000307", Items = "20:271000100:20,20:271000200:10"};
+        public static readonly Sublimation Sublimation_300000456 = new Sublimation { SublimationId = "300000456", UnitId = "340000307", Items = "20:271000100:30,20:271000200:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000457 = new Sublimation { SublimationId = "300000457", UnitId = "340000307", Items = "20:271000100:50,20:271000200:30,20:271000300:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000458 = new Sublimation { SublimationId = "300000458", UnitId = "340000307", Items = "20:271000100:100,20:271000200:50,20:271000300:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000459 = new Sublimation { SublimationId = "300000459", UnitId = "340000317", Items = "20:271001600:20,20:271001700:10"};
+        public static readonly Sublimation Sublimation_300000460 = new Sublimation { SublimationId = "300000460", UnitId = "340000317", Items = "20:271001600:30,20:271001700:20,20:1209001294:10"};
+        public static readonly Sublimation Sublimation_300000461 = new Sublimation { SublimationId = "300000461", UnitId = "340000317", Items = "20:271001600:50,20:271001700:30,20:271001800:5,20:1209001294:20"};
+        public static readonly Sublimation Sublimation_300000462 = new Sublimation { SublimationId = "300000462", UnitId = "340000317", Items = "20:271001600:100,20:271001700:50,20:271001800:10,20:1209001294:30"};
+        public static readonly Sublimation Sublimation_300000463 = new Sublimation { SublimationId = "300000463", UnitId = "100032207,100032217", Items = "20:271000700:20,20:271000800:10"};
+        public static readonly Sublimation Sublimation_300000464 = new Sublimation { SublimationId = "300000464", UnitId = "100032207,100032217", Items = "20:271000700:30,20:271000800:20,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000465 = new Sublimation { SublimationId = "300000465", UnitId = "100032207,100032217", Items = "20:271000700:50,20:271000800:30,20:271000900:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000466 = new Sublimation { SublimationId = "300000466", UnitId = "100032207,100032217", Items = "20:271000700:100,20:271000800:50,20:271000900:10,20:260000110:30"};
+        public static readonly Sublimation Sublimation_300000467 = new Sublimation { SublimationId = "300000467", UnitId = "100032207", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_300000468 = new Sublimation { SublimationId = "300000468", UnitId = "100032207", Items = "20:271000400:30,20:271000500:20,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000469 = new Sublimation { SublimationId = "300000469", UnitId = "100032207", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000470 = new Sublimation { SublimationId = "300000470", UnitId = "100032207", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:260000110:30"};
+        public static readonly Sublimation Sublimation_300000471 = new Sublimation { SublimationId = "300000471", UnitId = "100032217", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_300000472 = new Sublimation { SublimationId = "300000472", UnitId = "100032217", Items = "20:271001000:30,20:271001100:20,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000473 = new Sublimation { SublimationId = "300000473", UnitId = "100032217", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000474 = new Sublimation { SublimationId = "300000474", UnitId = "100032217", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:260000110:30"};
+        public static readonly Sublimation Sublimation_300000475 = new Sublimation { SublimationId = "300000475", UnitId = "100021705,100021727", Items = "20:271000400:15,20:271000500:8"};
+        public static readonly Sublimation Sublimation_300000476 = new Sublimation { SublimationId = "300000476", UnitId = "100021705,100021727", Items = "20:271000400:20,20:271000500:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000477 = new Sublimation { SublimationId = "300000477", UnitId = "100021705,100021727", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000478 = new Sublimation { SublimationId = "300000478", UnitId = "100021705,100021727", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000479 = new Sublimation { SublimationId = "300000479", UnitId = "100021705", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_300000480 = new Sublimation { SublimationId = "300000480", UnitId = "100021705", Items = "20:271000700:20,20:271000800:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000481 = new Sublimation { SublimationId = "300000481", UnitId = "100021705", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000482 = new Sublimation { SublimationId = "300000482", UnitId = "100021705", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000483 = new Sublimation { SublimationId = "300000483", UnitId = "100021727", Items = "20:271001000:15,20:271001100:8"};
+        public static readonly Sublimation Sublimation_300000484 = new Sublimation { SublimationId = "300000484", UnitId = "100021727", Items = "20:271001000:20,20:271001100:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000485 = new Sublimation { SublimationId = "300000485", UnitId = "100021727", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000486 = new Sublimation { SublimationId = "300000486", UnitId = "100021727", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000487 = new Sublimation { SublimationId = "300000487", UnitId = "100021705", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000488 = new Sublimation { SublimationId = "300000488", UnitId = "100021705", Items = "20:271001600:20,20:271001700:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000489 = new Sublimation { SublimationId = "300000489", UnitId = "100021705", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000490 = new Sublimation { SublimationId = "300000490", UnitId = "100021705", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000491 = new Sublimation { SublimationId = "300000491", UnitId = "100021727", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_300000492 = new Sublimation { SublimationId = "300000492", UnitId = "100021727", Items = "20:271000100:20,20:271000200:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000493 = new Sublimation { SublimationId = "300000493", UnitId = "100021727", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000494 = new Sublimation { SublimationId = "300000494", UnitId = "100021727", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000495 = new Sublimation { SublimationId = "300000495", UnitId = "100011805,100011827", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_300000496 = new Sublimation { SublimationId = "300000496", UnitId = "100011805,100011827", Items = "20:271001300:20,20:271001400:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000497 = new Sublimation { SublimationId = "300000497", UnitId = "100011805,100011827", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000498 = new Sublimation { SublimationId = "300000498", UnitId = "100011805,100011827", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000499 = new Sublimation { SublimationId = "300000499", UnitId = "100011805", Items = "20:271001000:15,20:271001100:8"};
+        public static readonly Sublimation Sublimation_300000500 = new Sublimation { SublimationId = "300000500", UnitId = "100011805", Items = "20:271001000:20,20:271001100:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000501 = new Sublimation { SublimationId = "300000501", UnitId = "100011805", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000502 = new Sublimation { SublimationId = "300000502", UnitId = "100011805", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000503 = new Sublimation { SublimationId = "300000503", UnitId = "100011827", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000504 = new Sublimation { SublimationId = "300000504", UnitId = "100011827", Items = "20:271001600:20,20:271001700:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000505 = new Sublimation { SublimationId = "300000505", UnitId = "100011827", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000506 = new Sublimation { SublimationId = "300000506", UnitId = "100011827", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000507 = new Sublimation { SublimationId = "300000507", UnitId = "100011805", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_300000508 = new Sublimation { SublimationId = "300000508", UnitId = "100011805", Items = "20:271000100:20,20:271000200:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000509 = new Sublimation { SublimationId = "300000509", UnitId = "100011805", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000510 = new Sublimation { SublimationId = "300000510", UnitId = "100011805", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000511 = new Sublimation { SublimationId = "300000511", UnitId = "100011827", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_300000512 = new Sublimation { SublimationId = "300000512", UnitId = "100011827", Items = "20:271000700:20,20:271000800:15,20:260000110:10"};
+        public static readonly Sublimation Sublimation_300000513 = new Sublimation { SublimationId = "300000513", UnitId = "100011827", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000110:15"};
+        public static readonly Sublimation Sublimation_300000514 = new Sublimation { SublimationId = "300000514", UnitId = "100011827", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000110:20"};
+        public static readonly Sublimation Sublimation_300000515 = new Sublimation { SublimationId = "300000515", UnitId = "203004207,203004217", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_300000516 = new Sublimation { SublimationId = "300000516", UnitId = "203004207,203004217", Items = "20:271000400:30,20:271000500:20,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000517 = new Sublimation { SublimationId = "300000517", UnitId = "203004207,203004217", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000518 = new Sublimation { SublimationId = "300000518", UnitId = "203004207,203004217", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:260000120:30"};
+        public static readonly Sublimation Sublimation_300000519 = new Sublimation { SublimationId = "300000519", UnitId = "203004207", Items = "20:271000700:20,20:271000800:10"};
+        public static readonly Sublimation Sublimation_300000520 = new Sublimation { SublimationId = "300000520", UnitId = "203004207", Items = "20:271000700:30,20:271000800:20,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000521 = new Sublimation { SublimationId = "300000521", UnitId = "203004207", Items = "20:271000700:50,20:271000800:30,20:271000900:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000522 = new Sublimation { SublimationId = "300000522", UnitId = "203004207", Items = "20:271000700:100,20:271000800:50,20:271000900:10,20:260000120:30"};
+        public static readonly Sublimation Sublimation_300000523 = new Sublimation { SublimationId = "300000523", UnitId = "203004217", Items = "20:271000100:20,20:271000200:10"};
+        public static readonly Sublimation Sublimation_300000524 = new Sublimation { SublimationId = "300000524", UnitId = "203004217", Items = "20:271000100:30,20:271000200:20,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000525 = new Sublimation { SublimationId = "300000525", UnitId = "203004217", Items = "20:271000100:50,20:271000200:30,20:271000300:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000526 = new Sublimation { SublimationId = "300000526", UnitId = "203004217", Items = "20:271000100:100,20:271000200:50,20:271000300:10,20:260000120:30"};
+        public static readonly Sublimation Sublimation_300000527 = new Sublimation { SublimationId = "300000527", UnitId = "203001405,203001427", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000528 = new Sublimation { SublimationId = "300000528", UnitId = "203001405,203001427", Items = "20:271001600:20,20:271001700:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000529 = new Sublimation { SublimationId = "300000529", UnitId = "203001405,203001427", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000530 = new Sublimation { SublimationId = "300000530", UnitId = "203001405,203001427", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000531 = new Sublimation { SublimationId = "300000531", UnitId = "203001405", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_300000532 = new Sublimation { SublimationId = "300000532", UnitId = "203001405", Items = "20:271000700:20,20:271000800:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000533 = new Sublimation { SublimationId = "300000533", UnitId = "203001405", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000534 = new Sublimation { SublimationId = "300000534", UnitId = "203001405", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000535 = new Sublimation { SublimationId = "300000535", UnitId = "203001405", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_300000536 = new Sublimation { SublimationId = "300000536", UnitId = "203001405", Items = "20:271000100:20,20:271000200:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000537 = new Sublimation { SublimationId = "300000537", UnitId = "203001405", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000538 = new Sublimation { SublimationId = "300000538", UnitId = "203001405", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000539 = new Sublimation { SublimationId = "300000539", UnitId = "203001427", Items = "20:271001000:15,20:271001100:8"};
+        public static readonly Sublimation Sublimation_300000540 = new Sublimation { SublimationId = "300000540", UnitId = "203001427", Items = "20:271001000:20,20:271001100:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000541 = new Sublimation { SublimationId = "300000541", UnitId = "203001427", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000542 = new Sublimation { SublimationId = "300000542", UnitId = "203001427", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000543 = new Sublimation { SublimationId = "300000543", UnitId = "203001427", Items = "20:271000400:15,20:271000500:8"};
+        public static readonly Sublimation Sublimation_300000544 = new Sublimation { SublimationId = "300000544", UnitId = "203001427", Items = "20:271000400:20,20:271000500:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000545 = new Sublimation { SublimationId = "300000545", UnitId = "203001427", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000546 = new Sublimation { SublimationId = "300000546", UnitId = "203001427", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000547 = new Sublimation { SublimationId = "300000547", UnitId = "203001305,203001327", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_300000548 = new Sublimation { SublimationId = "300000548", UnitId = "203001305,203001327", Items = "20:271001300:20,20:271001400:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000549 = new Sublimation { SublimationId = "300000549", UnitId = "203001305,203001327", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000550 = new Sublimation { SublimationId = "300000550", UnitId = "203001305,203001327", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000551 = new Sublimation { SublimationId = "300000551", UnitId = "203001305", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_300000552 = new Sublimation { SublimationId = "300000552", UnitId = "203001305", Items = "20:271000100:20,20:271000200:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000553 = new Sublimation { SublimationId = "300000553", UnitId = "203001305", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000554 = new Sublimation { SublimationId = "300000554", UnitId = "203001305", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000555 = new Sublimation { SublimationId = "300000555", UnitId = "203001305", Items = "20:271000400:15,20:271000500:8"};
+        public static readonly Sublimation Sublimation_300000556 = new Sublimation { SublimationId = "300000556", UnitId = "203001305", Items = "20:271000400:20,20:271000500:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000557 = new Sublimation { SublimationId = "300000557", UnitId = "203001305", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000558 = new Sublimation { SublimationId = "300000558", UnitId = "203001305", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000559 = new Sublimation { SublimationId = "300000559", UnitId = "203001327", Items = "20:271001000:15,20:271001100:8"};
+        public static readonly Sublimation Sublimation_300000560 = new Sublimation { SublimationId = "300000560", UnitId = "203001327", Items = "20:271001000:20,20:271001100:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000561 = new Sublimation { SublimationId = "300000561", UnitId = "203001327", Items = "20:271001000:35,20:271001100:22,20:271001200:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000562 = new Sublimation { SublimationId = "300000562", UnitId = "203001327", Items = "20:271001000:75,20:271001100:37,20:271001200:5,20:260000120:20"};
+        public static readonly Sublimation Sublimation_300000563 = new Sublimation { SublimationId = "300000563", UnitId = "203001327", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_300000564 = new Sublimation { SublimationId = "300000564", UnitId = "203001327", Items = "20:271001600:20,20:271001700:15,20:260000120:10"};
+        public static readonly Sublimation Sublimation_300000565 = new Sublimation { SublimationId = "300000565", UnitId = "203001327", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:260000120:15"};
+        public static readonly Sublimation Sublimation_300000566 = new Sublimation { SublimationId = "300000566", UnitId = "203001327", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:260000120:20"};
         public static readonly Sublimation Sublimation_301301001 = new Sublimation { SublimationId = "301301001", UnitId = "209001003", Items = "20:270001100:8,20:270001200:3"};
         public static readonly Sublimation Sublimation_301301002 = new Sublimation { SublimationId = "301301002", UnitId = "209001003", Items = "20:270001100:12,20:270001200:5,20:270001300:1"};
         public static readonly Sublimation Sublimation_302601001 = new Sublimation { SublimationId = "302601001", UnitId = "100002603", Items = "20:270001100:10,20:270001200:5,20:270001300:1"};
@@ -2603,6 +2867,86 @@ namespace BraveHaxvius.Data
         public static readonly Sublimation Sublimation_912669002 = new Sublimation { SublimationId = "912669002", UnitId = "401007005", Items = "20:270003600:15,20:270003700:12,20:270003800:5,20:270003900:1,20:270004000:1"};
         public static readonly Sublimation Sublimation_912673001 = new Sublimation { SublimationId = "912673001", UnitId = "401007005", Items = "20:270002600:10,20:270002700:8,20:270002800:3,20:270002900:1"};
         public static readonly Sublimation Sublimation_912673002 = new Sublimation { SublimationId = "912673002", UnitId = "401007005", Items = "20:270002600:15,20:270002700:12,20:270002800:5,20:270002900:1,20:270003000:1"};
+        public static readonly Sublimation Sublimation_914232001 = new Sublimation { SublimationId = "914232001", UnitId = "401010007", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_914232002 = new Sublimation { SublimationId = "914232002", UnitId = "401010007", Items = "20:271001000:30,20:271001100:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914232003 = new Sublimation { SublimationId = "914232003", UnitId = "401010007", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914232004 = new Sublimation { SublimationId = "914232004", UnitId = "401010007", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914244001 = new Sublimation { SublimationId = "914244001", UnitId = "401010007,401010017", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_914244002 = new Sublimation { SublimationId = "914244002", UnitId = "401010007,401010017", Items = "20:271000400:30,20:271000500:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914244003 = new Sublimation { SublimationId = "914244003", UnitId = "401010007,401010017", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914244004 = new Sublimation { SublimationId = "914244004", UnitId = "401010007,401010017", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914265001 = new Sublimation { SublimationId = "914265001", UnitId = "401010017", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_914265002 = new Sublimation { SublimationId = "914265002", UnitId = "401010017", Items = "20:271001000:30,20:271001100:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914265003 = new Sublimation { SublimationId = "914265003", UnitId = "401010017", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914265004 = new Sublimation { SublimationId = "914265004", UnitId = "401010017", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914291001 = new Sublimation { SublimationId = "914291001", UnitId = "401009907,401009917", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_914291002 = new Sublimation { SublimationId = "914291002", UnitId = "401009907,401009917", Items = "20:271001000:30,20:271001100:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914291003 = new Sublimation { SublimationId = "914291003", UnitId = "401009907,401009917", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914291004 = new Sublimation { SublimationId = "914291004", UnitId = "401009907,401009917", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914300001 = new Sublimation { SublimationId = "914300001", UnitId = "401009907", Items = "20:271001300:20,20:271001400:10"};
+        public static readonly Sublimation Sublimation_914300002 = new Sublimation { SublimationId = "914300002", UnitId = "401009907", Items = "20:271001300:30,20:271001400:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914300003 = new Sublimation { SublimationId = "914300003", UnitId = "401009907", Items = "20:271001300:50,20:271001400:30,20:271001500:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914300004 = new Sublimation { SublimationId = "914300004", UnitId = "401009907", Items = "20:271001300:100,20:271001400:50,20:271001500:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914317001 = new Sublimation { SublimationId = "914317001", UnitId = "401009917", Items = "20:271001000:20,20:271001100:10"};
+        public static readonly Sublimation Sublimation_914317002 = new Sublimation { SublimationId = "914317002", UnitId = "401009917", Items = "20:271001000:30,20:271001100:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914317003 = new Sublimation { SublimationId = "914317003", UnitId = "401009917", Items = "20:271001000:50,20:271001100:30,20:271001200:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914317004 = new Sublimation { SublimationId = "914317004", UnitId = "401009917", Items = "20:271001000:100,20:271001100:50,20:271001200:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914322001 = new Sublimation { SublimationId = "914322001", UnitId = "401009917", Items = "20:271000700:20,20:271000800:10"};
+        public static readonly Sublimation Sublimation_914322002 = new Sublimation { SublimationId = "914322002", UnitId = "401009917", Items = "20:271000700:30,20:271000800:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914322003 = new Sublimation { SublimationId = "914322003", UnitId = "401009917", Items = "20:271000700:50,20:271000800:30,20:271000900:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914322004 = new Sublimation { SublimationId = "914322004", UnitId = "401009917", Items = "20:271000700:100,20:271000800:50,20:271000900:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914386001 = new Sublimation { SublimationId = "914386001", UnitId = "401010107,401010117", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_914386002 = new Sublimation { SublimationId = "914386002", UnitId = "401010107,401010117", Items = "20:271000400:30,20:271000500:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914386003 = new Sublimation { SublimationId = "914386003", UnitId = "401010107,401010117", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914386004 = new Sublimation { SublimationId = "914386004", UnitId = "401010107,401010117", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914396001 = new Sublimation { SublimationId = "914396001", UnitId = "401010107", Items = "20:271000400:20,20:271000500:10"};
+        public static readonly Sublimation Sublimation_914396002 = new Sublimation { SublimationId = "914396002", UnitId = "401010107", Items = "20:271000400:30,20:271000500:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914396003 = new Sublimation { SublimationId = "914396003", UnitId = "401010107", Items = "20:271000400:50,20:271000500:30,20:271000600:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914396004 = new Sublimation { SublimationId = "914396004", UnitId = "401010107", Items = "20:271000400:100,20:271000500:50,20:271000600:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914416001 = new Sublimation { SublimationId = "914416001", UnitId = "401010117", Items = "20:271001600:20,20:271001700:10"};
+        public static readonly Sublimation Sublimation_914416002 = new Sublimation { SublimationId = "914416002", UnitId = "401010117", Items = "20:271001600:30,20:271001700:20,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914416003 = new Sublimation { SublimationId = "914416003", UnitId = "401010117", Items = "20:271001600:50,20:271001700:30,20:271001800:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914416004 = new Sublimation { SublimationId = "914416004", UnitId = "401010117", Items = "20:271001600:100,20:271001700:50,20:271001800:10,20:1209001274:30"};
+        public static readonly Sublimation Sublimation_914431001 = new Sublimation { SublimationId = "914431001", UnitId = "401002005,401002027", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_914431002 = new Sublimation { SublimationId = "914431002", UnitId = "401002005,401002027", Items = "20:271001300:20,20:271001400:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914431003 = new Sublimation { SublimationId = "914431003", UnitId = "401002005,401002027", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914431004 = new Sublimation { SublimationId = "914431004", UnitId = "401002005,401002027", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914442001 = new Sublimation { SublimationId = "914442001", UnitId = "401002005", Items = "20:271000100:15,20:271000200:8"};
+        public static readonly Sublimation Sublimation_914442002 = new Sublimation { SublimationId = "914442002", UnitId = "401002005", Items = "20:271000100:20,20:271000200:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914442003 = new Sublimation { SublimationId = "914442003", UnitId = "401002005", Items = "20:271000100:35,20:271000200:22,20:271000300:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914442004 = new Sublimation { SublimationId = "914442004", UnitId = "401002005", Items = "20:271000100:75,20:271000200:37,20:271000300:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914451001 = new Sublimation { SublimationId = "914451001", UnitId = "401002005", Items = "20:271000400:15,20:271000500:8"};
+        public static readonly Sublimation Sublimation_914451002 = new Sublimation { SublimationId = "914451002", UnitId = "401002005", Items = "20:271000400:20,20:271000500:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914451003 = new Sublimation { SublimationId = "914451003", UnitId = "401002005", Items = "20:271000400:35,20:271000500:22,20:271000600:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914451004 = new Sublimation { SublimationId = "914451004", UnitId = "401002005", Items = "20:271000400:75,20:271000500:37,20:271000600:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914459001 = new Sublimation { SublimationId = "914459001", UnitId = "401002027", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_914459002 = new Sublimation { SublimationId = "914459002", UnitId = "401002027", Items = "20:271001600:20,20:271001700:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914459003 = new Sublimation { SublimationId = "914459003", UnitId = "401002027", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914459004 = new Sublimation { SublimationId = "914459004", UnitId = "401002027", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914471001 = new Sublimation { SublimationId = "914471001", UnitId = "401002027", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_914471002 = new Sublimation { SublimationId = "914471002", UnitId = "401002027", Items = "20:271000700:20,20:271000800:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914471003 = new Sublimation { SublimationId = "914471003", UnitId = "401002027", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914471004 = new Sublimation { SublimationId = "914471004", UnitId = "401002027", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914482001 = new Sublimation { SublimationId = "914482001", UnitId = "401006005,401006027", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_914482002 = new Sublimation { SublimationId = "914482002", UnitId = "401006005,401006027", Items = "20:271001300:20,20:271001400:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914482003 = new Sublimation { SublimationId = "914482003", UnitId = "401006005,401006027", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914482004 = new Sublimation { SublimationId = "914482004", UnitId = "401006005,401006027", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914487001 = new Sublimation { SublimationId = "914487001", UnitId = "401006005", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_914487002 = new Sublimation { SublimationId = "914487002", UnitId = "401006005", Items = "20:271000700:20,20:271000800:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914487003 = new Sublimation { SublimationId = "914487003", UnitId = "401006005", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914487004 = new Sublimation { SublimationId = "914487004", UnitId = "401006005", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914492001 = new Sublimation { SublimationId = "914492001", UnitId = "401006005", Items = "20:271000700:15,20:271000800:8"};
+        public static readonly Sublimation Sublimation_914492002 = new Sublimation { SublimationId = "914492002", UnitId = "401006005", Items = "20:271000700:20,20:271000800:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914492003 = new Sublimation { SublimationId = "914492003", UnitId = "401006005", Items = "20:271000700:35,20:271000800:22,20:271000900:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914492004 = new Sublimation { SublimationId = "914492004", UnitId = "401006005", Items = "20:271000700:75,20:271000800:37,20:271000900:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914507001 = new Sublimation { SublimationId = "914507001", UnitId = "401006027", Items = "20:271001600:15,20:271001700:8"};
+        public static readonly Sublimation Sublimation_914507002 = new Sublimation { SublimationId = "914507002", UnitId = "401006027", Items = "20:271001600:20,20:271001700:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914507003 = new Sublimation { SublimationId = "914507003", UnitId = "401006027", Items = "20:271001600:35,20:271001700:22,20:271001800:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914507004 = new Sublimation { SublimationId = "914507004", UnitId = "401006027", Items = "20:271001600:75,20:271001700:37,20:271001800:5,20:1209001274:20"};
+        public static readonly Sublimation Sublimation_914518001 = new Sublimation { SublimationId = "914518001", UnitId = "401006027", Items = "20:271001300:15,20:271001400:8"};
+        public static readonly Sublimation Sublimation_914518002 = new Sublimation { SublimationId = "914518002", UnitId = "401006027", Items = "20:271001300:20,20:271001400:15,20:1209001274:10"};
+        public static readonly Sublimation Sublimation_914518003 = new Sublimation { SublimationId = "914518003", UnitId = "401006027", Items = "20:271001300:35,20:271001400:22,20:271001500:3,20:1209001274:15"};
+        public static readonly Sublimation Sublimation_914518004 = new Sublimation { SublimationId = "914518004", UnitId = "401006027", Items = "20:271001300:75,20:271001400:37,20:271001500:5,20:1209001274:20"};
 
 		public static readonly List<Sublimation> Sublimations = new List<Sublimation>
 		{
@@ -4372,6 +4716,46 @@ namespace BraveHaxvius.Data
            Sublimation_230493002,
            Sublimation_230496001,
            Sublimation_230496002,
+           Sublimation_230846001,
+           Sublimation_230846002,
+           Sublimation_230855001,
+           Sublimation_230855002,
+           Sublimation_230856001,
+           Sublimation_230856002,
+           Sublimation_230857001,
+           Sublimation_230857002,
+           Sublimation_230858001,
+           Sublimation_230858002,
+           Sublimation_230875001,
+           Sublimation_230875002,
+           Sublimation_230876001,
+           Sublimation_230876002,
+           Sublimation_230877001,
+           Sublimation_230877002,
+           Sublimation_230878001,
+           Sublimation_230878002,
+           Sublimation_230879001,
+           Sublimation_230879002,
+           Sublimation_232957001,
+           Sublimation_232957002,
+           Sublimation_232958001,
+           Sublimation_232958002,
+           Sublimation_232959001,
+           Sublimation_232959002,
+           Sublimation_232965001,
+           Sublimation_232965002,
+           Sublimation_232966001,
+           Sublimation_232966002,
+           Sublimation_232973001,
+           Sublimation_232973002,
+           Sublimation_232981001,
+           Sublimation_232981002,
+           Sublimation_232982001,
+           Sublimation_232982002,
+           Sublimation_232988001,
+           Sublimation_232988002,
+           Sublimation_232991001,
+           Sublimation_232991002,
            Sublimation_300000002,
            Sublimation_300000003,
            Sublimation_300000004,
@@ -4696,6 +5080,230 @@ namespace BraveHaxvius.Data
            Sublimation_300000340,
            Sublimation_300000341,
            Sublimation_300000342,
+           Sublimation_300000343,
+           Sublimation_300000344,
+           Sublimation_300000345,
+           Sublimation_300000346,
+           Sublimation_300000347,
+           Sublimation_300000348,
+           Sublimation_300000349,
+           Sublimation_300000350,
+           Sublimation_300000351,
+           Sublimation_300000352,
+           Sublimation_300000353,
+           Sublimation_300000354,
+           Sublimation_300000355,
+           Sublimation_300000356,
+           Sublimation_300000357,
+           Sublimation_300000358,
+           Sublimation_300000359,
+           Sublimation_300000360,
+           Sublimation_300000361,
+           Sublimation_300000362,
+           Sublimation_300000363,
+           Sublimation_300000364,
+           Sublimation_300000365,
+           Sublimation_300000366,
+           Sublimation_300000367,
+           Sublimation_300000368,
+           Sublimation_300000369,
+           Sublimation_300000370,
+           Sublimation_300000371,
+           Sublimation_300000372,
+           Sublimation_300000373,
+           Sublimation_300000374,
+           Sublimation_300000375,
+           Sublimation_300000376,
+           Sublimation_300000377,
+           Sublimation_300000378,
+           Sublimation_300000379,
+           Sublimation_300000380,
+           Sublimation_300000381,
+           Sublimation_300000382,
+           Sublimation_300000383,
+           Sublimation_300000384,
+           Sublimation_300000385,
+           Sublimation_300000386,
+           Sublimation_300000387,
+           Sublimation_300000388,
+           Sublimation_300000389,
+           Sublimation_300000390,
+           Sublimation_300000391,
+           Sublimation_300000392,
+           Sublimation_300000393,
+           Sublimation_300000394,
+           Sublimation_300000395,
+           Sublimation_300000396,
+           Sublimation_300000397,
+           Sublimation_300000398,
+           Sublimation_300000399,
+           Sublimation_300000400,
+           Sublimation_300000401,
+           Sublimation_300000402,
+           Sublimation_300000403,
+           Sublimation_300000404,
+           Sublimation_300000405,
+           Sublimation_300000406,
+           Sublimation_300000407,
+           Sublimation_300000408,
+           Sublimation_300000409,
+           Sublimation_300000410,
+           Sublimation_300000411,
+           Sublimation_300000412,
+           Sublimation_300000413,
+           Sublimation_300000414,
+           Sublimation_300000415,
+           Sublimation_300000416,
+           Sublimation_300000417,
+           Sublimation_300000418,
+           Sublimation_300000419,
+           Sublimation_300000420,
+           Sublimation_300000421,
+           Sublimation_300000422,
+           Sublimation_300000423,
+           Sublimation_300000424,
+           Sublimation_300000425,
+           Sublimation_300000426,
+           Sublimation_300000427,
+           Sublimation_300000428,
+           Sublimation_300000429,
+           Sublimation_300000430,
+           Sublimation_300000431,
+           Sublimation_300000432,
+           Sublimation_300000433,
+           Sublimation_300000434,
+           Sublimation_300000435,
+           Sublimation_300000436,
+           Sublimation_300000437,
+           Sublimation_300000438,
+           Sublimation_300000439,
+           Sublimation_300000440,
+           Sublimation_300000441,
+           Sublimation_300000442,
+           Sublimation_300000443,
+           Sublimation_300000444,
+           Sublimation_300000445,
+           Sublimation_300000446,
+           Sublimation_300000447,
+           Sublimation_300000448,
+           Sublimation_300000449,
+           Sublimation_300000450,
+           Sublimation_300000451,
+           Sublimation_300000452,
+           Sublimation_300000453,
+           Sublimation_300000454,
+           Sublimation_300000455,
+           Sublimation_300000456,
+           Sublimation_300000457,
+           Sublimation_300000458,
+           Sublimation_300000459,
+           Sublimation_300000460,
+           Sublimation_300000461,
+           Sublimation_300000462,
+           Sublimation_300000463,
+           Sublimation_300000464,
+           Sublimation_300000465,
+           Sublimation_300000466,
+           Sublimation_300000467,
+           Sublimation_300000468,
+           Sublimation_300000469,
+           Sublimation_300000470,
+           Sublimation_300000471,
+           Sublimation_300000472,
+           Sublimation_300000473,
+           Sublimation_300000474,
+           Sublimation_300000475,
+           Sublimation_300000476,
+           Sublimation_300000477,
+           Sublimation_300000478,
+           Sublimation_300000479,
+           Sublimation_300000480,
+           Sublimation_300000481,
+           Sublimation_300000482,
+           Sublimation_300000483,
+           Sublimation_300000484,
+           Sublimation_300000485,
+           Sublimation_300000486,
+           Sublimation_300000487,
+           Sublimation_300000488,
+           Sublimation_300000489,
+           Sublimation_300000490,
+           Sublimation_300000491,
+           Sublimation_300000492,
+           Sublimation_300000493,
+           Sublimation_300000494,
+           Sublimation_300000495,
+           Sublimation_300000496,
+           Sublimation_300000497,
+           Sublimation_300000498,
+           Sublimation_300000499,
+           Sublimation_300000500,
+           Sublimation_300000501,
+           Sublimation_300000502,
+           Sublimation_300000503,
+           Sublimation_300000504,
+           Sublimation_300000505,
+           Sublimation_300000506,
+           Sublimation_300000507,
+           Sublimation_300000508,
+           Sublimation_300000509,
+           Sublimation_300000510,
+           Sublimation_300000511,
+           Sublimation_300000512,
+           Sublimation_300000513,
+           Sublimation_300000514,
+           Sublimation_300000515,
+           Sublimation_300000516,
+           Sublimation_300000517,
+           Sublimation_300000518,
+           Sublimation_300000519,
+           Sublimation_300000520,
+           Sublimation_300000521,
+           Sublimation_300000522,
+           Sublimation_300000523,
+           Sublimation_300000524,
+           Sublimation_300000525,
+           Sublimation_300000526,
+           Sublimation_300000527,
+           Sublimation_300000528,
+           Sublimation_300000529,
+           Sublimation_300000530,
+           Sublimation_300000531,
+           Sublimation_300000532,
+           Sublimation_300000533,
+           Sublimation_300000534,
+           Sublimation_300000535,
+           Sublimation_300000536,
+           Sublimation_300000537,
+           Sublimation_300000538,
+           Sublimation_300000539,
+           Sublimation_300000540,
+           Sublimation_300000541,
+           Sublimation_300000542,
+           Sublimation_300000543,
+           Sublimation_300000544,
+           Sublimation_300000545,
+           Sublimation_300000546,
+           Sublimation_300000547,
+           Sublimation_300000548,
+           Sublimation_300000549,
+           Sublimation_300000550,
+           Sublimation_300000551,
+           Sublimation_300000552,
+           Sublimation_300000553,
+           Sublimation_300000554,
+           Sublimation_300000555,
+           Sublimation_300000556,
+           Sublimation_300000557,
+           Sublimation_300000558,
+           Sublimation_300000559,
+           Sublimation_300000560,
+           Sublimation_300000561,
+           Sublimation_300000562,
+           Sublimation_300000563,
+           Sublimation_300000564,
+           Sublimation_300000565,
+           Sublimation_300000566,
            Sublimation_301301001,
            Sublimation_301301002,
            Sublimation_302601001,
@@ -5200,6 +5808,86 @@ namespace BraveHaxvius.Data
            Sublimation_912669002,
            Sublimation_912673001,
            Sublimation_912673002,
+           Sublimation_914232001,
+           Sublimation_914232002,
+           Sublimation_914232003,
+           Sublimation_914232004,
+           Sublimation_914244001,
+           Sublimation_914244002,
+           Sublimation_914244003,
+           Sublimation_914244004,
+           Sublimation_914265001,
+           Sublimation_914265002,
+           Sublimation_914265003,
+           Sublimation_914265004,
+           Sublimation_914291001,
+           Sublimation_914291002,
+           Sublimation_914291003,
+           Sublimation_914291004,
+           Sublimation_914300001,
+           Sublimation_914300002,
+           Sublimation_914300003,
+           Sublimation_914300004,
+           Sublimation_914317001,
+           Sublimation_914317002,
+           Sublimation_914317003,
+           Sublimation_914317004,
+           Sublimation_914322001,
+           Sublimation_914322002,
+           Sublimation_914322003,
+           Sublimation_914322004,
+           Sublimation_914386001,
+           Sublimation_914386002,
+           Sublimation_914386003,
+           Sublimation_914386004,
+           Sublimation_914396001,
+           Sublimation_914396002,
+           Sublimation_914396003,
+           Sublimation_914396004,
+           Sublimation_914416001,
+           Sublimation_914416002,
+           Sublimation_914416003,
+           Sublimation_914416004,
+           Sublimation_914431001,
+           Sublimation_914431002,
+           Sublimation_914431003,
+           Sublimation_914431004,
+           Sublimation_914442001,
+           Sublimation_914442002,
+           Sublimation_914442003,
+           Sublimation_914442004,
+           Sublimation_914451001,
+           Sublimation_914451002,
+           Sublimation_914451003,
+           Sublimation_914451004,
+           Sublimation_914459001,
+           Sublimation_914459002,
+           Sublimation_914459003,
+           Sublimation_914459004,
+           Sublimation_914471001,
+           Sublimation_914471002,
+           Sublimation_914471003,
+           Sublimation_914471004,
+           Sublimation_914482001,
+           Sublimation_914482002,
+           Sublimation_914482003,
+           Sublimation_914482004,
+           Sublimation_914487001,
+           Sublimation_914487002,
+           Sublimation_914487003,
+           Sublimation_914487004,
+           Sublimation_914492001,
+           Sublimation_914492002,
+           Sublimation_914492003,
+           Sublimation_914492004,
+           Sublimation_914507001,
+           Sublimation_914507002,
+           Sublimation_914507003,
+           Sublimation_914507004,
+           Sublimation_914518001,
+           Sublimation_914518002,
+           Sublimation_914518003,
+           Sublimation_914518004,
 		};
     }
 }
