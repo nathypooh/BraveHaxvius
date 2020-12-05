@@ -11,16 +11,16 @@ namespace BraveHaxvius
 {
     public class BraveExvius
     {
-        public String AppVersion { get; set; } = "1106";
+        public String AppVersion { get; set; } = "1113";
         public String RscVersion { get; set; } = "0";
-        public String MstVersion { get; set; } = "22226";
+        public String MstVersion { get; set; } = "2706";
         public String Device { get; set; } = "iPhone8,2";
         //public String Device { get; set; } = "XT890";
         //public String Device { get; set; } = "SM-E7000";
         public String OperatingSystem { get; set; } = "ios13.4.1";
         //public String OperatingSystem { get; set; } = "android4.4.2";
         public String Locale { get; set; } = "US";
-        public String BuildVersion { get { return Locale == "JP" ? "ver.2.9.3" : "ver.5010"; } }
+        public String BuildVersion { get { return Locale == "JP" ? "ver.2.9.3" : "ver.5210"; } }
         public String UserName { get; set; }
         public String UserId { get; set; }
         public String Password { get; set; }
@@ -790,13 +790,17 @@ namespace BraveHaxvius
                     {
                         if (enemy[dropType] != null && enemy[dropType].ToString().Length > 0)
                         {
-                            var parts = enemy[dropType].ToString().Split(new char[1] { ':' }, StringSplitOptions.RemoveEmptyEntries);
-                            var id = parts[1];
-                            var count = UInt16.Parse(parts[2]);
-                            if (itemCount.ContainsKey(id))
-                                itemCount[id] += count;
-                            else
-                                itemCount.Add(id, count);
+                            var items = enemy[dropType].ToString().Split(new char[1] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                            foreach (var item in items)
+                            {
+                                var parts = item.ToString().Split(new char[1] { ':' }, StringSplitOptions.RemoveEmptyEntries);
+                                var id = parts[1];
+                                var count = UInt16.Parse(parts[2]);
+                                if (itemCount.ContainsKey(id))
+                                    itemCount[id] += count;
+                                else
+                                    itemCount.Add(id, count);
+                            }
                         }
                     }
                     if (enemy[Variable.MonsterUnitDrops] != null && enemy[Variable.MonsterUnitDrops].ToString().Length > 0)
