@@ -1,4 +1,4 @@
-//MST_MATERIA_NAME_504237725^Rookie Knight of Grandshelt^Rookie Knight of Grandshelt---VersionControl
+//MST_MATERIA_NAME_504238394^Treasure Hunter's Knowledge^Treasure Hunter's Knowledge---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -968,7 +968,17 @@ namespace BraveHaxvius.Data
         public static readonly Materia SurgingMalice_504237410 = new Materia { Name = "Surging Malice", MateriaId = "504237410", Description = "おんねんが渦巻く", CountId = "2152004", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237410", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000043", BitNumber = "1191"};
         public static readonly Materia GrudgePower_504237411 = new Materia { Name = "Grudge Power", MateriaId = "504237411", Description = "うらみのパワー", CountId = "2290009", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237411", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1192"};
         public static readonly Materia RookieKnightofGrandshelt_504237725 = new Materia { Name = "Rookie Knight of Grandshelt", MateriaId = "504237725", Description = "グランシェルトの新人騎士", CountId = "2113266", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237725", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1204"};
+        public static readonly Materia InnateTalent_5042380520 = new Materia { Name = "Innate Talent", MateriaId = "504238052", Description = "天性の画才", CountId = "2112077", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238052", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1211"};
+        public static readonly Materia PursuingtheMysteriesofMonsters_5042380541 = new Materia { Name = "Pursuing the Mysteries of Monsters", MateriaId = "504238054", Description = "モンスターの謎を追う者", CountId = "2115741", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238054", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1212"};
+        public static readonly Materia ATinyLightofHope_5042380502 = new Materia { Name = "A Tiny Light of Hope", MateriaId = "504238050", Description = "「希望」と言う名の一粒の光", CountId = "2115740", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238050", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1210"};
+        public static readonly Materia EsperMediation_5042380593 = new Materia { Name = "Esper Mediation", MateriaId = "504238059", Description = "幻獣との和解", CountId = "2115742", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238059", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1213"};
+        public static readonly Materia ThePoweroftheStatues_5042380604 = new Materia { Name = "The Power of the Statues", MateriaId = "504238060", Description = "三闘神の像に宿りし力", CountId = "2115743", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238060", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1214"};
+        public static readonly Materia ItJustMaySaveUs_5042383925 = new Materia { Name = "It Just May Save Us", MateriaId = "504238392", Description = "また夢を見させてもらうぜ", CountId = "2155620", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238392", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1220"};
+        public static readonly Materia MiracleinKohlingen_5042383906 = new Materia { Name = "Miracle in Kohlingen", MateriaId = "504238390", Description = "コーリンゲンの奇跡", CountId = "2113269", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238390", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1219"};
+        public static readonly Materia TopNotchCardistry_5042383957 = new Materia { Name = "Top-Notch Cardistry", MateriaId = "504238395", Description = "一流のカードさばき", CountId = "2155640", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238395", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1222"};
+        public static readonly Materia TreasureHuntersKnowledge_5042383948 = new Materia { Name = "Treasure Hunter's Knowledge", MateriaId = "504238394", Description = "トレジャーハンターの心得", CountId = "2155630", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238394", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1221"};
 /*VersionControldefinitions*/
+
 
 
 
@@ -1945,7 +1955,17 @@ namespace BraveHaxvius.Data
            SurgingMalice_504237410,
            GrudgePower_504237411,
            RookieKnightofGrandshelt_504237725,
+           InnateTalent_5042380520,
+           PursuingtheMysteriesofMonsters_5042380541,
+           ATinyLightofHope_5042380502,
+           EsperMediation_5042380593,
+           ThePoweroftheStatues_5042380604,
+           ItJustMaySaveUs_5042383925,
+           MiracleinKohlingen_5042383906,
+           TopNotchCardistry_5042383957,
+           TreasureHuntersKnowledge_5042383948,
 /*VersionControldefinitionsList*/
+
 
 
 

@@ -1,4 +1,4 @@
-//MST_RECIPEBOOK_NAME_903021130^Peacekeeper Special++^Peacekeeper Special++---VersionControl
+//MST_RECIPEBOOK_NAME_904004070^Locke's Bandana^Locke's Bandana---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -867,7 +867,15 @@ namespace BraveHaxvius.Data
         public static readonly Recipe PeacekeeperSpecial_904004010 = new Recipe { Name = "Peacekeeper Special", RecipeBookId = "904004010", Description = "ピースキーパー・スペシャル", CountId = "719", Gil = "7200"};
         public static readonly Recipe PeacekeeperSpecial_903021120 = new Recipe { Name = "Peacekeeper Special+", RecipeBookId = "903021120", Description = "真・ピースキーパー・スペシャル", CountId = "720", Gil = "18000"};
         public static readonly Recipe PeacekeeperSpecial_903021130 = new Recipe { Name = "Peacekeeper Special++", RecipeBookId = "903021130", Description = "絶・ピースキーパー・スペシャル", CountId = "721", Gil = "36000"};
+        public static readonly Recipe RelmsHat_9030211500 = new Recipe { Name = "Relm's Hat+", RecipeBookId = "903021150", Description = "リルムの帽子+", CountId = "727", Gil = "7500"};
+        public static readonly Recipe HolyRod_9030211401 = new Recipe { Name = "Holy Rod+", RecipeBookId = "903021140", Description = "ホーリーロッド+", CountId = "726", Gil = "21000"};
+        public static readonly Recipe MementoRing_9030211602 = new Recipe { Name = "Memento Ring+", RecipeBookId = "903021160", Description = "かたみのゆびわ+", CountId = "728", Gil = "30000"};
+        public static readonly Recipe Darts_9040040803 = new Recipe { Name = "Darts", RecipeBookId = "904004080", Description = "ダーツ", CountId = "733", Gil = "15000"};
+        public static readonly Recipe SetzersArmguard_9040041004 = new Recipe { Name = "Setzer's Armguard", RecipeBookId = "904004100", Description = "セッツァーのアームガード", CountId = "735", Gil = "6000"};
+        public static readonly Recipe LockesBoots_9040040905 = new Recipe { Name = "Locke's Boots", RecipeBookId = "904004090", Description = "ロックのブーツ", CountId = "734", Gil = "6000"};
+        public static readonly Recipe LockesBandana_9040040706 = new Recipe { Name = "Locke's Bandana", RecipeBookId = "904004070", Description = "ロックのバンダナ", CountId = "732", Gil = "15000"};
 /*VersionControldefinitions*/
+
 		public static readonly List<Recipe> Recipes = new List<Recipe>
 		{
            Potion,
@@ -1725,6 +1733,14 @@ namespace BraveHaxvius.Data
            PeacekeeperSpecial_904004010,
            PeacekeeperSpecial_903021120,
            PeacekeeperSpecial_903021130,
-/*VersionControldefinitionsList*/		};
+           RelmsHat_9030211500,
+           HolyRod_9030211401,
+           MementoRing_9030211602,
+           Darts_9040040803,
+           SetzersArmguard_9040041004,
+           LockesBoots_9040040905,
+           LockesBandana_9040040706,
+/*VersionControldefinitionsList*/
+		};
     }
 }

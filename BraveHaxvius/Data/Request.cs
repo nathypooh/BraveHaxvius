@@ -73,6 +73,7 @@ namespace BraveHaxvius.Data
         public static readonly Request GetBackgroundDownloadInfo = new Request { Name = "GetBackgroundDownloadInfo", Url = "action", EncodeKey = "Z1krd75o", RequestID = "lEHBdOEf"};
         public static readonly Request GetReinforcementInfo = new Request { Name = "GetReinforcementInfo", Url = "hXMoLwgE", EncodeKey = "87khNMou", RequestID = "AJhnI37s"};
         public static readonly Request GetTitleInfo = new Request { Name = "GetTitleInfo", Url = "BbIeq31M", EncodeKey = "Mw56RNZ2", RequestID = "ocP3A1FI"};
+        public static readonly Request GetUserInfo3 = new Request { Name = "GetUserInfo3", Url = "lZXr14iy", EncodeKey = "0Dn4hbWC", RequestID = "4rjw5pnv"};
         public static readonly Request GetUserInfo2 = new Request { Name = "GetUserInfo2", Url = "7KZ4Wvuw", EncodeKey = "7VNRi6Dk", RequestID = "2eK5Vkr8"};
         public static readonly Request GetUserInfo = new Request { Name = "GetUserInfo", Url = "u7sHDCg4", EncodeKey = "rcsq2eG7", RequestID = "X07iYtp5"};
         public static readonly Request GiftUpdate = new Request { Name = "GiftUpdate", Url = "noN8I0UK", EncodeKey = "xLEtf78b", RequestID = "9KN5rcwj"};
@@ -257,6 +258,7 @@ namespace BraveHaxvius.Data
            GetBackgroundDownloadInfo,
            GetReinforcementInfo,
            GetTitleInfo,
+           GetUserInfo3,
            GetUserInfo2,
            GetUserInfo,
            GiftUpdate,
