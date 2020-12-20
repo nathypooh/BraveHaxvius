@@ -306,7 +306,7 @@ namespace BraveHaxvius.Data
                 if (!variable.Equals(default(KeyValuePair<String, String>)))
                 {
                     members.Add(variable.Value, variable.Key);
-                    if (idKey == "" && translation.Replace("_", "").ToLower().Contains(variable.Value.Replace("Id", "").Replace("_", "").ToLower()))
+                    if (idKey == "" && translation.Replace("_", "").ToLower().Contains(variable.Value.ToLower().Replace("id", "").Replace("_", "")))
                          {
                         idKey = variable.Key;
                         idvalue = variable.Value;
@@ -321,10 +321,12 @@ namespace BraveHaxvius.Data
             Logger.Out($"{t} {className}.cs,  Adding {translations.Count}");
             if (translations.Count < 1)
                 return;
-
+            var tmpList = JsonConvert.SerializeObject(Type.GetType($"BraveHaxvius.Data.{className}, BraveHaxvius")?.GetField($"{className}s")?.GetValue(null) ?? "").ToLower() ;
             foreach (var line in translations)
             {
                 var id = line.Split(new char[1] { '^' })[0].Split(new char[1] { '_' }).Last();
+                if (tmpList.Contains($"{className.ToLower()}id\":\"{id}") == true)
+                    continue;
                 var name = line.Split(new char[1] { '^' })[1]?.Replace("\"", "");
                 //Console.WriteLine(translations.IndexOf(line));
                 var varName = new StringBuilder();
