@@ -182,8 +182,8 @@ namespace BraveHaxvius
         }
         public Boolean CompletedSwitch(String switchId)
         {
-            var uniqueSwitch = Switch.Switchs.First(s => s.SwitchId == switchId);
-            if (GetUserInfo == null)
+            var uniqueSwitch = Switch.Switchs.FirstOrDefault(s => s.SwitchId == switchId);
+            if (uniqueSwitch == null || GetUserInfo == null)
                 return true;
             var switches = GetUserInfo[GameObject.UserSwitchInfo_8J1R5PXG];
             var switchBits = switches.First(s => s[Variable.SwitchType].ToString() == uniqueSwitch.SwitchType)[Variable.RequiredSwitchId].ToString();
