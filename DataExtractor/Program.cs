@@ -321,11 +321,12 @@ namespace BraveHaxvius.Data
             Logger.Out($"{t} {className}.cs,  Adding {translations.Count}");
             if (translations.Count < 1)
                 return;
-            var tmpList = JsonConvert.SerializeObject(Type.GetType($"BraveHaxvius.Data.{className}, BraveHaxvius")?.GetField($"{className}s")?.GetValue(null) ?? "").ToLower() ;
+            //var tmpList = JsonConvert.SerializeObject(Type.GetType($"BraveHaxvius.Data.{className}, BraveHaxvius")?.GetField($"{className}s")?.GetValue(null) ?? "").ToLower() ;
             foreach (var line in translations)
             {
                 var id = line.Split(new char[1] { '^' })[0].Split(new char[1] { '_' }).Last();
-                if (tmpList.Contains($"{className.ToLower()}id\":\"{id}") == true)
+                Regex tmpRegEx = new Regex($"(.*{className.ToLower()}id.*{id})");
+                if (IsUpdateting && tmpRegEx.IsMatch(text.ToLower()))
                     continue;
                 var name = line.Split(new char[1] { '^' })[1]?.Replace("\"", "");
                 //Console.WriteLine(translations.IndexOf(line));
