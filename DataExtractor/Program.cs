@@ -325,9 +325,8 @@ namespace BraveHaxvius.Data
             foreach (var line in translations)
             {
                 var id = line.Split(new char[1] { '^' })[0].Split(new char[1] { '_' }).Last();
-                Regex tmpRegEx = new Regex($"(.*{className.ToLower()}id.*{id})");
-                if (IsUpdateting && tmpRegEx.IsMatch(text.ToLower()))
-                    continue;
+                if (text.ToLower().Contains($"{className.ToLower()}id\":\"{id}") == true)
+			continue;
                 var name = line.Split(new char[1] { '^' })[1]?.Replace("\"", "");
                 //Console.WriteLine(translations.IndexOf(line));
                 var varName = new StringBuilder();
