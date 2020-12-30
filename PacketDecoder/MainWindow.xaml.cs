@@ -134,7 +134,7 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey) ;
+                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false) ;
                         if (decryptedJson.Contains(""))
                         {
                         }
@@ -174,7 +174,7 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey);
+                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false);
                     }
                 }
             }
@@ -211,7 +211,7 @@ namespace PacketDecoder
                 request = Request.Requests.First(r => r.RequestID == json[GameObject.Header][Variable.RequestID].ToString());
                 var encryptedObject = json[Variable.Encrypted];
                 var encryptedData = encryptedObject[Variable.Data].Value;
-                var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey);
+                var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false);
                 var sendpacket = new Packet
                 {
                     Time = time,
@@ -240,7 +240,7 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey); var recievepacket = new Packet
+                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false); var recievepacket = new Packet
                         {
                             Time = time,
                             Num = packetCount++,

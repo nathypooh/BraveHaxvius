@@ -29,22 +29,23 @@ namespace BraveHaxvius
                 return encrypt ? Convert.ToBase64String(memoryStream.ToArray()) : Encoding.UTF8.GetString(memoryStream.ToArray());
             }
         }
-        public static String NewCryto(String data, String key)
+        public static String NewCryto(String data, String key, Boolean encrypt)
         {
+            string Padding(string a) => a.PadRight(a.Length + (16 - a.Length % 16), (char)(16 - a.Length % 16));
+            string UnPadding(string a) => a.TrimEnd((char)a[a.Length - 1]);
             string iv = "dZMjkk8gFDzKHlsx";
             var ivBytes = Encoding.UTF8.GetBytes(iv);
 
             var keyBytes = new Byte[16];
             Array.Copy(Encoding.UTF8.GetBytes(key), keyBytes, key.Length);
             var aes = new AesManaged { Mode = CipherMode.CBC, Key = keyBytes, IV = ivBytes };
-            Byte[] uncryptedBytes = Convert.FromBase64String(data);
-            ICryptoTransform transform = aes.CreateDecryptor();
+            Byte[] uncryptedBytes = encrypt ? Encoding.UTF8.GetBytes(Padding(data)) : Convert.FromBase64String(data);
+            ICryptoTransform transform = encrypt ? aes.CreateEncryptor() : aes.CreateDecryptor();
             using (MemoryStream memoryStream = new MemoryStream())
             {
                 using (CryptoStream cryptoStream = new CryptoStream(memoryStream, transform, CryptoStreamMode.Write))
                     cryptoStream.Write(uncryptedBytes, 0, uncryptedBytes.Length);
-                var tmp = Encoding.UTF8.GetString(memoryStream.ToArray());
-                return tmp.Substring(0, 1 + tmp.LastIndexOf("}"));
+                return encrypt ? Convert.ToBase64String(memoryStream.ToArray()) : UnPadding(Encoding.UTF8.GetString(memoryStream.ToArray()));
             }
         }
     }
