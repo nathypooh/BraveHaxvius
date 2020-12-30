@@ -31,9 +31,9 @@ namespace BraveHaxvius
         }
         public static String NewCryto(String data, String key, Boolean encrypt)
         {
-            string Padding(string a) => a.PadRight(a.Length + (16 - a.Length % 16), (char)(16 - a.Length % 16));
-            string UnPadding(string a) => a.TrimEnd((char)a[a.Length - 1]);
+            string Padding(string a) => encrypt ? a.PadRight(a.Length + (16 - a.Length % 16), (char)(16 - a.Length % 16)): a.TrimEnd((char)a[a.Length - 1]);
             string iv = "dZMjkk8gFDzKHlsx";
+            Console.WriteLine(data.Length % 16);
             var ivBytes = Encoding.UTF8.GetBytes(iv);
 
             var keyBytes = new Byte[16];
@@ -45,7 +45,7 @@ namespace BraveHaxvius
             {
                 using (CryptoStream cryptoStream = new CryptoStream(memoryStream, transform, CryptoStreamMode.Write))
                     cryptoStream.Write(uncryptedBytes, 0, uncryptedBytes.Length);
-                return encrypt ? Convert.ToBase64String(memoryStream.ToArray()) : UnPadding(Encoding.UTF8.GetString(memoryStream.ToArray()));
+                return encrypt ? Convert.ToBase64String(memoryStream.ToArray()) : Padding(Encoding.UTF8.GetString(memoryStream.ToArray()));
             }
         }
     }
