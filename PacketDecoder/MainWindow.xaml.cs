@@ -18,7 +18,6 @@ namespace PacketDecoder
     public partial class MainWindow
     {
         ObservableCollection<Packet> people = new ObservableCollection<Packet>();
-        private bool UseNewCryto = true;
         public MainWindow()
         {
             InitializeComponent();
@@ -41,15 +40,7 @@ namespace PacketDecoder
             FiddlerApplication.AfterSessionComplete += FiddlerApplication_AfterSessionComplete;
             FiddlerApplication.Startup(8888, true, true, true);
         }
-        private void HandleChecked(object sender, RoutedEventArgs e)
-        {
-            UseNewCryto = true;
-        }
 
-        private void HandleUnchecked(object sender, RoutedEventArgs e)
-        {
-            UseNewCryto = false;
-        }
 
         Boolean installCertificateMessage = false;
         private void CurrentDomain_FirstChanceException(object sender, System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs e)
@@ -134,7 +125,7 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false) ;
+                        var decryptedJson = Crypto.Decrypt(encryptedData, request.EncodeKey) ;
                         if (decryptedJson.Contains(""))
                         {
                         }
@@ -165,7 +156,14 @@ namespace PacketDecoder
             var url = oSession.fullUrl.Substring(oSession.fullUrl.IndexOf("actionSymbol") + 13).Replace(".php", "");
             var request = Request.Requests.First(r => r.Url == url);
             {
-                dynamic json = JsonConvert.DeserializeObject(respBody);
+                dynamic json = null;
+                try
+                {
+                     json = JsonConvert.DeserializeObject(respBody);
+                }
+                catch 
+                {
+                }
                 if (json != null)
                 {
                     try { request = Request.Requests.First(r => r.RequestID == json[GameObject.Header][Variable.RequestID].ToString()); }
@@ -174,7 +172,7 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false);
+                        var decryptedJson =  Crypto.Decrypt(encryptedData, request.EncodeKey) ;
                     }
                 }
             }
@@ -211,7 +209,7 @@ namespace PacketDecoder
                 request = Request.Requests.First(r => r.RequestID == json[GameObject.Header][Variable.RequestID].ToString());
                 var encryptedObject = json[Variable.Encrypted];
                 var encryptedData = encryptedObject[Variable.Data].Value;
-                var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false);
+                var decryptedJson = Crypto.Decrypt(encryptedData, request.EncodeKey) ;
                 var sendpacket = new Packet
                 {
                     Time = time,
@@ -240,7 +238,8 @@ namespace PacketDecoder
                     if (encryptedObject != null)
                     {
                         var encryptedData = encryptedObject[Variable.Data].Value;
-                        var decryptedJson = !UseNewCryto ? Crypto.Decrypt(encryptedData, request.EncodeKey) : Crypto.NewCryto(encryptedData, request.EncodeKey,false); var recievepacket = new Packet
+                        var decryptedJson =  Crypto.Decrypt(encryptedData, request.EncodeKey);
+                        var recievepacket = new Packet
                         {
                             Time = time,
                             Num = packetCount++,

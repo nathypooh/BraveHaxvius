@@ -20,7 +20,6 @@ namespace BraveHaxvius
         {
             string Padding(string a) => encrypt ? a.PadRight(a.Length + (16 - a.Length % 16), (char)(16 - a.Length % 16)): a.TrimEnd((char)a[a.Length - 1]);
             string iv = "dZMjkk8gFDzKHlsx";
-            Console.WriteLine(data.Length % 16);
             var ivBytes = Encoding.UTF8.GetBytes(iv);
 
             var keyBytes = new Byte[16];
