@@ -54,7 +54,8 @@ namespace BraveHaxvius
                 new JProperty(GameObject.Header,
                     new JObject(
                         new JProperty(Variable.Milliseconds, ((int)((DateTime.UtcNow - System.Diagnostics.Process.GetCurrentProcess().StartTime.ToUniversalTime()).TotalMilliseconds)).ToString()),
-                        new JProperty(Variable.RequestID, requestID))),
+                        new JProperty(Variable.RequestID, requestID),
+                        new JProperty("9K0Pzcpd", client.AppVersion))),
                 new JProperty(Variable.Encrypted,
                     new JObject(
                         new JProperty(Variable.Data, encryptedData))));
