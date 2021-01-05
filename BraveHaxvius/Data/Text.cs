@@ -3430,6 +3430,15 @@ namespace BraveHaxvius.Data
            {"EXPLAIN_REWARD_1099", "Here are today's login rewards, kupo!"},
            {"PARADE_DUNGEON_BLACKLISTED_TEMPORARY", "You have been blacklisted temporarily. Your score will not be recorded and ranked for this season.<br><br>Should you get reported for another foul play, you will no longer be able to participate in the event.<br><br>For any enquiries, please contact Game Support."},
            {"PARADE_DUNGEON_BLACKLISTED_PERMANENT", "You are permanently blacklisted. Your score will not be recorded and ranked.<br><br>For any enquiries, please contact Game Support."},
+           {"LOGIN_BONUS_SPECIAL_MAIL_TITLE_1100", "Snowy Season Login Bonus"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_MSG_1100", "Snowy Season Daily Rewards"},
+           {"EXPLAIN_REWARD_1100", "Here are today's login rewards, kupo!"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_TITLE_1101", "Starting Anew Login Bonus"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_MSG_1101", "Starting Anew Daily Rewards"},
+           {"EXPLAIN_REWARD_1101", "Here are today's login rewards, kupo!"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_TITLE_1102", "Jammin' January Login Bonus"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_MSG_1102", "Jammin' January Daily Rewards"},
+           {"EXPLAIN_REWARD_1102", "Here are today's login rewards, kupo!"},
 		};
     }
 }

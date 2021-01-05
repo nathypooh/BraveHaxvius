@@ -1,4 +1,4 @@
-//MST_RECIPEBOOK_NAME_904004070^Locke's Bandana^Locke's Bandana---VersionControl
+//MST_RECIPEBOOK_NAME_1000000194^Snowgriever++^Snowgriever++---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -867,15 +867,41 @@ namespace BraveHaxvius.Data
         public static readonly Recipe PeacekeeperSpecial_904004010 = new Recipe { Name = "Peacekeeper Special", RecipeBookId = "904004010", Description = "ピースキーパー・スペシャル", CountId = "719", Gil = "7200"};
         public static readonly Recipe PeacekeeperSpecial_903021120 = new Recipe { Name = "Peacekeeper Special+", RecipeBookId = "903021120", Description = "真・ピースキーパー・スペシャル", CountId = "720", Gil = "18000"};
         public static readonly Recipe PeacekeeperSpecial_903021130 = new Recipe { Name = "Peacekeeper Special++", RecipeBookId = "903021130", Description = "絶・ピースキーパー・スペシャル", CountId = "721", Gil = "36000"};
-        public static readonly Recipe RelmsHat_9030211500 = new Recipe { Name = "Relm's Hat+", RecipeBookId = "903021150", Description = "リルムの帽子+", CountId = "727", Gil = "7500"};
-        public static readonly Recipe HolyRod_9030211401 = new Recipe { Name = "Holy Rod+", RecipeBookId = "903021140", Description = "ホーリーロッド+", CountId = "726", Gil = "21000"};
-        public static readonly Recipe MementoRing_9030211602 = new Recipe { Name = "Memento Ring+", RecipeBookId = "903021160", Description = "かたみのゆびわ+", CountId = "728", Gil = "30000"};
-        public static readonly Recipe Darts_9040040803 = new Recipe { Name = "Darts", RecipeBookId = "904004080", Description = "ダーツ", CountId = "733", Gil = "15000"};
-        public static readonly Recipe SetzersArmguard_9040041004 = new Recipe { Name = "Setzer's Armguard", RecipeBookId = "904004100", Description = "セッツァーのアームガード", CountId = "735", Gil = "6000"};
-        public static readonly Recipe LockesBoots_9040040905 = new Recipe { Name = "Locke's Boots", RecipeBookId = "904004090", Description = "ロックのブーツ", CountId = "734", Gil = "6000"};
-        public static readonly Recipe LockesBandana_9040040706 = new Recipe { Name = "Locke's Bandana", RecipeBookId = "904004070", Description = "ロックのバンダナ", CountId = "732", Gil = "15000"};
+        public static readonly Recipe RelmsHat_903021150 = new Recipe { Name = "Relm's Hat+", RecipeBookId = "903021150", Description = "リルムの帽子+", CountId = "727", Gil = "7500"};
+        public static readonly Recipe HolyRod_903021140 = new Recipe { Name = "Holy Rod+", RecipeBookId = "903021140", Description = "ホーリーロッド+", CountId = "726", Gil = "21000"};
+        public static readonly Recipe MementoRing_903021160 = new Recipe { Name = "Memento Ring+", RecipeBookId = "903021160", Description = "かたみのゆびわ+", CountId = "728", Gil = "30000"};
+        public static readonly Recipe Darts_904004080 = new Recipe { Name = "Darts", RecipeBookId = "904004080", Description = "ダーツ", CountId = "733", Gil = "15000"};
+        public static readonly Recipe SetzersArmguard_904004100 = new Recipe { Name = "Setzer's Armguard", RecipeBookId = "904004100", Description = "セッツァーのアームガード", CountId = "735", Gil = "6000"};
+        public static readonly Recipe LockesBoots_904004090 = new Recipe { Name = "Locke's Boots", RecipeBookId = "904004090", Description = "ロックのブーツ", CountId = "734", Gil = "6000"};
+        public static readonly Recipe LockesBandana_904004070 = new Recipe { Name = "Locke's Bandana", RecipeBookId = "904004070", Description = "ロックのバンダナ", CountId = "732", Gil = "15000"};
+        public static readonly Recipe BagOToys_1000000195 = new Recipe { Name = "Bag O'Toys+", RecipeBookId = "1000000195", Description = "Bag O Toys+", CountId = "90205", Gil = "0"};
+        public static readonly Recipe SkullPlate_1000000196 = new Recipe { Name = "Skull Plate+", RecipeBookId = "1000000196", Description = "Skull Plate+", CountId = "90206", Gil = "0"};
+        public static readonly Recipe GlimmeringPlasticJewel_1000000197 = new Recipe { Name = "Glimmering Plastic Jewel", RecipeBookId = "1000000197", Description = "Glimmering Plastic Jewel", CountId = "90207", Gil = "0"};
+        public static readonly Recipe DarkRisingSun_903020910 = new Recipe { Name = "Dark Rising Sun (2★)", RecipeBookId = "903020910", Description = "??????????(?2)", CountId = "698", Gil = "120"};
+        public static readonly Recipe DarkRisingSun_903020920 = new Recipe { Name = "Dark Rising Sun (3★)", RecipeBookId = "903020920", Description = "??????????(?3)", CountId = "699", Gil = "300"};
+        public static readonly Recipe DarkRisingSun_903020930 = new Recipe { Name = "Dark Rising Sun (4★)", RecipeBookId = "903020930", Description = "??????????(?4)", CountId = "700", Gil = "900"};
+        public static readonly Recipe DarkRisingSun_903020940 = new Recipe { Name = "Dark Rising Sun (5★)", RecipeBookId = "903020940", Description = "??????????(?5)", CountId = "701", Gil = "3000"};
+        public static readonly Recipe DarkRisingSun_903020950 = new Recipe { Name = "Dark Rising Sun+ (6★)", RecipeBookId = "903020950", Description = "???????????(?6)", CountId = "702", Gil = "6000"};
+        public static readonly Recipe DarkRisingSun_903020960 = new Recipe { Name = "Dark Rising Sun+ (7★)", RecipeBookId = "903020960", Description = "???????????(?7)", CountId = "703", Gil = "15000"};
+        public static readonly Recipe DarkRisingSun_903020970 = new Recipe { Name = "Dark Rising Sun+ (8★)", RecipeBookId = "903020970", Description = "???????????(?8)", CountId = "704", Gil = "30000"};
+        public static readonly Recipe DarkRisingSun_903020980 = new Recipe { Name = "Dark Rising Sun+ (9★)", RecipeBookId = "903020980", Description = "???????????(?9)", CountId = "705", Gil = "60000"};
+        public static readonly Recipe DarkRisingSun_903020990 = new Recipe { Name = "Dark Rising Sun++ (10★)", RecipeBookId = "903020990", Description = "?ｷ??????????(?10)", CountId = "706", Gil = "120000"};
+        public static readonly Recipe DarkKaiserKnuckle_903021000 = new Recipe { Name = "Dark Kaiser Knuckle (2★)", RecipeBookId = "903021000", Description = "???????????(?2)", CountId = "707", Gil = "120"};
+        public static readonly Recipe DarkKaiserKnuckle_903021010 = new Recipe { Name = "Dark Kaiser Knuckle (3★)", RecipeBookId = "903021010", Description = "???????????(?3)", CountId = "708", Gil = "300"};
+        public static readonly Recipe DarkKaiserKnuckle_903021020 = new Recipe { Name = "Dark Kaiser Knuckle (4★)", RecipeBookId = "903021020", Description = "???????????(?4)", CountId = "709", Gil = "900"};
+        public static readonly Recipe DarkKaiserKnuckle_903021030 = new Recipe { Name = "Dark Kaiser Knuckle (5★)", RecipeBookId = "903021030", Description = "???????????(?5)", CountId = "710", Gil = "3000"};
+        public static readonly Recipe DarkKaiserKnuckle_903021040 = new Recipe { Name = "Dark Kaiser Knuckle+ (6★)", RecipeBookId = "903021040", Description = "????????????(?6)", CountId = "711", Gil = "6000"};
+        public static readonly Recipe DarkKaiserKnuckle_903021050 = new Recipe { Name = "Dark Kaiser Knuckle+ (7★)", RecipeBookId = "903021050", Description = "????????????(?7)", CountId = "712", Gil = "15000"};
+        public static readonly Recipe DarkKaiserKnuckle_903021060 = new Recipe { Name = "Dark Kaiser Knuckle+ (8★)", RecipeBookId = "903021060", Description = "????????????(?8)", CountId = "713", Gil = "30000"};
+        public static readonly Recipe DarkKaiserKnuckle_903021070 = new Recipe { Name = "Dark Kaiser Knuckle+ (9★)", RecipeBookId = "903021070", Description = "????????????(?9)", CountId = "714", Gil = "60000"};
+        public static readonly Recipe DarkKaiserKnuckle_903021080 = new Recipe { Name = "Dark Kaiser Knuckle++ (10★)", RecipeBookId = "903021080", Description = "?ｷ???????????(?10)", CountId = "715", Gil = "120000"};
+        public static readonly Recipe ElvenPendant_1000000189 = new Recipe { Name = "Elven Pendant+", RecipeBookId = "1000000189", Description = "Elven Pendant+", CountId = "90199", Gil = "0"};
+        public static readonly Recipe ElvenPendant_1000000190 = new Recipe { Name = "Elven Pendant++", RecipeBookId = "1000000190", Description = "Elven Pendant++", CountId = "90200", Gil = "0"};
+        public static readonly Recipe ElvenRing_1000000191 = new Recipe { Name = "Elven Ring+", RecipeBookId = "1000000191", Description = "Elven Ring+", CountId = "90201", Gil = "0"};
+        public static readonly Recipe ElvenRing_1000000192 = new Recipe { Name = "Elven Ring++", RecipeBookId = "1000000192", Description = "Elven Ring++", CountId = "90202", Gil = "0"};
+        public static readonly Recipe Snowgriever_1000000193 = new Recipe { Name = "Snowgriever+", RecipeBookId = "1000000193", Description = "Snowgriever+", CountId = "90203", Gil = "0"};
+        public static readonly Recipe Snowgriever_1000000194 = new Recipe { Name = "Snowgriever++", RecipeBookId = "1000000194", Description = "Snowgriever++", CountId = "90204", Gil = "0"};
 /*VersionControldefinitions*/
-
 		public static readonly List<Recipe> Recipes = new List<Recipe>
 		{
            Potion,
@@ -1733,14 +1759,40 @@ namespace BraveHaxvius.Data
            PeacekeeperSpecial_904004010,
            PeacekeeperSpecial_903021120,
            PeacekeeperSpecial_903021130,
-           RelmsHat_9030211500,
-           HolyRod_9030211401,
-           MementoRing_9030211602,
-           Darts_9040040803,
-           SetzersArmguard_9040041004,
-           LockesBoots_9040040905,
-           LockesBandana_9040040706,
-/*VersionControldefinitionsList*/
-		};
+           RelmsHat_903021150,
+           HolyRod_903021140,
+           MementoRing_903021160,
+           Darts_904004080,
+           SetzersArmguard_904004100,
+           LockesBoots_904004090,
+           LockesBandana_904004070,
+           BagOToys_1000000195,
+           SkullPlate_1000000196,
+           GlimmeringPlasticJewel_1000000197,
+           DarkRisingSun_903020910,
+           DarkRisingSun_903020920,
+           DarkRisingSun_903020930,
+           DarkRisingSun_903020940,
+           DarkRisingSun_903020950,
+           DarkRisingSun_903020960,
+           DarkRisingSun_903020970,
+           DarkRisingSun_903020980,
+           DarkRisingSun_903020990,
+           DarkKaiserKnuckle_903021000,
+           DarkKaiserKnuckle_903021010,
+           DarkKaiserKnuckle_903021020,
+           DarkKaiserKnuckle_903021030,
+           DarkKaiserKnuckle_903021040,
+           DarkKaiserKnuckle_903021050,
+           DarkKaiserKnuckle_903021060,
+           DarkKaiserKnuckle_903021070,
+           DarkKaiserKnuckle_903021080,
+           ElvenPendant_1000000189,
+           ElvenPendant_1000000190,
+           ElvenRing_1000000191,
+           ElvenRing_1000000192,
+           Snowgriever_1000000193,
+           Snowgriever_1000000194,
+/*VersionControldefinitionsList*/		};
     }
 }

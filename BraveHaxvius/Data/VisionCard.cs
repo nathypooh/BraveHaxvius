@@ -1,4 +1,4 @@
-//MST_VISION_CARD_NAME_206000201^Separation and Restoration^Separation and Restoration---VersionControl
+//MST_VISION_CARD_NAME_401000501^Sharp Student^Sharp Student---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -54,11 +54,11 @@ namespace BraveHaxvius.Data
         public static readonly VisionCard FacingtheDemonTower_335000201 = new VisionCard { Name = "Facing the Demon Tower", VisionCardID = "335000201", Description = "", Rarity = "1", GameId = "20033", CountId = "20", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "35,110,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "20", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
         public static readonly VisionCard TheKeybladeGraveyardBattle_335000101 = new VisionCard { Name = "The Keyblade Graveyard Battle", VisionCardID = "335000101", Description = "", Rarity = "1", GameId = "20033", CountId = "19", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "50,100,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "19", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
         public static readonly VisionCard ADayintheLifeofPhysalis_100000901 = new VisionCard { Name = "A Day in the Life of Physalis", VisionCardID = "100000901", Description = "", Rarity = "1", GameId = "11001", CountId = "23", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "40,65,0,0", UnitDef = "0,0,0,0", UnitMag = "40,65,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "23", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
-        public static readonly VisionCard BeachBeauties_1000010010 = new VisionCard { Name = "Beach Beauties", VisionCardID = "100001001", Description = "", Rarity = "1", GameId = "11001", CountId = "16", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "50,80,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "16", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
-        public static readonly VisionCard SearchfortheEsper_2060001011 = new VisionCard { Name = "Search for the Esper", VisionCardID = "206000101", Description = "", Rarity = "1", GameId = "10006", CountId = "26", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "50,100,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "26", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
-        public static readonly VisionCard SeparationandRestoration_2060002012 = new VisionCard { Name = "Separation and Restoration", VisionCardID = "206000201", Description = "", Rarity = "1", GameId = "10006", CountId = "29", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "50,100,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "29", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
+        public static readonly VisionCard BeachBeauties_100001001 = new VisionCard { Name = "Beach Beauties", VisionCardID = "100001001", Description = "", Rarity = "1", GameId = "11001", CountId = "16", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "50,80,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "16", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
+        public static readonly VisionCard SearchfortheEsper_206000101 = new VisionCard { Name = "Search for the Esper", VisionCardID = "206000101", Description = "", Rarity = "1", GameId = "10006", CountId = "26", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "0,0,0,0", UnitDef = "0,0,0,0", UnitMag = "50,100,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "26", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
+        public static readonly VisionCard SeparationandRestoration_206000201 = new VisionCard { Name = "Separation and Restoration", VisionCardID = "206000201", Description = "", Rarity = "1", GameId = "10006", CountId = "29", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "50,100,0,0", UnitDef = "0,0,0,0", UnitMag = "0,0,0,0", UnitSpr = "0,0,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "29", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
+        public static readonly VisionCard SharpStudent_401000501 = new VisionCard { Name = "Sharp Student", VisionCardID = "401000501", Description = "", Rarity = "1", GameId = "11001", CountId = "9005", UnitMaxLevel = "10", UnitHp = "0,0,0,0", UnitMp = "0,0,0,0", UnitAtk = "25,50,0,0", UnitDef = "10,25,0,0", UnitMag = "25,50,0,0", UnitSpr = "10,25,0,0", ElementResists = "0,0,0,0,0,0,0,0", StatusResists = "0,0,0,0,0,0,0,0", PhysicalResist = "0", MagicalResist = "0", UnitXpGain = "6000", BitNumber = "9005", IsPotUnit = "0", UnitGilSell = "400", JobId = "909"};
 /*VersionControldefinitions*/
-
 		public static readonly List<VisionCard> VisionCards = new List<VisionCard>
 		{
            MadDash,
@@ -86,10 +86,10 @@ namespace BraveHaxvius.Data
            FacingtheDemonTower_335000201,
            TheKeybladeGraveyardBattle_335000101,
            ADayintheLifeofPhysalis_100000901,
-           BeachBeauties_1000010010,
-           SearchfortheEsper_2060001011,
-           SeparationandRestoration_2060002012,
-/*VersionControldefinitionsList*/
-		};
+           BeachBeauties_100001001,
+           SearchfortheEsper_206000101,
+           SeparationandRestoration_206000201,
+           SharpStudent_401000501,
+/*VersionControldefinitionsList*/		};
     }
 }

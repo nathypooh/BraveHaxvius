@@ -16336,11 +16336,25 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_90002117 = new Switch { SwitchId = "90002117", SwitchType = "710", SwitchBit = "10182"};
         public static readonly Switch Switch_90002118 = new Switch { SwitchId = "90002118", SwitchType = "710", SwitchBit = "10183"};
         public static readonly Switch Switch_90002119 = new Switch { SwitchId = "90002119", SwitchType = "710", SwitchBit = "10184"};
+        public static readonly Switch Switch_90002124 = new Switch { SwitchId = "90002124", SwitchType = "710", SwitchBit = "10192"};
+        public static readonly Switch Switch_90002125 = new Switch { SwitchId = "90002125", SwitchType = "710", SwitchBit = "10193"};
+        public static readonly Switch Switch_90002126 = new Switch { SwitchId = "90002126", SwitchType = "710", SwitchBit = "10194"};
+        public static readonly Switch Switch_90002127 = new Switch { SwitchId = "90002127", SwitchType = "710", SwitchBit = "10195"};
+        public static readonly Switch Switch_90002128 = new Switch { SwitchId = "90002128", SwitchType = "710", SwitchBit = "10196"};
+        public static readonly Switch Switch_90002129 = new Switch { SwitchId = "90002129", SwitchType = "710", SwitchBit = "10197"};
         public static readonly Switch Switch_90002130 = new Switch { SwitchId = "90002130", SwitchType = "101", SwitchBit = "10198"};
         public static readonly Switch Switch_90002131 = new Switch { SwitchId = "90002131", SwitchType = "101", SwitchBit = "10199"};
         public static readonly Switch Switch_90002132 = new Switch { SwitchId = "90002132", SwitchType = "101", SwitchBit = "10200"};
         public static readonly Switch Switch_90002133 = new Switch { SwitchId = "90002133", SwitchType = "101", SwitchBit = "10201"};
         public static readonly Switch Switch_90002134 = new Switch { SwitchId = "90002134", SwitchType = "101", SwitchBit = "10202"};
+        public static readonly Switch Switch_90002138 = new Switch { SwitchId = "90002138", SwitchType = "101", SwitchBit = "10206"};
+        public static readonly Switch Switch_90002139 = new Switch { SwitchId = "90002139", SwitchType = "101", SwitchBit = "10207"};
+        public static readonly Switch Switch_90002140 = new Switch { SwitchId = "90002140", SwitchType = "101", SwitchBit = "10208"};
+        public static readonly Switch Switch_90002141 = new Switch { SwitchId = "90002141", SwitchType = "101", SwitchBit = "10209"};
+        public static readonly Switch Switch_90002142 = new Switch { SwitchId = "90002142", SwitchType = "101", SwitchBit = "10210"};
+        public static readonly Switch Switch_90002143 = new Switch { SwitchId = "90002143", SwitchType = "710", SwitchBit = "10211"};
+        public static readonly Switch Switch_90002144 = new Switch { SwitchId = "90002144", SwitchType = "710", SwitchBit = "10212"};
+        public static readonly Switch Switch_90002145 = new Switch { SwitchId = "90002145", SwitchType = "710", SwitchBit = "10213"};
         public static readonly Switch Switch_90002146 = new Switch { SwitchId = "90002146", SwitchType = "101", SwitchBit = "10214"};
         public static readonly Switch Switch_90002147 = new Switch { SwitchId = "90002147", SwitchType = "101", SwitchBit = "10215"};
         public static readonly Switch Switch_90002148 = new Switch { SwitchId = "90002148", SwitchType = "101", SwitchBit = "10216"};
@@ -16356,6 +16370,36 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_90002158 = new Switch { SwitchId = "90002158", SwitchType = "101", SwitchBit = "10226"};
         public static readonly Switch Switch_90002159 = new Switch { SwitchId = "90002159", SwitchType = "101", SwitchBit = "10227"};
         public static readonly Switch Switch_90002161 = new Switch { SwitchId = "90002161", SwitchType = "101", SwitchBit = "10229"};
+        public static readonly Switch Switch_90002162 = new Switch { SwitchId = "90002162", SwitchType = "101", SwitchBit = "10230"};
+        public static readonly Switch Switch_90002163 = new Switch { SwitchId = "90002163", SwitchType = "101", SwitchBit = "10231"};
+        public static readonly Switch Switch_90002164 = new Switch { SwitchId = "90002164", SwitchType = "101", SwitchBit = "10232"};
+        public static readonly Switch Switch_90002165 = new Switch { SwitchId = "90002165", SwitchType = "101", SwitchBit = "10233"};
+        public static readonly Switch Switch_90002166 = new Switch { SwitchId = "90002166", SwitchType = "101", SwitchBit = "10234"};
+        public static readonly Switch Switch_90002167 = new Switch { SwitchId = "90002167", SwitchType = "101", SwitchBit = "10235"};
+        public static readonly Switch Switch_90002168 = new Switch { SwitchId = "90002168", SwitchType = "101", SwitchBit = "10236"};
+        public static readonly Switch Switch_90002169 = new Switch { SwitchId = "90002169", SwitchType = "101", SwitchBit = "10237"};
+        public static readonly Switch Switch_90002170 = new Switch { SwitchId = "90002170", SwitchType = "101", SwitchBit = "10238"};
+        public static readonly Switch Switch_90002171 = new Switch { SwitchId = "90002171", SwitchType = "101", SwitchBit = "10239"};
+        public static readonly Switch Switch_90002172 = new Switch { SwitchId = "90002172", SwitchType = "101", SwitchBit = "10240"};
+        public static readonly Switch Switch_90002173 = new Switch { SwitchId = "90002173", SwitchType = "101", SwitchBit = "10241"};
+        public static readonly Switch Switch_90002174 = new Switch { SwitchId = "90002174", SwitchType = "101", SwitchBit = "10242"};
+        public static readonly Switch Switch_90002175 = new Switch { SwitchId = "90002175", SwitchType = "101", SwitchBit = "10243"};
+        public static readonly Switch Switch_90002176 = new Switch { SwitchId = "90002176", SwitchType = "101", SwitchBit = "10244"};
+        public static readonly Switch Switch_90002177 = new Switch { SwitchId = "90002177", SwitchType = "101", SwitchBit = "10245"};
+        public static readonly Switch Switch_90002178 = new Switch { SwitchId = "90002178", SwitchType = "101", SwitchBit = "10246"};
+        public static readonly Switch Switch_90002179 = new Switch { SwitchId = "90002179", SwitchType = "101", SwitchBit = "10247"};
+        public static readonly Switch Switch_90002180 = new Switch { SwitchId = "90002180", SwitchType = "101", SwitchBit = "10248"};
+        public static readonly Switch Switch_90002195 = new Switch { SwitchId = "90002195", SwitchType = "101", SwitchBit = "10264"};
+        public static readonly Switch Switch_90002196 = new Switch { SwitchId = "90002196", SwitchType = "101", SwitchBit = "10265"};
+        public static readonly Switch Switch_90002197 = new Switch { SwitchId = "90002197", SwitchType = "101", SwitchBit = "10266"};
+        public static readonly Switch Switch_90002198 = new Switch { SwitchId = "90002198", SwitchType = "101", SwitchBit = "10267"};
+        public static readonly Switch Switch_90002199 = new Switch { SwitchId = "90002199", SwitchType = "101", SwitchBit = "10268"};
+        public static readonly Switch Switch_90002200 = new Switch { SwitchId = "90002200", SwitchType = "101", SwitchBit = "10269"};
+        public static readonly Switch Switch_90002201 = new Switch { SwitchId = "90002201", SwitchType = "101", SwitchBit = "10270"};
+        public static readonly Switch Switch_90002202 = new Switch { SwitchId = "90002202", SwitchType = "101", SwitchBit = "10271"};
+        public static readonly Switch Switch_90002203 = new Switch { SwitchId = "90002203", SwitchType = "101", SwitchBit = "10272"};
+        public static readonly Switch Switch_90002204 = new Switch { SwitchId = "90002204", SwitchType = "101", SwitchBit = "10273"};
+        public static readonly Switch Switch_90002205 = new Switch { SwitchId = "90002205", SwitchType = "101", SwitchBit = "10274"};
         public static readonly Switch Switch_90100000 = new Switch { SwitchId = "90100000", SwitchType = "710", SwitchBit = "5000"};
         public static readonly Switch Switch_90100001 = new Switch { SwitchId = "90100001", SwitchType = "710", SwitchBit = "5001"};
         public static readonly Switch Switch_90100002 = new Switch { SwitchId = "90100002", SwitchType = "710", SwitchBit = "5002"};
@@ -33595,11 +33639,25 @@ namespace BraveHaxvius.Data
            Switch_90002117,
            Switch_90002118,
            Switch_90002119,
+           Switch_90002124,
+           Switch_90002125,
+           Switch_90002126,
+           Switch_90002127,
+           Switch_90002128,
+           Switch_90002129,
            Switch_90002130,
            Switch_90002131,
            Switch_90002132,
            Switch_90002133,
            Switch_90002134,
+           Switch_90002138,
+           Switch_90002139,
+           Switch_90002140,
+           Switch_90002141,
+           Switch_90002142,
+           Switch_90002143,
+           Switch_90002144,
+           Switch_90002145,
            Switch_90002146,
            Switch_90002147,
            Switch_90002148,
@@ -33615,6 +33673,36 @@ namespace BraveHaxvius.Data
            Switch_90002158,
            Switch_90002159,
            Switch_90002161,
+           Switch_90002162,
+           Switch_90002163,
+           Switch_90002164,
+           Switch_90002165,
+           Switch_90002166,
+           Switch_90002167,
+           Switch_90002168,
+           Switch_90002169,
+           Switch_90002170,
+           Switch_90002171,
+           Switch_90002172,
+           Switch_90002173,
+           Switch_90002174,
+           Switch_90002175,
+           Switch_90002176,
+           Switch_90002177,
+           Switch_90002178,
+           Switch_90002179,
+           Switch_90002180,
+           Switch_90002195,
+           Switch_90002196,
+           Switch_90002197,
+           Switch_90002198,
+           Switch_90002199,
+           Switch_90002200,
+           Switch_90002201,
+           Switch_90002202,
+           Switch_90002203,
+           Switch_90002204,
+           Switch_90002205,
            Switch_90100000,
            Switch_90100001,
            Switch_90100002,

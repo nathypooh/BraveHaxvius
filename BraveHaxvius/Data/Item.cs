@@ -1,4 +1,4 @@
-//MST_ITEM_NAME_1209001308^Glistening Snowflake^Glistening Snowflake---VersionControl
+//MST_ITEM_NAME_1209001307^Exchange Ticket (An Icy Reception)^Exchange Ticket (An Icy Reception)---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -1813,32 +1813,39 @@ namespace BraveHaxvius.Data
         public static readonly Item PhysalisNeoVisionFragment_250000280 = new Item { Name = "Physalis -Neo Vision- Fragment", ItemId = "250000280", Description = "ファイサリス-Neo Vision-の欠片", EquipmentRarity = "8", CountId = "1657", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000280", BitNumber = "1757"};
         public static readonly Item SacredShieldCharlotteFragment_250000290 = new Item { Name = "Sacred Shield Charlotte Fragment", ItemId = "250000290", Description = "聖盾の騎士シャルロットの欠片", EquipmentRarity = "8", CountId = "1658", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000290", BitNumber = "1758"};
         public static readonly Item LotusMageFinaFragment_250000300 = new Item { Name = "Lotus Mage Fina Fragment", ItemId = "250000300", Description = "白蓮の魔道士フィーナの欠片", EquipmentRarity = "8", CountId = "1659", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000300", BitNumber = "1759"};
-        public static readonly Item ArchmageKefkaFragment_2500003500 = new Item { Name = "Archmage Kefka Fragment", ItemId = "250000350", Description = "大魔導士ケフカの欠片", EquipmentRarity = "8", CountId = "1683", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000350", BitNumber = "1783"};
-        public static readonly Item AssassinShadowFragment_2500003601 = new Item { Name = "Assassin Shadow Fragment", ItemId = "250000360", Description = "アサシン シャドウの欠片", EquipmentRarity = "8", CountId = "1684", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000360", BitNumber = "1784"};
-        public static readonly Item RelmsPrism_3000030702 = new Item { Name = "Relm's Prism", ItemId = "300003070", Description = "リルムの輝源", EquipmentRarity = "8", CountId = "1686", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1786"};
-        public static readonly Item StragosPrism_3000030803 = new Item { Name = "Strago's Prism", ItemId = "300003080", Description = "ストラゴスの輝源", EquipmentRarity = "8", CountId = "1687", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1787"};
-        public static readonly Item TerraNeoVisionFragment_2500003404 = new Item { Name = "Terra -Neo Vision- Fragment", ItemId = "250000340", Description = "ティナ-Neo Vision-の欠片", EquipmentRarity = "8", CountId = "1682", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000340", BitNumber = "1782"};
-        public static readonly Item RedCloth_2350327005 = new Item { Name = "Red Cloth", ItemId = "235032700", Description = "赤い織物", EquipmentRarity = "5", CountId = "1680", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235032700", BitNumber = "1780"};
-        public static readonly Item PureWhiteScale_2350326006 = new Item { Name = "Pure-White Scale", ItemId = "235032600", Description = "純白の鱗", EquipmentRarity = "5", CountId = "1679", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235032600", BitNumber = "1779"};
-        public static readonly Item EmeraldGreenGem_2350328007 = new Item { Name = "Emerald-Green Gem", ItemId = "235032800", Description = "翠緑結晶", EquipmentRarity = "5", CountId = "1681", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235032800", BitNumber = "1781"};
-        public static readonly Item BrokenFlameRod_1063120008 = new Item { Name = "Broken Flame Rod", ItemId = "106312000", Description = "壊れた炎のロッド", EquipmentRarity = "3", CountId = "1678", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "500", ItemSellPrice = "10", ItemIdClone = "106312000", BitNumber = "1778"};
-        public static readonly Item BraveInsigniaAttheMercyofMagitek_2600001309 = new Item { Name = "Brave Insignia (At the Mercy of Magitek)", ItemId = "260000130", Description = "魔導に翻弄されし者達のブレイブ", EquipmentRarity = "8", CountId = "1685", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000130", BitNumber = "1785"};
-        public static readonly Item SummonCoinTerraNV_120900130310 = new Item { Name = "Summon Coin (Terra-NV-)", ItemId = "1209001303", Description = "Summon Coin (Terra.NV)", EquipmentRarity = "8", CountId = "9614", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9614"};
-        public static readonly Item SummonCoinLockeNV_120900130411 = new Item { Name = "Summon Coin (Locke-NV-)", ItemId = "1209001304", Description = "Summon Coin (Locke.NV)", EquipmentRarity = "8", CountId = "9615", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9615"};
-        public static readonly Item RedDragonRaidCoin_10631210012 = new Item { Name = "Red Dragon Raid Coin", ItemId = "106312100", Description = "レッドドラゴンレイドコイン", EquipmentRarity = "3", CountId = "1703", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "500", ItemSellPrice = "10", ItemIdClone = "106312100", BitNumber = "1803"};
-        public static readonly Item WhitePinion_23503380013 = new Item { Name = "White Pinion", ItemId = "235033800", Description = "白い風切羽", EquipmentRarity = "3", CountId = "1708", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "235033800", BitNumber = "1808"};
-        public static readonly Item BluePigment_23503370014 = new Item { Name = "Blue Pigment", ItemId = "235033700", Description = "青色の顔料", EquipmentRarity = "3", CountId = "1707", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "235033700", BitNumber = "1807"};
-        public static readonly Item SnowWhiteCloth_23503360015 = new Item { Name = "Snow White Cloth", ItemId = "235033600", Description = "白雪の布", EquipmentRarity = "4", CountId = "1706", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "235033600", BitNumber = "1806"};
-        public static readonly Item SkyOre_23503340016 = new Item { Name = "Sky Ore", ItemId = "235033400", Description = "青空鉱石", EquipmentRarity = "5", CountId = "1704", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235033400", BitNumber = "1804"};
-        public static readonly Item AzureTailFeather_23503350017 = new Item { Name = "Azure Tail Feather", ItemId = "235033500", Description = "蒼天の尾羽", EquipmentRarity = "5", CountId = "1705", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235033500", BitNumber = "1805"};
-        public static readonly Item BraveInsigniaBondsoftheHeart_26000015018 = new Item { Name = "Brave Insignia (Bonds of the Heart)", ItemId = "260000150", Description = "愛に生きる者達のブレイブ", EquipmentRarity = "8", CountId = "1712", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000150", BitNumber = "1812"};
-        public static readonly Item KingEdgarofFigaroFragment_25000042019 = new Item { Name = "King Edgar of Figaro Fragment", ItemId = "250000420", Description = "フィガロの王エドガーの欠片", EquipmentRarity = "8", CountId = "1711", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000420", BitNumber = "1811"};
-        public static readonly Item MonkSabinofKoltsFragment_25000041020 = new Item { Name = "Monk Sabin of Kolts Fragment", ItemId = "250000410", Description = "コルツの格闘家マッシュの欠片", EquipmentRarity = "8", CountId = "1710", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000410", BitNumber = "1810"};
-        public static readonly Item DashingGamblerSetzersPrism_30000310021 = new Item { Name = "Dashing Gambler Setzer's Prism", ItemId = "300003100", Description = "空駆けるギャンブラー セッツァーの輝源", EquipmentRarity = "8", CountId = "1713", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1813"};
-        public static readonly Item LockeNeoVisionFragment_25000040022 = new Item { Name = "Locke -Neo Vision- Fragment", ItemId = "250000400", Description = "ロック-Neo Vision-の欠片", EquipmentRarity = "8", CountId = "1709", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000400", BitNumber = "1809"};
-        public static readonly Item GlisteningSnowflake_120900130823 = new Item { Name = "Glistening Snowflake", ItemId = "1209001308", Description = "Glistening Snowflake", EquipmentRarity = "8", CountId = "9619", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001308", BitNumber = "9619"};
+        public static readonly Item ArchmageKefkaFragment_250000350 = new Item { Name = "Archmage Kefka Fragment", ItemId = "250000350", Description = "大魔導士ケフカの欠片", EquipmentRarity = "8", CountId = "1683", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000350", BitNumber = "1783"};
+        public static readonly Item AssassinShadowFragment_250000360 = new Item { Name = "Assassin Shadow Fragment", ItemId = "250000360", Description = "アサシン シャドウの欠片", EquipmentRarity = "8", CountId = "1684", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000360", BitNumber = "1784"};
+        public static readonly Item RelmsPrism_300003070 = new Item { Name = "Relm's Prism", ItemId = "300003070", Description = "リルムの輝源", EquipmentRarity = "8", CountId = "1686", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1786"};
+        public static readonly Item StragosPrism_300003080 = new Item { Name = "Strago's Prism", ItemId = "300003080", Description = "ストラゴスの輝源", EquipmentRarity = "8", CountId = "1687", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1787"};
+        public static readonly Item TerraNeoVisionFragment_250000340 = new Item { Name = "Terra -Neo Vision- Fragment", ItemId = "250000340", Description = "ティナ-Neo Vision-の欠片", EquipmentRarity = "8", CountId = "1682", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000340", BitNumber = "1782"};
+        public static readonly Item RedCloth_235032700 = new Item { Name = "Red Cloth", ItemId = "235032700", Description = "赤い織物", EquipmentRarity = "5", CountId = "1680", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235032700", BitNumber = "1780"};
+        public static readonly Item PureWhiteScale_235032600 = new Item { Name = "Pure-White Scale", ItemId = "235032600", Description = "純白の鱗", EquipmentRarity = "5", CountId = "1679", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235032600", BitNumber = "1779"};
+        public static readonly Item EmeraldGreenGem_235032800 = new Item { Name = "Emerald-Green Gem", ItemId = "235032800", Description = "翠緑結晶", EquipmentRarity = "5", CountId = "1681", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235032800", BitNumber = "1781"};
+        public static readonly Item BrokenFlameRod_106312000 = new Item { Name = "Broken Flame Rod", ItemId = "106312000", Description = "壊れた炎のロッド", EquipmentRarity = "3", CountId = "1678", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "500", ItemSellPrice = "10", ItemIdClone = "106312000", BitNumber = "1778"};
+        public static readonly Item BraveInsigniaAttheMercyofMagitek_260000130 = new Item { Name = "Brave Insignia (At the Mercy of Magitek)", ItemId = "260000130", Description = "魔導に翻弄されし者達のブレイブ", EquipmentRarity = "8", CountId = "1685", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000130", BitNumber = "1785"};
+        public static readonly Item SummonCoinTerraNV_1209001303 = new Item { Name = "Summon Coin (Terra-NV-)", ItemId = "1209001303", Description = "Summon Coin (Terra.NV)", EquipmentRarity = "8", CountId = "9614", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9614"};
+        public static readonly Item SummonCoinLockeNV_1209001304 = new Item { Name = "Summon Coin (Locke-NV-)", ItemId = "1209001304", Description = "Summon Coin (Locke.NV)", EquipmentRarity = "8", CountId = "9615", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9615"};
+        public static readonly Item RedDragonRaidCoin_106312100 = new Item { Name = "Red Dragon Raid Coin", ItemId = "106312100", Description = "レッドドラゴンレイドコイン", EquipmentRarity = "3", CountId = "1703", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "500", ItemSellPrice = "10", ItemIdClone = "106312100", BitNumber = "1803"};
+        public static readonly Item WhitePinion_235033800 = new Item { Name = "White Pinion", ItemId = "235033800", Description = "白い風切羽", EquipmentRarity = "3", CountId = "1708", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "235033800", BitNumber = "1808"};
+        public static readonly Item BluePigment_235033700 = new Item { Name = "Blue Pigment", ItemId = "235033700", Description = "青色の顔料", EquipmentRarity = "3", CountId = "1707", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "500", ItemSellPrice = "50", ItemIdClone = "235033700", BitNumber = "1807"};
+        public static readonly Item SnowWhiteCloth_235033600 = new Item { Name = "Snow White Cloth", ItemId = "235033600", Description = "白雪の布", EquipmentRarity = "4", CountId = "1706", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "235033600", BitNumber = "1806"};
+        public static readonly Item SkyOre_235033400 = new Item { Name = "Sky Ore", ItemId = "235033400", Description = "青空鉱石", EquipmentRarity = "5", CountId = "1704", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235033400", BitNumber = "1804"};
+        public static readonly Item AzureTailFeather_235033500 = new Item { Name = "Azure Tail Feather", ItemId = "235033500", Description = "蒼天の尾羽", EquipmentRarity = "5", CountId = "1705", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "2000", ItemSellPrice = "200", ItemIdClone = "235033500", BitNumber = "1805"};
+        public static readonly Item BraveInsigniaBondsoftheHeart_260000150 = new Item { Name = "Brave Insignia (Bonds of the Heart)", ItemId = "260000150", Description = "愛に生きる者達のブレイブ", EquipmentRarity = "8", CountId = "1712", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "1000", ItemSellPrice = "100", ItemIdClone = "260000150", BitNumber = "1812"};
+        public static readonly Item KingEdgarofFigaroFragment_250000420 = new Item { Name = "King Edgar of Figaro Fragment", ItemId = "250000420", Description = "フィガロの王エドガーの欠片", EquipmentRarity = "8", CountId = "1711", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000420", BitNumber = "1811"};
+        public static readonly Item MonkSabinofKoltsFragment_250000410 = new Item { Name = "Monk Sabin of Kolts Fragment", ItemId = "250000410", Description = "コルツの格闘家マッシュの欠片", EquipmentRarity = "8", CountId = "1710", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000410", BitNumber = "1810"};
+        public static readonly Item DashingGamblerSetzersPrism_300003100 = new Item { Name = "Dashing Gambler Setzer's Prism", ItemId = "300003100", Description = "空駆けるギャンブラー セッツァーの輝源", EquipmentRarity = "8", CountId = "1713", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "199", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "600000090", BitNumber = "1813"};
+        public static readonly Item LockeNeoVisionFragment_250000400 = new Item { Name = "Locke -Neo Vision- Fragment", ItemId = "250000400", Description = "ロック-Neo Vision-の欠片", EquipmentRarity = "8", CountId = "1709", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "250000400", BitNumber = "1809"};
+        public static readonly Item GlisteningSnowflake_1209001308 = new Item { Name = "Glistening Snowflake", ItemId = "1209001308", Description = "Glistening Snowflake", EquipmentRarity = "8", CountId = "9619", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001308", BitNumber = "9619"};
+        public static readonly Item GlimmeringPlasticJewel_1209001312 = new Item { Name = "Glimmering Plastic Jewel", ItemId = "1209001312", Description = "Glimmering Plastic Jewel", EquipmentRarity = "8", CountId = "9623", IsPotUnit = "5", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "1000", ItemSellPrice = "10", ItemIdClone = "1209001312", BitNumber = "9623"};
+        public static readonly Item EldrynFragment_310000640 = new Item { Name = "Eldryn Fragment", ItemId = "310000640", Description = "Eldryn Fragment", EquipmentRarity = "8", CountId = "9596", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "310000640", BitNumber = "9596"};
+        public static readonly Item ChristineFragment_310000650 = new Item { Name = "Christine Fragment", ItemId = "310000650", Description = "Christine Fragment", EquipmentRarity = "8", CountId = "9597", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "310000650", BitNumber = "9597"};
+        public static readonly Item KrylaFragment_310000660 = new Item { Name = "Kryla Fragment", ItemId = "310000660", Description = "Kryla Fragment", EquipmentRarity = "8", CountId = "9598", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "999", ItemBuyPrice = "0", ItemSellPrice = "0", ItemIdClone = "310000660", BitNumber = "9598"};
+        public static readonly Item FestiveSummonTicket_1209001311 = new Item { Name = "Festive Summon Ticket", ItemId = "1209001311", Description = "Festive Summon Ticket", EquipmentRarity = "8", CountId = "9622", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001311", BitNumber = "9622"};
+        public static readonly Item SummonCoinEldryn_1209001305 = new Item { Name = "Summon Coin (Eldryn)", ItemId = "1209001305", Description = "Summon Coin (Erdyn)", EquipmentRarity = "8", CountId = "9616", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9616"};
+        public static readonly Item WornElvenTrinket_1209001306 = new Item { Name = "Worn Elven Trinket", ItemId = "1209001306", Description = "Worn Elvish Trinket", EquipmentRarity = "3", CountId = "9617", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "10", ItemSellPrice = "1", ItemIdClone = "1209001306", BitNumber = "9617"};
+        public static readonly Item ExchangeTicketAnIcyReception_1209001307 = new Item { Name = "Exchange Ticket (An Icy Reception)", ItemId = "1209001307", Description = "Exchange Ticket 12/20", EquipmentRarity = "3", CountId = "9618", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "1", ItemIdClone = "1209001279", BitNumber = "9618"};
 /*VersionControldefinitions*/
-
 		public static readonly List<Item> Items = new List<Item>
 		{
            Potion,
@@ -3632,31 +3639,38 @@ namespace BraveHaxvius.Data
            PhysalisNeoVisionFragment_250000280,
            SacredShieldCharlotteFragment_250000290,
            LotusMageFinaFragment_250000300,
-           ArchmageKefkaFragment_2500003500,
-           AssassinShadowFragment_2500003601,
-           RelmsPrism_3000030702,
-           StragosPrism_3000030803,
-           TerraNeoVisionFragment_2500003404,
-           RedCloth_2350327005,
-           PureWhiteScale_2350326006,
-           EmeraldGreenGem_2350328007,
-           BrokenFlameRod_1063120008,
-           BraveInsigniaAttheMercyofMagitek_2600001309,
-           SummonCoinTerraNV_120900130310,
-           SummonCoinLockeNV_120900130411,
-           RedDragonRaidCoin_10631210012,
-           WhitePinion_23503380013,
-           BluePigment_23503370014,
-           SnowWhiteCloth_23503360015,
-           SkyOre_23503340016,
-           AzureTailFeather_23503350017,
-           BraveInsigniaBondsoftheHeart_26000015018,
-           KingEdgarofFigaroFragment_25000042019,
-           MonkSabinofKoltsFragment_25000041020,
-           DashingGamblerSetzersPrism_30000310021,
-           LockeNeoVisionFragment_25000040022,
-           GlisteningSnowflake_120900130823,
-/*VersionControldefinitionsList*/
-		};
+           ArchmageKefkaFragment_250000350,
+           AssassinShadowFragment_250000360,
+           RelmsPrism_300003070,
+           StragosPrism_300003080,
+           TerraNeoVisionFragment_250000340,
+           RedCloth_235032700,
+           PureWhiteScale_235032600,
+           EmeraldGreenGem_235032800,
+           BrokenFlameRod_106312000,
+           BraveInsigniaAttheMercyofMagitek_260000130,
+           SummonCoinTerraNV_1209001303,
+           SummonCoinLockeNV_1209001304,
+           RedDragonRaidCoin_106312100,
+           WhitePinion_235033800,
+           BluePigment_235033700,
+           SnowWhiteCloth_235033600,
+           SkyOre_235033400,
+           AzureTailFeather_235033500,
+           BraveInsigniaBondsoftheHeart_260000150,
+           KingEdgarofFigaroFragment_250000420,
+           MonkSabinofKoltsFragment_250000410,
+           DashingGamblerSetzersPrism_300003100,
+           LockeNeoVisionFragment_250000400,
+           GlisteningSnowflake_1209001308,
+           GlimmeringPlasticJewel_1209001312,
+           EldrynFragment_310000640,
+           ChristineFragment_310000650,
+           KrylaFragment_310000660,
+           FestiveSummonTicket_1209001311,
+           SummonCoinEldryn_1209001305,
+           WornElvenTrinket_1209001306,
+           ExchangeTicketAnIcyReception_1209001307,
+/*VersionControldefinitionsList*/		};
     }
 }
