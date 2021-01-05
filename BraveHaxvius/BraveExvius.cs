@@ -105,6 +105,7 @@ namespace BraveHaxvius
         public List<String> GachaDetailId { get; set; } = new List<String>();
         public JObject GetUserInfo;
         public JObject GetUserInfo2;
+        public JObject GetUserInfo3;
         public void Login()
         {
             if (Locale != "JP" && FacebookUserId.Contains("@"))
@@ -1407,6 +1408,7 @@ namespace BraveHaxvius
         {
             GetUserInfo = Network.SendPacket(Request.GetUserInfo);
             GetUserInfo2 = Network.SendPacket(Request.GetUserInfo2);
+            GetUserInfo3 = Network.SendPacket(Request.GetUserInfo3);
             return GetUserInfo;
         }
         public void UpdateUserName(String name, String msg)
