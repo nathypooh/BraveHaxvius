@@ -1,4 +1,4 @@
-//MST_MATERIA_NAME_504238394^Treasure Hunter's Knowledge^Treasure Hunter's Knowledge---VersionControl
+//MST_MATERIA_NAME_504237889^Conquering the Fear of Spirits^Conquering the Fear of Spirits---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -977,7 +977,13 @@ namespace BraveHaxvius.Data
         public static readonly Materia MiracleinKohlingen_504238390 = new Materia { Name = "Miracle in Kohlingen", MateriaId = "504238390", Description = "コーリンゲンの奇跡", CountId = "2113269", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238390", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1219"};
         public static readonly Materia TopNotchCardistry_504238395 = new Materia { Name = "Top-Notch Cardistry", MateriaId = "504238395", Description = "一流のカードさばき", CountId = "2155640", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238395", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1222"};
         public static readonly Materia TreasureHuntersKnowledge_504238394 = new Materia { Name = "Treasure Hunter's Knowledge", MateriaId = "504238394", Description = "トレジャーハンターの心得", CountId = "2155630", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238394", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1221"};
+        public static readonly Materia ReclaimedSerenity_15000001390 = new Materia { Name = "Reclaimed Serenity", MateriaId = "1500000139", Description = "Reclaimed Serenity", CountId = "90140", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914711", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000018", BitNumber = "90140"};
+        public static readonly Materia LifeforthePurge_15000001401 = new Materia { Name = "Life for the Purge", MateriaId = "1500000140", Description = "Life for the Purge", CountId = "90141", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914712", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "90141"};
+        public static readonly Materia PridefulIncarnate_15000001412 = new Materia { Name = "Prideful Incarnate", MateriaId = "1500000141", Description = "Prideful Incarnate", CountId = "90142", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914728", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000092", BitNumber = "90142"};
+        public static readonly Materia WayoftheSamurai_15000001423 = new Materia { Name = "Way of the Samurai", MateriaId = "1500000142", Description = "Way of the Samurai", CountId = "90143", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914729", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "90143"};
+        public static readonly Materia ConqueringtheFearofSpirits_5042378894 = new Materia { Name = "Conquering the Fear of Spirits", MateriaId = "504237889", Description = "死霊の恐怖に打ち勝つ者", CountId = "2152603", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237889", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1209"};
 /*VersionControldefinitions*/
+
 
 
 
@@ -1963,7 +1969,13 @@ namespace BraveHaxvius.Data
            MiracleinKohlingen_504238390,
            TopNotchCardistry_504238395,
            TreasureHuntersKnowledge_504238394,
+           ReclaimedSerenity_15000001390,
+           LifeforthePurge_15000001401,
+           PridefulIncarnate_15000001412,
+           WayoftheSamurai_15000001423,
+           ConqueringtheFearofSpirits_5042378894,
 /*VersionControldefinitionsList*/
+
 
 
 

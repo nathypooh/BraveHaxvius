@@ -5,7 +5,6 @@ namespace BraveHaxvius.Data
 {
     public class GameObject
     {
-        public static readonly String SgSlotInfo = "uXYkkwJq";
         public static readonly String EventType = "qnUhs32P";
         public static readonly String EquipGrowEventInfo = "1P4YjSbT";
         public static readonly String UserAdsGachaInfo = "UoSdrRHO";
@@ -229,7 +228,6 @@ namespace BraveHaxvius.Data
 
 		public static readonly Dictionary<String, String> GameObjects = new Dictionary<String, String>
 		{
-            {SgSlotInfo, "SgSlotInfo"},
             {EventType, "EventType"},
             {EquipGrowEventInfo, "EquipGrowEventInfo"},
             {UserAdsGachaInfo, "UserAdsGachaInfo"},

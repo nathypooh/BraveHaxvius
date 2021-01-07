@@ -1,4 +1,4 @@
-//MST_ITEM_NAME_1209001307^Exchange Ticket (An Icy Reception)^Exchange Ticket (An Icy Reception)---VersionControl
+//MST_ITEM_NAME_1209001315^Summon Coin (New Year's Equipment)^Summon Coin (New Year's Equipment)---VersionControl
 using System;
 using System.Collections.Generic;
 
@@ -1845,7 +1845,11 @@ namespace BraveHaxvius.Data
         public static readonly Item SummonCoinEldryn_1209001305 = new Item { Name = "Summon Coin (Eldryn)", ItemId = "1209001305", Description = "Summon Coin (Erdyn)", EquipmentRarity = "8", CountId = "9616", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9616"};
         public static readonly Item WornElvenTrinket_1209001306 = new Item { Name = "Worn Elven Trinket", ItemId = "1209001306", Description = "Worn Elvish Trinket", EquipmentRarity = "3", CountId = "9617", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "10", ItemSellPrice = "1", ItemIdClone = "1209001306", BitNumber = "9617"};
         public static readonly Item ExchangeTicketAnIcyReception_1209001307 = new Item { Name = "Exchange Ticket (An Icy Reception)", ItemId = "1209001307", Description = "Exchange Ticket 12/20", EquipmentRarity = "3", CountId = "9618", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "1", ItemIdClone = "1209001279", BitNumber = "9618"};
+        public static readonly Item MonthlyFortuneHuntCoinII_12090013130 = new Item { Name = "Monthly Fortune Hunt Coin II", ItemId = "1209001313", Description = "Monthly Fortune Hunt Coin II", EquipmentRarity = "3", CountId = "9624", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "99999", ItemBuyPrice = "10", ItemSellPrice = "1", ItemIdClone = "1209001313", BitNumber = "9624"};
+        public static readonly Item MonthlyFortuneHuntKeyII_12090013141 = new Item { Name = "Monthly Fortune Hunt Key II", ItemId = "1209001314", Description = "Monthly Fortune Hunt Key II", EquipmentRarity = "3", CountId = "9625", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "1", ItemIdClone = "1209001314", BitNumber = "9625"};
+        public static readonly Item SummonCoinNewYearsEquipment_12090013152 = new Item { Name = "Summon Coin (New Year's Equipment)", ItemId = "1209001315", Description = "Summon Coin (STMR Special)", EquipmentRarity = "8", CountId = "9628", IsPotUnit = "0", KeyName = "0", ProcessType = "", ProcessFrame = "", Ha9G5sCS = "", ItemStack = "9999", ItemBuyPrice = "10", ItemSellPrice = "10", ItemIdClone = "1209001231", BitNumber = "9628"};
 /*VersionControldefinitions*/
+
 		public static readonly List<Item> Items = new List<Item>
 		{
            Potion,
@@ -3671,6 +3675,10 @@ namespace BraveHaxvius.Data
            SummonCoinEldryn_1209001305,
            WornElvenTrinket_1209001306,
            ExchangeTicketAnIcyReception_1209001307,
-/*VersionControldefinitionsList*/		};
+           MonthlyFortuneHuntCoinII_12090013130,
+           MonthlyFortuneHuntKeyII_12090013141,
+           SummonCoinNewYearsEquipment_12090013152,
+/*VersionControldefinitionsList*/
+		};
     }
 }

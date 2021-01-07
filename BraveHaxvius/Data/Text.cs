@@ -2264,7 +2264,7 @@ namespace BraveHaxvius.Data
            {"MISSION_REQUIRE_ITEM_IS_NOT_ENOUGH", "You do not have enough of the required items."},
            {"MISSION_REQUIRE_ITEM_CONFIRM_USE", "Use an item and begin the quest?"},
            {"MISSION_REQUIRE_ITEM_HAVE_TITLE", "Required Items Held"},
-           {"MISSION_REQUIRE_ITEM_HAVE_TEXT", "<param=item1> <param=have_num1>"},
+           {"MISSION_REQUIRE_ITEM_HAVE_TEXT", "<param=item1> x<param=have_num1>"},
            {"ERROR_SHORTAGE_EQUIP_GROW_ORB_TITLE", "Insufficient equipment enhancement orbs"},
            {"ERROR_SHORTAGE_EQUIP_GROW_ORB_MESSAGE", "You can fully recover <color=255:0:0>equipment enhancement orbs</color> by using <param=num> lapis.<br>Proceed with recovery?"},
            {"ERROR_SHORTAGE_EQUIP_GROW_ORB_BUY_LAPIS", "You do not have enough lapis.<br>Purchase lapis?"},
@@ -3439,6 +3439,9 @@ namespace BraveHaxvius.Data
            {"LOGIN_BONUS_SPECIAL_MAIL_TITLE_1102", "Jammin' January Login Bonus"},
            {"LOGIN_BONUS_SPECIAL_MAIL_MSG_1102", "Jammin' January Daily Rewards"},
            {"EXPLAIN_REWARD_1102", "Here are today's login rewards, kupo!"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_TITLE_1103", "Ringing in the New Year Login Bonus"},
+           {"LOGIN_BONUS_SPECIAL_MAIL_MSG_1103", "Ringing in the New Year Daily Rewards"},
+           {"EXPLAIN_REWARD_1103", "Here are today's login rewards, kupo!"},
 		};
     }
 }
