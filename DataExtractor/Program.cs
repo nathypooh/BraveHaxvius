@@ -53,7 +53,7 @@ namespace BraveHaxvius.Data
             var entireFile = new List<String>();
             foreach (var base64 in datLines)
             {
-                var decryptedMst = Crypto.Decrypt(base64, nameKey["Key"].ToString());
+                var decryptedMst = Crypto.OldDecrypt(base64, nameKey["Key"].ToString());
                 var decryptedEntries = decryptedMst.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                 entireFile.AddRange(decryptedEntries);
             }
@@ -73,7 +73,7 @@ namespace BraveHaxvius.Data
             var entireFile = new List<String>();
             foreach (var base64 in datLines)
             {
-                var decryptedMst = Crypto.Decrypt(base64, nameKey["Key"].ToString());
+                var decryptedMst = Crypto.OldDecrypt(base64, nameKey["Key"].ToString());
                 var decryptedEntries = decryptedMst.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                 entireFile.AddRange(decryptedEntries);
             }
@@ -91,7 +91,7 @@ namespace BraveHaxvius.Data
             var entireFile = new List<String>();
             foreach (var base64 in datLines)
             {
-                var decryptedMst = Crypto.Decrypt(base64, nameKey["Key"].ToString());
+                var decryptedMst = Crypto.OldDecrypt(base64, nameKey["Key"].ToString());
                 var decryptedEntries = decryptedMst.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                 entireFile.AddRange(decryptedEntries);
             }
@@ -169,7 +169,7 @@ namespace BraveHaxvius.Data
                     var entireFile = new List<String>();
                     foreach (var base64 in datLines)
                     {
-                        var decryptedMst = Crypto.Decrypt(base64, nameKey["Key"].ToString());
+                        var decryptedMst = Crypto.OldDecrypt(base64, nameKey["Key"].ToString());
                         var decryptedEntries = decryptedMst.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                         entireFile.AddRange(decryptedEntries);
                     }
