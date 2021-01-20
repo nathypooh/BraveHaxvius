@@ -492,13 +492,25 @@ namespace Client
             var t = new Thread(() =>
             {
 
-                
+
                 if (client.GetUserInfo3 == null)
                     client.Login();
                 IWTable.Clear();
                 client.GetUserInfo3[GameObject.UserCustomEquipItemInfo].ToList().FindAll(f =>
                        f[Variable.IWEquipId] != null).ForEach(f =>
                         IWTable.Rows.Add(Equipment.Equipments.First(i => i.EquipId == f[Variable.EquipId].ToString()).Name, " " + f[Variable.EquipId].ToString(), " " + f[Variable.IWEquipId].ToString(), string.Join(", ", f["nM63Zvtp"].ToString().Split(new char[1] { ',' }).ToList().FindAll(w => w.Contains("24:")).ToList().Select(w => Ability.Abilitys.First(a => a.AbilityId == w?.Split(new char[1] { ':' })[1].ToString()).Name).ToList().Select(d => String.Format("{0}", d.Trim()))), string.Join(", ", f["2p9qywBL"].ToString().Split(new char[1] { ',' }).ToList().FindAll(w => w.Contains("24:")).ToList().Select(w => Ability.Abilitys.First(a => a.AbilityId == w?.Split(new char[1] { ':' })[1].ToString()).Name).ToList().Select(d => String.Format("{0}", d.Trim())))));
+                client.GetUserInfo[GameObject.UserEquipItemInfo_w83oV9uP].First.First.First.ToString().Split(new char[1] { ',' }).ToList().Select(e1 =>
+                {
+                    string output = "";
+                    var equiplookup = Equipment.Equipments.First(e2 => e2.EquipId == e1.Split(new char[1] { ':' })[0].ToString());
+                    if (int.Parse(equiplookup.EquipmentTypeId) <= 16)
+                        output= $"{equiplookup.Name},{equiplookup.EquipId},You Have: { e1.Split(new char[1] { ':' })[1]}";
+                    return output;
+                }).ToList().ForEach(e3 => {
+                    if(!string.IsNullOrEmpty(e3))
+                        IWTable.Rows.Add(e3.Split(new char[1] { ',' })[0],e3.Split(new char[1] { ',' })[1],$"{e3.Split(new char[1] { ',' })[2]} Without Enhancement Abilities");
+                } );
+                
                 IWGrid.Refresh();
 
             });

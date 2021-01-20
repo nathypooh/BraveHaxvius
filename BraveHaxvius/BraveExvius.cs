@@ -9,11 +9,13 @@ using BraveHaxvius.Data;
 
 namespace BraveHaxvius
 {
+    
     public class BraveExvius
     {
+       
         public String AppVersion { get; set; } = "1114";
         public String RscVersion { get; set; } = "0";
-        public String MstVersion { get; set; } = "2756";
+        public String MstVersion { get; set; } = "2781";
         public String Device { get; set; } = "iPhone10,5_ios14.2";
         //public String Device { get; set; } = "XT890";
         //public String Device { get; set; } = "SM-E7000";
