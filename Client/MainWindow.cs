@@ -480,10 +480,11 @@ namespace Client
 
         private void NewdataGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            var dd= NewdataGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
             
-
-            System.Diagnostics.Process.Start(dd.ToString());
+            
+            var dd= IWGrid.Rows[e.RowIndex].Cells[1].Value;
+            var temp = IconImg.IconImgs.First(i => i.ItemIdClone.ToString() == dd.ToString().Trim()).IconFile;
+            Equip_Pic.ImageLocation = $@"./img/item/{temp}";
 
         }
 

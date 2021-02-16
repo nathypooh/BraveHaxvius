@@ -92,6 +92,7 @@
             this.gitHubLink = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Equip_Pic = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.injectionTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.injectDataGrid)).BeginInit();
@@ -105,6 +106,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.NewdataGrid)).BeginInit();
             this.weaponTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IWGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Equip_Pic)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -640,6 +642,7 @@
             // 
             // weaponTab
             // 
+            this.weaponTab.Controls.Add(this.Equip_Pic);
             this.weaponTab.Controls.Add(this.IWGrid);
             this.weaponTab.Controls.Add(this.button2);
             this.weaponTab.Location = new System.Drawing.Point(4, 22);
@@ -662,6 +665,7 @@
             this.IWGrid.RowHeadersVisible = false;
             this.IWGrid.Size = new System.Drawing.Size(645, 195);
             this.IWGrid.TabIndex = 1;
+            this.IWGrid.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.NewdataGrid_CellContentClick);
             // 
             // button2
             // 
@@ -788,6 +792,14 @@
             this.Column2.HeaderText = "Column2";
             this.Column2.Name = "Column2";
             // 
+            // Equip_Pic
+            // 
+            this.Equip_Pic.Location = new System.Drawing.Point(659, 34);
+            this.Equip_Pic.Name = "Equip_Pic";
+            this.Equip_Pic.Size = new System.Drawing.Size(116, 136);
+            this.Equip_Pic.TabIndex = 2;
+            this.Equip_Pic.TabStop = false;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -824,6 +836,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.NewdataGrid)).EndInit();
             this.weaponTab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.IWGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Equip_Pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -900,6 +913,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView IWGrid;
         private System.Windows.Forms.CheckBox CBIsParadeMissionEnd;
+        private System.Windows.Forms.PictureBox Equip_Pic;
     }
 }
 

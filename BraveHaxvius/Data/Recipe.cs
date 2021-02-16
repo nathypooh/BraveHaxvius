@@ -1,4 +1,4 @@
-//MST_RECIPEBOOK_NAME_1000000194^Snowgriever++^Snowgriever++---VersionControl
+//MST_RECIPEBOOK_NAME_903021270^Sorceress's Choker+^Sorceress's Choker+---VersionControl items removed:51
 using System;
 using System.Collections.Generic;
 
@@ -233,16 +233,12 @@ namespace BraveHaxvius.Data
         public static readonly Recipe Dispel = new Recipe { Name = "Dispel", RecipeBookId = "905000130", Description = "デスペル", CountId = "218", Gil = "4500"};
         public static readonly Recipe Faith = new Recipe { Name = "Faith", RecipeBookId = "905000880", Description = "フェイス", CountId = "219", Gil = "2400"};
         public static readonly Recipe SpiritSlayer = new Recipe { Name = "Spirit Slayer", RecipeBookId = "905101100", Description = "スピリットキラー", CountId = "220", Gil = "2400"};
-        public static readonly Recipe HP_905101500 = new Recipe { Name = "HP +15%"};
         public static readonly Recipe SleepBlade = new Recipe { Name = "Sleep Blade", RecipeBookId = "905200540", Description = "スリプル剣", CountId = "221", Gil = "300"};
         public static readonly Recipe AeroBlade = new Recipe { Name = "Aero Blade", RecipeBookId = "905200570", Description = "エアロ剣", CountId = "222", Gil = "900"};
-        public static readonly Recipe StonraBlade_905200660 = new Recipe { Name = "Stonra Blade"};
-        public static readonly Recipe VorpalAxe = new Recipe { Name = "Vorpal Axe"};
-        public static readonly Recipe GaeBolg = new Recipe { Name = "Gae Bolg"};
         public static readonly Recipe LightCurtain = new Recipe { Name = "Light Curtain", RecipeBookId = "901000170", Description = "光のカーテン", CountId = "225", Gil = "1200"};
         public static readonly Recipe WyvernsFeather = new Recipe { Name = "Wyvern's Feather", RecipeBookId = "901000370", Description = "ワイバーンの羽", CountId = "226", Gil = "150"};
         public static readonly Recipe WhiteFang = new Recipe { Name = "White Fang", RecipeBookId = "901000410", Description = "白い牙", CountId = "227", Gil = "600"};
-        public static readonly Recipe MythrilSaber = new Recipe { Name = "Mythril Saber", RecipeBookId = "903000190", Description = "ミスリルセイバー", CountId = "228", Gil = "1350"};
+        public static readonly Recipe MythrilSaber_903000190 = new Recipe { Name = "Mythril Saber", RecipeBookId = "903000190", Description = "ミスリルセイバー", CountId = "228", Gil = "1350"};
         public static readonly Recipe Chirijiraden = new Recipe { Name = "Chirijiraden", RecipeBookId = "903000280", Description = "塵地螺鈿飾剣", CountId = "229", Gil = "8400"};
         public static readonly Recipe MythrilAxe = new Recipe { Name = "Mythril Axe", RecipeBookId = "903000320", Description = "ミスリルアクス", CountId = "230", Gil = "540"};
         public static readonly Recipe Escutcheon = new Recipe { Name = "Escutcheon", RecipeBookId = "904000100", Description = "エスカッション", CountId = "231", Gil = "1080"};
@@ -351,9 +347,7 @@ namespace BraveHaxvius.Data
         public static readonly Recipe SlickDart = new Recipe { Name = "Slick Dart", RecipeBookId = "903001230", Description = "スリックダート", CountId = "315", Gil = "3000"};
         public static readonly Recipe Raikiri = new Recipe { Name = "Raikiri", RecipeBookId = "903001240", Description = "雷切", CountId = "322", Gil = "8400"};
         public static readonly Recipe MoogleSpear = new Recipe { Name = "Moogle Spear", RecipeBookId = "903001250", Description = "モーグリスピア", CountId = "326", Gil = "8400"};
-        public static readonly Recipe BreakShot = new Recipe { Name = "Break Shot"};
         public static readonly Recipe TwinWhip = new Recipe { Name = "Twin Whip", RecipeBookId = "903001280", Description = "双散鞭", CountId = "336", Gil = "3000"};
-        public static readonly Recipe Microphone_903001290 = new Recipe { Name = "Microphone"};
         public static readonly Recipe TorrentRing = new Recipe { Name = "Torrent Ring", RecipeBookId = "904001060", Description = "水神の指輪", CountId = "325", Gil = "300"};
         public static readonly Recipe DivineShield = new Recipe { Name = "Divine Shield", RecipeBookId = "904001510", Description = "ディバインシールド", CountId = "316", Gil = "3600"};
         public static readonly Recipe RavenBeret = new Recipe { Name = "Raven Beret", RecipeBookId = "904001520", Description = "レイヴンベレー", CountId = "317", Gil = "450"};
@@ -365,16 +359,7 @@ namespace BraveHaxvius.Data
         public static readonly Recipe MoogleCape = new Recipe { Name = "Moogle Cape", RecipeBookId = "904001580", Description = "モーグリマント", CountId = "328", Gil = "6000"};
         public static readonly Recipe UnsuiClothes = new Recipe { Name = "Unsui Clothes", RecipeBookId = "904001590", Description = "雲水の衣", CountId = "332", Gil = "3000"};
         public static readonly Recipe GoldenHelm = new Recipe { Name = "Golden Helm", RecipeBookId = "904001610", Description = "ゴールドヘルム", CountId = "333", Gil = "1080"};
-        public static readonly Recipe FestivalRobe_904001710 = new Recipe { Name = "Festival Robe+"};
-        public static readonly Recipe FestivalCap_904001720 = new Recipe { Name = "Festival Cap+"};
         public static readonly Recipe PlatinumTiara = new Recipe { Name = "Platinum Tiara", RecipeBookId = "904001730", Description = "プラチナティアラ", CountId = "347", Gil = "1440"};
-        public static readonly Recipe Fransisca = new Recipe { Name = "Fransisca"};
-        public static readonly Recipe GloryStaff = new Recipe { Name = "Glory Staff"};
-        public static readonly Recipe KrisKnife = new Recipe { Name = "Kris Knife"};
-        public static readonly Recipe RoyalRing = new Recipe { Name = "Royal Ring"};
-        public static readonly Recipe EveningGlove = new Recipe { Name = "Evening Glove"};
-        public static readonly Recipe BunnyMask_904001810 = new Recipe { Name = "Bunny Mask"};
-        public static readonly Recipe StylishBlackDress_904001820 = new Recipe { Name = "Stylish Black Dress"};
         public static readonly Recipe Darkra = new Recipe { Name = "Darkra", RecipeBookId = "905000890", Description = "ダーラ", CountId = "349", Gil = "2400"};
         public static readonly Recipe DragonKiller = new Recipe { Name = "Dragon Killer+", RecipeBookId = "905101510", Description = "ドラゴンキラー改", CountId = "358", Gil = "9000"};
         public static readonly Recipe MogSearch = new Recipe { Name = "Mog Search", RecipeBookId = "905211120", Description = "モグサーチ", CountId = "329", Gil = "1500"};
@@ -432,15 +417,8 @@ namespace BraveHaxvius.Data
         public static readonly Recipe Valiant = new Recipe { Name = "Valiant", RecipeBookId = "903001430", Description = "バリアント", CountId = "394", Gil = "1080"};
         public static readonly Recipe CypressPile = new Recipe { Name = "Cypress Pile", RecipeBookId = "903001440", Description = "サイプレスパイル", CountId = "398", Gil = "2400"};
         public static readonly Recipe PlatinumSaber = new Recipe { Name = "Platinum Saber", RecipeBookId = "903001450", Description = "プラチナセイバー", CountId = "399", Gil = "4500"};
-        public static readonly Recipe Darkbringer = new Recipe { Name = "Darkbringer"};
-        public static readonly Recipe YggdrasilStaff = new Recipe { Name = "Yggdrasil Staff"};
-        public static readonly Recipe Dragvandil = new Recipe { Name = "Dragvandil"};
-        public static readonly Recipe SweetKiss = new Recipe { Name = "Sweet Kiss"};
         public static readonly Recipe PlatinumMace = new Recipe { Name = "Platinum Mace", RecipeBookId = "903001500", Description = "プラチナメイス", CountId = "408", Gil = "810"};
         public static readonly Recipe PlatinumWhip = new Recipe { Name = "Platinum Whip", RecipeBookId = "903001510", Description = "プラチナウィップ", CountId = "409", Gil = "2700"};
-        public static readonly Recipe TamersGloves = new Recipe { Name = "Tamer's Gloves"};
-        public static readonly Recipe SecretKnife = new Recipe { Name = "Secret Knife"};
-        public static readonly Recipe StaffofResentment = new Recipe { Name = "Staff of Resentment"};
         public static readonly Recipe PlatinumEdge = new Recipe { Name = "Platinum Edge", RecipeBookId = "903001550", Description = "プラチナエッジ", CountId = "420", Gil = "900"};
         public static readonly Recipe FierceBow = new Recipe { Name = "Fierce Bow", RecipeBookId = "903001560", Description = "剛弓“烈風新月”", CountId = "421", Gil = "19500"};
         public static readonly Recipe Kogarasumaru = new Recipe { Name = "Kogarasumaru", RecipeBookId = "903001570", Description = "霊剣・小烏丸", CountId = "422", Gil = "8400"};
@@ -452,11 +430,6 @@ namespace BraveHaxvius.Data
         public static readonly Recipe A1ClassPowershield = new Recipe { Name = "A1-Class Powershield", RecipeBookId = "904001970", Description = "士官用特A級シールド", CountId = "395", Gil = "6000"};
         public static readonly Recipe AssistSuit = new Recipe { Name = "Assist Suit", RecipeBookId = "904001980", Description = "アシストスーツ", CountId = "396", Gil = "3000"};
         public static readonly Recipe ChobhamArmor = new Recipe { Name = "Chobham Armor", RecipeBookId = "904001990", Description = "チョバムアーマー", CountId = "397", Gil = "3600"};
-        public static readonly Recipe TacticalManual = new Recipe { Name = "Tactical Manual"};
-        public static readonly Recipe MagnoliasUniform = new Recipe { Name = "Magnolia's Uniform"};
-        public static readonly Recipe IcyVeins_904002010 = new Recipe { Name = "Icy Veins"};
-        public static readonly Recipe BlackBandana_904002020 = new Recipe { Name = "Black Bandana"};
-        public static readonly Recipe CrownofJustice_904002030 = new Recipe { Name = "Crown of Justice"};
         public static readonly Recipe JeweledBelt = new Recipe { Name = "Jeweled Belt", RecipeBookId = "904002040", Description = "ジュエルベルト", CountId = "418", Gil = "6000"};
         public static readonly Recipe PlatinumBreastplate = new Recipe { Name = "Platinum Breastplate", RecipeBookId = "904002050", Description = "プラチナの胸当て", CountId = "419", Gil = "7200"};
         public static readonly Recipe RiotGear = new Recipe { Name = "Riot Gear", RecipeBookId = "904002060", Description = "ライオットギア", CountId = "426", Gil = "3600"};
@@ -501,14 +474,6 @@ namespace BraveHaxvius.Data
         public static readonly Recipe SacredClaws = new Recipe { Name = "Sacred Claws", RecipeBookId = "904002110", Description = "Sacred Claw", CountId = "431", Gil = "6000"};
         public static readonly Recipe DragovianSpear = new Recipe { Name = "Dragovian Spear", RecipeBookId = "904002120", Description = "Dragonvian Spear", CountId = "432", Gil = "24000"};
         public static readonly Recipe WolfMask = new Recipe { Name = "Wolf Mask", RecipeBookId = "904002130", Description = "ウルフマスク", CountId = "435", Gil = "1500"};
-        public static readonly Recipe FestivalRobe_904002140 = new Recipe { Name = "Festival Robe"};
-        public static readonly Recipe FestivalCap_904002150 = new Recipe { Name = "Festival Cap"};
-        public static readonly Recipe YinYangCharm_904002180 = new Recipe { Name = "Yin Yang Charm"};
-        public static readonly Recipe SantasClothesII = new Recipe { Name = "Santa's Clothes II"};
-        public static readonly Recipe SantasHatII = new Recipe { Name = "Santa's Hat II"};
-        public static readonly Recipe TsukumoDoll_904002210 = new Recipe { Name = "Tsukumo Doll"};
-        public static readonly Recipe KimonoVest_904002220 = new Recipe { Name = "Kimono Vest"};
-        public static readonly Recipe SantasCane = new Recipe { Name = "Santa's Cane"};
         public static readonly Recipe PlatinumFist = new Recipe { Name = "Platinum Fist", RecipeBookId = "904002240", Description = "プラチナフィスト", CountId = "446", Gil = "3000"};
         public static readonly Recipe GemofCreation = new Recipe { Name = "Gem of Creation", RecipeBookId = "905101520", Description = "生成の珠", CountId = "448", Gil = "2400"};
         public static readonly Recipe GemofVision = new Recipe { Name = "Gem of Vision", RecipeBookId = "905211220", Description = "幻視の珠", CountId = "447", Gil = "2400"};
@@ -520,10 +485,6 @@ namespace BraveHaxvius.Data
         public static readonly Recipe FlowerSuit = new Recipe { Name = "Flower Suit", RecipeBookId = "904002330", Description = "バラのレオタード", CountId = "456", Gil = "6000"};
         public static readonly Recipe MagicalArmor = new Recipe { Name = "Magical Armor", RecipeBookId = "904002340", Description = "魔法のヨロイ", CountId = "457", Gil = "3600"};
         public static readonly Recipe FrostyRing = new Recipe { Name = "Frosty Ring", RecipeBookId = "904002350", Description = "スノーマンリング", CountId = "458", Gil = "3000"};
-        public static readonly Recipe StaffofOsiris_904002370 = new Recipe { Name = "Staff of Osiris"};
-        public static readonly Recipe ToxicShotgun_904002380 = new Recipe { Name = "Toxic Shotgun"};
-        public static readonly Recipe Flamethrower_904002390 = new Recipe { Name = "Flamethrower"};
-        public static readonly Recipe GoldRingofSeth = new Recipe { Name = "Gold Ring of Seth"};
         public static readonly Recipe DiamondSword = new Recipe { Name = "Diamond Sword", RecipeBookId = "904002410", Description = "ダイヤソード", CountId = "464", Gil = "6000"};
         public static readonly Recipe DiamondArmor = new Recipe { Name = "Diamond Armor", RecipeBookId = "904002420", Description = "ダイヤアーマー", CountId = "465", Gil = "9000"};
         public static readonly Recipe RicosWingsuit = new Recipe { Name = "Rico's Wingsuit", RecipeBookId = "1000000061", Description = "Rico's Wingsuit", CountId = "90062", Gil = "100000"};
@@ -790,9 +751,9 @@ namespace BraveHaxvius.Data
         public static readonly Recipe ResistanceArmor = new Recipe { Name = "Resistance Armor", RecipeBookId = "904003780", Description = "解放軍の鎧", CountId = "635", Gil = "18000"};
         public static readonly Recipe AegisShieldFFXII = new Recipe { Name = "Aegis Shield (FFXII)", RecipeBookId = "904003790", Description = "イージスの盾(FFXII TZA)", CountId = "636", Gil = "9000"};
         public static readonly Recipe AshesBoots = new Recipe { Name = "Ashe's Boots", RecipeBookId = "904003800", Description = "アーシェのブーツ", CountId = "637", Gil = "6000"};
-        public static readonly Recipe PurplePain_903020760 = new Recipe { Name = "Purple Pain+", RecipeBookId = "903020760", Description = "グランドグラブ+", CountId = "668", Gil = "15000"};
+        public static readonly Recipe PurplePain = new Recipe { Name = "Purple Pain+", RecipeBookId = "903020760", Description = "グランドグラブ+", CountId = "668", Gil = "15000"};
         public static readonly Recipe MythrilSaber_903020770 = new Recipe { Name = "Mythril Saber+", RecipeBookId = "903020770", Description = "ミスリルセイバー+", CountId = "669", Gil = "45000"};
-        public static readonly Recipe ElectrostaticRod_903020780 = new Recipe { Name = "Electrostatic Rod+", RecipeBookId = "903020780", Description = "電磁ロッド+", CountId = "670", Gil = "27000"};
+        public static readonly Recipe ElectrostaticRod = new Recipe { Name = "Electrostatic Rod+", RecipeBookId = "903020780", Description = "電磁ロッド+", CountId = "670", Gil = "27000"};
         public static readonly Recipe DarkMasamune_903020510 = new Recipe { Name = "Dark Masamune (2★)", RecipeBookId = "903020510", Description = "ダークマサムネ(★2)", CountId = "638", Gil = "168"};
         public static readonly Recipe DarkMasamune_903020520 = new Recipe { Name = "Dark Masamune (3★)", RecipeBookId = "903020520", Description = "ダークマサムネ(★3)", CountId = "639", Gil = "420"};
         public static readonly Recipe DarkMasamune_903020530 = new Recipe { Name = "Dark Masamune (4★)", RecipeBookId = "903020530", Description = "ダークマサムネ(★4)", CountId = "640", Gil = "1260"};
@@ -811,72 +772,72 @@ namespace BraveHaxvius.Data
         public static readonly Recipe DarkGandiva_903020660 = new Recipe { Name = "Dark Gandiva+ (8★)", RecipeBookId = "903020660", Description = "ダークガーンディーヴァ改(★8)", CountId = "653", Gil = "39000"};
         public static readonly Recipe DarkGandiva_903020670 = new Recipe { Name = "Dark Gandiva+ (9★)", RecipeBookId = "903020670", Description = "ダークガーンディーヴァ改(★9)", CountId = "654", Gil = "78000"};
         public static readonly Recipe DarkGandiva_903020680 = new Recipe { Name = "Dark Gandiva++ (10★)", RecipeBookId = "903020680", Description = "真・ダークガーンディーヴァ(★10)", CountId = "655", Gil = "156000"};
-        public static readonly Recipe TrueDarkCoat_903020790 = new Recipe { Name = "True Dark Coat", RecipeBookId = "903020790", Description = "真・ダークコート", CountId = "672", Gil = "15000"};
-        public static readonly Recipe ObliteratingDarkCoat_903020800 = new Recipe { Name = "Obliterating Dark Coat", RecipeBookId = "903020800", Description = "絶・ダークコート", CountId = "673", Gil = "30000"};
-        public static readonly Recipe DarkCoat_904003860 = new Recipe { Name = "Dark Coat", RecipeBookId = "904003860", Description = "ダークコート", CountId = "671", Gil = "6000"};
-        public static readonly Recipe ShinraShotgun_904003870 = new Recipe { Name = "Shinra Shotgun", RecipeBookId = "904003870", Description = "神羅製ショットガン", CountId = "674", Gil = "36000"};
-        public static readonly Recipe GuardStick_904003880 = new Recipe { Name = "Guard Stick", RecipeBookId = "904003880", Description = "ガードロッド", CountId = "675", Gil = "21000"};
-        public static readonly Recipe MythrilArmlet_904003890 = new Recipe { Name = "Mythril Armlet", RecipeBookId = "904003890", Description = "ミスリルの腕輪", CountId = "676", Gil = "6000"};
-        public static readonly Recipe SupernaturalWristguard_904003900 = new Recipe { Name = "Supernatural Wristguard", RecipeBookId = "904003900", Description = "フルパワーリスト", CountId = "677", Gil = "6000"};
-        public static readonly Recipe MoraqueBlade_903020810 = new Recipe { Name = "Moraque Blade+", RecipeBookId = "903020810"};
-        public static readonly Recipe PearlWhip_903020820 = new Recipe { Name = "Pearl Whip+", RecipeBookId = "903020820"};
-        public static readonly Recipe SoireeStewardsClothes_903020830 = new Recipe { Name = "Soiree Steward's Clothes+", RecipeBookId = "903020830"};
-        public static readonly Recipe QuarterHisameScroll_1000000175 = new Recipe { Name = "Quarter Hisame Scroll", RecipeBookId = "1000000175", Description = "Quarter Hisame's Scroll", CountId = "90185", Gil = "0"};
-        public static readonly Recipe HalfHisameScroll_1000000176 = new Recipe { Name = "Half Hisame Scroll", RecipeBookId = "1000000176", Description = "Half Hisame's Scroll", CountId = "90186", Gil = "0"};
-        public static readonly Recipe FullHisameScroll_1000000177 = new Recipe { Name = "Full Hisame Scroll", RecipeBookId = "1000000177", Description = "Full Hisame's Scroll", CountId = "90187", Gil = "0"};
+        public static readonly Recipe TrueDarkCoat = new Recipe { Name = "True Dark Coat", RecipeBookId = "903020790", Description = "真・ダークコート", CountId = "672", Gil = "15000"};
+        public static readonly Recipe ObliteratingDarkCoat = new Recipe { Name = "Obliterating Dark Coat", RecipeBookId = "903020800", Description = "絶・ダークコート", CountId = "673", Gil = "30000"};
+        public static readonly Recipe DarkCoat = new Recipe { Name = "Dark Coat", RecipeBookId = "904003860", Description = "ダークコート", CountId = "671", Gil = "6000"};
+        public static readonly Recipe ShinraShotgun = new Recipe { Name = "Shinra Shotgun", RecipeBookId = "904003870", Description = "神羅製ショットガン", CountId = "674", Gil = "36000"};
+        public static readonly Recipe GuardStick = new Recipe { Name = "Guard Stick", RecipeBookId = "904003880", Description = "ガードロッド", CountId = "675", Gil = "21000"};
+        public static readonly Recipe MythrilArmlet = new Recipe { Name = "Mythril Armlet", RecipeBookId = "904003890", Description = "ミスリルの腕輪", CountId = "676", Gil = "6000"};
+        public static readonly Recipe SupernaturalWristguard = new Recipe { Name = "Supernatural Wristguard", RecipeBookId = "904003900", Description = "フルパワーリスト", CountId = "677", Gil = "6000"};
+        public static readonly Recipe MoraqueBlade = new Recipe { Name = "Moraque Blade+", RecipeBookId = "903020810", Description = "モラク刀+", CountId = "678", Gil = "42000"};
+        public static readonly Recipe PearlWhip = new Recipe { Name = "Pearl Whip+", RecipeBookId = "903020820", Description = "ペルルウィップ+", CountId = "679", Gil = "13500"};
+        public static readonly Recipe SoireeStewardsClothes = new Recipe { Name = "Soiree Steward's Clothes+", RecipeBookId = "903020830", Description = "夜会の執事服+", CountId = "680", Gil = "30000"};
+        public static readonly Recipe QuarterHisameScroll = new Recipe { Name = "Quarter Hisame Scroll", RecipeBookId = "1000000175", Description = "Quarter Hisame's Scroll", CountId = "90185", Gil = "0"};
+        public static readonly Recipe HalfHisameScroll = new Recipe { Name = "Half Hisame Scroll", RecipeBookId = "1000000176", Description = "Half Hisame's Scroll", CountId = "90186", Gil = "0"};
+        public static readonly Recipe FullHisameScroll = new Recipe { Name = "Full Hisame Scroll", RecipeBookId = "1000000177", Description = "Full Hisame's Scroll", CountId = "90187", Gil = "0"};
         public static readonly Recipe AzuritePendant_1000000167 = new Recipe { Name = "Azurite Pendant+", RecipeBookId = "1000000167", Description = "Azurite Crystal pendant +", CountId = "90177", Gil = "0"};
         public static readonly Recipe AzuritePendant_1000000168 = new Recipe { Name = "Azurite Pendant++", RecipeBookId = "1000000168", Description = "Azurite Crystal pendant ++	", CountId = "90178", Gil = "0"};
         public static readonly Recipe ElenasClothes_1000000169 = new Recipe { Name = "Elena's Clothes+", RecipeBookId = "1000000169", Description = "Elena's clothes+", CountId = "90179", Gil = "0"};
         public static readonly Recipe ElenasClothes_1000000170 = new Recipe { Name = "Elena's Clothes++", RecipeBookId = "1000000170", Description = "Elena's clothes++", CountId = "90180", Gil = "0"};
         public static readonly Recipe ElenasTrainingSword_1000000171 = new Recipe { Name = "Elena's Training Sword+", RecipeBookId = "1000000171", Description = "Elena's training sword +", CountId = "90181", Gil = "0"};
         public static readonly Recipe ElenasTrainingSword_1000000172 = new Recipe { Name = "Elena's Training Sword++", RecipeBookId = "1000000172", Description = "Aqua training sword ++", CountId = "90182", Gil = "0"};
-        public static readonly Recipe AuroraStarlightCoat_1000000173 = new Recipe { Name = "Aurora Starlight Coat", RecipeBookId = "1000000173", Description = "Starlight Coat of Sky", CountId = "90183", Gil = "0"};
-        public static readonly Recipe AmphitriteStarlightCoat_1000000174 = new Recipe { Name = "Amphitrite Starlight Coat", RecipeBookId = "1000000174", Description = "Starlight Coat of Aurora", CountId = "90184", Gil = "0"};
-        public static readonly Recipe LarsasClothes_904003930 = new Recipe { Name = "Larsa's Clothes", RecipeBookId = "904003930", Description = "ラーサーの服", CountId = "685", Gil = "30000"};
-        public static readonly Recipe GabranthsGauntlets_904003940 = new Recipe { Name = "Gabranth's Gauntlets", RecipeBookId = "904003940", Description = "ガブラスのガントレット", CountId = "686", Gil = "6000"};
-        public static readonly Recipe LarsasBoots_904003950 = new Recipe { Name = "Larsa's Boots", RecipeBookId = "904003950", Description = "ラーサーのブーツ", CountId = "687", Gil = "6000"};
-        public static readonly Recipe ImperialEnsign_904003920 = new Recipe { Name = "Imperial Ensign", RecipeBookId = "904003920", Description = "インペリアルエンサイン", CountId = "684", Gil = "30000"};
-        public static readonly Recipe GaiaBladeFFII_903020860 = new Recipe { Name = "Gaia Blade+ (FFII)", RecipeBookId = "903020860"};
-        public static readonly Recipe DarkBow_903020870 = new Recipe { Name = "Dark Bow+", RecipeBookId = "903020870"};
-        public static readonly Recipe MinwusShield_903020880 = new Recipe { Name = "Minwu's Shield+", RecipeBookId = "903020880"};
-        public static readonly Recipe UntamedGauntlets_904003970 = new Recipe { Name = "Untamed Gauntlets", RecipeBookId = "904003970", Description = "魔狼のガントレット", CountId = "694", Gil = "30000"};
-        public static readonly Recipe LadysPipe_904003980 = new Recipe { Name = "Lady's Pipe", RecipeBookId = "904003980", Description = "貴婦人のキセル", CountId = "695", Gil = "15000"};
-        public static readonly Recipe StewardsWhiteGloves_904003990 = new Recipe { Name = "Steward's White Gloves", RecipeBookId = "904003990", Description = "執事の白手袋", CountId = "696", Gil = "6000"};
-        public static readonly Recipe StewardsTinyHat_904004000 = new Recipe { Name = "Steward's Tiny Hat", RecipeBookId = "904004000", Description = "執事のミニハット", CountId = "697", Gil = "3000"};
+        public static readonly Recipe AuroraStarlightCoat = new Recipe { Name = "Aurora Starlight Coat", RecipeBookId = "1000000173", Description = "Starlight Coat of Sky", CountId = "90183", Gil = "0"};
+        public static readonly Recipe AmphitriteStarlightCoat = new Recipe { Name = "Amphitrite Starlight Coat", RecipeBookId = "1000000174", Description = "Starlight Coat of Aurora", CountId = "90184", Gil = "0"};
+        public static readonly Recipe LarsasClothes = new Recipe { Name = "Larsa's Clothes", RecipeBookId = "904003930", Description = "ラーサーの服", CountId = "685", Gil = "30000"};
+        public static readonly Recipe GabranthsGauntlets = new Recipe { Name = "Gabranth's Gauntlets", RecipeBookId = "904003940", Description = "ガブラスのガントレット", CountId = "686", Gil = "6000"};
+        public static readonly Recipe LarsasBoots = new Recipe { Name = "Larsa's Boots", RecipeBookId = "904003950", Description = "ラーサーのブーツ", CountId = "687", Gil = "6000"};
+        public static readonly Recipe ImperialEnsign = new Recipe { Name = "Imperial Ensign", RecipeBookId = "904003920", Description = "インペリアルエンサイン", CountId = "684", Gil = "30000"};
+        public static readonly Recipe GaiaBladeFFII = new Recipe { Name = "Gaia Blade+ (FFII)", RecipeBookId = "903020860", Description = "だいちのつるぎ+", CountId = "688", Gil = "30000"};
+        public static readonly Recipe DarkBow = new Recipe { Name = "Dark Bow+", RecipeBookId = "903020870", Description = "くらやみのゆみ+", CountId = "689", Gil = "19500"};
+        public static readonly Recipe MinwusShield = new Recipe { Name = "Minwu's Shield+", RecipeBookId = "903020880", Description = "ミンウの盾+", CountId = "690", Gil = "36000"};
+        public static readonly Recipe UntamedGauntlets = new Recipe { Name = "Untamed Gauntlets", RecipeBookId = "904003970", Description = "魔狼のガントレット", CountId = "694", Gil = "30000"};
+        public static readonly Recipe LadysPipe = new Recipe { Name = "Lady's Pipe", RecipeBookId = "904003980", Description = "貴婦人のキセル", CountId = "695", Gil = "15000"};
+        public static readonly Recipe StewardsWhiteGloves = new Recipe { Name = "Steward's White Gloves", RecipeBookId = "904003990", Description = "執事の白手袋", CountId = "696", Gil = "6000"};
+        public static readonly Recipe StewardsTinyHat = new Recipe { Name = "Steward's Tiny Hat", RecipeBookId = "904004000", Description = "執事のミニハット", CountId = "697", Gil = "3000"};
         public static readonly Recipe IbarasHairpins_1000000178 = new Recipe { Name = "Ibara's Hairpins+", RecipeBookId = "1000000178", Description = "Ibara Hairpins+", CountId = "90188", Gil = "0"};
         public static readonly Recipe IbarasHairpins_1000000179 = new Recipe { Name = "Ibara's Hairpins++", RecipeBookId = "1000000179", Description = "Ibara Hairpins++", CountId = "90189", Gil = "0"};
         public static readonly Recipe IbarasKimono_1000000180 = new Recipe { Name = "Ibara's Kimono+", RecipeBookId = "1000000180", Description = "Ibara Kimono+", CountId = "90190", Gil = "0"};
         public static readonly Recipe IbarasKimono_1000000181 = new Recipe { Name = "Ibara's Kimono++", RecipeBookId = "1000000181", Description = "Ibara Kimono++", CountId = "90191", Gil = "0"};
         public static readonly Recipe IbarasScroll_1000000182 = new Recipe { Name = "Ibara's Scroll+", RecipeBookId = "1000000182", Description = "Ibara Scrolls+", CountId = "90192", Gil = "0"};
         public static readonly Recipe IbarasScroll_1000000183 = new Recipe { Name = "Ibara's Scroll++", RecipeBookId = "1000000183", Description = "Ibara Scrolls++", CountId = "90193", Gil = "0"};
-        public static readonly Recipe CarmineHeaddress_1000000184 = new Recipe { Name = "Carmine Headdress", RecipeBookId = "1000000184", Description = "Carmine Headdress", CountId = "90194", Gil = "0"};
-        public static readonly Recipe ScarletHeaddress_1000000185 = new Recipe { Name = "Scarlet Headdress", RecipeBookId = "1000000185", Description = "Scarlet Headdress", CountId = "90195", Gil = "0"};
-        public static readonly Recipe WolfClaws_1000000186 = new Recipe { Name = "Wolf Claws+", RecipeBookId = "1000000186", Description = "Wolf Claws+", CountId = "90196", Gil = "0"};
-        public static readonly Recipe ProtectivePendant_1000000187 = new Recipe { Name = "Protective Pendant+", RecipeBookId = "1000000187", Description = "Protective Pendant+", CountId = "90197", Gil = "0"};
-        public static readonly Recipe LuminatedBlightStone_1000000188 = new Recipe { Name = "Luminated Blight Stone", RecipeBookId = "1000000188", Description = "Luminated Blight Stone", CountId = "90198", Gil = "0"};
+        public static readonly Recipe CarmineHeaddress = new Recipe { Name = "Carmine Headdress", RecipeBookId = "1000000184", Description = "Carmine Headdress", CountId = "90194", Gil = "0"};
+        public static readonly Recipe ScarletHeaddress = new Recipe { Name = "Scarlet Headdress", RecipeBookId = "1000000185", Description = "Scarlet Headdress", CountId = "90195", Gil = "0"};
+        public static readonly Recipe WolfClaws = new Recipe { Name = "Wolf Claws+", RecipeBookId = "1000000186", Description = "Wolf Claws+", CountId = "90196", Gil = "0"};
+        public static readonly Recipe ProtectivePendant = new Recipe { Name = "Protective Pendant+", RecipeBookId = "1000000187", Description = "Protective Pendant+", CountId = "90197", Gil = "0"};
+        public static readonly Recipe LuminatedBlightStone = new Recipe { Name = "Luminated Blight Stone", RecipeBookId = "1000000188", Description = "Luminated Blight Stone", CountId = "90198", Gil = "0"};
         public static readonly Recipe SinnersBurden_904003910 = new Recipe { Name = "Sinner's Burden", RecipeBookId = "904003910", Description = "罪咎の首飾り", CountId = "678", Gil = "6000"};
         public static readonly Recipe SinnersBurden_903020840 = new Recipe { Name = "Sinner's Burden+", RecipeBookId = "903020840", Description = "真・罪咎の首飾り", CountId = "681", Gil = "15000"};
         public static readonly Recipe SinnersBurden_903020850 = new Recipe { Name = "Sinner's Burden++", RecipeBookId = "903020850", Description = "絶・罪咎の首飾り", CountId = "682", Gil = "30000"};
-        public static readonly Recipe Wightslayer_904004020 = new Recipe { Name = "Wightslayer", RecipeBookId = "904004020", Description = "ワイトスレイヤー", CountId = "722", Gil = "30000"};
-        public static readonly Recipe AshuraFFIII_904004030 = new Recipe { Name = "Ashura (FFIII)", RecipeBookId = "904004030", Description = "あしゅら(FFIII)", CountId = "723", Gil = "21000"};
-        public static readonly Recipe NinjasHood_904004040 = new Recipe { Name = "Ninja's Hood", RecipeBookId = "904004040", Description = "忍者の頭巾", CountId = "724", Gil = "3000"};
-        public static readonly Recipe OnionBootsReplica_904004050 = new Recipe { Name = "Onion Boots - Replica", RecipeBookId = "904004050", Description = "オニオンブーツ・レプリカ", CountId = "725", Gil = "6000"};
-        public static readonly Recipe OrichalcumRing_903021090 = new Recipe { Name = "Orichalcum Ring+", RecipeBookId = "903021090", Description = "オリハルリング+", CountId = "716", Gil = "30000"};
-        public static readonly Recipe WisdomRing_903021100 = new Recipe { Name = "Wisdom Ring+", RecipeBookId = "903021100", Description = "ワイズリング+", CountId = "717", Gil = "15000"};
-        public static readonly Recipe GuardiansBelt_903021110 = new Recipe { Name = "Guardian's Belt+", RecipeBookId = "903021110", Description = "ガーディアンベルト+", CountId = "718", Gil = "30000"};
+        public static readonly Recipe Wightslayer = new Recipe { Name = "Wightslayer", RecipeBookId = "904004020", Description = "ワイトスレイヤー", CountId = "722", Gil = "30000"};
+        public static readonly Recipe AshuraFFIII = new Recipe { Name = "Ashura (FFIII)", RecipeBookId = "904004030", Description = "あしゅら(FFIII)", CountId = "723", Gil = "21000"};
+        public static readonly Recipe NinjasHood = new Recipe { Name = "Ninja's Hood", RecipeBookId = "904004040", Description = "忍者の頭巾", CountId = "724", Gil = "3000"};
+        public static readonly Recipe OnionBootsReplica = new Recipe { Name = "Onion Boots - Replica", RecipeBookId = "904004050", Description = "オニオンブーツ・レプリカ", CountId = "725", Gil = "6000"};
+        public static readonly Recipe OrichalcumRing = new Recipe { Name = "Orichalcum Ring+", RecipeBookId = "903021090", Description = "オリハルリング+", CountId = "716", Gil = "30000"};
+        public static readonly Recipe WisdomRing = new Recipe { Name = "Wisdom Ring+", RecipeBookId = "903021100", Description = "ワイズリング+", CountId = "717", Gil = "15000"};
+        public static readonly Recipe GuardiansBelt = new Recipe { Name = "Guardian's Belt+", RecipeBookId = "903021110", Description = "ガーディアンベルト+", CountId = "718", Gil = "30000"};
         public static readonly Recipe PeacekeeperSpecial_904004010 = new Recipe { Name = "Peacekeeper Special", RecipeBookId = "904004010", Description = "ピースキーパー・スペシャル", CountId = "719", Gil = "7200"};
         public static readonly Recipe PeacekeeperSpecial_903021120 = new Recipe { Name = "Peacekeeper Special+", RecipeBookId = "903021120", Description = "真・ピースキーパー・スペシャル", CountId = "720", Gil = "18000"};
         public static readonly Recipe PeacekeeperSpecial_903021130 = new Recipe { Name = "Peacekeeper Special++", RecipeBookId = "903021130", Description = "絶・ピースキーパー・スペシャル", CountId = "721", Gil = "36000"};
-        public static readonly Recipe RelmsHat_903021150 = new Recipe { Name = "Relm's Hat+", RecipeBookId = "903021150", Description = "リルムの帽子+", CountId = "727", Gil = "7500"};
-        public static readonly Recipe HolyRod_903021140 = new Recipe { Name = "Holy Rod+", RecipeBookId = "903021140", Description = "ホーリーロッド+", CountId = "726", Gil = "21000"};
-        public static readonly Recipe MementoRing_903021160 = new Recipe { Name = "Memento Ring+", RecipeBookId = "903021160", Description = "かたみのゆびわ+", CountId = "728", Gil = "30000"};
-        public static readonly Recipe Darts_904004080 = new Recipe { Name = "Darts", RecipeBookId = "904004080", Description = "ダーツ", CountId = "733", Gil = "15000"};
-        public static readonly Recipe SetzersArmguard_904004100 = new Recipe { Name = "Setzer's Armguard", RecipeBookId = "904004100", Description = "セッツァーのアームガード", CountId = "735", Gil = "6000"};
-        public static readonly Recipe LockesBoots_904004090 = new Recipe { Name = "Locke's Boots", RecipeBookId = "904004090", Description = "ロックのブーツ", CountId = "734", Gil = "6000"};
-        public static readonly Recipe LockesBandana_904004070 = new Recipe { Name = "Locke's Bandana", RecipeBookId = "904004070", Description = "ロックのバンダナ", CountId = "732", Gil = "15000"};
-        public static readonly Recipe BagOToys_1000000195 = new Recipe { Name = "Bag O'Toys+", RecipeBookId = "1000000195", Description = "Bag O Toys+", CountId = "90205", Gil = "0"};
-        public static readonly Recipe SkullPlate_1000000196 = new Recipe { Name = "Skull Plate+", RecipeBookId = "1000000196", Description = "Skull Plate+", CountId = "90206", Gil = "0"};
-        public static readonly Recipe GlimmeringPlasticJewel_1000000197 = new Recipe { Name = "Glimmering Plastic Jewel", RecipeBookId = "1000000197", Description = "Glimmering Plastic Jewel", CountId = "90207", Gil = "0"};
+        public static readonly Recipe RelmsHat = new Recipe { Name = "Relm's Hat+", RecipeBookId = "903021150", Description = "リルムの帽子+", CountId = "727", Gil = "7500"};
+        public static readonly Recipe HolyRod = new Recipe { Name = "Holy Rod+", RecipeBookId = "903021140", Description = "ホーリーロッド+", CountId = "726", Gil = "21000"};
+        public static readonly Recipe MementoRing = new Recipe { Name = "Memento Ring+", RecipeBookId = "903021160", Description = "かたみのゆびわ+", CountId = "728", Gil = "30000"};
+        public static readonly Recipe Darts = new Recipe { Name = "Darts", RecipeBookId = "904004080", Description = "ダーツ", CountId = "733", Gil = "15000"};
+        public static readonly Recipe SetzersArmguard = new Recipe { Name = "Setzer's Armguard", RecipeBookId = "904004100", Description = "セッツァーのアームガード", CountId = "735", Gil = "6000"};
+        public static readonly Recipe LockesBoots = new Recipe { Name = "Locke's Boots", RecipeBookId = "904004090", Description = "ロックのブーツ", CountId = "734", Gil = "6000"};
+        public static readonly Recipe LockesBandana = new Recipe { Name = "Locke's Bandana", RecipeBookId = "904004070", Description = "ロックのバンダナ", CountId = "732", Gil = "15000"};
+        public static readonly Recipe BagOToys = new Recipe { Name = "Bag O'Toys+", RecipeBookId = "1000000195", Description = "Bag O Toys+", CountId = "90205", Gil = "0"};
+        public static readonly Recipe SkullPlate = new Recipe { Name = "Skull Plate+", RecipeBookId = "1000000196", Description = "Skull Plate+", CountId = "90206", Gil = "0"};
+        public static readonly Recipe GlimmeringPlasticJewel = new Recipe { Name = "Glimmering Plastic Jewel", RecipeBookId = "1000000197", Description = "Glimmering Plastic Jewel", CountId = "90207", Gil = "0"};
         public static readonly Recipe DarkRisingSun_903020910 = new Recipe { Name = "Dark Rising Sun (2★)", RecipeBookId = "903020910", Description = "??????????(?2)", CountId = "698", Gil = "120"};
         public static readonly Recipe DarkRisingSun_903020920 = new Recipe { Name = "Dark Rising Sun (3★)", RecipeBookId = "903020920", Description = "??????????(?3)", CountId = "699", Gil = "300"};
         public static readonly Recipe DarkRisingSun_903020930 = new Recipe { Name = "Dark Rising Sun (4★)", RecipeBookId = "903020930", Description = "??????????(?4)", CountId = "700", Gil = "900"};
@@ -901,6 +862,19 @@ namespace BraveHaxvius.Data
         public static readonly Recipe ElvenRing_1000000192 = new Recipe { Name = "Elven Ring++", RecipeBookId = "1000000192", Description = "Elven Ring++", CountId = "90202", Gil = "0"};
         public static readonly Recipe Snowgriever_1000000193 = new Recipe { Name = "Snowgriever+", RecipeBookId = "1000000193", Description = "Snowgriever+", CountId = "90203", Gil = "0"};
         public static readonly Recipe Snowgriever_1000000194 = new Recipe { Name = "Snowgriever++", RecipeBookId = "1000000194", Description = "Snowgriever++", CountId = "90204", Gil = "0"};
+        public static readonly Recipe RaindropKatana_904004060 = new Recipe { Name = "Raindrop Katana", RecipeBookId = "904004060", Description = "雨雫刀", CountId = "729", Gil = "8400"};
+        public static readonly Recipe RaindropKatana_903021170 = new Recipe { Name = "Raindrop Katana+", RecipeBookId = "903021170", Description = "真・雨雫刀", CountId = "730", Gil = "21000"};
+        public static readonly Recipe RaindropKatana_903021180 = new Recipe { Name = "Raindrop Katana++", RecipeBookId = "903021180", Description = "絶・雨雫刀", CountId = "731", Gil = "42000"};
+        public static readonly Recipe VioletIceThrone = new Recipe { Name = "Violet Ice Throne", RecipeBookId = "903021230", Description = "紫氷の玉座", CountId = "740", Gil = "30000"};
+        public static readonly Recipe CrimsonFlameThrone = new Recipe { Name = "Crimson Flame Throne", RecipeBookId = "903021220", Description = "紅焔の玉座", CountId = "739", Gil = "30000"};
+        public static readonly Recipe CrimsonFlameCrown = new Recipe { Name = "Crimson Flame Crown", RecipeBookId = "903021190", Description = "紅焔の冠", CountId = "736", Gil = "36000"};
+        public static readonly Recipe VioletIceCrown = new Recipe { Name = "Violet Ice Crown", RecipeBookId = "903021200", Description = "紫氷の冠", CountId = "737", Gil = "36000"};
+        public static readonly Recipe KingdomsProtector_903021210 = new Recipe { Name = "Kingdom's Protector", RecipeBookId = "903021210", Description = "国を守る誉剣", CountId = "738", Gil = "30000"};
+        public static readonly Recipe MechaMoogPrime_903021240 = new Recipe { Name = "Mecha Moog Prime", RecipeBookId = "903021240", Description = "最強★メカグリ", CountId = "741", Gil = "15000"};
+        public static readonly Recipe CosmicCloak_904004110 = new Recipe { Name = "Cosmic Cloak", RecipeBookId = "904004110", Description = "コスモマント", CountId = "742", Gil = "6000"};
+        public static readonly Recipe CosmicCloak_903021250 = new Recipe { Name = "Cosmic Cloak+", RecipeBookId = "903021250", Description = "真・コスモマント", CountId = "743", Gil = "15000"};
+        public static readonly Recipe CosmicCloak_903021260 = new Recipe { Name = "Cosmic Cloak++", RecipeBookId = "903021260", Description = "絶・コスモマント", CountId = "744", Gil = "30000"};
+        public static readonly Recipe SorceresssChoker_903021270 = new Recipe { Name = "Sorceress's Choker+", RecipeBookId = "903021270", Description = "ソーサラーズチョーカー+", CountId = "745", Gil = "30000"};
 /*VersionControldefinitions*/
 		public static readonly List<Recipe> Recipes = new List<Recipe>
 		{
@@ -1125,16 +1099,12 @@ namespace BraveHaxvius.Data
            Dispel,
            Faith,
            SpiritSlayer,
-           HP_905101500,
            SleepBlade,
            AeroBlade,
-           StonraBlade_905200660,
-           VorpalAxe,
-           GaeBolg,
            LightCurtain,
            WyvernsFeather,
            WhiteFang,
-           MythrilSaber,
+           MythrilSaber_903000190,
            Chirijiraden,
            MythrilAxe,
            Escutcheon,
@@ -1243,9 +1213,7 @@ namespace BraveHaxvius.Data
            SlickDart,
            Raikiri,
            MoogleSpear,
-           BreakShot,
            TwinWhip,
-           Microphone_903001290,
            TorrentRing,
            DivineShield,
            RavenBeret,
@@ -1257,16 +1225,7 @@ namespace BraveHaxvius.Data
            MoogleCape,
            UnsuiClothes,
            GoldenHelm,
-           FestivalRobe_904001710,
-           FestivalCap_904001720,
            PlatinumTiara,
-           Fransisca,
-           GloryStaff,
-           KrisKnife,
-           RoyalRing,
-           EveningGlove,
-           BunnyMask_904001810,
-           StylishBlackDress_904001820,
            Darkra,
            DragonKiller,
            MogSearch,
@@ -1324,15 +1283,8 @@ namespace BraveHaxvius.Data
            Valiant,
            CypressPile,
            PlatinumSaber,
-           Darkbringer,
-           YggdrasilStaff,
-           Dragvandil,
-           SweetKiss,
            PlatinumMace,
            PlatinumWhip,
-           TamersGloves,
-           SecretKnife,
-           StaffofResentment,
            PlatinumEdge,
            FierceBow,
            Kogarasumaru,
@@ -1344,11 +1296,6 @@ namespace BraveHaxvius.Data
            A1ClassPowershield,
            AssistSuit,
            ChobhamArmor,
-           TacticalManual,
-           MagnoliasUniform,
-           IcyVeins_904002010,
-           BlackBandana_904002020,
-           CrownofJustice_904002030,
            JeweledBelt,
            PlatinumBreastplate,
            RiotGear,
@@ -1393,14 +1340,6 @@ namespace BraveHaxvius.Data
            SacredClaws,
            DragovianSpear,
            WolfMask,
-           FestivalRobe_904002140,
-           FestivalCap_904002150,
-           YinYangCharm_904002180,
-           SantasClothesII,
-           SantasHatII,
-           TsukumoDoll_904002210,
-           KimonoVest_904002220,
-           SantasCane,
            PlatinumFist,
            GemofCreation,
            GemofVision,
@@ -1412,10 +1351,6 @@ namespace BraveHaxvius.Data
            FlowerSuit,
            MagicalArmor,
            FrostyRing,
-           StaffofOsiris_904002370,
-           ToxicShotgun_904002380,
-           Flamethrower_904002390,
-           GoldRingofSeth,
            DiamondSword,
            DiamondArmor,
            RicosWingsuit,
@@ -1682,9 +1617,9 @@ namespace BraveHaxvius.Data
            ResistanceArmor,
            AegisShieldFFXII,
            AshesBoots,
-           PurplePain_903020760,
+           PurplePain,
            MythrilSaber_903020770,
-           ElectrostaticRod_903020780,
+           ElectrostaticRod,
            DarkMasamune_903020510,
            DarkMasamune_903020520,
            DarkMasamune_903020530,
@@ -1703,72 +1638,72 @@ namespace BraveHaxvius.Data
            DarkGandiva_903020660,
            DarkGandiva_903020670,
            DarkGandiva_903020680,
-           TrueDarkCoat_903020790,
-           ObliteratingDarkCoat_903020800,
-           DarkCoat_904003860,
-           ShinraShotgun_904003870,
-           GuardStick_904003880,
-           MythrilArmlet_904003890,
-           SupernaturalWristguard_904003900,
-           MoraqueBlade_903020810,
-           PearlWhip_903020820,
-           SoireeStewardsClothes_903020830,
-           QuarterHisameScroll_1000000175,
-           HalfHisameScroll_1000000176,
-           FullHisameScroll_1000000177,
+           TrueDarkCoat,
+           ObliteratingDarkCoat,
+           DarkCoat,
+           ShinraShotgun,
+           GuardStick,
+           MythrilArmlet,
+           SupernaturalWristguard,
+           MoraqueBlade,
+           PearlWhip,
+           SoireeStewardsClothes,
+           QuarterHisameScroll,
+           HalfHisameScroll,
+           FullHisameScroll,
            AzuritePendant_1000000167,
            AzuritePendant_1000000168,
            ElenasClothes_1000000169,
            ElenasClothes_1000000170,
            ElenasTrainingSword_1000000171,
            ElenasTrainingSword_1000000172,
-           AuroraStarlightCoat_1000000173,
-           AmphitriteStarlightCoat_1000000174,
-           LarsasClothes_904003930,
-           GabranthsGauntlets_904003940,
-           LarsasBoots_904003950,
-           ImperialEnsign_904003920,
-           GaiaBladeFFII_903020860,
-           DarkBow_903020870,
-           MinwusShield_903020880,
-           UntamedGauntlets_904003970,
-           LadysPipe_904003980,
-           StewardsWhiteGloves_904003990,
-           StewardsTinyHat_904004000,
+           AuroraStarlightCoat,
+           AmphitriteStarlightCoat,
+           LarsasClothes,
+           GabranthsGauntlets,
+           LarsasBoots,
+           ImperialEnsign,
+           GaiaBladeFFII,
+           DarkBow,
+           MinwusShield,
+           UntamedGauntlets,
+           LadysPipe,
+           StewardsWhiteGloves,
+           StewardsTinyHat,
            IbarasHairpins_1000000178,
            IbarasHairpins_1000000179,
            IbarasKimono_1000000180,
            IbarasKimono_1000000181,
            IbarasScroll_1000000182,
            IbarasScroll_1000000183,
-           CarmineHeaddress_1000000184,
-           ScarletHeaddress_1000000185,
-           WolfClaws_1000000186,
-           ProtectivePendant_1000000187,
-           LuminatedBlightStone_1000000188,
+           CarmineHeaddress,
+           ScarletHeaddress,
+           WolfClaws,
+           ProtectivePendant,
+           LuminatedBlightStone,
            SinnersBurden_904003910,
            SinnersBurden_903020840,
            SinnersBurden_903020850,
-           Wightslayer_904004020,
-           AshuraFFIII_904004030,
-           NinjasHood_904004040,
-           OnionBootsReplica_904004050,
-           OrichalcumRing_903021090,
-           WisdomRing_903021100,
-           GuardiansBelt_903021110,
+           Wightslayer,
+           AshuraFFIII,
+           NinjasHood,
+           OnionBootsReplica,
+           OrichalcumRing,
+           WisdomRing,
+           GuardiansBelt,
            PeacekeeperSpecial_904004010,
            PeacekeeperSpecial_903021120,
            PeacekeeperSpecial_903021130,
-           RelmsHat_903021150,
-           HolyRod_903021140,
-           MementoRing_903021160,
-           Darts_904004080,
-           SetzersArmguard_904004100,
-           LockesBoots_904004090,
-           LockesBandana_904004070,
-           BagOToys_1000000195,
-           SkullPlate_1000000196,
-           GlimmeringPlasticJewel_1000000197,
+           RelmsHat,
+           HolyRod,
+           MementoRing,
+           Darts,
+           SetzersArmguard,
+           LockesBoots,
+           LockesBandana,
+           BagOToys,
+           SkullPlate,
+           GlimmeringPlasticJewel,
            DarkRisingSun_903020910,
            DarkRisingSun_903020920,
            DarkRisingSun_903020930,
@@ -1793,6 +1728,19 @@ namespace BraveHaxvius.Data
            ElvenRing_1000000192,
            Snowgriever_1000000193,
            Snowgriever_1000000194,
+           RaindropKatana_904004060,
+           RaindropKatana_903021170,
+           RaindropKatana_903021180,
+           VioletIceThrone,
+           CrimsonFlameThrone,
+           CrimsonFlameCrown,
+           VioletIceCrown,
+           KingdomsProtector_903021210,
+           MechaMoogPrime_903021240,
+           CosmicCloak_904004110,
+           CosmicCloak_903021250,
+           CosmicCloak_903021260,
+           SorceresssChoker_903021270,
 /*VersionControldefinitionsList*/		};
     }
 }

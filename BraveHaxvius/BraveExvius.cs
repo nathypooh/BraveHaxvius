@@ -13,16 +13,16 @@ namespace BraveHaxvius
     public class BraveExvius
     {
        
-        public String AppVersion { get; set; } = "1114";
+        public String AppVersion { get; set; } = "9114";
         public String RscVersion { get; set; } = "0";
-        public String MstVersion { get; set; } = "2781";
+        public String MstVersion { get; set; } = "9781";
         public String Device { get; set; } = "iPhone10,5_ios14.2";
         //public String Device { get; set; } = "XT890";
         //public String Device { get; set; } = "SM-E7000";
         public String OperatingSystem { get; set; } = "5_ios14.2";
         //public String OperatingSystem { get; set; } = "android4.4.2";
         public String Locale { get; set; } = "US";
-        public String BuildVersion { get { return Locale == "JP" ? "ver.2.9.3" : "ver.5251"; } }
+        public String BuildVersion { get { return Locale == "JP" ? "ver.2.9.3" : "ver.9251"; } }
         public String UserName { get; set; }
         public String UserId { get; set; }
         public String Password { get; set; }

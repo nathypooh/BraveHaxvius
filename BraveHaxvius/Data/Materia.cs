@@ -1,4 +1,4 @@
-//MST_MATERIA_NAME_504237889^Conquering the Fear of Spirits^Conquering the Fear of Spirits---VersionControl
+//MST_MATERIA_NAME_504238849^Champions of the Tournament^Champions of the Tournament---VersionControl items removed:179
 using System;
 using System.Collections.Generic;
 
@@ -336,12 +336,12 @@ namespace BraveHaxvius.Data
         public static readonly Materia GeneralOffensive = new Materia { Name = "General Offensive", MateriaId = "504213740", Description = "総攻撃", CountId = "2133810", EquipmentActiveAbility = "", EquipmentPassiveAbility = "213740", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "635"};
         public static readonly Materia MAG_504100110 = new Materia { Name = "MAG +20%", MateriaId = "504100110", Description = "魔力+20%", CountId = "2115030", EquipmentActiveAbility = "", EquipmentPassiveAbility = "100110", ItemStack = "99", ItemBuyPrice = "5000", ItemSellPrice = "500", ItemIdClone = "700000077", BitNumber = "636"};
         public static readonly Materia EquipInstrument = new Materia { Name = "Equip Instrument", MateriaId = "504100860", Description = "楽器装備", CountId = "2155110", EquipmentActiveAbility = "", EquipmentPassiveAbility = "100860", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000096", BitNumber = "637"};
-        public static readonly Materia Darkra = new Materia { Name = "Darkra", MateriaId = "504020460", Description = "ダーラ", CountId = "1250820", EquipmentActiveAbility = "20460", EquipmentPassiveAbility = "", ItemStack = "99", ItemBuyPrice = "8000", ItemSellPrice = "800", ItemIdClone = "700000026", BitNumber = "638"};
+        public static readonly Materia Darkra_504020460 = new Materia { Name = "Darkra", MateriaId = "504020460", Description = "ダーラ", CountId = "1250820", EquipmentActiveAbility = "20460", EquipmentPassiveAbility = "", ItemStack = "99", ItemBuyPrice = "8000", ItemSellPrice = "800", ItemIdClone = "700000026", BitNumber = "638"};
         public static readonly Materia FiraBlade = new Materia { Name = "Fira Blade", MateriaId = "504200610", Description = "ファイラ剣", CountId = "2240020", EquipmentActiveAbility = "", EquipmentPassiveAbility = "200610", ItemStack = "99", ItemBuyPrice = "8000", ItemSellPrice = "800", ItemIdClone = "700000021", BitNumber = "639"};
         public static readonly Materia AwesomeSwordsman = new Materia { Name = "Awesome Swordsman", MateriaId = "504213800", Description = "凛々しき剣士", CountId = "2151710", EquipmentActiveAbility = "", EquipmentPassiveAbility = "213800", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "640"};
         public static readonly Materia PureWhiteBlessing = new Materia { Name = "Pure White Blessing", MateriaId = "504214350", Description = "純白の祝福", CountId = "2171980", EquipmentActiveAbility = "", EquipmentPassiveAbility = "214350", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "641"};
         public static readonly Materia HighSpirits = new Materia { Name = "High Spirits", MateriaId = "504214360", Description = "気炎万丈", CountId = "2133820", EquipmentActiveAbility = "", EquipmentPassiveAbility = "214360", ItemStack = "99", ItemBuyPrice = "30000", ItemSellPrice = "3000", ItemIdClone = "700000077", BitNumber = "642"};
-        public static readonly Materia NA = new Materia { Name = "N/A", MateriaId = "504214720", Description = "アルタメノスの光", CountId = "2151720", EquipmentActiveAbility = "", EquipmentPassiveAbility = "214720", ItemStack = "99", ItemBuyPrice = "30000", ItemSellPrice = "3000", ItemIdClone = "700000095", BitNumber = "643"};
+        public static readonly Materia NA_504214720 = new Materia { Name = "N/A", MateriaId = "504214720", Description = "アルタメノスの光", CountId = "2151720", EquipmentActiveAbility = "", EquipmentPassiveAbility = "214720", ItemStack = "99", ItemBuyPrice = "30000", ItemSellPrice = "3000", ItemIdClone = "700000095", BitNumber = "643"};
         public static readonly Materia DragonKiller_504211360 = new Materia { Name = "Dragon Killer+", MateriaId = "504211360", Description = "ドラゴンキラー改", CountId = "2152310", EquipmentActiveAbility = "", EquipmentPassiveAbility = "211360", ItemStack = "99", ItemBuyPrice = "30000", ItemSellPrice = "3000", ItemIdClone = "700000079", BitNumber = "645"};
         public static readonly Materia MagesResolution = new Materia { Name = "Mage's Resolution", MateriaId = "504214930", Description = "魔道士の覚悟", CountId = "2151731", EquipmentActiveAbility = "", EquipmentPassiveAbility = "214930", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "646"};
         public static readonly Materia BusterStyle = new Materia { Name = "Buster Style", MateriaId = "504214990", Description = "バスターフォーム", CountId = "2171030", EquipmentActiveAbility = "", EquipmentPassiveAbility = "214990", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "647"};
@@ -824,85 +824,85 @@ namespace BraveHaxvius.Data
         public static readonly Materia TheLivingofSpira_504232791 = new Materia { Name = "The Living of Spira+", MateriaId = "504232791", Description = "スピラで生きる者 改", CountId = "2111510", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232791", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1026"};
         public static readonly Materia TidalWaves = new Materia { Name = "Tidal Waves", MateriaId = "504230774", Description = "タイダルウエイブ", CountId = "2212561", EquipmentActiveAbility = "", EquipmentPassiveAbility = "230774", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000035", BitNumber = "959"};
         public static readonly Materia SurpassingtheLegend = new Materia { Name = "Surpassing the Legend", MateriaId = "504230775", Description = "伝説を超えし者", CountId = "2153731", EquipmentActiveAbility = "", EquipmentPassiveAbility = "230775", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000099", BitNumber = "960"};
-        public static readonly Materia DEF = new Materia { Name = "DEF +30%", MateriaId = "504100150", Description = "DEF +30%", CountId = "90129", EquipmentActiveAbility = "", EquipmentPassiveAbility = "100150", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "90129"};
+        public static readonly Materia DEF_504100150 = new Materia { Name = "DEF +30%", MateriaId = "504100150", Description = "DEF +30%", CountId = "90129", EquipmentActiveAbility = "", EquipmentPassiveAbility = "100150", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "90129"};
         public static readonly Materia FundamentalsofAlchemy = new Materia { Name = "Fundamentals of Alchemy", MateriaId = "504234097", Description = "錬金術の基礎知識", CountId = "2113234", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234097", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000091", BitNumber = "1076"};
         public static readonly Materia IshvalsHero = new Materia { Name = "Ishval's Hero", MateriaId = "504234095", Description = "イシュヴァールの英雄", CountId = "2115719", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234095", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000006", BitNumber = "1074"};
         public static readonly Materia KnowledgeoftheTruth = new Materia { Name = "Knowledge of the Truth", MateriaId = "504234091", Description = "真理の知識", CountId = "2153232", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234091", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000018", BitNumber = "1072"};
         public static readonly Materia PhilosophersStoneSeeker = new Materia { Name = "Philosopher's Stone Seeker", MateriaId = "504234092", Description = "賢者の石を求める者", CountId = "2172013", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234092", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1073"};
         public static readonly Materia TheHawksEye = new Materia { Name = "The Hawk's Eye", MateriaId = "504234096", Description = "鷹の目", CountId = "2112071", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234096", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1075"};
-        public static readonly Materia LongReach_504232401 = new Materia { Name = "Long Reach", MateriaId = "504232401", Description = "忍者の教え", CountId = "2177101", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232401", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000097", BitNumber = "1014"};
-        public static readonly Materia Thievery_504232450 = new Materia { Name = "Thievery", MateriaId = "504232450", Description = "盗賊のあかし", CountId = "2113711", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232450", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1009"};
-        public static readonly Materia MasterDragonKnight_504232452 = new Materia { Name = "Master Dragon Knight", MateriaId = "504232452", Description = "竜技の極意", CountId = "2132222", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232452", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1010"};
-        public static readonly Materia BlackMagesPotential_504232454 = new Materia { Name = "Black Mage's Potential", MateriaId = "504232454", Description = "黒魔道士の潜在能力", CountId = "2151512", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232454", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1011"};
-        public static readonly Materia BurmeciasStrongestDragonKnight_504232456 = new Materia { Name = "Burmecia's Strongest Dragon Knight", MateriaId = "504232456", Description = "ブルメシア最強の竜騎士", CountId = "2151326", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232456", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1012"};
-        public static readonly Materia CourtJesters_504232457 = new Materia { Name = "Court Jesters", MateriaId = "504232457", Description = "月なきみそらの道化師たち", CountId = "2135405", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232457", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1013"};
-        public static readonly Materia ExceptionalIngenuity_504232511 = new Materia { Name = "Exceptional Ingenuity", MateriaId = "504232511", Description = "隙なき知謀家", CountId = "2174430", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232511", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000091", BitNumber = "1015"};
-        public static readonly Materia WingsthatTranscendTime_504234420 = new Materia { Name = "Wings that Transcend Time", MateriaId = "504234420", Description = "刻を超える翼", CountId = "2113237", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234420", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1087"};
-        public static readonly Materia PhantasmicMelody_504233464 = new Materia { Name = "Phantasmic Melody", MateriaId = "504233464", Description = "幻妖の旋律", CountId = "2153401", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233464", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000013", BitNumber = "1049"};
-        public static readonly Materia DiabolosSynergy_504233455 = new Materia { Name = "Diabolos Synergy", MateriaId = "504233455", Description = "ディアボロスシナジー", CountId = "2115715", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233455", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000098", BitNumber = "1047"};
-        public static readonly Materia IfritSynergy_504233450 = new Materia { Name = "Ifrit Synergy", MateriaId = "504233450", Description = "イフリートシナジー", CountId = "2113221", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233450", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1045"};
-        public static readonly Materia BahamutSynergy_504233452 = new Materia { Name = "Bahamut Synergy", MateriaId = "504233452", Description = "バハムートシナジー", CountId = "2115714", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233452", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1046"};
-        public static readonly Materia AsuraSynergy_504233456 = new Materia { Name = "Asura Synergy", MateriaId = "504233456", Description = "阿修羅シナジー", CountId = "2113222", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233456", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1048"};
-        public static readonly Materia ScionSorceress_504232670 = new Materia { Name = "Scion Sorceress", MateriaId = "504232670", Description = "暁の魔女", CountId = "2115710", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232670", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1018"};
-        public static readonly Materia WiseintheWaysofMagic_504232671 = new Materia { Name = "Wise in the Ways of Magic", MateriaId = "504232671", Description = "魔法学を究めし賢人", CountId = "2115711", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232671", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1019"};
-        public static readonly Materia GiftedSorceresssKnowledge_504232603 = new Materia { Name = "Gifted Sorceress's Knowledge", MateriaId = "504232603", Description = "天才魔術師の知識", CountId = "2115033", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232603", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000018", BitNumber = "1016"};
-        public static readonly Materia DropfromtheHolyGrail_504232605 = new Materia { Name = "Drop from the Holy Grail", MateriaId = "504232605", Description = "聖杯の雫", CountId = "2113210", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232605", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "1017"};
-        public static readonly Materia UnfalteringFist_504233913 = new Materia { Name = "Unfaltering Fist", MateriaId = "504233913", Description = "迷いなき拳", CountId = "2113229", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233913", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1064"};
-        public static readonly Materia CouragetoMoveOn_504233910 = new Materia { Name = "Courage to Move On", MateriaId = "504233910", Description = "前進する勇気", CountId = "2113228", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233910", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1063"};
-        public static readonly Materia MotherSeekingHeart_504233915 = new Materia { Name = "Mother-Seeking Heart", MateriaId = "504233915", Description = "母を求める心", CountId = "2113230", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233915", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000078", BitNumber = "1065"};
-        public static readonly Materia WaterFFVIIAC_504233919 = new Materia { Name = "Water (FFVII: AC)", MateriaId = "504233919", Description = "Water", CountId = "2115717", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233919", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000018", BitNumber = "1066"};
-        public static readonly Materia BlackWater_504233920 = new Materia { Name = "Black Water", MateriaId = "504233920", Description = "Black Water", CountId = "2113231", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233920", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000018", BitNumber = "1067"};
-        public static readonly Materia Needles_504234022 = new Materia { Name = "10000 Needles", MateriaId = "504234022", Description = "はりまんぼん", CountId = "2212712", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234022", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000097", BitNumber = "1070"};
-        public static readonly Materia RunAway_504234023 = new Materia { Name = "Run Away", MateriaId = "504234023", Description = "逃げ足", CountId = "2177102", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234023", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000097", BitNumber = "1071"};
-        public static readonly Materia BrawlersMight_1500000129 = new Materia { Name = "Brawler's Might", MateriaId = "1500000129", Description = "Brawlers Might", CountId = "90130", EquipmentActiveAbility = "", EquipmentPassiveAbility = "913996", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90130"};
-        public static readonly Materia ObscureMight_1500000130 = new Materia { Name = "Obscure Might", MateriaId = "1500000130", Description = "Shaded Might", CountId = "90131", EquipmentActiveAbility = "", EquipmentPassiveAbility = "913997", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90131"};
-        public static readonly Materia AlexanderSynergy_504233566 = new Materia { Name = "Alexander Synergy", MateriaId = "504233566", Description = "アレキサンダーシナジー", CountId = "2114034", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233566", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000099", BitNumber = "1053"};
-        public static readonly Materia TetraSylphidSynergy_504233564 = new Materia { Name = "Tetra Sylphid Synergy", MateriaId = "504233564", Description = "テトラシルフィードシナジー", CountId = "2115716", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233564", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1052"};
-        public static readonly Materia OdinSynergy_504233562 = new Materia { Name = "Odin Synergy", MateriaId = "504233562", Description = "オーディンシナジー", CountId = "2113223", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233562", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1051"};
-        public static readonly Materia FenrirSynergy_504233569 = new Materia { Name = "Fenrir Synergy", MateriaId = "504233569", Description = "フェンリルシナジー", CountId = "2111312", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233569", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000077", BitNumber = "1050"};
-        public static readonly Materia StrengthOverChaos_1500000131 = new Materia { Name = "Strength Over Chaos", MateriaId = "1500000131", Description = "Strength Over Chaos", CountId = "90132", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914016", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "90132"};
-        public static readonly Materia MindOverChaos_1500000132 = new Materia { Name = "Mind Over Chaos", MateriaId = "1500000132", Description = "Mind Over Chaos", CountId = "90133", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914017", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "90133"};
-        public static readonly Materia OerbasBoon_504234461 = new Materia { Name = "Oerba's Boon", MateriaId = "504234461", Description = "ヲルバの祝福", CountId = "2115724", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234461", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000041", BitNumber = "1088"};
-        public static readonly Materia MemoriesofRagnarok_504234463 = new Materia { Name = "Memories of Ragnarok", MateriaId = "504234463", Description = "ラグナロクの記憶", CountId = "2113238", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234463", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000080", BitNumber = "1089"};
-        public static readonly Materia DeterminationtoPullThrough_504234465 = new Materia { Name = "Determination to Pull Through", MateriaId = "504234465", Description = "つらぬく覚悟", CountId = "2113239", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234465", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1090"};
-        public static readonly Materia LoomingWrath_504234466 = new Materia { Name = "Looming Wrath", MateriaId = "504234466", Description = "リベンジスタイル", CountId = "2175011", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234466", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000068", BitNumber = "1091"};
-        public static readonly Materia EtrosChampion_504234204 = new Materia { Name = "Etro's Champion", MateriaId = "504234204", Description = "女神の騎士", CountId = "2111314", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234204", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1080"};
-        public static readonly Materia EnchantingArcher_504234201 = new Materia { Name = "Enchanting Archer", MateriaId = "504234201", Description = "魔弓の射手", CountId = "2115720", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234201", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1077"};
-        public static readonly Materia LastGuardian_504234202 = new Materia { Name = "Last Guardian", MateriaId = "504234202", Description = "最後の守護者", CountId = "2113235", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234202", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1078"};
-        public static readonly Materia AcademiasProdigy_504234203 = new Materia { Name = "Academia's Prodigy", MateriaId = "504234203", Description = "アカデミアの俊英", CountId = "2115721", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234203", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000078", BitNumber = "1079"};
-        public static readonly Materia GustyAttack_504234760 = new Materia { Name = "Gusty Attack", MateriaId = "504234760", Description = "ウェイビーアタック", CountId = "2212713", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234760", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000025", BitNumber = "1105"};
-        public static readonly Materia ChocoboBattalion_504234761 = new Materia { Name = "Chocobo Battalion", MateriaId = "504234761", Description = "チョコボバタリオン", CountId = "2111318", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234761", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000007", BitNumber = "1106"};
-        public static readonly Materia WaterArrow_504234205 = new Materia { Name = "Water Arrow", MateriaId = "504234205", Description = "ウォータリングアロー", CountId = "2290006", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234205", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000023", BitNumber = "1081"};
-        public static readonly Materia Fringeward_504234206 = new Materia { Name = "Fringeward", MateriaId = "504234206", Description = "エリアバリア", CountId = "2290007", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234206", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000043", BitNumber = "1082"};
-        public static readonly Materia SeeDUpperclassman_504234524 = new Materia { Name = "SeeD Upperclassman", MateriaId = "504234524", Description = "先輩SeeD", CountId = "2111315", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234524", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1094"};
-        public static readonly Materia GunbladeWielderSeifer_504234522 = new Materia { Name = "Gunblade Wielder (Seifer)", MateriaId = "504234522", Description = "ガンブレードの使い手【サイファー】", CountId = "2171083", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234522", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1093"};
-        public static readonly Materia TheMightiest_504234520 = new Materia { Name = "The Mightiest", MateriaId = "504234520", Description = "最も強き者", CountId = "2171082", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234520", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1092"};
-        public static readonly Materia EvaJunction_504234531 = new Materia { Name = "Eva Junction", MateriaId = "504234531", Description = "回避ジャンクション", CountId = "2114036", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234531", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000075", BitNumber = "1095"};
-        public static readonly Materia LuckJunction_504234532 = new Materia { Name = "Luck Junction", MateriaId = "504234532", Description = "運ジャンクション", CountId = "2179402", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234532", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000088", BitNumber = "1096"};
-        public static readonly Materia STDefJunction_504234533 = new Materia { Name = "ST-Def Junction", MateriaId = "504234533", Description = "ST防御ジャンクション", CountId = "2114035", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234533", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000014", BitNumber = "1097"};
-        public static readonly Materia LoveforTrabia_504234750 = new Materia { Name = "Love for Trabia", MateriaId = "504234750", Description = "トラビアへの想い", CountId = "2115726", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234750", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1101"};
-        public static readonly Materia ValuedMemories_504234752 = new Materia { Name = "Valued Memories", MateriaId = "504234752", Description = "大切な記憶", CountId = "2152601", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234752", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1102"};
-        public static readonly Materia ElemDefJunction_504234754 = new Materia { Name = "Elem-Def Junction", MateriaId = "504234754", Description = "属性防御ジャンクション", CountId = "2153233", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234754", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000018", BitNumber = "1103"};
-        public static readonly Materia GFExtension_504234755 = new Materia { Name = "GF Extension", MateriaId = "504234755", Description = "G.F.エクステンド", CountId = "2111317", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234755", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1104"};
-        public static readonly Materia DestinedPrince_504235504 = new Materia { Name = "Destined Prince", MateriaId = "504235504", Description = "運命の王子", CountId = "2111326", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235504", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1131"};
-        public static readonly Materia NightBloomingFlower_504235503 = new Materia { Name = "Night-Blooming Flower", MateriaId = "504235503", Description = "闇に咲く一輪花", CountId = "2113247", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235503", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1130"};
-        public static readonly Materia FatedPrince_504235500 = new Materia { Name = "Fated Prince", MateriaId = "504235500", Description = "宿命の王子", CountId = "2113246", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235500", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1129"};
-        public static readonly Materia H5ShockAbsorber_504234880 = new Materia { Name = "H5-Shock Absorber", MateriaId = "504234880", Description = "衝撃吸収装置H5", CountId = "2111320", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234880", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000014", BitNumber = "1109"};
-        public static readonly Materia KnowingTag_504234842 = new Materia { Name = "Knowing Tag", MateriaId = "504234842", Description = "ノーウィングタグ", CountId = "2111319", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234842", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1107"};
-        public static readonly Materia InheritingOnesFocus_504234846 = new Materia { Name = "Inheriting One's Focus", MateriaId = "504234846", Description = "使命の継承者", CountId = "2115727", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234846", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1108"};
-        public static readonly Materia PhoenixSynergy_504235182 = new Materia { Name = "Phoenix Synergy", MateriaId = "504235182", Description = "フェニックスシナジー", CountId = "2113233", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235182", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1116"};
-        public static readonly Materia DarkBahamutSynergy_504235180 = new Materia { Name = "Dark Bahamut Synergy", MateriaId = "504235180", Description = "ダークバハムートシナジー", CountId = "2115729", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235180", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1115"};
-        public static readonly Materia LakshmiSynergy_504235184 = new Materia { Name = "Lakshmi Synergy", MateriaId = "504235184", Description = "ラクシュミシナジー", CountId = "2111324", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235184", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000068", BitNumber = "1117"};
-        public static readonly Materia WilltoFighttheDarkness_504235186 = new Materia { Name = "Will to Fight the Darkness", MateriaId = "504235186", Description = "闇に抗う意志", CountId = "2113240", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235186", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000072", BitNumber = "1118"};
-        public static readonly Materia DragonConqueror_504235187 = new Materia { Name = "Dragon Conqueror", MateriaId = "504235187", Description = "討竜の力", CountId = "2115730", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235187", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1119"};
-        public static readonly Materia PoweroftheGems_504235286 = new Materia { Name = "Power of the Gems", MateriaId = "504235286", Description = "星宮のもたらす力", CountId = "2113242", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235286", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "1123"};
-        public static readonly Materia PeopleoftheWoodArchery_504235284 = new Materia { Name = "People of the Wood: Archery", MateriaId = "504235284", Description = "森の民の弓術", CountId = "2113241", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235284", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1122"};
-        public static readonly Materia DesertBloom_504235282 = new Materia { Name = "Desert Bloom", MateriaId = "504235282", Description = "幼馴染への恋心", CountId = "2115731", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235282", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1121"};
-        public static readonly Materia ABrothersSentiments_504235280 = new Materia { Name = "A Brother's Sentiments", MateriaId = "504235280", Description = "亡き兄への想い", CountId = "2154052", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235280", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1120"};
-        public static readonly Materia DoubleCatharsis_504231472 = new Materia { Name = "Double Catharsis", MateriaId = "504231472", Description = "ダブルカタリシス", CountId = "2135361", EquipmentActiveAbility = "", EquipmentPassiveAbility = "231472", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000077", BitNumber = "982"};
-        public static readonly Materia GracefulFootwork_504235372 = new Materia { Name = "Graceful Footwork", MateriaId = "504235372", Description = "華麗なる足技使い", CountId = "2113243", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235372", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1125"};
-        public static readonly Materia SoldiersMight_1500000133 = new Materia { Name = "Soldier's Might", MateriaId = "1500000133", Description = "Saint's Might", CountId = "90134", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914143", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90134"};
-        public static readonly Materia FreezingEnchantment_1500000134 = new Materia { Name = "Freezing Enchantment", MateriaId = "1500000134", Description = "Freezing enchantment	", CountId = "90135", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914144", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90135"};
+        public static readonly Materia LongReach = new Materia { Name = "Long Reach", MateriaId = "504232401", Description = "忍者の教え", CountId = "2177101", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232401", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000097", BitNumber = "1014"};
+        public static readonly Materia Thievery = new Materia { Name = "Thievery", MateriaId = "504232450", Description = "盗賊のあかし", CountId = "2113711", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232450", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1009"};
+        public static readonly Materia MasterDragonKnight = new Materia { Name = "Master Dragon Knight", MateriaId = "504232452", Description = "竜技の極意", CountId = "2132222", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232452", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1010"};
+        public static readonly Materia BlackMagesPotential = new Materia { Name = "Black Mage's Potential", MateriaId = "504232454", Description = "黒魔道士の潜在能力", CountId = "2151512", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232454", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1011"};
+        public static readonly Materia BurmeciasStrongestDragonKnight = new Materia { Name = "Burmecia's Strongest Dragon Knight", MateriaId = "504232456", Description = "ブルメシア最強の竜騎士", CountId = "2151326", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232456", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1012"};
+        public static readonly Materia CourtJesters = new Materia { Name = "Court Jesters", MateriaId = "504232457", Description = "月なきみそらの道化師たち", CountId = "2135405", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232457", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1013"};
+        public static readonly Materia ExceptionalIngenuity = new Materia { Name = "Exceptional Ingenuity", MateriaId = "504232511", Description = "隙なき知謀家", CountId = "2174430", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232511", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000091", BitNumber = "1015"};
+        public static readonly Materia WingsthatTranscendTime = new Materia { Name = "Wings that Transcend Time", MateriaId = "504234420", Description = "刻を超える翼", CountId = "2113237", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234420", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1087"};
+        public static readonly Materia PhantasmicMelody = new Materia { Name = "Phantasmic Melody", MateriaId = "504233464", Description = "幻妖の旋律", CountId = "2153401", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233464", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000013", BitNumber = "1049"};
+        public static readonly Materia DiabolosSynergy = new Materia { Name = "Diabolos Synergy", MateriaId = "504233455", Description = "ディアボロスシナジー", CountId = "2115715", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233455", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000098", BitNumber = "1047"};
+        public static readonly Materia IfritSynergy = new Materia { Name = "Ifrit Synergy", MateriaId = "504233450", Description = "イフリートシナジー", CountId = "2113221", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233450", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1045"};
+        public static readonly Materia BahamutSynergy = new Materia { Name = "Bahamut Synergy", MateriaId = "504233452", Description = "バハムートシナジー", CountId = "2115714", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233452", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1046"};
+        public static readonly Materia AsuraSynergy = new Materia { Name = "Asura Synergy", MateriaId = "504233456", Description = "阿修羅シナジー", CountId = "2113222", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233456", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1048"};
+        public static readonly Materia ScionSorceress = new Materia { Name = "Scion Sorceress", MateriaId = "504232670", Description = "暁の魔女", CountId = "2115710", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232670", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1018"};
+        public static readonly Materia WiseintheWaysofMagic = new Materia { Name = "Wise in the Ways of Magic", MateriaId = "504232671", Description = "魔法学を究めし賢人", CountId = "2115711", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232671", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1019"};
+        public static readonly Materia GiftedSorceresssKnowledge = new Materia { Name = "Gifted Sorceress's Knowledge", MateriaId = "504232603", Description = "天才魔術師の知識", CountId = "2115033", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232603", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000018", BitNumber = "1016"};
+        public static readonly Materia DropfromtheHolyGrail = new Materia { Name = "Drop from the Holy Grail", MateriaId = "504232605", Description = "聖杯の雫", CountId = "2113210", EquipmentActiveAbility = "", EquipmentPassiveAbility = "232605", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "1017"};
+        public static readonly Materia UnfalteringFist = new Materia { Name = "Unfaltering Fist", MateriaId = "504233913", Description = "迷いなき拳", CountId = "2113229", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233913", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1064"};
+        public static readonly Materia CouragetoMoveOn = new Materia { Name = "Courage to Move On", MateriaId = "504233910", Description = "前進する勇気", CountId = "2113228", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233910", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1063"};
+        public static readonly Materia MotherSeekingHeart = new Materia { Name = "Mother-Seeking Heart", MateriaId = "504233915", Description = "母を求める心", CountId = "2113230", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233915", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000078", BitNumber = "1065"};
+        public static readonly Materia WaterFFVIIAC = new Materia { Name = "Water (FFVII: AC)", MateriaId = "504233919", Description = "Water", CountId = "2115717", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233919", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000018", BitNumber = "1066"};
+        public static readonly Materia BlackWater = new Materia { Name = "Black Water", MateriaId = "504233920", Description = "Black Water", CountId = "2113231", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233920", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000018", BitNumber = "1067"};
+        public static readonly Materia Needles = new Materia { Name = "10000 Needles", MateriaId = "504234022", Description = "はりまんぼん", CountId = "2212712", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234022", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000097", BitNumber = "1070"};
+        public static readonly Materia RunAway = new Materia { Name = "Run Away", MateriaId = "504234023", Description = "逃げ足", CountId = "2177102", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234023", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000097", BitNumber = "1071"};
+        public static readonly Materia BrawlersMight = new Materia { Name = "Brawler's Might", MateriaId = "1500000129", Description = "Brawlers Might", CountId = "90130", EquipmentActiveAbility = "", EquipmentPassiveAbility = "913996", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90130"};
+        public static readonly Materia ObscureMight = new Materia { Name = "Obscure Might", MateriaId = "1500000130", Description = "Shaded Might", CountId = "90131", EquipmentActiveAbility = "", EquipmentPassiveAbility = "913997", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90131"};
+        public static readonly Materia AlexanderSynergy = new Materia { Name = "Alexander Synergy", MateriaId = "504233566", Description = "アレキサンダーシナジー", CountId = "2114034", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233566", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000099", BitNumber = "1053"};
+        public static readonly Materia TetraSylphidSynergy = new Materia { Name = "Tetra Sylphid Synergy", MateriaId = "504233564", Description = "テトラシルフィードシナジー", CountId = "2115716", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233564", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1052"};
+        public static readonly Materia OdinSynergy = new Materia { Name = "Odin Synergy", MateriaId = "504233562", Description = "オーディンシナジー", CountId = "2113223", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233562", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1051"};
+        public static readonly Materia FenrirSynergy = new Materia { Name = "Fenrir Synergy", MateriaId = "504233569", Description = "フェンリルシナジー", CountId = "2111312", EquipmentActiveAbility = "", EquipmentPassiveAbility = "233569", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000077", BitNumber = "1050"};
+        public static readonly Materia StrengthOverChaos = new Materia { Name = "Strength Over Chaos", MateriaId = "1500000131", Description = "Strength Over Chaos", CountId = "90132", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914016", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "90132"};
+        public static readonly Materia MindOverChaos = new Materia { Name = "Mind Over Chaos", MateriaId = "1500000132", Description = "Mind Over Chaos", CountId = "90133", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914017", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "90133"};
+        public static readonly Materia OerbasBoon = new Materia { Name = "Oerba's Boon", MateriaId = "504234461", Description = "ヲルバの祝福", CountId = "2115724", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234461", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000041", BitNumber = "1088"};
+        public static readonly Materia MemoriesofRagnarok = new Materia { Name = "Memories of Ragnarok", MateriaId = "504234463", Description = "ラグナロクの記憶", CountId = "2113238", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234463", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000080", BitNumber = "1089"};
+        public static readonly Materia DeterminationtoPullThrough = new Materia { Name = "Determination to Pull Through", MateriaId = "504234465", Description = "つらぬく覚悟", CountId = "2113239", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234465", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1090"};
+        public static readonly Materia LoomingWrath = new Materia { Name = "Looming Wrath", MateriaId = "504234466", Description = "リベンジスタイル", CountId = "2175011", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234466", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000068", BitNumber = "1091"};
+        public static readonly Materia EtrosChampion = new Materia { Name = "Etro's Champion", MateriaId = "504234204", Description = "女神の騎士", CountId = "2111314", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234204", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1080"};
+        public static readonly Materia EnchantingArcher = new Materia { Name = "Enchanting Archer", MateriaId = "504234201", Description = "魔弓の射手", CountId = "2115720", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234201", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1077"};
+        public static readonly Materia LastGuardian = new Materia { Name = "Last Guardian", MateriaId = "504234202", Description = "最後の守護者", CountId = "2113235", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234202", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1078"};
+        public static readonly Materia AcademiasProdigy = new Materia { Name = "Academia's Prodigy", MateriaId = "504234203", Description = "アカデミアの俊英", CountId = "2115721", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234203", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000078", BitNumber = "1079"};
+        public static readonly Materia GustyAttack = new Materia { Name = "Gusty Attack", MateriaId = "504234760", Description = "ウェイビーアタック", CountId = "2212713", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234760", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000025", BitNumber = "1105"};
+        public static readonly Materia ChocoboBattalion = new Materia { Name = "Chocobo Battalion", MateriaId = "504234761", Description = "チョコボバタリオン", CountId = "2111318", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234761", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000007", BitNumber = "1106"};
+        public static readonly Materia WaterArrow = new Materia { Name = "Water Arrow", MateriaId = "504234205", Description = "ウォータリングアロー", CountId = "2290006", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234205", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000023", BitNumber = "1081"};
+        public static readonly Materia Fringeward = new Materia { Name = "Fringeward", MateriaId = "504234206", Description = "エリアバリア", CountId = "2290007", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234206", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000043", BitNumber = "1082"};
+        public static readonly Materia SeeDUpperclassman = new Materia { Name = "SeeD Upperclassman", MateriaId = "504234524", Description = "先輩SeeD", CountId = "2111315", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234524", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1094"};
+        public static readonly Materia GunbladeWielderSeifer = new Materia { Name = "Gunblade Wielder (Seifer)", MateriaId = "504234522", Description = "ガンブレードの使い手【サイファー】", CountId = "2171083", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234522", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1093"};
+        public static readonly Materia TheMightiest = new Materia { Name = "The Mightiest", MateriaId = "504234520", Description = "最も強き者", CountId = "2171082", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234520", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1092"};
+        public static readonly Materia EvaJunction = new Materia { Name = "Eva Junction", MateriaId = "504234531", Description = "回避ジャンクション", CountId = "2114036", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234531", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000075", BitNumber = "1095"};
+        public static readonly Materia LuckJunction = new Materia { Name = "Luck Junction", MateriaId = "504234532", Description = "運ジャンクション", CountId = "2179402", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234532", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000088", BitNumber = "1096"};
+        public static readonly Materia STDefJunction = new Materia { Name = "ST-Def Junction", MateriaId = "504234533", Description = "ST防御ジャンクション", CountId = "2114035", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234533", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000014", BitNumber = "1097"};
+        public static readonly Materia LoveforTrabia = new Materia { Name = "Love for Trabia", MateriaId = "504234750", Description = "トラビアへの想い", CountId = "2115726", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234750", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1101"};
+        public static readonly Materia ValuedMemories = new Materia { Name = "Valued Memories", MateriaId = "504234752", Description = "大切な記憶", CountId = "2152601", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234752", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1102"};
+        public static readonly Materia ElemDefJunction = new Materia { Name = "Elem-Def Junction", MateriaId = "504234754", Description = "属性防御ジャンクション", CountId = "2153233", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234754", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000018", BitNumber = "1103"};
+        public static readonly Materia GFExtension = new Materia { Name = "GF Extension", MateriaId = "504234755", Description = "G.F.エクステンド", CountId = "2111317", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234755", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1104"};
+        public static readonly Materia DestinedPrince = new Materia { Name = "Destined Prince", MateriaId = "504235504", Description = "運命の王子", CountId = "2111326", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235504", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1131"};
+        public static readonly Materia NightBloomingFlower = new Materia { Name = "Night-Blooming Flower", MateriaId = "504235503", Description = "闇に咲く一輪花", CountId = "2113247", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235503", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1130"};
+        public static readonly Materia FatedPrince = new Materia { Name = "Fated Prince", MateriaId = "504235500", Description = "宿命の王子", CountId = "2113246", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235500", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1129"};
+        public static readonly Materia H5ShockAbsorber = new Materia { Name = "H5-Shock Absorber", MateriaId = "504234880", Description = "衝撃吸収装置H5", CountId = "2111320", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234880", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000014", BitNumber = "1109"};
+        public static readonly Materia KnowingTag = new Materia { Name = "Knowing Tag", MateriaId = "504234842", Description = "ノーウィングタグ", CountId = "2111319", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234842", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1107"};
+        public static readonly Materia InheritingOnesFocus = new Materia { Name = "Inheriting One's Focus", MateriaId = "504234846", Description = "使命の継承者", CountId = "2115727", EquipmentActiveAbility = "", EquipmentPassiveAbility = "234846", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1108"};
+        public static readonly Materia PhoenixSynergy = new Materia { Name = "Phoenix Synergy", MateriaId = "504235182", Description = "フェニックスシナジー", CountId = "2113233", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235182", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1116"};
+        public static readonly Materia DarkBahamutSynergy = new Materia { Name = "Dark Bahamut Synergy", MateriaId = "504235180", Description = "ダークバハムートシナジー", CountId = "2115729", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235180", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1115"};
+        public static readonly Materia LakshmiSynergy = new Materia { Name = "Lakshmi Synergy", MateriaId = "504235184", Description = "ラクシュミシナジー", CountId = "2111324", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235184", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000068", BitNumber = "1117"};
+        public static readonly Materia WilltoFighttheDarkness = new Materia { Name = "Will to Fight the Darkness", MateriaId = "504235186", Description = "闇に抗う意志", CountId = "2113240", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235186", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000072", BitNumber = "1118"};
+        public static readonly Materia DragonConqueror = new Materia { Name = "Dragon Conqueror", MateriaId = "504235187", Description = "討竜の力", CountId = "2115730", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235187", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1119"};
+        public static readonly Materia PoweroftheGems = new Materia { Name = "Power of the Gems", MateriaId = "504235286", Description = "星宮のもたらす力", CountId = "2113242", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235286", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "1123"};
+        public static readonly Materia PeopleoftheWoodArchery = new Materia { Name = "People of the Wood: Archery", MateriaId = "504235284", Description = "森の民の弓術", CountId = "2113241", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235284", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1122"};
+        public static readonly Materia DesertBloom = new Materia { Name = "Desert Bloom", MateriaId = "504235282", Description = "幼馴染への恋心", CountId = "2115731", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235282", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1121"};
+        public static readonly Materia ABrothersSentiments = new Materia { Name = "A Brother's Sentiments", MateriaId = "504235280", Description = "亡き兄への想い", CountId = "2154052", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235280", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1120"};
+        public static readonly Materia DoubleCatharsis = new Materia { Name = "Double Catharsis", MateriaId = "504231472", Description = "ダブルカタリシス", CountId = "2135361", EquipmentActiveAbility = "", EquipmentPassiveAbility = "231472", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000077", BitNumber = "982"};
+        public static readonly Materia GracefulFootwork = new Materia { Name = "Graceful Footwork", MateriaId = "504235372", Description = "華麗なる足技使い", CountId = "2113243", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235372", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1125"};
+        public static readonly Materia SoldiersMight = new Materia { Name = "Soldier's Might", MateriaId = "1500000133", Description = "Saint's Might", CountId = "90134", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914143", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90134"};
+        public static readonly Materia FreezingEnchantment = new Materia { Name = "Freezing Enchantment", MateriaId = "1500000134", Description = "Freezing enchantment	", CountId = "90135", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914144", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "90135"};
         public static readonly Materia SuccessionofMemories = new Materia { Name = "Succession of Memories", MateriaId = "504235696", Description = "受け継がれし記憶", CountId = "2112072", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235696", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000077", BitNumber = "1140"};
         public static readonly Materia ThirdOffering = new Materia { Name = "Third Offering", MateriaId = "504235694", Description = "誰かを助けるのに理由がいるかい？", CountId = "2113250", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235694", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1139"};
         public static readonly Materia DesireforCycleofRebirth = new Materia { Name = "Desire for Cycle of Rebirth", MateriaId = "504235692", Description = "命の循環を願う者", CountId = "2115735", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235692", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1138"};
@@ -912,102 +912,92 @@ namespace BraveHaxvius.Data
         public static readonly Materia SimplyMyself = new Materia { Name = "Simply Myself", MateriaId = "504235590", Description = "私は私", CountId = "2115732", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235590", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1132"};
         public static readonly Materia KnightsSpirit = new Materia { Name = "Knight's Spirit", MateriaId = "504235598", Description = "ナイトスピリット", CountId = "2113248", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235598", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1133"};
         public static readonly Materia HuntClubAquan = new Materia { Name = "Hunt Club - Aquan", MateriaId = "504235599", Description = "ハントループ・水棲系", CountId = "2115733", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235599", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1134"};
-        public static readonly Materia MasterofFate_504236244 = new Materia { Name = "Master of Fate", MateriaId = "504236244", Description = "運命の覇者", CountId = "2171033", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236051", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1152"};
-        public static readonly Materia FightingDad_504236240 = new Materia { Name = "Fighting Dad", MateriaId = "504236240", Description = "戦う父ちゃん", CountId = "2113254", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236240", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1153"};
-        public static readonly Materia NothingPersonal_504236242 = new Materia { Name = "Nothing Personal", MateriaId = "504236242", Description = "仕事の時間だぞ、と", CountId = "2114037", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236242", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1154"};
-        public static readonly Materia MakoEnergy_504236246 = new Materia { Name = "Mako Energy", MateriaId = "504236246", Description = "魔晄エネルギー", CountId = "2113255", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236246", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1155"};
-        public static readonly Materia SaviorsofthePlanet_504236247 = new Materia { Name = "Saviors of the Planet", MateriaId = "504236247", Description = "星の命を守る者", CountId = "2111330", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236247", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000078", BitNumber = "1156"};
-        public static readonly Materia ANewPower_504236270 = new Materia { Name = "A New Power", MateriaId = "504236270", Description = "新しい力", CountId = "2171084", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236270", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1157"};
-        public static readonly Materia AFathersConviction_504236276 = new Materia { Name = "A Father's Conviction", MateriaId = "504236276", Description = "父の信念", CountId = "2151992", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236276", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1160"};
-        public static readonly Materia IllusionaryGun_504236272 = new Materia { Name = "Illusionary Gun", MateriaId = "504236272", Description = "ガンイリュージョン", CountId = "2113256", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236272", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1158"};
-        public static readonly Materia TrainConductor_504236274 = new Materia { Name = "Train Conductor", MateriaId = "504236274", Description = "トレインコンダクター", CountId = "2111331", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236274", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000004", BitNumber = "1159"};
-        public static readonly Materia LastJudgmentGrimoire_504235120 = new Materia { Name = "Last Judgment Grimoire", MateriaId = "504235120", Description = "真・断撃のグリモア", CountId = "2111323", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235120", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1114"};
-        public static readonly Materia LegacyoftheAncients_504236415 = new Materia { Name = "Legacy of the Ancients", MateriaId = "504236415", Description = "古代種の遺産", CountId = "2112073", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236415", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1163"};
-        public static readonly Materia ShinraSupportSystem_504236416 = new Materia { Name = "Shinra Support System", MateriaId = "504236416", Description = "神羅式支援システム", CountId = "2113257", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236416", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1164"};
-        public static readonly Materia TheNewBoss_504236413 = new Materia { Name = "The New Boss", MateriaId = "504236413", Description = "新たな指導者", CountId = "2151993", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236413", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1162"};
-        public static readonly Materia APrayertoChangetheFuture_504236410 = new Materia { Name = "A Prayer to Change the Future", MateriaId = "504236410", Description = "未来を変える祈り", CountId = "2115738", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236410", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000018", BitNumber = "1161"};
-        public static readonly Materia AwakenedDragon_504236540 = new Materia { Name = "Awakened Dragon", MateriaId = "504236540", Description = "目覚めし臥竜", CountId = "2113258", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236540", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1167"};
-        public static readonly Materia CalloftheWild_504236417 = new Materia { Name = "Call of the Wild", MateriaId = "504236417", Description = "獣性の目覚め", CountId = "2173052", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236417", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1165"};
-        public static readonly Materia CoeurlsBlaster_504236418 = new Materia { Name = "Coeurl's Blaster", MateriaId = "504236418", Description = "ブラスター", CountId = "2216002", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236418", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000009", BitNumber = "1166"};
-        public static readonly Materia SoCuteItsCriminal_504236544 = new Materia { Name = "So Cute It's Criminal", MateriaId = "504236544", Description = "罪な可愛さ", CountId = "2113259", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236544", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000083", BitNumber = "1169"};
-        public static readonly Materia DreamofBecomingMadam_504236542 = new Materia { Name = "Dream of Becoming Madam", MateriaId = "504236542", Description = "マダムになる夢", CountId = "2112074", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236542", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1168"};
-        public static readonly Materia DemonicDestruction_504236548 = new Materia { Name = "Demonic Destruction", MateriaId = "504236548", Description = "壊魔の力", CountId = "2113260", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236548", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1170"};
-        public static readonly Materia SnowstormKatana_504236549 = new Materia { Name = "Snowstorm Katana", MateriaId = "504236549", Description = "破氷の操刀術", CountId = "2151994", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236549", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1171"};
-        public static readonly Materia SpiritoftheShinobi_1500000136 = new Materia { Name = "Spirit of the Shinobi", MateriaId = "1500000136", Description = "Spirit of the Shinobi", CountId = "90137", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914226", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000060", BitNumber = "90137"};
-        public static readonly Materia RestorationoftheHisame_1500000135 = new Materia { Name = "Restoration of the Hisame", MateriaId = "1500000135", Description = "Heart of Hisame", CountId = "90136", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914147", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "90136"};
-        public static readonly Materia AzureRadiance_1500000137 = new Materia { Name = "Azure Radiance", MateriaId = "1500000137", Description = "Azure Radiance", CountId = "90138", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914285", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "1500000109", BitNumber = "90138"};
-        public static readonly Materia FutureEmperor_504236891 = new Materia { Name = "Future Emperor", MateriaId = "504236891", Description = "未来の賢帝", CountId = "2112075", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236891", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000068", BitNumber = "1176"};
-        public static readonly Materia ErrantHound_504236890 = new Materia { Name = "Errant Hound", MateriaId = "504236890", Description = "野良犬の意地", CountId = "2111332", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236890", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1175"};
-        public static readonly Materia WisdomoftheJudge_504236894 = new Materia { Name = "Wisdom of the Judge", MateriaId = "504236894", Description = "ジャッジの心得", CountId = "2114038", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236894", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1177"};
-        public static readonly Materia HouseSolidorsTeachings_504236895 = new Materia { Name = "House Solidor's Teachings", MateriaId = "504236895", Description = "ソリドールの教え", CountId = "2111333", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236895", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1178"};
-        public static readonly Materia RebelsVolition_504237067 = new Materia { Name = "Rebel's Volition", MateriaId = "504237067", Description = "反乱軍の意志", CountId = "2151996", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237067", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1182"};
-        public static readonly Materia DeterminedtoDefeattheEmpire_504237063 = new Materia { Name = "Determined to Defeat the Empire", MateriaId = "504237063", Description = "帝国に打ち勝つ意志", CountId = "2114039", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237063", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000014", BitNumber = "1180"};
-        public static readonly Materia UltimateSeekerofMagic_504237065 = new Materia { Name = "Ultimate Seeker of Magic", MateriaId = "504237065", Description = "究極魔法の求道者", CountId = "2112076", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237065", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1181"};
-        public static readonly Materia ThornsoftheRose_504237060 = new Materia { Name = "Thorns of the Rose", MateriaId = "504237060", Description = "のばらの義士", CountId = "2151995", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237060", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1179"};
-        public static readonly Materia ShiningArtsFundamentals_504237400 = new Materia { Name = "Shining Arts Fundamentals", MateriaId = "504237400", Description = "煌技の基礎", CountId = "2171087", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237400", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1186"};
-        public static readonly Materia PowerfulStewardofFlame_504237402 = new Materia { Name = "Powerful Steward of Flame", MateriaId = "504237402", Description = "炎のパワフルバトラー", CountId = "2152001", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237402", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1187"};
-        public static readonly Materia EasyBreezyStewardess_504237404 = new Materia { Name = "Easy, Breezy, Stewardess", MateriaId = "504237404", Description = "風を連れた女執事", CountId = "2152002", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237404", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1188"};
-        public static readonly Materia AdventureSeeker_504237412 = new Materia { Name = "Adventure Seeker", MateriaId = "504237412", Description = "浪漫を求める者", CountId = "2152003", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237412", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1189"};
-        public static readonly Materia CrushingStone_504237413 = new Materia { Name = "Crushing Stone", MateriaId = "504237413", Description = "ストーンスクワッシュ", CountId = "2115739", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237413", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1190"};
-        public static readonly Materia MysticalAura_1500000138 = new Materia { Name = "Mystical Aura", MateriaId = "1500000138", Description = "Mystical Aura", CountId = "90139", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914378", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000092", BitNumber = "90139"};
-        public static readonly Materia EvilVanguard_504236720 = new Materia { Name = "Evil Vanguard", MateriaId = "504236720", Description = "悪意の先導者", CountId = "2171085", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236720", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1172"};
-        public static readonly Materia TheMageofSinandTaboos_504236722 = new Materia { Name = "The Mage of Sin and Taboos", MateriaId = "504236722", Description = "禁忌と罪咎の大魔道士", CountId = "2171086", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236722", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1173"};
-        public static readonly Materia EvilWardingPlant_504236726 = new Materia { Name = "Evil-Warding Plant", MateriaId = "504236726", Description = "破魔の植物", CountId = "2152602", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236726", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000079", BitNumber = "1174"};
-        public static readonly Materia BrainTeasersMembership_504237242 = new Materia { Name = "Brain Teasers Membership", MateriaId = "504237242", Description = "パズル同好会メンバー", CountId = "2151998", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237242", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1184"};
-        public static readonly Materia BeachParty_504237240 = new Materia { Name = "Beach Party!", MateriaId = "504237240", Description = "海で遊ぼう！", CountId = "2151997", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237240", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000013", BitNumber = "1183"};
-        public static readonly Materia ChosenbytheWindCrystal_504237880 = new Materia { Name = "Chosen by the Wind Crystal", MateriaId = "504237880", Description = "風のクリスタルに選ばれし者", CountId = "2113267", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237880", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1205"};
-        public static readonly Materia PathofaBlackMage_504237882 = new Materia { Name = "Path of a Black Mage", MateriaId = "504237882", Description = "黒魔道師の心得", CountId = "2113268", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237882", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1206"};
-        public static readonly Materia TwinSwordUser_504237887 = new Materia { Name = "Twin Sword User", MateriaId = "504237887", Description = "ツインソードの使い手", CountId = "2155600", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237887", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000072", BitNumber = "1207"};
-        public static readonly Materia EntrustedLight_504237888 = new Materia { Name = "Entrusted Light", MateriaId = "504237888", Description = "託された光", CountId = "2153239", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237888", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000018", BitNumber = "1208"};
-        public static readonly Materia BoyBrimmingwithCuriosity_504237547 = new Materia { Name = "Boy Brimming with Curiosity", MateriaId = "504237547", Description = "好奇心旺盛な少年", CountId = "2113264", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237547", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000018", BitNumber = "1196"};
-        public static readonly Materia GuardianofLightKairi_504237545 = new Materia { Name = "Guardian of Light (Kairi)", MateriaId = "504237545", Description = "光の守護者【カイリ】", CountId = "2113263", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237545", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000091", BitNumber = "1195"};
-        public static readonly Materia GuardianofLightRiku_504237543 = new Materia { Name = "Guardian of Light (Riku)", MateriaId = "504237543", Description = "光の守護者【リク】", CountId = "2113262", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237543", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1194"};
-        public static readonly Materia GuardianofLightSora_504237541 = new Materia { Name = "Guardian of Light (Sora)", MateriaId = "504237541", Description = "光の守護者【ソラ】", CountId = "2113261", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237541", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000077", BitNumber = "1193"};
-        public static readonly Materia SandstormResistingShield_504237721 = new Materia { Name = "Sandstorm-Resisting Shield", MateriaId = "504237721", Description = "砂嵐を耐える盾技", CountId = "2153238", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237721", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1203"};
-        public static readonly Materia TalentedNewGunner_504237720 = new Materia { Name = "Talented New Gunner", MateriaId = "504237720", Description = "敏腕新人ガンナー", CountId = "2113265", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237720", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1202"};
-        public static readonly Materia SurgingMalice_504237410 = new Materia { Name = "Surging Malice", MateriaId = "504237410", Description = "おんねんが渦巻く", CountId = "2152004", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237410", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000043", BitNumber = "1191"};
-        public static readonly Materia GrudgePower_504237411 = new Materia { Name = "Grudge Power", MateriaId = "504237411", Description = "うらみのパワー", CountId = "2290009", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237411", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1192"};
-        public static readonly Materia RookieKnightofGrandshelt_504237725 = new Materia { Name = "Rookie Knight of Grandshelt", MateriaId = "504237725", Description = "グランシェルトの新人騎士", CountId = "2113266", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237725", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1204"};
-        public static readonly Materia InnateTalent_504238052 = new Materia { Name = "Innate Talent", MateriaId = "504238052", Description = "天性の画才", CountId = "2112077", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238052", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1211"};
-        public static readonly Materia PursuingtheMysteriesofMonsters_504238054 = new Materia { Name = "Pursuing the Mysteries of Monsters", MateriaId = "504238054", Description = "モンスターの謎を追う者", CountId = "2115741", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238054", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1212"};
-        public static readonly Materia ATinyLightofHope_504238050 = new Materia { Name = "A Tiny Light of Hope", MateriaId = "504238050", Description = "「希望」と言う名の一粒の光", CountId = "2115740", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238050", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1210"};
-        public static readonly Materia EsperMediation_504238059 = new Materia { Name = "Esper Mediation", MateriaId = "504238059", Description = "幻獣との和解", CountId = "2115742", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238059", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1213"};
-        public static readonly Materia ThePoweroftheStatues_504238060 = new Materia { Name = "The Power of the Statues", MateriaId = "504238060", Description = "三闘神の像に宿りし力", CountId = "2115743", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238060", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1214"};
-        public static readonly Materia ItJustMaySaveUs_504238392 = new Materia { Name = "It Just May Save Us", MateriaId = "504238392", Description = "また夢を見させてもらうぜ", CountId = "2155620", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238392", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1220"};
-        public static readonly Materia MiracleinKohlingen_504238390 = new Materia { Name = "Miracle in Kohlingen", MateriaId = "504238390", Description = "コーリンゲンの奇跡", CountId = "2113269", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238390", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1219"};
-        public static readonly Materia TopNotchCardistry_504238395 = new Materia { Name = "Top-Notch Cardistry", MateriaId = "504238395", Description = "一流のカードさばき", CountId = "2155640", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238395", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1222"};
-        public static readonly Materia TreasureHuntersKnowledge_504238394 = new Materia { Name = "Treasure Hunter's Knowledge", MateriaId = "504238394", Description = "トレジャーハンターの心得", CountId = "2155630", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238394", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1221"};
-        public static readonly Materia ReclaimedSerenity_15000001390 = new Materia { Name = "Reclaimed Serenity", MateriaId = "1500000139", Description = "Reclaimed Serenity", CountId = "90140", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914711", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000018", BitNumber = "90140"};
-        public static readonly Materia LifeforthePurge_15000001401 = new Materia { Name = "Life for the Purge", MateriaId = "1500000140", Description = "Life for the Purge", CountId = "90141", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914712", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "90141"};
-        public static readonly Materia PridefulIncarnate_15000001412 = new Materia { Name = "Prideful Incarnate", MateriaId = "1500000141", Description = "Prideful Incarnate", CountId = "90142", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914728", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000092", BitNumber = "90142"};
-        public static readonly Materia WayoftheSamurai_15000001423 = new Materia { Name = "Way of the Samurai", MateriaId = "1500000142", Description = "Way of the Samurai", CountId = "90143", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914729", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "90143"};
-        public static readonly Materia ConqueringtheFearofSpirits_5042378894 = new Materia { Name = "Conquering the Fear of Spirits", MateriaId = "504237889", Description = "死霊の恐怖に打ち勝つ者", CountId = "2152603", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237889", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1209"};
+        public static readonly Materia MasterofFate = new Materia { Name = "Master of Fate", MateriaId = "504236244", Description = "運命の覇者", CountId = "2171033", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236051", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1152"};
+        public static readonly Materia FightingDad = new Materia { Name = "Fighting Dad", MateriaId = "504236240", Description = "戦う父ちゃん", CountId = "2113254", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236240", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1153"};
+        public static readonly Materia NothingPersonal = new Materia { Name = "Nothing Personal", MateriaId = "504236242", Description = "仕事の時間だぞ、と", CountId = "2114037", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236242", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1154"};
+        public static readonly Materia MakoEnergy = new Materia { Name = "Mako Energy", MateriaId = "504236246", Description = "魔晄エネルギー", CountId = "2113255", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236246", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1155"};
+        public static readonly Materia SaviorsofthePlanet = new Materia { Name = "Saviors of the Planet", MateriaId = "504236247", Description = "星の命を守る者", CountId = "2111330", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236247", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000078", BitNumber = "1156"};
+        public static readonly Materia ANewPower = new Materia { Name = "A New Power", MateriaId = "504236270", Description = "新しい力", CountId = "2171084", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236270", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1157"};
+        public static readonly Materia AFathersConviction = new Materia { Name = "A Father's Conviction", MateriaId = "504236276", Description = "父の信念", CountId = "2151992", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236276", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1160"};
+        public static readonly Materia IllusionaryGun = new Materia { Name = "Illusionary Gun", MateriaId = "504236272", Description = "ガンイリュージョン", CountId = "2113256", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236272", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1158"};
+        public static readonly Materia TrainConductor = new Materia { Name = "Train Conductor", MateriaId = "504236274", Description = "トレインコンダクター", CountId = "2111331", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236274", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000004", BitNumber = "1159"};
+        public static readonly Materia LastJudgmentGrimoire = new Materia { Name = "Last Judgment Grimoire", MateriaId = "504235120", Description = "真・断撃のグリモア", CountId = "2111323", EquipmentActiveAbility = "", EquipmentPassiveAbility = "235120", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1114"};
+        public static readonly Materia LegacyoftheAncients = new Materia { Name = "Legacy of the Ancients", MateriaId = "504236415", Description = "古代種の遺産", CountId = "2112073", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236415", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1163"};
+        public static readonly Materia ShinraSupportSystem = new Materia { Name = "Shinra Support System", MateriaId = "504236416", Description = "神羅式支援システム", CountId = "2113257", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236416", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1164"};
+        public static readonly Materia TheNewBoss = new Materia { Name = "The New Boss", MateriaId = "504236413", Description = "新たな指導者", CountId = "2151993", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236413", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1162"};
+        public static readonly Materia APrayertoChangetheFuture = new Materia { Name = "A Prayer to Change the Future", MateriaId = "504236410", Description = "未来を変える祈り", CountId = "2115738", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236410", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000018", BitNumber = "1161"};
+        public static readonly Materia AwakenedDragon = new Materia { Name = "Awakened Dragon", MateriaId = "504236540", Description = "目覚めし臥竜", CountId = "2113258", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236540", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1167"};
+        public static readonly Materia CalloftheWild = new Materia { Name = "Call of the Wild", MateriaId = "504236417", Description = "獣性の目覚め", CountId = "2173052", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236417", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1165"};
+        public static readonly Materia CoeurlsBlaster = new Materia { Name = "Coeurl's Blaster", MateriaId = "504236418", Description = "ブラスター", CountId = "2216002", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236418", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000009", BitNumber = "1166"};
+        public static readonly Materia SoCuteItsCriminal = new Materia { Name = "So Cute It's Criminal", MateriaId = "504236544", Description = "罪な可愛さ", CountId = "2113259", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236544", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000083", BitNumber = "1169"};
+        public static readonly Materia DreamofBecomingMadam = new Materia { Name = "Dream of Becoming Madam", MateriaId = "504236542", Description = "マダムになる夢", CountId = "2112074", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236542", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1168"};
+        public static readonly Materia DemonicDestruction = new Materia { Name = "Demonic Destruction", MateriaId = "504236548", Description = "壊魔の力", CountId = "2113260", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236548", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1170"};
+        public static readonly Materia SnowstormKatana = new Materia { Name = "Snowstorm Katana", MateriaId = "504236549", Description = "破氷の操刀術", CountId = "2151994", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236549", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1171"};
+        public static readonly Materia SpiritoftheShinobi = new Materia { Name = "Spirit of the Shinobi", MateriaId = "1500000136", Description = "Spirit of the Shinobi", CountId = "90137", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914226", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000060", BitNumber = "90137"};
+        public static readonly Materia RestorationoftheHisame = new Materia { Name = "Restoration of the Hisame", MateriaId = "1500000135", Description = "Heart of Hisame", CountId = "90136", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914147", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "90136"};
+        public static readonly Materia AzureRadiance = new Materia { Name = "Azure Radiance", MateriaId = "1500000137", Description = "Azure Radiance", CountId = "90138", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914285", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "1500000109", BitNumber = "90138"};
+        public static readonly Materia FutureEmperor = new Materia { Name = "Future Emperor", MateriaId = "504236891", Description = "未来の賢帝", CountId = "2112075", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236891", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000068", BitNumber = "1176"};
+        public static readonly Materia ErrantHound = new Materia { Name = "Errant Hound", MateriaId = "504236890", Description = "野良犬の意地", CountId = "2111332", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236890", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1175"};
+        public static readonly Materia WisdomoftheJudge = new Materia { Name = "Wisdom of the Judge", MateriaId = "504236894", Description = "ジャッジの心得", CountId = "2114038", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236894", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1177"};
+        public static readonly Materia HouseSolidorsTeachings = new Materia { Name = "House Solidor's Teachings", MateriaId = "504236895", Description = "ソリドールの教え", CountId = "2111333", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236895", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1178"};
+        public static readonly Materia RebelsVolition = new Materia { Name = "Rebel's Volition", MateriaId = "504237067", Description = "反乱軍の意志", CountId = "2151996", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237067", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1182"};
+        public static readonly Materia DeterminedtoDefeattheEmpire = new Materia { Name = "Determined to Defeat the Empire", MateriaId = "504237063", Description = "帝国に打ち勝つ意志", CountId = "2114039", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237063", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000014", BitNumber = "1180"};
+        public static readonly Materia UltimateSeekerofMagic = new Materia { Name = "Ultimate Seeker of Magic", MateriaId = "504237065", Description = "究極魔法の求道者", CountId = "2112076", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237065", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000095", BitNumber = "1181"};
+        public static readonly Materia ThornsoftheRose = new Materia { Name = "Thorns of the Rose", MateriaId = "504237060", Description = "のばらの義士", CountId = "2151995", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237060", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1179"};
+        public static readonly Materia ShiningArtsFundamentals = new Materia { Name = "Shining Arts Fundamentals", MateriaId = "504237400", Description = "煌技の基礎", CountId = "2171087", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237400", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1186"};
+        public static readonly Materia PowerfulStewardofFlame = new Materia { Name = "Powerful Steward of Flame", MateriaId = "504237402", Description = "炎のパワフルバトラー", CountId = "2152001", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237402", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1187"};
+        public static readonly Materia EasyBreezyStewardess = new Materia { Name = "Easy, Breezy, Stewardess", MateriaId = "504237404", Description = "風を連れた女執事", CountId = "2152002", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237404", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1188"};
+        public static readonly Materia AdventureSeeker = new Materia { Name = "Adventure Seeker", MateriaId = "504237412", Description = "浪漫を求める者", CountId = "2152003", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237412", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1189"};
+        public static readonly Materia CrushingStone = new Materia { Name = "Crushing Stone", MateriaId = "504237413", Description = "ストーンスクワッシュ", CountId = "2115739", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237413", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1190"};
+        public static readonly Materia MysticalAura = new Materia { Name = "Mystical Aura", MateriaId = "1500000138", Description = "Mystical Aura", CountId = "90139", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914378", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000092", BitNumber = "90139"};
+        public static readonly Materia EvilVanguard = new Materia { Name = "Evil Vanguard", MateriaId = "504236720", Description = "悪意の先導者", CountId = "2171085", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236720", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1172"};
+        public static readonly Materia TheMageofSinandTaboos = new Materia { Name = "The Mage of Sin and Taboos", MateriaId = "504236722", Description = "禁忌と罪咎の大魔道士", CountId = "2171086", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236722", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1173"};
+        public static readonly Materia EvilWardingPlant = new Materia { Name = "Evil-Warding Plant", MateriaId = "504236726", Description = "破魔の植物", CountId = "2152602", EquipmentActiveAbility = "", EquipmentPassiveAbility = "236726", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000079", BitNumber = "1174"};
+        public static readonly Materia BrainTeasersMembership = new Materia { Name = "Brain Teasers Membership", MateriaId = "504237242", Description = "パズル同好会メンバー", CountId = "2151998", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237242", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000076", BitNumber = "1184"};
+        public static readonly Materia BeachParty = new Materia { Name = "Beach Party!", MateriaId = "504237240", Description = "海で遊ぼう！", CountId = "2151997", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237240", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000013", BitNumber = "1183"};
+        public static readonly Materia ChosenbytheWindCrystal = new Materia { Name = "Chosen by the Wind Crystal", MateriaId = "504237880", Description = "風のクリスタルに選ばれし者", CountId = "2113267", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237880", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1205"};
+        public static readonly Materia PathofaBlackMage = new Materia { Name = "Path of a Black Mage", MateriaId = "504237882", Description = "黒魔道師の心得", CountId = "2113268", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237882", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1206"};
+        public static readonly Materia TwinSwordUser = new Materia { Name = "Twin Sword User", MateriaId = "504237887", Description = "ツインソードの使い手", CountId = "2155600", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237887", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000072", BitNumber = "1207"};
+        public static readonly Materia EntrustedLight = new Materia { Name = "Entrusted Light", MateriaId = "504237888", Description = "託された光", CountId = "2153239", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237888", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000018", BitNumber = "1208"};
+        public static readonly Materia BoyBrimmingwithCuriosity = new Materia { Name = "Boy Brimming with Curiosity", MateriaId = "504237547", Description = "好奇心旺盛な少年", CountId = "2113264", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237547", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000018", BitNumber = "1196"};
+        public static readonly Materia GuardianofLightKairi = new Materia { Name = "Guardian of Light (Kairi)", MateriaId = "504237545", Description = "光の守護者【カイリ】", CountId = "2113263", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237545", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000091", BitNumber = "1195"};
+        public static readonly Materia GuardianofLightRiku = new Materia { Name = "Guardian of Light (Riku)", MateriaId = "504237543", Description = "光の守護者【リク】", CountId = "2113262", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237543", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000072", BitNumber = "1194"};
+        public static readonly Materia GuardianofLightSora = new Materia { Name = "Guardian of Light (Sora)", MateriaId = "504237541", Description = "光の守護者【ソラ】", CountId = "2113261", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237541", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000077", BitNumber = "1193"};
+        public static readonly Materia SandstormResistingShield = new Materia { Name = "Sandstorm-Resisting Shield", MateriaId = "504237721", Description = "砂嵐を耐える盾技", CountId = "2153238", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237721", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1203"};
+        public static readonly Materia TalentedNewGunner = new Materia { Name = "Talented New Gunner", MateriaId = "504237720", Description = "敏腕新人ガンナー", CountId = "2113265", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237720", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1202"};
+        public static readonly Materia SurgingMalice = new Materia { Name = "Surging Malice", MateriaId = "504237410", Description = "おんねんが渦巻く", CountId = "2152004", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237410", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000043", BitNumber = "1191"};
+        public static readonly Materia GrudgePower = new Materia { Name = "Grudge Power", MateriaId = "504237411", Description = "うらみのパワー", CountId = "2290009", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237411", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1192"};
+        public static readonly Materia RookieKnightofGrandshelt = new Materia { Name = "Rookie Knight of Grandshelt", MateriaId = "504237725", Description = "グランシェルトの新人騎士", CountId = "2113266", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237725", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1204"};
+        public static readonly Materia InnateTalent = new Materia { Name = "Innate Talent", MateriaId = "504238052", Description = "天性の画才", CountId = "2112077", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238052", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1211"};
+        public static readonly Materia PursuingtheMysteriesofMonsters = new Materia { Name = "Pursuing the Mysteries of Monsters", MateriaId = "504238054", Description = "モンスターの謎を追う者", CountId = "2115741", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238054", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000076", BitNumber = "1212"};
+        public static readonly Materia ATinyLightofHope = new Materia { Name = "A Tiny Light of Hope", MateriaId = "504238050", Description = "「希望」と言う名の一粒の光", CountId = "2115740", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238050", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "1210"};
+        public static readonly Materia EsperMediation = new Materia { Name = "Esper Mediation", MateriaId = "504238059", Description = "幻獣との和解", CountId = "2115742", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238059", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000077", BitNumber = "1213"};
+        public static readonly Materia ThePoweroftheStatues = new Materia { Name = "The Power of the Statues", MateriaId = "504238060", Description = "三闘神の像に宿りし力", CountId = "2115743", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238060", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1214"};
+        public static readonly Materia ItJustMaySaveUs = new Materia { Name = "It Just May Save Us", MateriaId = "504238392", Description = "また夢を見させてもらうぜ", CountId = "2155620", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238392", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000091", BitNumber = "1220"};
+        public static readonly Materia MiracleinKohlingen = new Materia { Name = "Miracle in Kohlingen", MateriaId = "504238390", Description = "コーリンゲンの奇跡", CountId = "2113269", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238390", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1219"};
+        public static readonly Materia TopNotchCardistry = new Materia { Name = "Top-Notch Cardistry", MateriaId = "504238395", Description = "一流のカードさばき", CountId = "2155640", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238395", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1222"};
+        public static readonly Materia TreasureHuntersKnowledge = new Materia { Name = "Treasure Hunter's Knowledge", MateriaId = "504238394", Description = "トレジャーハンターの心得", CountId = "2155630", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238394", ItemStack = "999", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1221"};
+        public static readonly Materia ReclaimedSerenity = new Materia { Name = "Reclaimed Serenity", MateriaId = "1500000139", Description = "Reclaimed Serenity", CountId = "90140", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914711", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000018", BitNumber = "90140"};
+        public static readonly Materia LifeforthePurge = new Materia { Name = "Life for the Purge", MateriaId = "1500000140", Description = "Life for the Purge", CountId = "90141", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914712", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "90141"};
+        public static readonly Materia PridefulIncarnate = new Materia { Name = "Prideful Incarnate", MateriaId = "1500000141", Description = "Prideful Incarnate", CountId = "90142", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914728", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000092", BitNumber = "90142"};
+        public static readonly Materia WayoftheSamurai = new Materia { Name = "Way of the Samurai", MateriaId = "1500000142", Description = "Way of the Samurai", CountId = "90143", EquipmentActiveAbility = "", EquipmentPassiveAbility = "914729", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000077", BitNumber = "90143"};
+        public static readonly Materia ConqueringtheFearofSpirits = new Materia { Name = "Conquering the Fear of Spirits", MateriaId = "504237889", Description = "死霊の恐怖に打ち勝つ者", CountId = "2152603", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237889", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1209"};
+        public static readonly Materia DragonVanquisher = new Materia { Name = "Dragon Vanquisher", MateriaId = "504238232", Description = "竜に打ち勝つもの", CountId = "2152370", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238232", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1216"};
+        public static readonly Materia DragonObliteratingKatana = new Materia { Name = "Dragon-Obliterating Katana", MateriaId = "504238230", Description = "竜殺しの絶刀", CountId = "2152360", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238230", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1215"};
+        public static readonly Materia InsectBuster = new Materia { Name = "Insect Buster", MateriaId = "504238239", Description = "インセクトバスター", CountId = "2152380", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238239", ItemStack = "99", ItemBuyPrice = "200000", ItemSellPrice = "20000", ItemIdClone = "700000079", BitNumber = "1218"};
+        public static readonly Materia RiskingEverythingforFamily = new Materia { Name = "Risking Everything for Family", MateriaId = "504238237", Description = "家族を護りぬいた者", CountId = "2155610", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238237", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000095", BitNumber = "1217"};
+        public static readonly Materia NoMatterHowFarApartWeAre = new Materia { Name = "No Matter How Far Apart We Are", MateriaId = "504238550", Description = "どこにいても通じ合う二人", CountId = "2113270", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238550", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1223"};
+        public static readonly Materia LinkedByaJourney = new Materia { Name = "Linked By a Journey", MateriaId = "504238559", Description = "旅で繋がる者たち", CountId = "2152005", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238559", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1226"};
+        public static readonly Materia LinkedByaTechnique = new Materia { Name = "Linked By a Technique", MateriaId = "504238560", Description = "同じ技で繋がる者たち", CountId = "2152006", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238560", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000095", BitNumber = "1227"};
+        public static readonly Materia SpookyBreaker_504237246 = new Materia { Name = "Spooky Breaker", MateriaId = "504237246", Description = "スプーキーブレイカー", CountId = "2151999", EquipmentActiveAbility = "", EquipmentPassiveAbility = "237246", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000079", BitNumber = "1185"};
+        public static readonly Materia ToDefeatEvilBeasts_504239003 = new Materia { Name = "To Defeat Evil Beasts", MateriaId = "504239003", Description = "獣と魔なる者を倒す力", CountId = "2152382", EquipmentActiveAbility = "", EquipmentPassiveAbility = "239003", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000079", BitNumber = "1255"};
+        public static readonly Materia ThunderstormArmor_504239004 = new Materia { Name = "Thunderstorm Armor", MateriaId = "504239004", Description = "雷風を纏う鎧", CountId = "2153241", EquipmentActiveAbility = "", EquipmentPassiveAbility = "239004", ItemStack = "99", ItemBuyPrice = "50000", ItemSellPrice = "5000", ItemIdClone = "700000018", BitNumber = "1256"};
+        public static readonly Materia AcknowledgedbyPurpleLightning_504238552 = new Materia { Name = "Acknowledged by Purple Lightning", MateriaId = "504238552", Description = "紫電が認めた剣士たち", CountId = "2113271", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238552", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1224"};
+        public static readonly Materia UnmatchedDuo_504238554 = new Materia { Name = "Unmatched Duo", MateriaId = "504238554", Description = "最強の二人", CountId = "2113272", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238554", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000072", BitNumber = "1225"};
+        public static readonly Materia TwoSagesMagic_504238842 = new Materia { Name = "Two Sages' Magic", MateriaId = "504238842", Description = "双賢者の魔力", CountId = "2115746", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238842", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000095", BitNumber = "1249"};
+        public static readonly Materia PlantWitheringPressure_504238566 = new Materia { Name = "Plant-Withering Pressure", MateriaId = "504238566", Description = "草枯の威圧", CountId = "2152390", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238566", ItemStack = "99", ItemBuyPrice = "100000", ItemSellPrice = "10000", ItemIdClone = "700000079", BitNumber = "1228"};
+        public static readonly Materia ChampionsoftheTournament_504238849 = new Materia { Name = "Champions of the Tournament", MateriaId = "504238849", Description = "闘技大会を勝ち抜いた者", CountId = "2152381", EquipmentActiveAbility = "", EquipmentPassiveAbility = "238849", ItemStack = "99", ItemBuyPrice = "15000", ItemSellPrice = "1500", ItemIdClone = "700000079", BitNumber = "1251"};
 /*VersionControldefinitions*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		public static readonly List<Materia> Materias = new List<Materia>
 		{
            Libra,
@@ -1328,12 +1318,12 @@ namespace BraveHaxvius.Data
            GeneralOffensive,
            MAG_504100110,
            EquipInstrument,
-           Darkra,
+           Darkra_504020460,
            FiraBlade,
            AwesomeSwordsman,
            PureWhiteBlessing,
            HighSpirits,
-           NA,
+           NA_504214720,
            DragonKiller_504211360,
            MagesResolution,
            BusterStyle,
@@ -1816,85 +1806,85 @@ namespace BraveHaxvius.Data
            TheLivingofSpira_504232791,
            TidalWaves,
            SurpassingtheLegend,
-           DEF,
+           DEF_504100150,
            FundamentalsofAlchemy,
            IshvalsHero,
            KnowledgeoftheTruth,
            PhilosophersStoneSeeker,
            TheHawksEye,
-           LongReach_504232401,
-           Thievery_504232450,
-           MasterDragonKnight_504232452,
-           BlackMagesPotential_504232454,
-           BurmeciasStrongestDragonKnight_504232456,
-           CourtJesters_504232457,
-           ExceptionalIngenuity_504232511,
-           WingsthatTranscendTime_504234420,
-           PhantasmicMelody_504233464,
-           DiabolosSynergy_504233455,
-           IfritSynergy_504233450,
-           BahamutSynergy_504233452,
-           AsuraSynergy_504233456,
-           ScionSorceress_504232670,
-           WiseintheWaysofMagic_504232671,
-           GiftedSorceresssKnowledge_504232603,
-           DropfromtheHolyGrail_504232605,
-           UnfalteringFist_504233913,
-           CouragetoMoveOn_504233910,
-           MotherSeekingHeart_504233915,
-           WaterFFVIIAC_504233919,
-           BlackWater_504233920,
-           Needles_504234022,
-           RunAway_504234023,
-           BrawlersMight_1500000129,
-           ObscureMight_1500000130,
-           AlexanderSynergy_504233566,
-           TetraSylphidSynergy_504233564,
-           OdinSynergy_504233562,
-           FenrirSynergy_504233569,
-           StrengthOverChaos_1500000131,
-           MindOverChaos_1500000132,
-           OerbasBoon_504234461,
-           MemoriesofRagnarok_504234463,
-           DeterminationtoPullThrough_504234465,
-           LoomingWrath_504234466,
-           EtrosChampion_504234204,
-           EnchantingArcher_504234201,
-           LastGuardian_504234202,
-           AcademiasProdigy_504234203,
-           GustyAttack_504234760,
-           ChocoboBattalion_504234761,
-           WaterArrow_504234205,
-           Fringeward_504234206,
-           SeeDUpperclassman_504234524,
-           GunbladeWielderSeifer_504234522,
-           TheMightiest_504234520,
-           EvaJunction_504234531,
-           LuckJunction_504234532,
-           STDefJunction_504234533,
-           LoveforTrabia_504234750,
-           ValuedMemories_504234752,
-           ElemDefJunction_504234754,
-           GFExtension_504234755,
-           DestinedPrince_504235504,
-           NightBloomingFlower_504235503,
-           FatedPrince_504235500,
-           H5ShockAbsorber_504234880,
-           KnowingTag_504234842,
-           InheritingOnesFocus_504234846,
-           PhoenixSynergy_504235182,
-           DarkBahamutSynergy_504235180,
-           LakshmiSynergy_504235184,
-           WilltoFighttheDarkness_504235186,
-           DragonConqueror_504235187,
-           PoweroftheGems_504235286,
-           PeopleoftheWoodArchery_504235284,
-           DesertBloom_504235282,
-           ABrothersSentiments_504235280,
-           DoubleCatharsis_504231472,
-           GracefulFootwork_504235372,
-           SoldiersMight_1500000133,
-           FreezingEnchantment_1500000134,
+           LongReach,
+           Thievery,
+           MasterDragonKnight,
+           BlackMagesPotential,
+           BurmeciasStrongestDragonKnight,
+           CourtJesters,
+           ExceptionalIngenuity,
+           WingsthatTranscendTime,
+           PhantasmicMelody,
+           DiabolosSynergy,
+           IfritSynergy,
+           BahamutSynergy,
+           AsuraSynergy,
+           ScionSorceress,
+           WiseintheWaysofMagic,
+           GiftedSorceresssKnowledge,
+           DropfromtheHolyGrail,
+           UnfalteringFist,
+           CouragetoMoveOn,
+           MotherSeekingHeart,
+           WaterFFVIIAC,
+           BlackWater,
+           Needles,
+           RunAway,
+           BrawlersMight,
+           ObscureMight,
+           AlexanderSynergy,
+           TetraSylphidSynergy,
+           OdinSynergy,
+           FenrirSynergy,
+           StrengthOverChaos,
+           MindOverChaos,
+           OerbasBoon,
+           MemoriesofRagnarok,
+           DeterminationtoPullThrough,
+           LoomingWrath,
+           EtrosChampion,
+           EnchantingArcher,
+           LastGuardian,
+           AcademiasProdigy,
+           GustyAttack,
+           ChocoboBattalion,
+           WaterArrow,
+           Fringeward,
+           SeeDUpperclassman,
+           GunbladeWielderSeifer,
+           TheMightiest,
+           EvaJunction,
+           LuckJunction,
+           STDefJunction,
+           LoveforTrabia,
+           ValuedMemories,
+           ElemDefJunction,
+           GFExtension,
+           DestinedPrince,
+           NightBloomingFlower,
+           FatedPrince,
+           H5ShockAbsorber,
+           KnowingTag,
+           InheritingOnesFocus,
+           PhoenixSynergy,
+           DarkBahamutSynergy,
+           LakshmiSynergy,
+           WilltoFighttheDarkness,
+           DragonConqueror,
+           PoweroftheGems,
+           PeopleoftheWoodArchery,
+           DesertBloom,
+           ABrothersSentiments,
+           DoubleCatharsis,
+           GracefulFootwork,
+           SoldiersMight,
+           FreezingEnchantment,
            SuccessionofMemories,
            ThirdOffering,
            DesireforCycleofRebirth,
@@ -1904,101 +1894,91 @@ namespace BraveHaxvius.Data
            SimplyMyself,
            KnightsSpirit,
            HuntClubAquan,
-           MasterofFate_504236244,
-           FightingDad_504236240,
-           NothingPersonal_504236242,
-           MakoEnergy_504236246,
-           SaviorsofthePlanet_504236247,
-           ANewPower_504236270,
-           AFathersConviction_504236276,
-           IllusionaryGun_504236272,
-           TrainConductor_504236274,
-           LastJudgmentGrimoire_504235120,
-           LegacyoftheAncients_504236415,
-           ShinraSupportSystem_504236416,
-           TheNewBoss_504236413,
-           APrayertoChangetheFuture_504236410,
-           AwakenedDragon_504236540,
-           CalloftheWild_504236417,
-           CoeurlsBlaster_504236418,
-           SoCuteItsCriminal_504236544,
-           DreamofBecomingMadam_504236542,
-           DemonicDestruction_504236548,
-           SnowstormKatana_504236549,
-           SpiritoftheShinobi_1500000136,
-           RestorationoftheHisame_1500000135,
-           AzureRadiance_1500000137,
-           FutureEmperor_504236891,
-           ErrantHound_504236890,
-           WisdomoftheJudge_504236894,
-           HouseSolidorsTeachings_504236895,
-           RebelsVolition_504237067,
-           DeterminedtoDefeattheEmpire_504237063,
-           UltimateSeekerofMagic_504237065,
-           ThornsoftheRose_504237060,
-           ShiningArtsFundamentals_504237400,
-           PowerfulStewardofFlame_504237402,
-           EasyBreezyStewardess_504237404,
-           AdventureSeeker_504237412,
-           CrushingStone_504237413,
-           MysticalAura_1500000138,
-           EvilVanguard_504236720,
-           TheMageofSinandTaboos_504236722,
-           EvilWardingPlant_504236726,
-           BrainTeasersMembership_504237242,
-           BeachParty_504237240,
-           ChosenbytheWindCrystal_504237880,
-           PathofaBlackMage_504237882,
-           TwinSwordUser_504237887,
-           EntrustedLight_504237888,
-           BoyBrimmingwithCuriosity_504237547,
-           GuardianofLightKairi_504237545,
-           GuardianofLightRiku_504237543,
-           GuardianofLightSora_504237541,
-           SandstormResistingShield_504237721,
-           TalentedNewGunner_504237720,
-           SurgingMalice_504237410,
-           GrudgePower_504237411,
-           RookieKnightofGrandshelt_504237725,
-           InnateTalent_504238052,
-           PursuingtheMysteriesofMonsters_504238054,
-           ATinyLightofHope_504238050,
-           EsperMediation_504238059,
-           ThePoweroftheStatues_504238060,
-           ItJustMaySaveUs_504238392,
-           MiracleinKohlingen_504238390,
-           TopNotchCardistry_504238395,
-           TreasureHuntersKnowledge_504238394,
-           ReclaimedSerenity_15000001390,
-           LifeforthePurge_15000001401,
-           PridefulIncarnate_15000001412,
-           WayoftheSamurai_15000001423,
-           ConqueringtheFearofSpirits_5042378894,
-/*VersionControldefinitionsList*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		};
+           MasterofFate,
+           FightingDad,
+           NothingPersonal,
+           MakoEnergy,
+           SaviorsofthePlanet,
+           ANewPower,
+           AFathersConviction,
+           IllusionaryGun,
+           TrainConductor,
+           LastJudgmentGrimoire,
+           LegacyoftheAncients,
+           ShinraSupportSystem,
+           TheNewBoss,
+           APrayertoChangetheFuture,
+           AwakenedDragon,
+           CalloftheWild,
+           CoeurlsBlaster,
+           SoCuteItsCriminal,
+           DreamofBecomingMadam,
+           DemonicDestruction,
+           SnowstormKatana,
+           SpiritoftheShinobi,
+           RestorationoftheHisame,
+           AzureRadiance,
+           FutureEmperor,
+           ErrantHound,
+           WisdomoftheJudge,
+           HouseSolidorsTeachings,
+           RebelsVolition,
+           DeterminedtoDefeattheEmpire,
+           UltimateSeekerofMagic,
+           ThornsoftheRose,
+           ShiningArtsFundamentals,
+           PowerfulStewardofFlame,
+           EasyBreezyStewardess,
+           AdventureSeeker,
+           CrushingStone,
+           MysticalAura,
+           EvilVanguard,
+           TheMageofSinandTaboos,
+           EvilWardingPlant,
+           BrainTeasersMembership,
+           BeachParty,
+           ChosenbytheWindCrystal,
+           PathofaBlackMage,
+           TwinSwordUser,
+           EntrustedLight,
+           BoyBrimmingwithCuriosity,
+           GuardianofLightKairi,
+           GuardianofLightRiku,
+           GuardianofLightSora,
+           SandstormResistingShield,
+           TalentedNewGunner,
+           SurgingMalice,
+           GrudgePower,
+           RookieKnightofGrandshelt,
+           InnateTalent,
+           PursuingtheMysteriesofMonsters,
+           ATinyLightofHope,
+           EsperMediation,
+           ThePoweroftheStatues,
+           ItJustMaySaveUs,
+           MiracleinKohlingen,
+           TopNotchCardistry,
+           TreasureHuntersKnowledge,
+           ReclaimedSerenity,
+           LifeforthePurge,
+           PridefulIncarnate,
+           WayoftheSamurai,
+           ConqueringtheFearofSpirits,
+           DragonVanquisher,
+           DragonObliteratingKatana,
+           InsectBuster,
+           RiskingEverythingforFamily,
+           NoMatterHowFarApartWeAre,
+           LinkedByaJourney,
+           LinkedByaTechnique,
+           SpookyBreaker_504237246,
+           ToDefeatEvilBeasts_504239003,
+           ThunderstormArmor_504239004,
+           AcknowledgedbyPurpleLightning_504238552,
+           UnmatchedDuo_504238554,
+           TwoSagesMagic_504238842,
+           PlantWitheringPressure_504238566,
+           ChampionsoftheTournament_504238849,
+/*VersionControldefinitionsList*/		};
     }
 }

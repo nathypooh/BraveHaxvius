@@ -21,15 +21,15 @@ namespace BraveHaxvius
             return Crypt(data, key, true);
         }
 
-        public static String Crypt(String data, String key, Boolean encrypt, [System.Runtime.InteropServices.Optional] Boolean isContect )
+        public static String Crypt(String data, String key, Boolean encrypt, [System.Runtime.InteropServices.Optional] Boolean isContext )
         {
-            string Padding(string a) => encrypt ? a.PadRight(a.Length + (16 - a.Length % 16), (char)(16 - a.Length % 16)): a.Trim((char)(isContect ? 0:a.Last()));
+            string Padding(string a) => encrypt ? a.PadRight(a.Length + (16 - a.Length % 16), (char)(16 - a.Length % 16)): a.Trim((char)(isContext ? 0:a.Last()));
             string iv = "dZMjkk8gFDzKHlsx";
             var ivBytes = Encoding.UTF8.GetBytes(iv);
 
             var keyBytes = new Byte[16];
             Array.Copy(Encoding.UTF8.GetBytes(key), keyBytes, key.Length);
-            var aes = isContect ?
+            var aes = isContext ?
                         new AesManaged { Mode = CipherMode.ECB, Key = keyBytes, Padding = PaddingMode.PKCS7 } :
                         new AesManaged { Mode = CipherMode.CBC, Key = keyBytes, IV = ivBytes };
             Byte[] uncryptedBytes = encrypt ? Encoding.UTF8.GetBytes(Padding(data)) : Convert.FromBase64String(data);

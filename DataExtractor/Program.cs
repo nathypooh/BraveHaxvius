@@ -410,10 +410,11 @@ namespace BraveHaxvius.Data
             DumpHardcoded("Request", networkJson, new List<String> { "Url", "EncodeKey", "RequestID" });
             DumpHardcoded("GameObject", responseJson);
             DumpHardcoded("Variable", variableJson);
-            
+
             var bot = new BraveExvius
             {
-                MstVersion = "0"
+                MstVersion = "0",
+                AppVersion = "99999"
             };
             var init = bot.Network.SendPacket(Request.Initialize);
             var newMsts = init[GameObject.VersionInfo];
