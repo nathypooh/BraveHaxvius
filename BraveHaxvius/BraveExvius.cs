@@ -774,6 +774,8 @@ namespace BraveHaxvius
             var BattleInfo = new List<JToken> { WaveBattleInfo, EncountInfo, ScenarioBattleInfo };
             var itemCount = new Dictionary<String, UInt16>();
             var itemStolenCount = new Dictionary<String, UInt16>();
+	    var importantItemCount = new Dictionary<String, UInt16>();
+            var equipmentCount = new Dictionary<String, UInt16>();
             var possibleDropTypes = new List<String> { Variable.MonsterDrops, Variable.MonsterSpecialDrops };
             var unitDrops = new List<String>();
 
@@ -796,14 +798,34 @@ namespace BraveHaxvius
                             var items = enemy[dropType].ToString().Split(new char[1] { ',' }, StringSplitOptions.RemoveEmptyEntries);
                             foreach (var item in items)
                             {
-                                var parts = item.ToString().Split(new char[1] { ':' }, StringSplitOptions.RemoveEmptyEntries);
-                                var id = parts[1];
-                                var count = UInt16.Parse(parts[2]);
-                                if (itemCount.ContainsKey(id))
-                                    itemCount[id] += count;
-                                else
-                                    itemCount.Add(id, count);
-                            }
+                                    var parts = item.ToString().Separador(':');
+                                    var id = parts[1];
+                                    var count = UInt16.Parse(parts[2]);
+                                    switch (parts[0])
+                                    {
+                                        case "20":
+                                            if (itemCount.ContainsKey(id))
+                                                itemCount[id] += count;
+                                            else
+                                                itemCount.Add(id, count);
+                                            break;
+                                        case "21":
+                                            if (equipmentCount.ContainsKey(id))
+                                                equipmentCount[id] += count;
+                                            else
+                                                equipmentCount.Add(id, count);
+                                            break;
+                                        case "23":
+                                            if (importantItemCount.ContainsKey(id))
+                                                importantItemCount[id] += count;
+                                            else
+                                                importantItemCount.Add(id, count);
+                                            break;
+                                        default:
+                                            break;
+                                    }
+                     
+                                }
                         }
                     }
                     if (enemy[Variable.MonsterUnitDrops] != null && enemy[Variable.MonsterUnitDrops].ToString().Length > 0)
@@ -835,6 +857,8 @@ namespace BraveHaxvius
 
             var UnitsDropped = collectUnits ? String.Join(",", unitDrops) : "";
             var ItemsDropped = collectLoot ? String.Join(",", itemCount.Select(k => "20:" + k.Key + ":" + k.Value)) : "";
+	    var EquipmentDropped = collectLoot ? String.Join(",", equipmentCount.Select(k => "21:" + k.Key + ":" + k.Value)) : "";
+            var ImportantItemsDropped = collectLoot ? String.Join(",", importantItemCount.Select(k => "23:" + k.Key + ":" + k.Value)) : "";
             var ItemsStolen = collectLoot ? String.Join(",", itemStolenCount.Select(k => "20:" + k.Key + ":" + k.Value)) : "";
             TotalDamage = new Random().Next((int)(TotalDamage * 1.05f), (int)(TotalDamage * 1.45f));
 
@@ -893,6 +917,10 @@ namespace BraveHaxvius
                     Logger.Out("Enemy dropped item : " + Item.Items.FindAll(i => i.ItemId != null).First(i => item.Key.Contains(i.ItemId)).Name + " : " + item.Value);
                 foreach (var item in itemStolenCount)
                     Logger.Out("Enemy stolen item : " + Item.Items.FindAll(i => i.ItemId != null).First(i => item.Key.Contains(i.ItemId)).Name + " : " + item.Value);
+   	        foreach (var item in importantItemCount)
+                    Logger.Out("Enemy stolen importantItem : " + ImportantItem.ImportantItems.FindAll(i => i.ImportantId != null).First(i => item.Key.Contains(i.ImportantId)).Name + " : " + item.Value);
+		foreach (var item in equipmentCount)
+                    Logger.Out("Enemy dropped equipment : " + Equipment.Equipments.FindAll(i => i.EquipId != null).First(i => item.Key.Contains(i.EquipId)).Name + " : " + item.Value);
                 var ih = ItemsFound.Split(new char[1] { ',' }, StringSplitOptions.RemoveEmptyEntries);
                 foreach (var item in ih)
                     Logger.Out("Stage dropped item : " + Item.Items.FindAll(i => i.ItemId != null).First(i => item.Contains(i.ItemId)).Name);
@@ -929,6 +957,10 @@ namespace BraveHaxvius
                 new JProperty(Variable.StolenGil, StolenGil.ToString()),
                 new JProperty("8CfoLQv5", "0"),
                 new JProperty("wQhu9G7n", "0"));
+	    if (!String.IsNullOrEmpty(EquipmentDropped))
+                 MissionResult.Add(Variable.EquipmentDropped, EquipmentDropped);
+            if (!String.IsNullOrEmpty(ImportantItemsDropped))
+                MissionResult.Add("Z6yB9eYd", ImportantItemsDropped);
             if (!String.IsNullOrEmpty(ItemsDropped))
                 MissionResult.Add(Variable.ItemsDropped, ItemsDropped);
             if (!String.IsNullOrEmpty(ItemsStolen))
