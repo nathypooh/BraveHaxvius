@@ -19,15 +19,31 @@ namespace Client
         DataTable IWTable = new DataTable();
         DataTable newsTable = new DataTable();
         DataTable mailTable = new DataTable();
-
+        bool StopForArena = false;
+        bool StopForRaid = false;
+        public int ChangeParty = -1;
+        public int RaidParty = -1;
+        int RunMissionCount = 0;
+        List<Mission> QueuedMissions = new List<Mission>();
 
         public MainWindow()
         {
             Control.CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
             InitStaticItems();
-            client.FacebookUserId = fbidInput.Text;
-            client.FacebookToken = fbtokenInput.Text;
+            if (fbidInput.Text.ToLower() == "google")
+            {
+                client.P_GOOGLE_ID= fbidInput.Text;
+                client.P_GOOGLE_TOKEN = fbtokenInput.Text;
+            }
+            else
+            {
+                client.FacebookUserId = fbidInput.Text;
+                client.FacebookToken = fbtokenInput.Text;
+                client.P_GOOGLE_ID = null;
+                client.P_GOOGLE_TOKEN = null;
+            }
+            
             client.ProxyIpAddr = ProxyIP.Text;
             if (!String.IsNullOrWhiteSpace(ProxyIP.Text))
                 client.ProxyPort = int.Parse(ProxyPort.Text);
@@ -84,6 +100,17 @@ namespace Client
 
             missionSelect.DataSource = missionList;
             missionSelect.DisplayMember = "Description";
+
+            missionSelect.SelectedItem = missionList.Find(x => x.MissionId == "11420201");
+
+            var raidList = missionList.FindAll(i => i.Raid == "1");
+            raidList.Reverse();
+            RaidMissionSelect.DataSource = raidList;
+            RaidMissionSelect.DisplayMember = "Name";
+
+            partySelect.DataSource = new List<int>() { 0, 1, 2, 3, 4, 5 };
+            raidPartySelect.DataSource = new List<int>() { 0, 1, 2, 3, 4, 5 };
+
         }
         private void InitGacha(BraveExvius b)
         {
@@ -222,10 +249,10 @@ namespace Client
             t.Start();
         }
 
-        private void StartMission_Click(object sender, EventArgs e)
+        private void StartMission_Click(object sender, EventArgs e, bool queued = false)
         {
-            var t = new Thread(() =>
-            {
+            var t = new Thread(() => RunMission(queued));
+            /*{
                 StartMission.Enabled = false;
                 client.Device = RBiOS.Checked ? "iPhone9,3" : "XT890";
                 client.OperatingSystem = RBiOS.Checked ? "ios10.2.1" : RBAndroid.Checked ? "android4.4.2" : "amazon";
@@ -240,9 +267,103 @@ namespace Client
                     Thread.Sleep(3000);
                 }
                 StartMission.Enabled = true;
-            });
+            });*/
             t.IsBackground = true;
             t.Start();
+        }
+
+        private void StartMission_Click(object sender, EventArgs e)
+        {
+            StartMission_Click(sender, e, false);
+        }
+
+        private void RunMission(bool queuedMission = false)
+        {
+            StartMission.Enabled = false;
+            startQueuedMissions.Enabled = false;
+            client.Device = RBiOS.Checked ? "iPhone9,3" : "XT890";
+            client.OperatingSystem = RBiOS.Checked ? "ios10.2.1" : RBAndroid.Checked ? "android4.4.2" : "amazon";
+            client.Login();
+            //if (Verbose)
+            client.UpdateCurrentParty();
+            var mission = missionSelect.SelectedItem as Mission;
+            //client.DoMission(mission, CBFriends.Checked, null, null, null, CBTrophies.Checked, CBChallenge.Checked, CBLoot.Checked, CBUnits.Checked, CBExplore.Checked, LBLevel.Text, 3000);
+            RunMissionCount = 0;
+            var TotalErrors = 0;
+            var runTotal = RepeatMission.Text.Replace(" ", "") ?? "1";
+            while (RunMissionCount < Int32.Parse(runTotal) && TotalErrors < 3)
+            {
+                if (queuedMission && QueuedMissions.Count > 0)
+                {
+                    mission = QueuedMissions.FirstOrDefault();
+                    QueuedMissions.Remove(mission);
+                    queuedMissions.Items.RemoveAt(queuedMissions.Items.IndexOf(mission.Name));
+                }
+                try
+                {
+                    var iterationInfo = $"Doing run ... {mission.Name} {(++RunMissionCount).ToString()}/{runTotal} With party: {client.MyCurrentParty.CurrentPartyNames}";
+                    Logger.Out(iterationInfo);
+                    var missionResult = client.DoMission(mission, CBFriends.Checked, null, null, null, CBTrophies.Checked, CBChallenge.Checked, CBLoot.Checked, CBUnits.Checked, CBExplore.Checked, LBLevel.Text, 1500, CBIsParadeMissionEnd.Checked);
+
+                    client.ArenaOrbs = UInt16.Parse(missionResult[GameObject.UserTeamInfo][0][Variable.ColosseumOrb].ToString());
+                    client.RaidOrbs = UInt16.Parse(missionResult[GameObject.UserTeamInfo][0][Variable.RaidOrb].ToString());
+                    var currentEnergy = Int32.Parse(missionResult[GameObject.UserTeamInfo][0][Variable.Energy].ToString());
+
+                    Thread.Sleep(1500);
+                    if (StopForArena && client.ArenaOrbs > 0)// && (RunMissionCount % 20 == 0))
+                    {
+                        client.ClearArena();
+                    }
+                    if (StopForRaid && client.RaidOrbs > 0)//&& (RunMissionCount % 20 == 0))
+                    {
+                        client.ClearRaid(RaidMissionSelect.SelectedItem as Mission, RaidParty);
+                    }
+
+                    if (RunMissionCount % 5 == 0)
+                    {
+                        client.UpdateCurrentParty(missionResult);
+
+                        /*client.MyCurrentParty.MyPartyUnits.ForEach(x =>
+                        {
+                            if (x.TMR == 100 || (x.TMR > 0 && x.TMR > x.LastTMR))
+                            {
+                                Logger.Out(x.Name + " Gained " + (x.TMR - x.LastTMR) + " points.");
+                            }
+
+                            if (x.LastLevel < x.Level)
+                            {
+                                Logger.Out($"{x.Name} Leveld up! Now Level {x.Level}");
+                            }
+                        });*/
+
+                    }
+
+                    /*if (Verbose && currentEnergy > 195)
+                    {
+                        Logger.Out("Warning: Excess Energy " + client.TotalEnergy);
+                    }*/
+
+                    if (ChangeParty >= 0 && ChangeParty < 5 && client.MyCurrentParty.MyPartyId != ChangeParty)
+                    {
+                        client.ChangeParty(ChangeParty);
+                    }
+
+                    // Get fresh data every x runs
+                    if (RunMissionCount > 1 && RunMissionCount % 100 == 0)
+                    {
+                        client.UpdateGetUserInfo();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Logger.Out(ex.Message);
+                    Console.WriteLine(ex.InnerException);
+                    TotalErrors++;
+                }
+            }
+            StartMission.Enabled = true;
+
+            Logger.Out("Run Complete!");
         }
 
         private void RBOS_CheckedChanged(object sender, EventArgs e)
@@ -252,7 +373,15 @@ namespace Client
         private void FbidInput_TextChanged(object sender, EventArgs e)
         {
             fbidInput.Text = fbidInput.Text.Replace(" ", "");
-            client.FacebookUserId = fbidInput.Text;
+            if (fbidInput.Text.ToLower() == "google")
+            {
+                client.P_GOOGLE_ID = fbidInput.Text;
+                client.FacebookUserId = null;
+            }
+            else {
+                client.FacebookUserId = fbidInput.Text;
+                client.P_GOOGLE_ID = null;
+            }
             Settings.Default.fbidInput = fbidInput.Text;
             Settings.Default.Save();
         }
@@ -260,7 +389,16 @@ namespace Client
         private void fbtokenInput_TextChanged(object sender, EventArgs e)
         {
             fbtokenInput.Text = fbtokenInput.Text.Replace(" ", "");
-            client.FacebookToken = fbtokenInput.Text;
+            if (fbidInput.Text.ToLower() == "google")
+            { 
+                client.P_GOOGLE_TOKEN = fbtokenInput.Text;
+                client.FacebookToken = null;
+            }
+            else
+            {
+                client.FacebookToken = fbtokenInput.Text;
+                client.P_GOOGLE_TOKEN = null;
+            }
             Settings.Default.fbtokenInput = fbtokenInput.Text;
             Settings.Default.Save();
         }
@@ -523,6 +661,100 @@ namespace Client
         private void missionSelect_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox cb = sender as CheckBox;
+
+            StopForArena = cb.Checked;
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox cb = sender as CheckBox;
+
+            StopForRaid = cb.Checked;
+        }
+
+        private void RepeatMission_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void partySelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                ChangeParty = int.Parse(this.partySelect.SelectedValue.ToString()) - 1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void raidPartySelect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                RaidParty = int.Parse(this.raidPartySelect.SelectedValue.ToString()) - 1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var mission = missionSelect.SelectedItem as Mission;
+            if (!QueuedMissions.Contains(mission))
+            {
+                QueuedMissions.Add(mission);
+                queuedMissions.Items.Add(mission.Name);
+            }
+        }
+
+        private void startQueuedMissions_Click(object sender, EventArgs e)
+        {
+            var mission = QueuedMissions.FirstOrDefault();
+            if (!String.IsNullOrEmpty(mission?.Name))
+            {
+                missionSelect.SelectedItem = missionSelect.FindStringExact(mission.Name);
+                RepeatMission.Value = QueuedMissions.Count;
+                StartMission_Click(sender, e, true);
+            }
+            else
+            {
+                Logger.Out("No Missions in Queue");
+            }
+        }
+
+        private void queuedMissions_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Logger.Out("Ending after Next Mission is Completed...");
+            RunMissionCount = Int32.Parse(RepeatMission.Text.Replace(" ", ""));
+            //client.UpdateGetUserInfo();
+        }
+
+        private void energyButton_Click(object sender, EventArgs e)
+        {
+            if (client.LoggedIn == false)
+                client.Login();            
+            if (client.GetUserInfo != null)
+                energyButton.Text = client.TotalEnergy;
+            Logger.Out("Energy Retrieval Complete!");
         }
     }
 }

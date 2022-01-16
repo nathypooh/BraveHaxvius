@@ -117,6 +117,11 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_10000221 = new Switch { SwitchId = "10000221", SwitchType = "10", SwitchBit = "50"};
         public static readonly Switch Switch_10000222 = new Switch { SwitchId = "10000222", SwitchType = "10", SwitchBit = "51"};
         public static readonly Switch Switch_10000223 = new Switch { SwitchId = "10000223", SwitchType = "10", SwitchBit = "53"};
+        public static readonly Switch Switch_10000224 = new Switch { SwitchId = "10000224", SwitchType = "10", SwitchBit = "651"};
+        public static readonly Switch Switch_10000225 = new Switch { SwitchId = "10000225", SwitchType = "10", SwitchBit = "652"};
+        public static readonly Switch Switch_10000226 = new Switch { SwitchId = "10000226", SwitchType = "10", SwitchBit = "660"};
+        public static readonly Switch Switch_10000227 = new Switch { SwitchId = "10000227", SwitchType = "10", SwitchBit = "676"};
+        public static readonly Switch Switch_10000228 = new Switch { SwitchId = "10000228", SwitchType = "10", SwitchBit = "701"};
         public static readonly Switch Switch_10000401 = new Switch { SwitchId = "10000401", SwitchType = "10", SwitchBit = "47"};
         public static readonly Switch Switch_10000501 = new Switch { SwitchId = "10000501", SwitchType = "10", SwitchBit = "79"};
         public static readonly Switch Switch_10000502 = new Switch { SwitchId = "10000502", SwitchType = "10", SwitchBit = "80"};
@@ -219,6 +224,7 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_10000625 = new Switch { SwitchId = "10000625", SwitchType = "101", SwitchBit = "5617"};
         public static readonly Switch Switch_10000626 = new Switch { SwitchId = "10000626", SwitchType = "101", SwitchBit = "5618"};
         public static readonly Switch Switch_10000627 = new Switch { SwitchId = "10000627", SwitchType = "101", SwitchBit = "5619"};
+        public static readonly Switch Switch_10000628 = new Switch { SwitchId = "10000628", SwitchType = "101", SwitchBit = "7030"};
         public static readonly Switch Switch_10000700 = new Switch { SwitchId = "10000700", SwitchType = "10", SwitchBit = "236"};
         public static readonly Switch Switch_10000701 = new Switch { SwitchId = "10000701", SwitchType = "10", SwitchBit = "237"};
         public static readonly Switch Switch_10000702 = new Switch { SwitchId = "10000702", SwitchType = "10", SwitchBit = "238"};
@@ -564,6 +570,51 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_10001051 = new Switch { SwitchId = "10001051", SwitchType = "10", SwitchBit = "589"};
         public static readonly Switch Switch_10001052 = new Switch { SwitchId = "10001052", SwitchType = "10", SwitchBit = "590"};
         public static readonly Switch Switch_10001053 = new Switch { SwitchId = "10001053", SwitchType = "10", SwitchBit = "591"};
+        public static readonly Switch Switch_10001054 = new Switch { SwitchId = "10001054", SwitchType = "10", SwitchBit = "593"};
+        public static readonly Switch Switch_10001055 = new Switch { SwitchId = "10001055", SwitchType = "10", SwitchBit = "594"};
+        public static readonly Switch Switch_10001056 = new Switch { SwitchId = "10001056", SwitchType = "10", SwitchBit = "595"};
+        public static readonly Switch Switch_10001057 = new Switch { SwitchId = "10001057", SwitchType = "10", SwitchBit = "596"};
+        public static readonly Switch Switch_10001058 = new Switch { SwitchId = "10001058", SwitchType = "10", SwitchBit = "597"};
+        public static readonly Switch Switch_10001059 = new Switch { SwitchId = "10001059", SwitchType = "10", SwitchBit = "598"};
+        public static readonly Switch Switch_10001060 = new Switch { SwitchId = "10001060", SwitchType = "10", SwitchBit = "599"};
+        public static readonly Switch Switch_10001061 = new Switch { SwitchId = "10001061", SwitchType = "10", SwitchBit = "600"};
+        public static readonly Switch Switch_10001062 = new Switch { SwitchId = "10001062", SwitchType = "10", SwitchBit = "601"};
+        public static readonly Switch Switch_10001063 = new Switch { SwitchId = "10001063", SwitchType = "10", SwitchBit = "602"};
+        public static readonly Switch Switch_10001064 = new Switch { SwitchId = "10001064", SwitchType = "10", SwitchBit = "603"};
+        public static readonly Switch Switch_10001065 = new Switch { SwitchId = "10001065", SwitchType = "10", SwitchBit = "604"};
+        public static readonly Switch Switch_10001066 = new Switch { SwitchId = "10001066", SwitchType = "10", SwitchBit = "605"};
+        public static readonly Switch Switch_10001067 = new Switch { SwitchId = "10001067", SwitchType = "10", SwitchBit = "606"};
+        public static readonly Switch Switch_10001068 = new Switch { SwitchId = "10001068", SwitchType = "10", SwitchBit = "607"};
+        public static readonly Switch Switch_10001069 = new Switch { SwitchId = "10001069", SwitchType = "10", SwitchBit = "608"};
+        public static readonly Switch Switch_10001070 = new Switch { SwitchId = "10001070", SwitchType = "10", SwitchBit = "609"};
+        public static readonly Switch Switch_10001071 = new Switch { SwitchId = "10001071", SwitchType = "10", SwitchBit = "610"};
+        public static readonly Switch Switch_10001072 = new Switch { SwitchId = "10001072", SwitchType = "10", SwitchBit = "611"};
+        public static readonly Switch Switch_10001073 = new Switch { SwitchId = "10001073", SwitchType = "10", SwitchBit = "612"};
+        public static readonly Switch Switch_10001075 = new Switch { SwitchId = "10001075", SwitchType = "10", SwitchBit = "614"};
+        public static readonly Switch Switch_10001076 = new Switch { SwitchId = "10001076", SwitchType = "10", SwitchBit = "615"};
+        public static readonly Switch Switch_10001077 = new Switch { SwitchId = "10001077", SwitchType = "10", SwitchBit = "617"};
+        public static readonly Switch Switch_10001078 = new Switch { SwitchId = "10001078", SwitchType = "10", SwitchBit = "618"};
+        public static readonly Switch Switch_10001079 = new Switch { SwitchId = "10001079", SwitchType = "10", SwitchBit = "619"};
+        public static readonly Switch Switch_10001080 = new Switch { SwitchId = "10001080", SwitchType = "10", SwitchBit = "620"};
+        public static readonly Switch Switch_10001081 = new Switch { SwitchId = "10001081", SwitchType = "10", SwitchBit = "621"};
+        public static readonly Switch Switch_10001082 = new Switch { SwitchId = "10001082", SwitchType = "10", SwitchBit = "622"};
+        public static readonly Switch Switch_10001083 = new Switch { SwitchId = "10001083", SwitchType = "10", SwitchBit = "623"};
+        public static readonly Switch Switch_10001084 = new Switch { SwitchId = "10001084", SwitchType = "10", SwitchBit = "624"};
+        public static readonly Switch Switch_10001085 = new Switch { SwitchId = "10001085", SwitchType = "10", SwitchBit = "625"};
+        public static readonly Switch Switch_10001086 = new Switch { SwitchId = "10001086", SwitchType = "10", SwitchBit = "626"};
+        public static readonly Switch Switch_10001087 = new Switch { SwitchId = "10001087", SwitchType = "10", SwitchBit = "627"};
+        public static readonly Switch Switch_10001088 = new Switch { SwitchId = "10001088", SwitchType = "10", SwitchBit = "628"};
+        public static readonly Switch Switch_10001089 = new Switch { SwitchId = "10001089", SwitchType = "10", SwitchBit = "630"};
+        public static readonly Switch Switch_10001090 = new Switch { SwitchId = "10001090", SwitchType = "10", SwitchBit = "633"};
+        public static readonly Switch Switch_10001091 = new Switch { SwitchId = "10001091", SwitchType = "10", SwitchBit = "634"};
+        public static readonly Switch Switch_10001092 = new Switch { SwitchId = "10001092", SwitchType = "10", SwitchBit = "635"};
+        public static readonly Switch Switch_10001093 = new Switch { SwitchId = "10001093", SwitchType = "10", SwitchBit = "636"};
+        public static readonly Switch Switch_10001094 = new Switch { SwitchId = "10001094", SwitchType = "10", SwitchBit = "637"};
+        public static readonly Switch Switch_10001095 = new Switch { SwitchId = "10001095", SwitchType = "10", SwitchBit = "638"};
+        public static readonly Switch Switch_10001096 = new Switch { SwitchId = "10001096", SwitchType = "10", SwitchBit = "639"};
+        public static readonly Switch Switch_10001097 = new Switch { SwitchId = "10001097", SwitchType = "10", SwitchBit = "640"};
+        public static readonly Switch Switch_10001098 = new Switch { SwitchId = "10001098", SwitchType = "10", SwitchBit = "641"};
+        public static readonly Switch Switch_10001099 = new Switch { SwitchId = "10001099", SwitchType = "10", SwitchBit = "642"};
         public static readonly Switch Switch_10001100 = new Switch { SwitchId = "10001100", SwitchType = "101", SwitchBit = "117"};
         public static readonly Switch Switch_10002001 = new Switch { SwitchId = "10002001", SwitchType = "100", SwitchBit = "2"};
         public static readonly Switch Switch_10002002 = new Switch { SwitchId = "10002002", SwitchType = "100", SwitchBit = "3"};
@@ -1881,6 +1932,7 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_10171004 = new Switch { SwitchId = "10171004", SwitchType = "100", SwitchBit = "615"};
         public static readonly Switch Switch_10171100 = new Switch { SwitchId = "10171100", SwitchType = "101", SwitchBit = "1170"};
         public static readonly Switch Switch_10171200 = new Switch { SwitchId = "10171200", SwitchType = "101", SwitchBit = "3680"};
+        public static readonly Switch Switch_10171300 = new Switch { SwitchId = "10171300", SwitchType = "101", SwitchBit = "7394"};
         public static readonly Switch Switch_10172001 = new Switch { SwitchId = "10172001", SwitchType = "100", SwitchBit = "624"};
         public static readonly Switch Switch_10172002 = new Switch { SwitchId = "10172002", SwitchType = "100", SwitchBit = "625"};
         public static readonly Switch Switch_10172100 = new Switch { SwitchId = "10172100", SwitchType = "101", SwitchBit = "1200"};
@@ -3982,6 +4034,496 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_11167401 = new Switch { SwitchId = "11167401", SwitchType = "100", SwitchBit = "1732"};
         public static readonly Switch Switch_11167500 = new Switch { SwitchId = "11167500", SwitchType = "101", SwitchBit = "6888"};
         public static readonly Switch Switch_11167501 = new Switch { SwitchId = "11167501", SwitchType = "100", SwitchBit = "1733"};
+        public static readonly Switch Switch_11167502 = new Switch { SwitchId = "11167502", SwitchType = "100", SwitchBit = "1734"};
+        public static readonly Switch Switch_11168001 = new Switch { SwitchId = "11168001", SwitchType = "100", SwitchBit = "1735"};
+        public static readonly Switch Switch_11168100 = new Switch { SwitchId = "11168100", SwitchType = "101", SwitchBit = "6996"};
+        public static readonly Switch Switch_11168200 = new Switch { SwitchId = "11168200", SwitchType = "101", SwitchBit = "6997"};
+        public static readonly Switch Switch_11168300 = new Switch { SwitchId = "11168300", SwitchType = "101", SwitchBit = "6998"};
+        public static readonly Switch Switch_11168301 = new Switch { SwitchId = "11168301", SwitchType = "100", SwitchBit = "1736"};
+        public static readonly Switch Switch_11168400 = new Switch { SwitchId = "11168400", SwitchType = "101", SwitchBit = "6999"};
+        public static readonly Switch Switch_11168401 = new Switch { SwitchId = "11168401", SwitchType = "100", SwitchBit = "1737"};
+        public static readonly Switch Switch_11169100 = new Switch { SwitchId = "11169100", SwitchType = "101", SwitchBit = "7000"};
+        public static readonly Switch Switch_11169200 = new Switch { SwitchId = "11169200", SwitchType = "101", SwitchBit = "7001"};
+        public static readonly Switch Switch_11169300 = new Switch { SwitchId = "11169300", SwitchType = "101", SwitchBit = "7002"};
+        public static readonly Switch Switch_11169400 = new Switch { SwitchId = "11169400", SwitchType = "101", SwitchBit = "7003"};
+        public static readonly Switch Switch_11169401 = new Switch { SwitchId = "11169401", SwitchType = "100", SwitchBit = "1738"};
+        public static readonly Switch Switch_11170001 = new Switch { SwitchId = "11170001", SwitchType = "100", SwitchBit = "1739"};
+        public static readonly Switch Switch_11170100 = new Switch { SwitchId = "11170100", SwitchType = "101", SwitchBit = "7004"};
+        public static readonly Switch Switch_11170200 = new Switch { SwitchId = "11170200", SwitchType = "101", SwitchBit = "7005"};
+        public static readonly Switch Switch_11170300 = new Switch { SwitchId = "11170300", SwitchType = "101", SwitchBit = "7006"};
+        public static readonly Switch Switch_11170400 = new Switch { SwitchId = "11170400", SwitchType = "101", SwitchBit = "7007"};
+        public static readonly Switch Switch_11170401 = new Switch { SwitchId = "11170401", SwitchType = "100", SwitchBit = "1740"};
+        public static readonly Switch Switch_11171001 = new Switch { SwitchId = "11171001", SwitchType = "100", SwitchBit = "1741"};
+        public static readonly Switch Switch_11171100 = new Switch { SwitchId = "11171100", SwitchType = "101", SwitchBit = "7008"};
+        public static readonly Switch Switch_11171200 = new Switch { SwitchId = "11171200", SwitchType = "101", SwitchBit = "7009"};
+        public static readonly Switch Switch_11171300 = new Switch { SwitchId = "11171300", SwitchType = "101", SwitchBit = "7010"};
+        public static readonly Switch Switch_11171301 = new Switch { SwitchId = "11171301", SwitchType = "100", SwitchBit = "1742"};
+        public static readonly Switch Switch_11171400 = new Switch { SwitchId = "11171400", SwitchType = "101", SwitchBit = "7011"};
+        public static readonly Switch Switch_11171401 = new Switch { SwitchId = "11171401", SwitchType = "100", SwitchBit = "1743"};
+        public static readonly Switch Switch_11172100 = new Switch { SwitchId = "11172100", SwitchType = "101", SwitchBit = "7012"};
+        public static readonly Switch Switch_11172200 = new Switch { SwitchId = "11172200", SwitchType = "101", SwitchBit = "7013"};
+        public static readonly Switch Switch_11172300 = new Switch { SwitchId = "11172300", SwitchType = "101", SwitchBit = "7014"};
+        public static readonly Switch Switch_11172400 = new Switch { SwitchId = "11172400", SwitchType = "101", SwitchBit = "7015"};
+        public static readonly Switch Switch_11172401 = new Switch { SwitchId = "11172401", SwitchType = "100", SwitchBit = "1744"};
+        public static readonly Switch Switch_11172500 = new Switch { SwitchId = "11172500", SwitchType = "101", SwitchBit = "7016"};
+        public static readonly Switch Switch_11172501 = new Switch { SwitchId = "11172501", SwitchType = "100", SwitchBit = "1745"};
+        public static readonly Switch Switch_11173001 = new Switch { SwitchId = "11173001", SwitchType = "100", SwitchBit = "1746"};
+        public static readonly Switch Switch_11173100 = new Switch { SwitchId = "11173100", SwitchType = "101", SwitchBit = "7017"};
+        public static readonly Switch Switch_11173200 = new Switch { SwitchId = "11173200", SwitchType = "101", SwitchBit = "7018"};
+        public static readonly Switch Switch_11173300 = new Switch { SwitchId = "11173300", SwitchType = "101", SwitchBit = "7019"};
+        public static readonly Switch Switch_11173400 = new Switch { SwitchId = "11173400", SwitchType = "101", SwitchBit = "7020"};
+        public static readonly Switch Switch_11173500 = new Switch { SwitchId = "11173500", SwitchType = "101", SwitchBit = "7021"};
+        public static readonly Switch Switch_11173501 = new Switch { SwitchId = "11173501", SwitchType = "100", SwitchBit = "1747"};
+        public static readonly Switch Switch_11174001 = new Switch { SwitchId = "11174001", SwitchType = "100", SwitchBit = "1748"};
+        public static readonly Switch Switch_11174100 = new Switch { SwitchId = "11174100", SwitchType = "101", SwitchBit = "7022"};
+        public static readonly Switch Switch_11174200 = new Switch { SwitchId = "11174200", SwitchType = "101", SwitchBit = "7023"};
+        public static readonly Switch Switch_11174300 = new Switch { SwitchId = "11174300", SwitchType = "101", SwitchBit = "7024"};
+        public static readonly Switch Switch_11174400 = new Switch { SwitchId = "11174400", SwitchType = "101", SwitchBit = "7025"};
+        public static readonly Switch Switch_11174401 = new Switch { SwitchId = "11174401", SwitchType = "100", SwitchBit = "1749"};
+        public static readonly Switch Switch_11174500 = new Switch { SwitchId = "11174500", SwitchType = "101", SwitchBit = "7026"};
+        public static readonly Switch Switch_11174501 = new Switch { SwitchId = "11174501", SwitchType = "100", SwitchBit = "1750"};
+        public static readonly Switch Switch_11174502 = new Switch { SwitchId = "11174502", SwitchType = "100", SwitchBit = "1751"};
+        public static readonly Switch Switch_11175001 = new Switch { SwitchId = "11175001", SwitchType = "100", SwitchBit = "1752"};
+        public static readonly Switch Switch_11175100 = new Switch { SwitchId = "11175100", SwitchType = "101", SwitchBit = "7303"};
+        public static readonly Switch Switch_11175200 = new Switch { SwitchId = "11175200", SwitchType = "101", SwitchBit = "7304"};
+        public static readonly Switch Switch_11175300 = new Switch { SwitchId = "11175300", SwitchType = "101", SwitchBit = "7305"};
+        public static readonly Switch Switch_11175400 = new Switch { SwitchId = "11175400", SwitchType = "101", SwitchBit = "7306"};
+        public static readonly Switch Switch_11175401 = new Switch { SwitchId = "11175401", SwitchType = "100", SwitchBit = "1753"};
+        public static readonly Switch Switch_11176001 = new Switch { SwitchId = "11176001", SwitchType = "100", SwitchBit = "1754"};
+        public static readonly Switch Switch_11176100 = new Switch { SwitchId = "11176100", SwitchType = "101", SwitchBit = "7307"};
+        public static readonly Switch Switch_11176200 = new Switch { SwitchId = "11176200", SwitchType = "101", SwitchBit = "7308"};
+        public static readonly Switch Switch_11176201 = new Switch { SwitchId = "11176201", SwitchType = "100", SwitchBit = "1755"};
+        public static readonly Switch Switch_11176300 = new Switch { SwitchId = "11176300", SwitchType = "101", SwitchBit = "7309"};
+        public static readonly Switch Switch_11176400 = new Switch { SwitchId = "11176400", SwitchType = "101", SwitchBit = "7310"};
+        public static readonly Switch Switch_11176401 = new Switch { SwitchId = "11176401", SwitchType = "100", SwitchBit = "1756"};
+        public static readonly Switch Switch_11177001 = new Switch { SwitchId = "11177001", SwitchType = "100", SwitchBit = "1757"};
+        public static readonly Switch Switch_11177100 = new Switch { SwitchId = "11177100", SwitchType = "101", SwitchBit = "7311"};
+        public static readonly Switch Switch_11177200 = new Switch { SwitchId = "11177200", SwitchType = "101", SwitchBit = "7312"};
+        public static readonly Switch Switch_11177201 = new Switch { SwitchId = "11177201", SwitchType = "100", SwitchBit = "1758"};
+        public static readonly Switch Switch_11177300 = new Switch { SwitchId = "11177300", SwitchType = "101", SwitchBit = "7313"};
+        public static readonly Switch Switch_11177400 = new Switch { SwitchId = "11177400", SwitchType = "101", SwitchBit = "7314"};
+        public static readonly Switch Switch_11177401 = new Switch { SwitchId = "11177401", SwitchType = "100", SwitchBit = "1759"};
+        public static readonly Switch Switch_11178001 = new Switch { SwitchId = "11178001", SwitchType = "100", SwitchBit = "1760"};
+        public static readonly Switch Switch_11178100 = new Switch { SwitchId = "11178100", SwitchType = "101", SwitchBit = "7315"};
+        public static readonly Switch Switch_11178200 = new Switch { SwitchId = "11178200", SwitchType = "101", SwitchBit = "7316"};
+        public static readonly Switch Switch_11178300 = new Switch { SwitchId = "11178300", SwitchType = "101", SwitchBit = "7317"};
+        public static readonly Switch Switch_11178400 = new Switch { SwitchId = "11178400", SwitchType = "101", SwitchBit = "7318"};
+        public static readonly Switch Switch_11178401 = new Switch { SwitchId = "11178401", SwitchType = "100", SwitchBit = "1761"};
+        public static readonly Switch Switch_11179100 = new Switch { SwitchId = "11179100", SwitchType = "101", SwitchBit = "7319"};
+        public static readonly Switch Switch_11179200 = new Switch { SwitchId = "11179200", SwitchType = "101", SwitchBit = "7320"};
+        public static readonly Switch Switch_11179300 = new Switch { SwitchId = "11179300", SwitchType = "101", SwitchBit = "7321"};
+        public static readonly Switch Switch_11179400 = new Switch { SwitchId = "11179400", SwitchType = "101", SwitchBit = "7322"};
+        public static readonly Switch Switch_11179401 = new Switch { SwitchId = "11179401", SwitchType = "100", SwitchBit = "1762"};
+        public static readonly Switch Switch_11179500 = new Switch { SwitchId = "11179500", SwitchType = "101", SwitchBit = "7323"};
+        public static readonly Switch Switch_11179501 = new Switch { SwitchId = "11179501", SwitchType = "100", SwitchBit = "1763"};
+        public static readonly Switch Switch_11180001 = new Switch { SwitchId = "11180001", SwitchType = "100", SwitchBit = "1764"};
+        public static readonly Switch Switch_11180100 = new Switch { SwitchId = "11180100", SwitchType = "101", SwitchBit = "7324"};
+        public static readonly Switch Switch_11180200 = new Switch { SwitchId = "11180200", SwitchType = "101", SwitchBit = "7325"};
+        public static readonly Switch Switch_11180201 = new Switch { SwitchId = "11180201", SwitchType = "100", SwitchBit = "1765"};
+        public static readonly Switch Switch_11180300 = new Switch { SwitchId = "11180300", SwitchType = "101", SwitchBit = "7326"};
+        public static readonly Switch Switch_11180400 = new Switch { SwitchId = "11180400", SwitchType = "101", SwitchBit = "7327"};
+        public static readonly Switch Switch_11180500 = new Switch { SwitchId = "11180500", SwitchType = "101", SwitchBit = "7328"};
+        public static readonly Switch Switch_11180501 = new Switch { SwitchId = "11180501", SwitchType = "100", SwitchBit = "1766"};
+        public static readonly Switch Switch_11181001 = new Switch { SwitchId = "11181001", SwitchType = "100", SwitchBit = "1767"};
+        public static readonly Switch Switch_11181100 = new Switch { SwitchId = "11181100", SwitchType = "101", SwitchBit = "7329"};
+        public static readonly Switch Switch_11181200 = new Switch { SwitchId = "11181200", SwitchType = "101", SwitchBit = "7330"};
+        public static readonly Switch Switch_11181300 = new Switch { SwitchId = "11181300", SwitchType = "101", SwitchBit = "7331"};
+        public static readonly Switch Switch_11181400 = new Switch { SwitchId = "11181400", SwitchType = "101", SwitchBit = "7332"};
+        public static readonly Switch Switch_11181500 = new Switch { SwitchId = "11181500", SwitchType = "101", SwitchBit = "7333"};
+        public static readonly Switch Switch_11181501 = new Switch { SwitchId = "11181501", SwitchType = "100", SwitchBit = "1768"};
+        public static readonly Switch Switch_11181502 = new Switch { SwitchId = "11181502", SwitchType = "100", SwitchBit = "1769"};
+        public static readonly Switch Switch_11182100 = new Switch { SwitchId = "11182100", SwitchType = "101", SwitchBit = "7395"};
+        public static readonly Switch Switch_11182101 = new Switch { SwitchId = "11182101", SwitchType = "100", SwitchBit = "1770"};
+        public static readonly Switch Switch_11183001 = new Switch { SwitchId = "11183001", SwitchType = "100", SwitchBit = "1771"};
+        public static readonly Switch Switch_11183100 = new Switch { SwitchId = "11183100", SwitchType = "101", SwitchBit = "7396"};
+        public static readonly Switch Switch_11183101 = new Switch { SwitchId = "11183101", SwitchType = "100", SwitchBit = "1772"};
+        public static readonly Switch Switch_11184001 = new Switch { SwitchId = "11184001", SwitchType = "100", SwitchBit = "1773"};
+        public static readonly Switch Switch_11184100 = new Switch { SwitchId = "11184100", SwitchType = "101", SwitchBit = "7397"};
+        public static readonly Switch Switch_11184101 = new Switch { SwitchId = "11184101", SwitchType = "100", SwitchBit = "1774"};
+        public static readonly Switch Switch_11184200 = new Switch { SwitchId = "11184200", SwitchType = "101", SwitchBit = "7398"};
+        public static readonly Switch Switch_11184201 = new Switch { SwitchId = "11184201", SwitchType = "100", SwitchBit = "1775"};
+        public static readonly Switch Switch_11185100 = new Switch { SwitchId = "11185100", SwitchType = "101", SwitchBit = "7399"};
+        public static readonly Switch Switch_11185200 = new Switch { SwitchId = "11185200", SwitchType = "101", SwitchBit = "7400"};
+        public static readonly Switch Switch_11185300 = new Switch { SwitchId = "11185300", SwitchType = "101", SwitchBit = "7401"};
+        public static readonly Switch Switch_11185400 = new Switch { SwitchId = "11185400", SwitchType = "101", SwitchBit = "7402"};
+        public static readonly Switch Switch_11185401 = new Switch { SwitchId = "11185401", SwitchType = "100", SwitchBit = "1776"};
+        public static readonly Switch Switch_11186001 = new Switch { SwitchId = "11186001", SwitchType = "100", SwitchBit = "1777"};
+        public static readonly Switch Switch_11186100 = new Switch { SwitchId = "11186100", SwitchType = "101", SwitchBit = "7403"};
+        public static readonly Switch Switch_11186200 = new Switch { SwitchId = "11186200", SwitchType = "101", SwitchBit = "7404"};
+        public static readonly Switch Switch_11186300 = new Switch { SwitchId = "11186300", SwitchType = "101", SwitchBit = "7405"};
+        public static readonly Switch Switch_11186400 = new Switch { SwitchId = "11186400", SwitchType = "101", SwitchBit = "7406"};
+        public static readonly Switch Switch_11186401 = new Switch { SwitchId = "11186401", SwitchType = "100", SwitchBit = "1778"};
+        public static readonly Switch Switch_11187001 = new Switch { SwitchId = "11187001", SwitchType = "100", SwitchBit = "1779"};
+        public static readonly Switch Switch_11187100 = new Switch { SwitchId = "11187100", SwitchType = "101", SwitchBit = "7407"};
+        public static readonly Switch Switch_11187200 = new Switch { SwitchId = "11187200", SwitchType = "101", SwitchBit = "7408"};
+        public static readonly Switch Switch_11187300 = new Switch { SwitchId = "11187300", SwitchType = "101", SwitchBit = "7409"};
+        public static readonly Switch Switch_11187400 = new Switch { SwitchId = "11187400", SwitchType = "101", SwitchBit = "7410"};
+        public static readonly Switch Switch_11187401 = new Switch { SwitchId = "11187401", SwitchType = "100", SwitchBit = "1780"};
+        public static readonly Switch Switch_11188001 = new Switch { SwitchId = "11188001", SwitchType = "100", SwitchBit = "1781"};
+        public static readonly Switch Switch_11188100 = new Switch { SwitchId = "11188100", SwitchType = "101", SwitchBit = "7411"};
+        public static readonly Switch Switch_11188200 = new Switch { SwitchId = "11188200", SwitchType = "101", SwitchBit = "7412"};
+        public static readonly Switch Switch_11188300 = new Switch { SwitchId = "11188300", SwitchType = "101", SwitchBit = "7413"};
+        public static readonly Switch Switch_11188400 = new Switch { SwitchId = "11188400", SwitchType = "101", SwitchBit = "7414"};
+        public static readonly Switch Switch_11188401 = new Switch { SwitchId = "11188401", SwitchType = "100", SwitchBit = "1782"};
+        public static readonly Switch Switch_11188500 = new Switch { SwitchId = "11188500", SwitchType = "101", SwitchBit = "7415"};
+        public static readonly Switch Switch_11188501 = new Switch { SwitchId = "11188501", SwitchType = "100", SwitchBit = "1783"};
+        public static readonly Switch Switch_11188502 = new Switch { SwitchId = "11188502", SwitchType = "100", SwitchBit = "1784"};
+        public static readonly Switch Switch_11189100 = new Switch { SwitchId = "11189100", SwitchType = "101", SwitchBit = "7506"};
+        public static readonly Switch Switch_11189200 = new Switch { SwitchId = "11189200", SwitchType = "101", SwitchBit = "7507"};
+        public static readonly Switch Switch_11189201 = new Switch { SwitchId = "11189201", SwitchType = "100", SwitchBit = "1785"};
+        public static readonly Switch Switch_11189300 = new Switch { SwitchId = "11189300", SwitchType = "101", SwitchBit = "7508"};
+        public static readonly Switch Switch_11189400 = new Switch { SwitchId = "11189400", SwitchType = "101", SwitchBit = "7509"};
+        public static readonly Switch Switch_11189401 = new Switch { SwitchId = "11189401", SwitchType = "100", SwitchBit = "1786"};
+        public static readonly Switch Switch_11190100 = new Switch { SwitchId = "11190100", SwitchType = "101", SwitchBit = "7510"};
+        public static readonly Switch Switch_11190200 = new Switch { SwitchId = "11190200", SwitchType = "101", SwitchBit = "7511"};
+        public static readonly Switch Switch_11190201 = new Switch { SwitchId = "11190201", SwitchType = "100", SwitchBit = "1787"};
+        public static readonly Switch Switch_11190300 = new Switch { SwitchId = "11190300", SwitchType = "101", SwitchBit = "7512"};
+        public static readonly Switch Switch_11190301 = new Switch { SwitchId = "11190301", SwitchType = "100", SwitchBit = "1788"};
+        public static readonly Switch Switch_11190400 = new Switch { SwitchId = "11190400", SwitchType = "101", SwitchBit = "7513"};
+        public static readonly Switch Switch_11190401 = new Switch { SwitchId = "11190401", SwitchType = "100", SwitchBit = "1789"};
+        public static readonly Switch Switch_11191001 = new Switch { SwitchId = "11191001", SwitchType = "100", SwitchBit = "1790"};
+        public static readonly Switch Switch_11191100 = new Switch { SwitchId = "11191100", SwitchType = "101", SwitchBit = "7514"};
+        public static readonly Switch Switch_11191200 = new Switch { SwitchId = "11191200", SwitchType = "101", SwitchBit = "7515"};
+        public static readonly Switch Switch_11191300 = new Switch { SwitchId = "11191300", SwitchType = "101", SwitchBit = "7516"};
+        public static readonly Switch Switch_11191400 = new Switch { SwitchId = "11191400", SwitchType = "101", SwitchBit = "7517"};
+        public static readonly Switch Switch_11192001 = new Switch { SwitchId = "11192001", SwitchType = "100", SwitchBit = "1791"};
+        public static readonly Switch Switch_11192100 = new Switch { SwitchId = "11192100", SwitchType = "101", SwitchBit = "7518"};
+        public static readonly Switch Switch_11192200 = new Switch { SwitchId = "11192200", SwitchType = "101", SwitchBit = "7519"};
+        public static readonly Switch Switch_11192300 = new Switch { SwitchId = "11192300", SwitchType = "101", SwitchBit = "7520"};
+        public static readonly Switch Switch_11192400 = new Switch { SwitchId = "11192400", SwitchType = "101", SwitchBit = "7521"};
+        public static readonly Switch Switch_11192401 = new Switch { SwitchId = "11192401", SwitchType = "100", SwitchBit = "1792"};
+        public static readonly Switch Switch_11193001 = new Switch { SwitchId = "11193001", SwitchType = "100", SwitchBit = "1793"};
+        public static readonly Switch Switch_11193100 = new Switch { SwitchId = "11193100", SwitchType = "101", SwitchBit = "7522"};
+        public static readonly Switch Switch_11193200 = new Switch { SwitchId = "11193200", SwitchType = "101", SwitchBit = "7523"};
+        public static readonly Switch Switch_11193201 = new Switch { SwitchId = "11193201", SwitchType = "100", SwitchBit = "1794"};
+        public static readonly Switch Switch_11193300 = new Switch { SwitchId = "11193300", SwitchType = "101", SwitchBit = "7524"};
+        public static readonly Switch Switch_11193400 = new Switch { SwitchId = "11193400", SwitchType = "101", SwitchBit = "7525"};
+        public static readonly Switch Switch_11193500 = new Switch { SwitchId = "11193500", SwitchType = "101", SwitchBit = "7526"};
+        public static readonly Switch Switch_11194100 = new Switch { SwitchId = "11194100", SwitchType = "101", SwitchBit = "7527"};
+        public static readonly Switch Switch_11194200 = new Switch { SwitchId = "11194200", SwitchType = "101", SwitchBit = "7528"};
+        public static readonly Switch Switch_11194300 = new Switch { SwitchId = "11194300", SwitchType = "101", SwitchBit = "7529"};
+        public static readonly Switch Switch_11194400 = new Switch { SwitchId = "11194400", SwitchType = "101", SwitchBit = "7530"};
+        public static readonly Switch Switch_11194401 = new Switch { SwitchId = "11194401", SwitchType = "100", SwitchBit = "1795"};
+        public static readonly Switch Switch_11194402 = new Switch { SwitchId = "11194402", SwitchType = "100", SwitchBit = "1796"};
+        public static readonly Switch Switch_11194500 = new Switch { SwitchId = "11194500", SwitchType = "101", SwitchBit = "7531"};
+        public static readonly Switch Switch_11194501 = new Switch { SwitchId = "11194501", SwitchType = "100", SwitchBit = "1797"};
+        public static readonly Switch Switch_11195100 = new Switch { SwitchId = "11195100", SwitchType = "101", SwitchBit = "7532"};
+        public static readonly Switch Switch_11195200 = new Switch { SwitchId = "11195200", SwitchType = "101", SwitchBit = "7533"};
+        public static readonly Switch Switch_11195300 = new Switch { SwitchId = "11195300", SwitchType = "101", SwitchBit = "7534"};
+        public static readonly Switch Switch_11195400 = new Switch { SwitchId = "11195400", SwitchType = "101", SwitchBit = "7535"};
+        public static readonly Switch Switch_11195401 = new Switch { SwitchId = "11195401", SwitchType = "100", SwitchBit = "1798"};
+        public static readonly Switch Switch_11195500 = new Switch { SwitchId = "11195500", SwitchType = "101", SwitchBit = "7536"};
+        public static readonly Switch Switch_11195501 = new Switch { SwitchId = "11195501", SwitchType = "100", SwitchBit = "1799"};
+        public static readonly Switch Switch_11195502 = new Switch { SwitchId = "11195502", SwitchType = "100", SwitchBit = "1801"};
+        public static readonly Switch Switch_11195600 = new Switch { SwitchId = "11195600", SwitchType = "101", SwitchBit = "7627"};
+        public static readonly Switch Switch_11195601 = new Switch { SwitchId = "11195601", SwitchType = "100", SwitchBit = "1802"};
+        public static readonly Switch Switch_11195700 = new Switch { SwitchId = "11195700", SwitchType = "101", SwitchBit = "7628"};
+        public static readonly Switch Switch_11195701 = new Switch { SwitchId = "11195701", SwitchType = "100", SwitchBit = "1803"};
+        public static readonly Switch Switch_11196001 = new Switch { SwitchId = "11196001", SwitchType = "100", SwitchBit = "1804"};
+        public static readonly Switch Switch_11196100 = new Switch { SwitchId = "11196100", SwitchType = "101", SwitchBit = "7629"};
+        public static readonly Switch Switch_11196200 = new Switch { SwitchId = "11196200", SwitchType = "101", SwitchBit = "7630"};
+        public static readonly Switch Switch_11196300 = new Switch { SwitchId = "11196300", SwitchType = "101", SwitchBit = "7631"};
+        public static readonly Switch Switch_11196400 = new Switch { SwitchId = "11196400", SwitchType = "101", SwitchBit = "7632"};
+        public static readonly Switch Switch_11196401 = new Switch { SwitchId = "11196401", SwitchType = "100", SwitchBit = "1805"};
+        public static readonly Switch Switch_11197001 = new Switch { SwitchId = "11197001", SwitchType = "100", SwitchBit = "1806"};
+        public static readonly Switch Switch_11197100 = new Switch { SwitchId = "11197100", SwitchType = "101", SwitchBit = "7633"};
+        public static readonly Switch Switch_11197200 = new Switch { SwitchId = "11197200", SwitchType = "101", SwitchBit = "7634"};
+        public static readonly Switch Switch_11197300 = new Switch { SwitchId = "11197300", SwitchType = "101", SwitchBit = "7635"};
+        public static readonly Switch Switch_11197400 = new Switch { SwitchId = "11197400", SwitchType = "101", SwitchBit = "7636"};
+        public static readonly Switch Switch_11197401 = new Switch { SwitchId = "11197401", SwitchType = "100", SwitchBit = "1807"};
+        public static readonly Switch Switch_11198001 = new Switch { SwitchId = "11198001", SwitchType = "100", SwitchBit = "1808"};
+        public static readonly Switch Switch_11198100 = new Switch { SwitchId = "11198100", SwitchType = "101", SwitchBit = "7637"};
+        public static readonly Switch Switch_11198200 = new Switch { SwitchId = "11198200", SwitchType = "101", SwitchBit = "7638"};
+        public static readonly Switch Switch_11198300 = new Switch { SwitchId = "11198300", SwitchType = "101", SwitchBit = "7639"};
+        public static readonly Switch Switch_11198400 = new Switch { SwitchId = "11198400", SwitchType = "101", SwitchBit = "7640"};
+        public static readonly Switch Switch_11198401 = new Switch { SwitchId = "11198401", SwitchType = "100", SwitchBit = "1809"};
+        public static readonly Switch Switch_11199001 = new Switch { SwitchId = "11199001", SwitchType = "100", SwitchBit = "1810"};
+        public static readonly Switch Switch_11199100 = new Switch { SwitchId = "11199100", SwitchType = "101", SwitchBit = "7641"};
+        public static readonly Switch Switch_11199200 = new Switch { SwitchId = "11199200", SwitchType = "101", SwitchBit = "7642"};
+        public static readonly Switch Switch_11199300 = new Switch { SwitchId = "11199300", SwitchType = "101", SwitchBit = "7643"};
+        public static readonly Switch Switch_11199400 = new Switch { SwitchId = "11199400", SwitchType = "101", SwitchBit = "7644"};
+        public static readonly Switch Switch_11199401 = new Switch { SwitchId = "11199401", SwitchType = "100", SwitchBit = "1811"};
+        public static readonly Switch Switch_11200001 = new Switch { SwitchId = "11200001", SwitchType = "100", SwitchBit = "1812"};
+        public static readonly Switch Switch_11200100 = new Switch { SwitchId = "11200100", SwitchType = "101", SwitchBit = "7645"};
+        public static readonly Switch Switch_11200200 = new Switch { SwitchId = "11200200", SwitchType = "101", SwitchBit = "7646"};
+        public static readonly Switch Switch_11200300 = new Switch { SwitchId = "11200300", SwitchType = "101", SwitchBit = "7647"};
+        public static readonly Switch Switch_11200400 = new Switch { SwitchId = "11200400", SwitchType = "101", SwitchBit = "7648"};
+        public static readonly Switch Switch_11200401 = new Switch { SwitchId = "11200401", SwitchType = "100", SwitchBit = "1813"};
+        public static readonly Switch Switch_11201001 = new Switch { SwitchId = "11201001", SwitchType = "100", SwitchBit = "1814"};
+        public static readonly Switch Switch_11201100 = new Switch { SwitchId = "11201100", SwitchType = "101", SwitchBit = "7649"};
+        public static readonly Switch Switch_11201200 = new Switch { SwitchId = "11201200", SwitchType = "101", SwitchBit = "7650"};
+        public static readonly Switch Switch_11201300 = new Switch { SwitchId = "11201300", SwitchType = "101", SwitchBit = "7651"};
+        public static readonly Switch Switch_11201301 = new Switch { SwitchId = "11201301", SwitchType = "100", SwitchBit = "1815"};
+        public static readonly Switch Switch_11201400 = new Switch { SwitchId = "11201400", SwitchType = "101", SwitchBit = "7652"};
+        public static readonly Switch Switch_11201401 = new Switch { SwitchId = "11201401", SwitchType = "100", SwitchBit = "1816"};
+        public static readonly Switch Switch_11202001 = new Switch { SwitchId = "11202001", SwitchType = "100", SwitchBit = "1817"};
+        public static readonly Switch Switch_11202100 = new Switch { SwitchId = "11202100", SwitchType = "101", SwitchBit = "7653"};
+        public static readonly Switch Switch_11202101 = new Switch { SwitchId = "11202101", SwitchType = "100", SwitchBit = "1818"};
+        public static readonly Switch Switch_11203001 = new Switch { SwitchId = "11203001", SwitchType = "100", SwitchBit = "1823"};
+        public static readonly Switch Switch_11203100 = new Switch { SwitchId = "11203100", SwitchType = "101", SwitchBit = "7943"};
+        public static readonly Switch Switch_11203101 = new Switch { SwitchId = "11203101", SwitchType = "100", SwitchBit = "1824"};
+        public static readonly Switch Switch_11204001 = new Switch { SwitchId = "11204001", SwitchType = "100", SwitchBit = "1825"};
+        public static readonly Switch Switch_11204100 = new Switch { SwitchId = "11204100", SwitchType = "101", SwitchBit = "7944"};
+        public static readonly Switch Switch_11204101 = new Switch { SwitchId = "11204101", SwitchType = "100", SwitchBit = "1826"};
+        public static readonly Switch Switch_11204200 = new Switch { SwitchId = "11204200", SwitchType = "101", SwitchBit = "7945"};
+        public static readonly Switch Switch_11204300 = new Switch { SwitchId = "11204300", SwitchType = "101", SwitchBit = "7947"};
+        public static readonly Switch Switch_11205001 = new Switch { SwitchId = "11205001", SwitchType = "100", SwitchBit = "1827"};
+        public static readonly Switch Switch_11205100 = new Switch { SwitchId = "11205100", SwitchType = "101", SwitchBit = "7948"};
+        public static readonly Switch Switch_11205101 = new Switch { SwitchId = "11205101", SwitchType = "100", SwitchBit = "1828"};
+        public static readonly Switch Switch_11205200 = new Switch { SwitchId = "11205200", SwitchType = "101", SwitchBit = "7949"};
+        public static readonly Switch Switch_11205300 = new Switch { SwitchId = "11205300", SwitchType = "101", SwitchBit = "7950"};
+        public static readonly Switch Switch_11205301 = new Switch { SwitchId = "11205301", SwitchType = "100", SwitchBit = "1829"};
+        public static readonly Switch Switch_11205400 = new Switch { SwitchId = "11205400", SwitchType = "101", SwitchBit = "7951"};
+        public static readonly Switch Switch_11206001 = new Switch { SwitchId = "11206001", SwitchType = "100", SwitchBit = "1830"};
+        public static readonly Switch Switch_11206100 = new Switch { SwitchId = "11206100", SwitchType = "101", SwitchBit = "7952"};
+        public static readonly Switch Switch_11206200 = new Switch { SwitchId = "11206200", SwitchType = "101", SwitchBit = "7953"};
+        public static readonly Switch Switch_11206300 = new Switch { SwitchId = "11206300", SwitchType = "101", SwitchBit = "7954"};
+        public static readonly Switch Switch_11206301 = new Switch { SwitchId = "11206301", SwitchType = "100", SwitchBit = "1831"};
+        public static readonly Switch Switch_11207001 = new Switch { SwitchId = "11207001", SwitchType = "100", SwitchBit = "1832"};
+        public static readonly Switch Switch_11207100 = new Switch { SwitchId = "11207100", SwitchType = "101", SwitchBit = "7955"};
+        public static readonly Switch Switch_11207200 = new Switch { SwitchId = "11207200", SwitchType = "101", SwitchBit = "7956"};
+        public static readonly Switch Switch_11207300 = new Switch { SwitchId = "11207300", SwitchType = "101", SwitchBit = "7957"};
+        public static readonly Switch Switch_11207301 = new Switch { SwitchId = "11207301", SwitchType = "100", SwitchBit = "1833"};
+        public static readonly Switch Switch_11208100 = new Switch { SwitchId = "11208100", SwitchType = "101", SwitchBit = "7958"};
+        public static readonly Switch Switch_11208101 = new Switch { SwitchId = "11208101", SwitchType = "100", SwitchBit = "1834"};
+        public static readonly Switch Switch_11208200 = new Switch { SwitchId = "11208200", SwitchType = "101", SwitchBit = "7959"};
+        public static readonly Switch Switch_11208201 = new Switch { SwitchId = "11208201", SwitchType = "100", SwitchBit = "1835"};
+        public static readonly Switch Switch_11208300 = new Switch { SwitchId = "11208300", SwitchType = "101", SwitchBit = "7960"};
+        public static readonly Switch Switch_11208301 = new Switch { SwitchId = "11208301", SwitchType = "100", SwitchBit = "1836"};
+        public static readonly Switch Switch_11208400 = new Switch { SwitchId = "11208400", SwitchType = "101", SwitchBit = "7961"};
+        public static readonly Switch Switch_11208401 = new Switch { SwitchId = "11208401", SwitchType = "100", SwitchBit = "1837"};
+        public static readonly Switch Switch_11208500 = new Switch { SwitchId = "11208500", SwitchType = "101", SwitchBit = "7962"};
+        public static readonly Switch Switch_11209100 = new Switch { SwitchId = "11209100", SwitchType = "101", SwitchBit = "7963"};
+        public static readonly Switch Switch_11209200 = new Switch { SwitchId = "11209200", SwitchType = "101", SwitchBit = "7964"};
+        public static readonly Switch Switch_11209300 = new Switch { SwitchId = "11209300", SwitchType = "101", SwitchBit = "7965"};
+        public static readonly Switch Switch_11209301 = new Switch { SwitchId = "11209301", SwitchType = "100", SwitchBit = "1838"};
+        public static readonly Switch Switch_11210001 = new Switch { SwitchId = "11210001", SwitchType = "100", SwitchBit = "1839"};
+        public static readonly Switch Switch_11210100 = new Switch { SwitchId = "11210100", SwitchType = "101", SwitchBit = "7966"};
+        public static readonly Switch Switch_11210101 = new Switch { SwitchId = "11210101", SwitchType = "100", SwitchBit = "1840"};
+        public static readonly Switch Switch_11210200 = new Switch { SwitchId = "11210200", SwitchType = "101", SwitchBit = "7967"};
+        public static readonly Switch Switch_11210301 = new Switch { SwitchId = "11210301", SwitchType = "100", SwitchBit = "1841"};
+        public static readonly Switch Switch_11210400 = new Switch { SwitchId = "11210400", SwitchType = "101", SwitchBit = "7968"};
+        public static readonly Switch Switch_11210401 = new Switch { SwitchId = "11210401", SwitchType = "100", SwitchBit = "1843"};
+        public static readonly Switch Switch_11210500 = new Switch { SwitchId = "11210500", SwitchType = "101", SwitchBit = "8255"};
+        public static readonly Switch Switch_11210501 = new Switch { SwitchId = "11210501", SwitchType = "100", SwitchBit = "1844"};
+        public static readonly Switch Switch_11211001 = new Switch { SwitchId = "11211001", SwitchType = "100", SwitchBit = "1845"};
+        public static readonly Switch Switch_11211100 = new Switch { SwitchId = "11211100", SwitchType = "101", SwitchBit = "8256"};
+        public static readonly Switch Switch_11211101 = new Switch { SwitchId = "11211101", SwitchType = "100", SwitchBit = "1846"};
+        public static readonly Switch Switch_11212000 = new Switch { SwitchId = "11212000", SwitchType = "101", SwitchBit = "8257"};
+        public static readonly Switch Switch_11212001 = new Switch { SwitchId = "11212001", SwitchType = "100", SwitchBit = "1847"};
+        public static readonly Switch Switch_11212100 = new Switch { SwitchId = "11212100", SwitchType = "101", SwitchBit = "8258"};
+        public static readonly Switch Switch_11212200 = new Switch { SwitchId = "11212200", SwitchType = "101", SwitchBit = "8259"};
+        public static readonly Switch Switch_11212201 = new Switch { SwitchId = "11212201", SwitchType = "100", SwitchBit = "1848"};
+        public static readonly Switch Switch_11213001 = new Switch { SwitchId = "11213001", SwitchType = "100", SwitchBit = "1849"};
+        public static readonly Switch Switch_11213100 = new Switch { SwitchId = "11213100", SwitchType = "101", SwitchBit = "8260"};
+        public static readonly Switch Switch_11213200 = new Switch { SwitchId = "11213200", SwitchType = "101", SwitchBit = "8261"};
+        public static readonly Switch Switch_11213201 = new Switch { SwitchId = "11213201", SwitchType = "100", SwitchBit = "1850"};
+        public static readonly Switch Switch_11213300 = new Switch { SwitchId = "11213300", SwitchType = "101", SwitchBit = "8262"};
+        public static readonly Switch Switch_11213301 = new Switch { SwitchId = "11213301", SwitchType = "100", SwitchBit = "1851"};
+        public static readonly Switch Switch_11214000 = new Switch { SwitchId = "11214000", SwitchType = "101", SwitchBit = "8263"};
+        public static readonly Switch Switch_11214001 = new Switch { SwitchId = "11214001", SwitchType = "100", SwitchBit = "1852"};
+        public static readonly Switch Switch_11214100 = new Switch { SwitchId = "11214100", SwitchType = "101", SwitchBit = "8264"};
+        public static readonly Switch Switch_11214101 = new Switch { SwitchId = "11214101", SwitchType = "100", SwitchBit = "1853"};
+        public static readonly Switch Switch_11214200 = new Switch { SwitchId = "11214200", SwitchType = "101", SwitchBit = "8265"};
+        public static readonly Switch Switch_11214201 = new Switch { SwitchId = "11214201", SwitchType = "100", SwitchBit = "1854"};
+        public static readonly Switch Switch_11214300 = new Switch { SwitchId = "11214300", SwitchType = "101", SwitchBit = "8275"};
+        public static readonly Switch Switch_11215001 = new Switch { SwitchId = "11215001", SwitchType = "100", SwitchBit = "1855"};
+        public static readonly Switch Switch_11215100 = new Switch { SwitchId = "11215100", SwitchType = "101", SwitchBit = "8266"};
+        public static readonly Switch Switch_11215101 = new Switch { SwitchId = "11215101", SwitchType = "100", SwitchBit = "1856"};
+        public static readonly Switch Switch_11215200 = new Switch { SwitchId = "11215200", SwitchType = "101", SwitchBit = "8267"};
+        public static readonly Switch Switch_11215300 = new Switch { SwitchId = "11215300", SwitchType = "101", SwitchBit = "8268"};
+        public static readonly Switch Switch_11216001 = new Switch { SwitchId = "11216001", SwitchType = "100", SwitchBit = "1857"};
+        public static readonly Switch Switch_11216100 = new Switch { SwitchId = "11216100", SwitchType = "101", SwitchBit = "8269"};
+        public static readonly Switch Switch_11216101 = new Switch { SwitchId = "11216101", SwitchType = "100", SwitchBit = "1858"};
+        public static readonly Switch Switch_11216200 = new Switch { SwitchId = "11216200", SwitchType = "101", SwitchBit = "8270"};
+        public static readonly Switch Switch_11216201 = new Switch { SwitchId = "11216201", SwitchType = "100", SwitchBit = "1859"};
+        public static readonly Switch Switch_11216300 = new Switch { SwitchId = "11216300", SwitchType = "101", SwitchBit = "8271"};
+        public static readonly Switch Switch_11216301 = new Switch { SwitchId = "11216301", SwitchType = "100", SwitchBit = "1860"};
+        public static readonly Switch Switch_11217001 = new Switch { SwitchId = "11217001", SwitchType = "100", SwitchBit = "1861"};
+        public static readonly Switch Switch_11217100 = new Switch { SwitchId = "11217100", SwitchType = "101", SwitchBit = "8272"};
+        public static readonly Switch Switch_11217200 = new Switch { SwitchId = "11217200", SwitchType = "101", SwitchBit = "8273"};
+        public static readonly Switch Switch_11217201 = new Switch { SwitchId = "11217201", SwitchType = "100", SwitchBit = "1862"};
+        public static readonly Switch Switch_11217300 = new Switch { SwitchId = "11217300", SwitchType = "101", SwitchBit = "8274"};
+        public static readonly Switch Switch_11217301 = new Switch { SwitchId = "11217301", SwitchType = "100", SwitchBit = "1863"};
+        public static readonly Switch Switch_11217400 = new Switch { SwitchId = "11217400", SwitchType = "101", SwitchBit = "8276"};
+        public static readonly Switch Switch_11217500 = new Switch { SwitchId = "11217500", SwitchType = "101", SwitchBit = "8277"};
+        public static readonly Switch Switch_11217601 = new Switch { SwitchId = "11217601", SwitchType = "100", SwitchBit = "1866"};
+        public static readonly Switch Switch_11218001 = new Switch { SwitchId = "11218001", SwitchType = "100", SwitchBit = "1867"};
+        public static readonly Switch Switch_11218100 = new Switch { SwitchId = "11218100", SwitchType = "101", SwitchBit = "8352"};
+        public static readonly Switch Switch_11218200 = new Switch { SwitchId = "11218200", SwitchType = "101", SwitchBit = "8353"};
+        public static readonly Switch Switch_11218300 = new Switch { SwitchId = "11218300", SwitchType = "101", SwitchBit = "8354"};
+        public static readonly Switch Switch_11218301 = new Switch { SwitchId = "11218301", SwitchType = "100", SwitchBit = "1868"};
+        public static readonly Switch Switch_11219000 = new Switch { SwitchId = "11219000", SwitchType = "101", SwitchBit = "8355"};
+        public static readonly Switch Switch_11219100 = new Switch { SwitchId = "11219100", SwitchType = "101", SwitchBit = "8356"};
+        public static readonly Switch Switch_11219101 = new Switch { SwitchId = "11219101", SwitchType = "100", SwitchBit = "1869"};
+        public static readonly Switch Switch_11219200 = new Switch { SwitchId = "11219200", SwitchType = "101", SwitchBit = "8357"};
+        public static readonly Switch Switch_11219201 = new Switch { SwitchId = "11219201", SwitchType = "100", SwitchBit = "1870"};
+        public static readonly Switch Switch_11219300 = new Switch { SwitchId = "11219300", SwitchType = "101", SwitchBit = "8373"};
+        public static readonly Switch Switch_11219400 = new Switch { SwitchId = "11219400", SwitchType = "101", SwitchBit = "8374"};
+        public static readonly Switch Switch_11220001 = new Switch { SwitchId = "11220001", SwitchType = "100", SwitchBit = "1871"};
+        public static readonly Switch Switch_11220100 = new Switch { SwitchId = "11220100", SwitchType = "101", SwitchBit = "8358"};
+        public static readonly Switch Switch_11220200 = new Switch { SwitchId = "11220200", SwitchType = "101", SwitchBit = "8359"};
+        public static readonly Switch Switch_11220201 = new Switch { SwitchId = "11220201", SwitchType = "100", SwitchBit = "1872"};
+        public static readonly Switch Switch_11220300 = new Switch { SwitchId = "11220300", SwitchType = "101", SwitchBit = "8360"};
+        public static readonly Switch Switch_11220301 = new Switch { SwitchId = "11220301", SwitchType = "100", SwitchBit = "1873"};
+        public static readonly Switch Switch_11220400 = new Switch { SwitchId = "11220400", SwitchType = "101", SwitchBit = "8375"};
+        public static readonly Switch Switch_11221001 = new Switch { SwitchId = "11221001", SwitchType = "100", SwitchBit = "1874"};
+        public static readonly Switch Switch_11221100 = new Switch { SwitchId = "11221100", SwitchType = "101", SwitchBit = "8361"};
+        public static readonly Switch Switch_11221200 = new Switch { SwitchId = "11221200", SwitchType = "101", SwitchBit = "8362"};
+        public static readonly Switch Switch_11221201 = new Switch { SwitchId = "11221201", SwitchType = "100", SwitchBit = "1875"};
+        public static readonly Switch Switch_11221300 = new Switch { SwitchId = "11221300", SwitchType = "101", SwitchBit = "8363"};
+        public static readonly Switch Switch_11221301 = new Switch { SwitchId = "11221301", SwitchType = "100", SwitchBit = "1876"};
+        public static readonly Switch Switch_11222000 = new Switch { SwitchId = "11222000", SwitchType = "101", SwitchBit = "8364"};
+        public static readonly Switch Switch_11222100 = new Switch { SwitchId = "11222100", SwitchType = "101", SwitchBit = "8365"};
+        public static readonly Switch Switch_11222101 = new Switch { SwitchId = "11222101", SwitchType = "100", SwitchBit = "1877"};
+        public static readonly Switch Switch_11222200 = new Switch { SwitchId = "11222200", SwitchType = "101", SwitchBit = "8366"};
+        public static readonly Switch Switch_11222201 = new Switch { SwitchId = "11222201", SwitchType = "100", SwitchBit = "1878"};
+        public static readonly Switch Switch_11223001 = new Switch { SwitchId = "11223001", SwitchType = "100", SwitchBit = "1879"};
+        public static readonly Switch Switch_11223100 = new Switch { SwitchId = "11223100", SwitchType = "101", SwitchBit = "8367"};
+        public static readonly Switch Switch_11223200 = new Switch { SwitchId = "11223200", SwitchType = "101", SwitchBit = "8368"};
+        public static readonly Switch Switch_11223201 = new Switch { SwitchId = "11223201", SwitchType = "100", SwitchBit = "1880"};
+        public static readonly Switch Switch_11223300 = new Switch { SwitchId = "11223300", SwitchType = "101", SwitchBit = "8369"};
+        public static readonly Switch Switch_11223301 = new Switch { SwitchId = "11223301", SwitchType = "100", SwitchBit = "1881"};
+        public static readonly Switch Switch_11224001 = new Switch { SwitchId = "11224001", SwitchType = "100", SwitchBit = "1882"};
+        public static readonly Switch Switch_11224100 = new Switch { SwitchId = "11224100", SwitchType = "101", SwitchBit = "8370"};
+        public static readonly Switch Switch_11224200 = new Switch { SwitchId = "11224200", SwitchType = "101", SwitchBit = "8371"};
+        public static readonly Switch Switch_11224201 = new Switch { SwitchId = "11224201", SwitchType = "100", SwitchBit = "1883"};
+        public static readonly Switch Switch_11224300 = new Switch { SwitchId = "11224300", SwitchType = "101", SwitchBit = "8372"};
+        public static readonly Switch Switch_11224301 = new Switch { SwitchId = "11224301", SwitchType = "100", SwitchBit = "1884"};
+        public static readonly Switch Switch_11224401 = new Switch { SwitchId = "11224401", SwitchType = "100", SwitchBit = "1888"};
+        public static readonly Switch Switch_11225100 = new Switch { SwitchId = "11225100", SwitchType = "101", SwitchBit = "8425"};
+        public static readonly Switch Switch_11225101 = new Switch { SwitchId = "11225101", SwitchType = "100", SwitchBit = "1889"};
+        public static readonly Switch Switch_11225200 = new Switch { SwitchId = "11225200", SwitchType = "101", SwitchBit = "8426"};
+        public static readonly Switch Switch_11225201 = new Switch { SwitchId = "11225201", SwitchType = "100", SwitchBit = "1890"};
+        public static readonly Switch Switch_11225300 = new Switch { SwitchId = "11225300", SwitchType = "101", SwitchBit = "8427"};
+        public static readonly Switch Switch_11225301 = new Switch { SwitchId = "11225301", SwitchType = "100", SwitchBit = "1891"};
+        public static readonly Switch Switch_11226100 = new Switch { SwitchId = "11226100", SwitchType = "101", SwitchBit = "8431"};
+        public static readonly Switch Switch_11227000 = new Switch { SwitchId = "11227000", SwitchType = "101", SwitchBit = "8428"};
+        public static readonly Switch Switch_11227100 = new Switch { SwitchId = "11227100", SwitchType = "101", SwitchBit = "8429"};
+        public static readonly Switch Switch_11227101 = new Switch { SwitchId = "11227101", SwitchType = "100", SwitchBit = "1892"};
+        public static readonly Switch Switch_11227200 = new Switch { SwitchId = "11227200", SwitchType = "101", SwitchBit = "8430"};
+        public static readonly Switch Switch_11227201 = new Switch { SwitchId = "11227201", SwitchType = "100", SwitchBit = "1893"};
+        public static readonly Switch Switch_11228100 = new Switch { SwitchId = "11228100", SwitchType = "101", SwitchBit = "8432"};
+        public static readonly Switch Switch_11229001 = new Switch { SwitchId = "11229001", SwitchType = "100", SwitchBit = "1894"};
+        public static readonly Switch Switch_11229100 = new Switch { SwitchId = "11229100", SwitchType = "101", SwitchBit = "8433"};
+        public static readonly Switch Switch_11229200 = new Switch { SwitchId = "11229200", SwitchType = "101", SwitchBit = "8434"};
+        public static readonly Switch Switch_11229201 = new Switch { SwitchId = "11229201", SwitchType = "100", SwitchBit = "1895"};
+        public static readonly Switch Switch_11229300 = new Switch { SwitchId = "11229300", SwitchType = "101", SwitchBit = "8435"};
+        public static readonly Switch Switch_11229301 = new Switch { SwitchId = "11229301", SwitchType = "100", SwitchBit = "1896"};
+        public static readonly Switch Switch_11230001 = new Switch { SwitchId = "11230001", SwitchType = "100", SwitchBit = "1897"};
+        public static readonly Switch Switch_11230100 = new Switch { SwitchId = "11230100", SwitchType = "101", SwitchBit = "8443"};
+        public static readonly Switch Switch_11230200 = new Switch { SwitchId = "11230200", SwitchType = "101", SwitchBit = "8444"};
+        public static readonly Switch Switch_11230300 = new Switch { SwitchId = "11230300", SwitchType = "101", SwitchBit = "8445"};
+        public static readonly Switch Switch_11230301 = new Switch { SwitchId = "11230301", SwitchType = "100", SwitchBit = "1898"};
+        public static readonly Switch Switch_11231100 = new Switch { SwitchId = "11231100", SwitchType = "101", SwitchBit = "8446"};
+        public static readonly Switch Switch_11231200 = new Switch { SwitchId = "11231200", SwitchType = "101", SwitchBit = "8447"};
+        public static readonly Switch Switch_11231300 = new Switch { SwitchId = "11231300", SwitchType = "101", SwitchBit = "8448"};
+        public static readonly Switch Switch_11231301 = new Switch { SwitchId = "11231301", SwitchType = "100", SwitchBit = "1899"};
+        public static readonly Switch Switch_11232000 = new Switch { SwitchId = "11232000", SwitchType = "101", SwitchBit = "8449"};
+        public static readonly Switch Switch_11232100 = new Switch { SwitchId = "11232100", SwitchType = "101", SwitchBit = "8450"};
+        public static readonly Switch Switch_11232101 = new Switch { SwitchId = "11232101", SwitchType = "100", SwitchBit = "1900"};
+        public static readonly Switch Switch_11232200 = new Switch { SwitchId = "11232200", SwitchType = "101", SwitchBit = "8451"};
+        public static readonly Switch Switch_11232201 = new Switch { SwitchId = "11232201", SwitchType = "100", SwitchBit = "1901"};
+        public static readonly Switch Switch_11242000 = new Switch { SwitchId = "11242000", SwitchType = "101", SwitchBit = "8452"};
+        public static readonly Switch Switch_11242100 = new Switch { SwitchId = "11242100", SwitchType = "101", SwitchBit = "8453"};
+        public static readonly Switch Switch_11242101 = new Switch { SwitchId = "11242101", SwitchType = "100", SwitchBit = "1902"};
+        public static readonly Switch Switch_11242200 = new Switch { SwitchId = "11242200", SwitchType = "101", SwitchBit = "8454"};
+        public static readonly Switch Switch_11242201 = new Switch { SwitchId = "11242201", SwitchType = "100", SwitchBit = "1903"};
+        public static readonly Switch Switch_11243100 = new Switch { SwitchId = "11243100", SwitchType = "101", SwitchBit = "8455"};
+        public static readonly Switch Switch_11244001 = new Switch { SwitchId = "11244001", SwitchType = "100", SwitchBit = "1905"};
+        public static readonly Switch Switch_11245001 = new Switch { SwitchId = "11245001", SwitchType = "100", SwitchBit = "1906"};
+        public static readonly Switch Switch_11245100 = new Switch { SwitchId = "11245100", SwitchType = "101", SwitchBit = "8518"};
+        public static readonly Switch Switch_11245200 = new Switch { SwitchId = "11245200", SwitchType = "101", SwitchBit = "8519"};
+        public static readonly Switch Switch_11245201 = new Switch { SwitchId = "11245201", SwitchType = "100", SwitchBit = "1907"};
+        public static readonly Switch Switch_11245300 = new Switch { SwitchId = "11245300", SwitchType = "101", SwitchBit = "8520"};
+        public static readonly Switch Switch_11245301 = new Switch { SwitchId = "11245301", SwitchType = "100", SwitchBit = "1908"};
+        public static readonly Switch Switch_11246100 = new Switch { SwitchId = "11246100", SwitchType = "101", SwitchBit = "8521"};
+        public static readonly Switch Switch_11247001 = new Switch { SwitchId = "11247001", SwitchType = "100", SwitchBit = "1909"};
+        public static readonly Switch Switch_11247100 = new Switch { SwitchId = "11247100", SwitchType = "101", SwitchBit = "8522"};
+        public static readonly Switch Switch_11247200 = new Switch { SwitchId = "11247200", SwitchType = "101", SwitchBit = "8523"};
+        public static readonly Switch Switch_11247300 = new Switch { SwitchId = "11247300", SwitchType = "101", SwitchBit = "8524"};
+        public static readonly Switch Switch_11247301 = new Switch { SwitchId = "11247301", SwitchType = "100", SwitchBit = "1910"};
+        public static readonly Switch Switch_11248000 = new Switch { SwitchId = "11248000", SwitchType = "101", SwitchBit = "8525"};
+        public static readonly Switch Switch_11248100 = new Switch { SwitchId = "11248100", SwitchType = "101", SwitchBit = "8526"};
+        public static readonly Switch Switch_11248101 = new Switch { SwitchId = "11248101", SwitchType = "100", SwitchBit = "1911"};
+        public static readonly Switch Switch_11248200 = new Switch { SwitchId = "11248200", SwitchType = "101", SwitchBit = "8527"};
+        public static readonly Switch Switch_11248201 = new Switch { SwitchId = "11248201", SwitchType = "100", SwitchBit = "1912"};
+        public static readonly Switch Switch_11249100 = new Switch { SwitchId = "11249100", SwitchType = "101", SwitchBit = "8528"};
+        public static readonly Switch Switch_11250001 = new Switch { SwitchId = "11250001", SwitchType = "100", SwitchBit = "1913"};
+        public static readonly Switch Switch_11250100 = new Switch { SwitchId = "11250100", SwitchType = "101", SwitchBit = "8529"};
+        public static readonly Switch Switch_11250200 = new Switch { SwitchId = "11250200", SwitchType = "101", SwitchBit = "8530"};
+        public static readonly Switch Switch_11250201 = new Switch { SwitchId = "11250201", SwitchType = "100", SwitchBit = "1914"};
+        public static readonly Switch Switch_11250300 = new Switch { SwitchId = "11250300", SwitchType = "101", SwitchBit = "8531"};
+        public static readonly Switch Switch_11250301 = new Switch { SwitchId = "11250301", SwitchType = "100", SwitchBit = "1915"};
+        public static readonly Switch Switch_11251100 = new Switch { SwitchId = "11251100", SwitchType = "101", SwitchBit = "8532"};
+        public static readonly Switch Switch_11252100 = new Switch { SwitchId = "11252100", SwitchType = "101", SwitchBit = "8533"};
+        public static readonly Switch Switch_11252200 = new Switch { SwitchId = "11252200", SwitchType = "101", SwitchBit = "8534"};
+        public static readonly Switch Switch_11252300 = new Switch { SwitchId = "11252300", SwitchType = "101", SwitchBit = "8535"};
+        public static readonly Switch Switch_11252301 = new Switch { SwitchId = "11252301", SwitchType = "100", SwitchBit = "1916"};
+        public static readonly Switch Switch_11253001 = new Switch { SwitchId = "11253001", SwitchType = "100", SwitchBit = "1917"};
+        public static readonly Switch Switch_11253100 = new Switch { SwitchId = "11253100", SwitchType = "101", SwitchBit = "8536"};
+        public static readonly Switch Switch_11253101 = new Switch { SwitchId = "11253101", SwitchType = "100", SwitchBit = "1918"};
+        public static readonly Switch Switch_11253200 = new Switch { SwitchId = "11253200", SwitchType = "101", SwitchBit = "8537"};
+        public static readonly Switch Switch_11253201 = new Switch { SwitchId = "11253201", SwitchType = "100", SwitchBit = "1919"};
+        public static readonly Switch Switch_11254000 = new Switch { SwitchId = "11254000", SwitchType = "101", SwitchBit = "8538"};
+        public static readonly Switch Switch_11254001 = new Switch { SwitchId = "11254001", SwitchType = "100", SwitchBit = "1920"};
+        public static readonly Switch Switch_11254100 = new Switch { SwitchId = "11254100", SwitchType = "101", SwitchBit = "8539"};
+        public static readonly Switch Switch_11254101 = new Switch { SwitchId = "11254101", SwitchType = "100", SwitchBit = "1921"};
+        public static readonly Switch Switch_11254200 = new Switch { SwitchId = "11254200", SwitchType = "101", SwitchBit = "8540"};
+        public static readonly Switch Switch_11254201 = new Switch { SwitchId = "11254201", SwitchType = "100", SwitchBit = "1922"};
+        public static readonly Switch Switch_13000000 = new Switch { SwitchId = "13000000", SwitchType = "10", SwitchBit = "644"};
+        public static readonly Switch Switch_13000001 = new Switch { SwitchId = "13000001", SwitchType = "10", SwitchBit = "646"};
+        public static readonly Switch Switch_13000002 = new Switch { SwitchId = "13000002", SwitchType = "10", SwitchBit = "647"};
+        public static readonly Switch Switch_13000003 = new Switch { SwitchId = "13000003", SwitchType = "10", SwitchBit = "648"};
+        public static readonly Switch Switch_13000004 = new Switch { SwitchId = "13000004", SwitchType = "10", SwitchBit = "649"};
+        public static readonly Switch Switch_13000005 = new Switch { SwitchId = "13000005", SwitchType = "10", SwitchBit = "650"};
+        public static readonly Switch Switch_13000006 = new Switch { SwitchId = "13000006", SwitchType = "10", SwitchBit = "653"};
+        public static readonly Switch Switch_13000007 = new Switch { SwitchId = "13000007", SwitchType = "10", SwitchBit = "656"};
+        public static readonly Switch Switch_13000008 = new Switch { SwitchId = "13000008", SwitchType = "10", SwitchBit = "659"};
+        public static readonly Switch Switch_13000009 = new Switch { SwitchId = "13000009", SwitchType = "10", SwitchBit = "661"};
+        public static readonly Switch Switch_13000010 = new Switch { SwitchId = "13000010", SwitchType = "10", SwitchBit = "662"};
+        public static readonly Switch Switch_13000011 = new Switch { SwitchId = "13000011", SwitchType = "10", SwitchBit = "663"};
+        public static readonly Switch Switch_13000012 = new Switch { SwitchId = "13000012", SwitchType = "10", SwitchBit = "664"};
+        public static readonly Switch Switch_13000013 = new Switch { SwitchId = "13000013", SwitchType = "10", SwitchBit = "665"};
+        public static readonly Switch Switch_13000014 = new Switch { SwitchId = "13000014", SwitchType = "10", SwitchBit = "666"};
+        public static readonly Switch Switch_13000015 = new Switch { SwitchId = "13000015", SwitchType = "10", SwitchBit = "667"};
+        public static readonly Switch Switch_13000016 = new Switch { SwitchId = "13000016", SwitchType = "10", SwitchBit = "668"};
+        public static readonly Switch Switch_13000017 = new Switch { SwitchId = "13000017", SwitchType = "10", SwitchBit = "669"};
+        public static readonly Switch Switch_13000018 = new Switch { SwitchId = "13000018", SwitchType = "10", SwitchBit = "670"};
+        public static readonly Switch Switch_13000019 = new Switch { SwitchId = "13000019", SwitchType = "10", SwitchBit = "671"};
+        public static readonly Switch Switch_13000020 = new Switch { SwitchId = "13000020", SwitchType = "10", SwitchBit = "672"};
+        public static readonly Switch Switch_13000021 = new Switch { SwitchId = "13000021", SwitchType = "10", SwitchBit = "673"};
+        public static readonly Switch Switch_13000022 = new Switch { SwitchId = "13000022", SwitchType = "10", SwitchBit = "674"};
+        public static readonly Switch Switch_13000023 = new Switch { SwitchId = "13000023", SwitchType = "10", SwitchBit = "675"};
+        public static readonly Switch Switch_13000024 = new Switch { SwitchId = "13000024", SwitchType = "10", SwitchBit = "677"};
+        public static readonly Switch Switch_13000025 = new Switch { SwitchId = "13000025", SwitchType = "10", SwitchBit = "678"};
+        public static readonly Switch Switch_13000026 = new Switch { SwitchId = "13000026", SwitchType = "10", SwitchBit = "679"};
+        public static readonly Switch Switch_13000027 = new Switch { SwitchId = "13000027", SwitchType = "10", SwitchBit = "680"};
+        public static readonly Switch Switch_13000028 = new Switch { SwitchId = "13000028", SwitchType = "10", SwitchBit = "681"};
+        public static readonly Switch Switch_13000029 = new Switch { SwitchId = "13000029", SwitchType = "10", SwitchBit = "682"};
+        public static readonly Switch Switch_13000030 = new Switch { SwitchId = "13000030", SwitchType = "10", SwitchBit = "683"};
+        public static readonly Switch Switch_13000031 = new Switch { SwitchId = "13000031", SwitchType = "10", SwitchBit = "684"};
+        public static readonly Switch Switch_13000032 = new Switch { SwitchId = "13000032", SwitchType = "10", SwitchBit = "685"};
+        public static readonly Switch Switch_13000033 = new Switch { SwitchId = "13000033", SwitchType = "10", SwitchBit = "686"};
+        public static readonly Switch Switch_13000034 = new Switch { SwitchId = "13000034", SwitchType = "10", SwitchBit = "687"};
+        public static readonly Switch Switch_13000035 = new Switch { SwitchId = "13000035", SwitchType = "10", SwitchBit = "688"};
+        public static readonly Switch Switch_13000036 = new Switch { SwitchId = "13000036", SwitchType = "10", SwitchBit = "689"};
+        public static readonly Switch Switch_13000037 = new Switch { SwitchId = "13000037", SwitchType = "10", SwitchBit = "690"};
+        public static readonly Switch Switch_13000038 = new Switch { SwitchId = "13000038", SwitchType = "10", SwitchBit = "691"};
+        public static readonly Switch Switch_13000039 = new Switch { SwitchId = "13000039", SwitchType = "10", SwitchBit = "692"};
+        public static readonly Switch Switch_13000040 = new Switch { SwitchId = "13000040", SwitchType = "10", SwitchBit = "693"};
+        public static readonly Switch Switch_13000041 = new Switch { SwitchId = "13000041", SwitchType = "10", SwitchBit = "694"};
+        public static readonly Switch Switch_13000042 = new Switch { SwitchId = "13000042", SwitchType = "10", SwitchBit = "695"};
+        public static readonly Switch Switch_13000043 = new Switch { SwitchId = "13000043", SwitchType = "10", SwitchBit = "696"};
+        public static readonly Switch Switch_13000044 = new Switch { SwitchId = "13000044", SwitchType = "10", SwitchBit = "697"};
+        public static readonly Switch Switch_13000045 = new Switch { SwitchId = "13000045", SwitchType = "10", SwitchBit = "698"};
+        public static readonly Switch Switch_13000046 = new Switch { SwitchId = "13000046", SwitchType = "10", SwitchBit = "699"};
+        public static readonly Switch Switch_13000047 = new Switch { SwitchId = "13000047", SwitchType = "10", SwitchBit = "700"};
+        public static readonly Switch Switch_13000048 = new Switch { SwitchId = "13000048", SwitchType = "10", SwitchBit = "702"};
+        public static readonly Switch Switch_13000049 = new Switch { SwitchId = "13000049", SwitchType = "10", SwitchBit = "703"};
+        public static readonly Switch Switch_13000050 = new Switch { SwitchId = "13000050", SwitchType = "10", SwitchBit = "704"};
+        public static readonly Switch Switch_13000051 = new Switch { SwitchId = "13000051", SwitchType = "10", SwitchBit = "705"};
+        public static readonly Switch Switch_13000052 = new Switch { SwitchId = "13000052", SwitchType = "10", SwitchBit = "706"};
         public static readonly Switch Switch_18001100 = new Switch { SwitchId = "18001100", SwitchType = "101", SwitchBit = "56"};
         public static readonly Switch Switch_18001200 = new Switch { SwitchId = "18001200", SwitchType = "101", SwitchBit = "57"};
         public static readonly Switch Switch_18001300 = new Switch { SwitchId = "18001300", SwitchType = "101", SwitchBit = "58"};
@@ -4486,6 +5028,19 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_18127004 = new Switch { SwitchId = "18127004", SwitchType = "101", SwitchBit = "6131"};
         public static readonly Switch Switch_18127005 = new Switch { SwitchId = "18127005", SwitchType = "101", SwitchBit = "6132"};
         public static readonly Switch Switch_18127006 = new Switch { SwitchId = "18127006", SwitchType = "101", SwitchBit = "6133"};
+        public static readonly Switch Switch_18128001 = new Switch { SwitchId = "18128001", SwitchType = "101", SwitchBit = "7031"};
+        public static readonly Switch Switch_18128002 = new Switch { SwitchId = "18128002", SwitchType = "101", SwitchBit = "7032"};
+        public static readonly Switch Switch_18128003 = new Switch { SwitchId = "18128003", SwitchType = "101", SwitchBit = "7033"};
+        public static readonly Switch Switch_18128004 = new Switch { SwitchId = "18128004", SwitchType = "101", SwitchBit = "7034"};
+        public static readonly Switch Switch_18128005 = new Switch { SwitchId = "18128005", SwitchType = "101", SwitchBit = "7035"};
+        public static readonly Switch Switch_18128006 = new Switch { SwitchId = "18128006", SwitchType = "101", SwitchBit = "7036"};
+        public static readonly Switch Switch_18128007 = new Switch { SwitchId = "18128007", SwitchType = "101", SwitchBit = "7037"};
+        public static readonly Switch Switch_18128008 = new Switch { SwitchId = "18128008", SwitchType = "101", SwitchBit = "7038"};
+        public static readonly Switch Switch_18128009 = new Switch { SwitchId = "18128009", SwitchType = "101", SwitchBit = "7039"};
+        public static readonly Switch Switch_18128010 = new Switch { SwitchId = "18128010", SwitchType = "101", SwitchBit = "7040"};
+        public static readonly Switch Switch_18128011 = new Switch { SwitchId = "18128011", SwitchType = "101", SwitchBit = "7041"};
+        public static readonly Switch Switch_18128012 = new Switch { SwitchId = "18128012", SwitchType = "101", SwitchBit = "7042"};
+        public static readonly Switch Switch_18128013 = new Switch { SwitchId = "18128013", SwitchType = "101", SwitchBit = "7043"};
         public static readonly Switch Switch_18130101 = new Switch { SwitchId = "18130101", SwitchType = "101", SwitchBit = "5725"};
         public static readonly Switch Switch_18130102 = new Switch { SwitchId = "18130102", SwitchType = "101", SwitchBit = "5726"};
         public static readonly Switch Switch_18130103 = new Switch { SwitchId = "18130103", SwitchType = "101", SwitchBit = "5727"};
@@ -4963,6 +5518,23 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_18231018 = new Switch { SwitchId = "18231018", SwitchType = "103", SwitchBit = "625"};
         public static readonly Switch Switch_18231019 = new Switch { SwitchId = "18231019", SwitchType = "103", SwitchBit = "626"};
         public static readonly Switch Switch_18231020 = new Switch { SwitchId = "18231020", SwitchType = "103", SwitchBit = "627"};
+        public static readonly Switch Switch_18231100 = new Switch { SwitchId = "18231100", SwitchType = "101", SwitchBit = "8503"};
+        public static readonly Switch Switch_18231101 = new Switch { SwitchId = "18231101", SwitchType = "101", SwitchBit = "8504"};
+        public static readonly Switch Switch_18231102 = new Switch { SwitchId = "18231102", SwitchType = "101", SwitchBit = "8505"};
+        public static readonly Switch Switch_18231103 = new Switch { SwitchId = "18231103", SwitchType = "101", SwitchBit = "8506"};
+        public static readonly Switch Switch_18231104 = new Switch { SwitchId = "18231104", SwitchType = "101", SwitchBit = "8507"};
+        public static readonly Switch Switch_18231105 = new Switch { SwitchId = "18231105", SwitchType = "101", SwitchBit = "8508"};
+        public static readonly Switch Switch_18231106 = new Switch { SwitchId = "18231106", SwitchType = "101", SwitchBit = "8509"};
+        public static readonly Switch Switch_18231107 = new Switch { SwitchId = "18231107", SwitchType = "101", SwitchBit = "8510"};
+        public static readonly Switch Switch_18231108 = new Switch { SwitchId = "18231108", SwitchType = "101", SwitchBit = "8511"};
+        public static readonly Switch Switch_18231109 = new Switch { SwitchId = "18231109", SwitchType = "101", SwitchBit = "8512"};
+        public static readonly Switch Switch_18231110 = new Switch { SwitchId = "18231110", SwitchType = "101", SwitchBit = "8513"};
+        public static readonly Switch Switch_18231111 = new Switch { SwitchId = "18231111", SwitchType = "101", SwitchBit = "8514"};
+        public static readonly Switch Switch_18231112 = new Switch { SwitchId = "18231112", SwitchType = "101", SwitchBit = "8551"};
+        public static readonly Switch Switch_18231113 = new Switch { SwitchId = "18231113", SwitchType = "101", SwitchBit = "8552"};
+        public static readonly Switch Switch_18231114 = new Switch { SwitchId = "18231114", SwitchType = "101", SwitchBit = "8515"};
+        public static readonly Switch Switch_18231115 = new Switch { SwitchId = "18231115", SwitchType = "101", SwitchBit = "8516"};
+        public static readonly Switch Switch_18231116 = new Switch { SwitchId = "18231116", SwitchType = "101", SwitchBit = "8517"};
         public static readonly Switch Switch_18301100 = new Switch { SwitchId = "18301100", SwitchType = "101", SwitchBit = "237"};
         public static readonly Switch Switch_18301200 = new Switch { SwitchId = "18301200", SwitchType = "101", SwitchBit = "238"};
         public static readonly Switch Switch_18301300 = new Switch { SwitchId = "18301300", SwitchType = "101", SwitchBit = "239"};
@@ -7516,6 +8088,7 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_18901310 = new Switch { SwitchId = "18901310", SwitchType = "101", SwitchBit = "1513"};
         public static readonly Switch Switch_18901320 = new Switch { SwitchId = "18901320", SwitchType = "101", SwitchBit = "1514"};
         public static readonly Switch Switch_18901330 = new Switch { SwitchId = "18901330", SwitchType = "101", SwitchBit = "3194"};
+        public static readonly Switch Switch_18901340 = new Switch { SwitchId = "18901340", SwitchType = "101", SwitchBit = "7064"};
         public static readonly Switch Switch_18901400 = new Switch { SwitchId = "18901400", SwitchType = "101", SwitchBit = "1700"};
         public static readonly Switch Switch_18901410 = new Switch { SwitchId = "18901410", SwitchType = "101", SwitchBit = "1701"};
         public static readonly Switch Switch_18901420 = new Switch { SwitchId = "18901420", SwitchType = "101", SwitchBit = "1702"};
@@ -7565,6 +8138,23 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_18903010 = new Switch { SwitchId = "18903010", SwitchType = "101", SwitchBit = "6910"};
         public static readonly Switch Switch_18903100 = new Switch { SwitchId = "18903100", SwitchType = "101", SwitchBit = "6954"};
         public static readonly Switch Switch_18903110 = new Switch { SwitchId = "18903110", SwitchType = "101", SwitchBit = "6955"};
+        public static readonly Switch Switch_18903500 = new Switch { SwitchId = "18903500", SwitchType = "101", SwitchBit = "7065"};
+        public static readonly Switch Switch_18903510 = new Switch { SwitchId = "18903510", SwitchType = "101", SwitchBit = "7066"};
+        public static readonly Switch Switch_18903520 = new Switch { SwitchId = "18903520", SwitchType = "101", SwitchBit = "7067"};
+        public static readonly Switch Switch_18903600 = new Switch { SwitchId = "18903600", SwitchType = "101", SwitchBit = "7356"};
+        public static readonly Switch Switch_18903610 = new Switch { SwitchId = "18903610", SwitchType = "101", SwitchBit = "7357"};
+        public static readonly Switch Switch_18903700 = new Switch { SwitchId = "18903700", SwitchType = "101", SwitchBit = "7358"};
+        public static readonly Switch Switch_18903710 = new Switch { SwitchId = "18903710", SwitchType = "101", SwitchBit = "7359"};
+        public static readonly Switch Switch_18903800 = new Switch { SwitchId = "18903800", SwitchType = "101", SwitchBit = "7452"};
+        public static readonly Switch Switch_18903810 = new Switch { SwitchId = "18903810", SwitchType = "101", SwitchBit = "7453"};
+        public static readonly Switch Switch_18903900 = new Switch { SwitchId = "18903900", SwitchType = "101", SwitchBit = "7454"};
+        public static readonly Switch Switch_18903910 = new Switch { SwitchId = "18903910", SwitchType = "101", SwitchBit = "7455"};
+        public static readonly Switch Switch_18904100 = new Switch { SwitchId = "18904100", SwitchType = "101", SwitchBit = "7563"};
+        public static readonly Switch Switch_18904110 = new Switch { SwitchId = "18904110", SwitchType = "101", SwitchBit = "7564"};
+        public static readonly Switch Switch_18904200 = new Switch { SwitchId = "18904200", SwitchType = "101", SwitchBit = "7565"};
+        public static readonly Switch Switch_18904210 = new Switch { SwitchId = "18904210", SwitchType = "101", SwitchBit = "7566"};
+        public static readonly Switch Switch_18904300 = new Switch { SwitchId = "18904300", SwitchType = "101", SwitchBit = "7680"};
+        public static readonly Switch Switch_18904310 = new Switch { SwitchId = "18904310", SwitchType = "101", SwitchBit = "7681"};
         public static readonly Switch Switch_18915300 = new Switch { SwitchId = "18915300", SwitchType = "101", SwitchBit = "3202"};
         public static readonly Switch Switch_18915301 = new Switch { SwitchId = "18915301", SwitchType = "101", SwitchBit = "3203"};
         public static readonly Switch Switch_18915302 = new Switch { SwitchId = "18915302", SwitchType = "101", SwitchBit = "3432"};
@@ -8800,6 +9390,281 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_19201231 = new Switch { SwitchId = "19201231", SwitchType = "101", SwitchBit = "6363"};
         public static readonly Switch Switch_19201232 = new Switch { SwitchId = "19201232", SwitchType = "101", SwitchBit = "6364"};
         public static readonly Switch Switch_19201233 = new Switch { SwitchId = "19201233", SwitchType = "101", SwitchBit = "6365"};
+        public static readonly Switch Switch_19201234 = new Switch { SwitchId = "19201234", SwitchType = "101", SwitchBit = "6366"};
+        public static readonly Switch Switch_19201235 = new Switch { SwitchId = "19201235", SwitchType = "101", SwitchBit = "6367"};
+        public static readonly Switch Switch_19201236 = new Switch { SwitchId = "19201236", SwitchType = "101", SwitchBit = "6368"};
+        public static readonly Switch Switch_19201237 = new Switch { SwitchId = "19201237", SwitchType = "101", SwitchBit = "6369"};
+        public static readonly Switch Switch_19201238 = new Switch { SwitchId = "19201238", SwitchType = "101", SwitchBit = "6370"};
+        public static readonly Switch Switch_19201239 = new Switch { SwitchId = "19201239", SwitchType = "101", SwitchBit = "6371"};
+        public static readonly Switch Switch_19201240 = new Switch { SwitchId = "19201240", SwitchType = "101", SwitchBit = "6372"};
+        public static readonly Switch Switch_19201241 = new Switch { SwitchId = "19201241", SwitchType = "101", SwitchBit = "6373"};
+        public static readonly Switch Switch_19201242 = new Switch { SwitchId = "19201242", SwitchType = "101", SwitchBit = "6374"};
+        public static readonly Switch Switch_19201243 = new Switch { SwitchId = "19201243", SwitchType = "101", SwitchBit = "6375"};
+        public static readonly Switch Switch_19201244 = new Switch { SwitchId = "19201244", SwitchType = "101", SwitchBit = "6376"};
+        public static readonly Switch Switch_19201245 = new Switch { SwitchId = "19201245", SwitchType = "101", SwitchBit = "6377"};
+        public static readonly Switch Switch_19201246 = new Switch { SwitchId = "19201246", SwitchType = "101", SwitchBit = "6378"};
+        public static readonly Switch Switch_19201247 = new Switch { SwitchId = "19201247", SwitchType = "101", SwitchBit = "6379"};
+        public static readonly Switch Switch_19201248 = new Switch { SwitchId = "19201248", SwitchType = "101", SwitchBit = "6380"};
+        public static readonly Switch Switch_19201249 = new Switch { SwitchId = "19201249", SwitchType = "101", SwitchBit = "6381"};
+        public static readonly Switch Switch_19201250 = new Switch { SwitchId = "19201250", SwitchType = "101", SwitchBit = "6382"};
+        public static readonly Switch Switch_19201251 = new Switch { SwitchId = "19201251", SwitchType = "101", SwitchBit = "6383"};
+        public static readonly Switch Switch_19201252 = new Switch { SwitchId = "19201252", SwitchType = "101", SwitchBit = "7070"};
+        public static readonly Switch Switch_19201253 = new Switch { SwitchId = "19201253", SwitchType = "101", SwitchBit = "7071"};
+        public static readonly Switch Switch_19201254 = new Switch { SwitchId = "19201254", SwitchType = "101", SwitchBit = "7072"};
+        public static readonly Switch Switch_19201255 = new Switch { SwitchId = "19201255", SwitchType = "101", SwitchBit = "7073"};
+        public static readonly Switch Switch_19201256 = new Switch { SwitchId = "19201256", SwitchType = "101", SwitchBit = "7074"};
+        public static readonly Switch Switch_19201257 = new Switch { SwitchId = "19201257", SwitchType = "101", SwitchBit = "7075"};
+        public static readonly Switch Switch_19201258 = new Switch { SwitchId = "19201258", SwitchType = "101", SwitchBit = "7076"};
+        public static readonly Switch Switch_19201259 = new Switch { SwitchId = "19201259", SwitchType = "101", SwitchBit = "7077"};
+        public static readonly Switch Switch_19201260 = new Switch { SwitchId = "19201260", SwitchType = "101", SwitchBit = "7078"};
+        public static readonly Switch Switch_19201261 = new Switch { SwitchId = "19201261", SwitchType = "101", SwitchBit = "7079"};
+        public static readonly Switch Switch_19201262 = new Switch { SwitchId = "19201262", SwitchType = "101", SwitchBit = "7080"};
+        public static readonly Switch Switch_19201263 = new Switch { SwitchId = "19201263", SwitchType = "101", SwitchBit = "7081"};
+        public static readonly Switch Switch_19201265 = new Switch { SwitchId = "19201265", SwitchType = "101", SwitchBit = "7083"};
+        public static readonly Switch Switch_19201266 = new Switch { SwitchId = "19201266", SwitchType = "101", SwitchBit = "7084"};
+        public static readonly Switch Switch_19201267 = new Switch { SwitchId = "19201267", SwitchType = "101", SwitchBit = "7085"};
+        public static readonly Switch Switch_19201268 = new Switch { SwitchId = "19201268", SwitchType = "101", SwitchBit = "7086"};
+        public static readonly Switch Switch_19201269 = new Switch { SwitchId = "19201269", SwitchType = "101", SwitchBit = "7087"};
+        public static readonly Switch Switch_19201271 = new Switch { SwitchId = "19201271", SwitchType = "101", SwitchBit = "7089"};
+        public static readonly Switch Switch_19201272 = new Switch { SwitchId = "19201272", SwitchType = "101", SwitchBit = "7090"};
+        public static readonly Switch Switch_19201273 = new Switch { SwitchId = "19201273", SwitchType = "101", SwitchBit = "7091"};
+        public static readonly Switch Switch_19201274 = new Switch { SwitchId = "19201274", SwitchType = "101", SwitchBit = "7092"};
+        public static readonly Switch Switch_19201275 = new Switch { SwitchId = "19201275", SwitchType = "101", SwitchBit = "7093"};
+        public static readonly Switch Switch_19201277 = new Switch { SwitchId = "19201277", SwitchType = "101", SwitchBit = "7095"};
+        public static readonly Switch Switch_19201278 = new Switch { SwitchId = "19201278", SwitchType = "101", SwitchBit = "7096"};
+        public static readonly Switch Switch_19201279 = new Switch { SwitchId = "19201279", SwitchType = "101", SwitchBit = "7097"};
+        public static readonly Switch Switch_19201280 = new Switch { SwitchId = "19201280", SwitchType = "101", SwitchBit = "7098"};
+        public static readonly Switch Switch_19201281 = new Switch { SwitchId = "19201281", SwitchType = "101", SwitchBit = "7099"};
+        public static readonly Switch Switch_19201283 = new Switch { SwitchId = "19201283", SwitchType = "101", SwitchBit = "7101"};
+        public static readonly Switch Switch_19201284 = new Switch { SwitchId = "19201284", SwitchType = "101", SwitchBit = "7102"};
+        public static readonly Switch Switch_19201285 = new Switch { SwitchId = "19201285", SwitchType = "101", SwitchBit = "7103"};
+        public static readonly Switch Switch_19201286 = new Switch { SwitchId = "19201286", SwitchType = "101", SwitchBit = "7104"};
+        public static readonly Switch Switch_19201287 = new Switch { SwitchId = "19201287", SwitchType = "101", SwitchBit = "7105"};
+        public static readonly Switch Switch_19201289 = new Switch { SwitchId = "19201289", SwitchType = "101", SwitchBit = "7107"};
+        public static readonly Switch Switch_19201290 = new Switch { SwitchId = "19201290", SwitchType = "101", SwitchBit = "7108"};
+        public static readonly Switch Switch_19201291 = new Switch { SwitchId = "19201291", SwitchType = "101", SwitchBit = "7109"};
+        public static readonly Switch Switch_19201292 = new Switch { SwitchId = "19201292", SwitchType = "101", SwitchBit = "7110"};
+        public static readonly Switch Switch_19201293 = new Switch { SwitchId = "19201293", SwitchType = "101", SwitchBit = "7111"};
+        public static readonly Switch Switch_19201295 = new Switch { SwitchId = "19201295", SwitchType = "101", SwitchBit = "7113"};
+        public static readonly Switch Switch_19201296 = new Switch { SwitchId = "19201296", SwitchType = "101", SwitchBit = "7114"};
+        public static readonly Switch Switch_19201297 = new Switch { SwitchId = "19201297", SwitchType = "101", SwitchBit = "7115"};
+        public static readonly Switch Switch_19201298 = new Switch { SwitchId = "19201298", SwitchType = "101", SwitchBit = "7116"};
+        public static readonly Switch Switch_19201299 = new Switch { SwitchId = "19201299", SwitchType = "101", SwitchBit = "7117"};
+        public static readonly Switch Switch_19201301 = new Switch { SwitchId = "19201301", SwitchType = "101", SwitchBit = "7119"};
+        public static readonly Switch Switch_19201302 = new Switch { SwitchId = "19201302", SwitchType = "101", SwitchBit = "7120"};
+        public static readonly Switch Switch_19201303 = new Switch { SwitchId = "19201303", SwitchType = "101", SwitchBit = "7121"};
+        public static readonly Switch Switch_19201304 = new Switch { SwitchId = "19201304", SwitchType = "101", SwitchBit = "7122"};
+        public static readonly Switch Switch_19201305 = new Switch { SwitchId = "19201305", SwitchType = "101", SwitchBit = "7123"};
+        public static readonly Switch Switch_19201307 = new Switch { SwitchId = "19201307", SwitchType = "101", SwitchBit = "7125"};
+        public static readonly Switch Switch_19201308 = new Switch { SwitchId = "19201308", SwitchType = "101", SwitchBit = "7126"};
+        public static readonly Switch Switch_19201309 = new Switch { SwitchId = "19201309", SwitchType = "101", SwitchBit = "7127"};
+        public static readonly Switch Switch_19201310 = new Switch { SwitchId = "19201310", SwitchType = "101", SwitchBit = "7128"};
+        public static readonly Switch Switch_19201311 = new Switch { SwitchId = "19201311", SwitchType = "101", SwitchBit = "7129"};
+        public static readonly Switch Switch_19201313 = new Switch { SwitchId = "19201313", SwitchType = "101", SwitchBit = "7131"};
+        public static readonly Switch Switch_19201314 = new Switch { SwitchId = "19201314", SwitchType = "101", SwitchBit = "7132"};
+        public static readonly Switch Switch_19201315 = new Switch { SwitchId = "19201315", SwitchType = "101", SwitchBit = "7133"};
+        public static readonly Switch Switch_19201316 = new Switch { SwitchId = "19201316", SwitchType = "101", SwitchBit = "7134"};
+        public static readonly Switch Switch_19201317 = new Switch { SwitchId = "19201317", SwitchType = "101", SwitchBit = "7135"};
+        public static readonly Switch Switch_19201319 = new Switch { SwitchId = "19201319", SwitchType = "101", SwitchBit = "7137"};
+        public static readonly Switch Switch_19201320 = new Switch { SwitchId = "19201320", SwitchType = "101", SwitchBit = "7138"};
+        public static readonly Switch Switch_19201321 = new Switch { SwitchId = "19201321", SwitchType = "101", SwitchBit = "7139"};
+        public static readonly Switch Switch_19201322 = new Switch { SwitchId = "19201322", SwitchType = "101", SwitchBit = "7140"};
+        public static readonly Switch Switch_19201323 = new Switch { SwitchId = "19201323", SwitchType = "101", SwitchBit = "7141"};
+        public static readonly Switch Switch_19201325 = new Switch { SwitchId = "19201325", SwitchType = "101", SwitchBit = "7143"};
+        public static readonly Switch Switch_19201326 = new Switch { SwitchId = "19201326", SwitchType = "101", SwitchBit = "7144"};
+        public static readonly Switch Switch_19201327 = new Switch { SwitchId = "19201327", SwitchType = "101", SwitchBit = "7145"};
+        public static readonly Switch Switch_19201328 = new Switch { SwitchId = "19201328", SwitchType = "101", SwitchBit = "7146"};
+        public static readonly Switch Switch_19201329 = new Switch { SwitchId = "19201329", SwitchType = "101", SwitchBit = "7147"};
+        public static readonly Switch Switch_19201331 = new Switch { SwitchId = "19201331", SwitchType = "101", SwitchBit = "7149"};
+        public static readonly Switch Switch_19201332 = new Switch { SwitchId = "19201332", SwitchType = "101", SwitchBit = "7150"};
+        public static readonly Switch Switch_19201333 = new Switch { SwitchId = "19201333", SwitchType = "101", SwitchBit = "7151"};
+        public static readonly Switch Switch_19201334 = new Switch { SwitchId = "19201334", SwitchType = "101", SwitchBit = "7152"};
+        public static readonly Switch Switch_19201335 = new Switch { SwitchId = "19201335", SwitchType = "101", SwitchBit = "7153"};
+        public static readonly Switch Switch_19201337 = new Switch { SwitchId = "19201337", SwitchType = "101", SwitchBit = "7155"};
+        public static readonly Switch Switch_19201338 = new Switch { SwitchId = "19201338", SwitchType = "101", SwitchBit = "7156"};
+        public static readonly Switch Switch_19201339 = new Switch { SwitchId = "19201339", SwitchType = "101", SwitchBit = "7157"};
+        public static readonly Switch Switch_19201340 = new Switch { SwitchId = "19201340", SwitchType = "101", SwitchBit = "7158"};
+        public static readonly Switch Switch_19201341 = new Switch { SwitchId = "19201341", SwitchType = "101", SwitchBit = "7159"};
+        public static readonly Switch Switch_19201343 = new Switch { SwitchId = "19201343", SwitchType = "101", SwitchBit = "7161"};
+        public static readonly Switch Switch_19201344 = new Switch { SwitchId = "19201344", SwitchType = "101", SwitchBit = "7162"};
+        public static readonly Switch Switch_19201345 = new Switch { SwitchId = "19201345", SwitchType = "101", SwitchBit = "7163"};
+        public static readonly Switch Switch_19201346 = new Switch { SwitchId = "19201346", SwitchType = "101", SwitchBit = "7164"};
+        public static readonly Switch Switch_19201347 = new Switch { SwitchId = "19201347", SwitchType = "101", SwitchBit = "7165"};
+        public static readonly Switch Switch_19201349 = new Switch { SwitchId = "19201349", SwitchType = "101", SwitchBit = "7167"};
+        public static readonly Switch Switch_19201350 = new Switch { SwitchId = "19201350", SwitchType = "101", SwitchBit = "7168"};
+        public static readonly Switch Switch_19201351 = new Switch { SwitchId = "19201351", SwitchType = "101", SwitchBit = "7169"};
+        public static readonly Switch Switch_19201352 = new Switch { SwitchId = "19201352", SwitchType = "101", SwitchBit = "7170"};
+        public static readonly Switch Switch_19201353 = new Switch { SwitchId = "19201353", SwitchType = "101", SwitchBit = "7171"};
+        public static readonly Switch Switch_19201355 = new Switch { SwitchId = "19201355", SwitchType = "101", SwitchBit = "7173"};
+        public static readonly Switch Switch_19201356 = new Switch { SwitchId = "19201356", SwitchType = "101", SwitchBit = "7174"};
+        public static readonly Switch Switch_19201357 = new Switch { SwitchId = "19201357", SwitchType = "101", SwitchBit = "7175"};
+        public static readonly Switch Switch_19201358 = new Switch { SwitchId = "19201358", SwitchType = "101", SwitchBit = "7176"};
+        public static readonly Switch Switch_19201359 = new Switch { SwitchId = "19201359", SwitchType = "101", SwitchBit = "7177"};
+        public static readonly Switch Switch_19201361 = new Switch { SwitchId = "19201361", SwitchType = "101", SwitchBit = "7179"};
+        public static readonly Switch Switch_19201362 = new Switch { SwitchId = "19201362", SwitchType = "101", SwitchBit = "7180"};
+        public static readonly Switch Switch_19201363 = new Switch { SwitchId = "19201363", SwitchType = "101", SwitchBit = "7181"};
+        public static readonly Switch Switch_19201364 = new Switch { SwitchId = "19201364", SwitchType = "101", SwitchBit = "7182"};
+        public static readonly Switch Switch_19201365 = new Switch { SwitchId = "19201365", SwitchType = "101", SwitchBit = "7183"};
+        public static readonly Switch Switch_19201367 = new Switch { SwitchId = "19201367", SwitchType = "101", SwitchBit = "7185"};
+        public static readonly Switch Switch_19201368 = new Switch { SwitchId = "19201368", SwitchType = "101", SwitchBit = "7186"};
+        public static readonly Switch Switch_19201369 = new Switch { SwitchId = "19201369", SwitchType = "101", SwitchBit = "7187"};
+        public static readonly Switch Switch_19201370 = new Switch { SwitchId = "19201370", SwitchType = "101", SwitchBit = "7188"};
+        public static readonly Switch Switch_19201371 = new Switch { SwitchId = "19201371", SwitchType = "101", SwitchBit = "7189"};
+        public static readonly Switch Switch_19201373 = new Switch { SwitchId = "19201373", SwitchType = "101", SwitchBit = "7191"};
+        public static readonly Switch Switch_19201374 = new Switch { SwitchId = "19201374", SwitchType = "101", SwitchBit = "7192"};
+        public static readonly Switch Switch_19201375 = new Switch { SwitchId = "19201375", SwitchType = "101", SwitchBit = "7193"};
+        public static readonly Switch Switch_19201376 = new Switch { SwitchId = "19201376", SwitchType = "101", SwitchBit = "7194"};
+        public static readonly Switch Switch_19201377 = new Switch { SwitchId = "19201377", SwitchType = "101", SwitchBit = "7195"};
+        public static readonly Switch Switch_19201379 = new Switch { SwitchId = "19201379", SwitchType = "101", SwitchBit = "7197"};
+        public static readonly Switch Switch_19201380 = new Switch { SwitchId = "19201380", SwitchType = "101", SwitchBit = "7198"};
+        public static readonly Switch Switch_19201381 = new Switch { SwitchId = "19201381", SwitchType = "101", SwitchBit = "7199"};
+        public static readonly Switch Switch_19201382 = new Switch { SwitchId = "19201382", SwitchType = "101", SwitchBit = "7200"};
+        public static readonly Switch Switch_19201383 = new Switch { SwitchId = "19201383", SwitchType = "101", SwitchBit = "7201"};
+        public static readonly Switch Switch_19201385 = new Switch { SwitchId = "19201385", SwitchType = "101", SwitchBit = "7203"};
+        public static readonly Switch Switch_19201386 = new Switch { SwitchId = "19201386", SwitchType = "101", SwitchBit = "7204"};
+        public static readonly Switch Switch_19201387 = new Switch { SwitchId = "19201387", SwitchType = "101", SwitchBit = "7205"};
+        public static readonly Switch Switch_19201388 = new Switch { SwitchId = "19201388", SwitchType = "101", SwitchBit = "7206"};
+        public static readonly Switch Switch_19201389 = new Switch { SwitchId = "19201389", SwitchType = "101", SwitchBit = "7207"};
+        public static readonly Switch Switch_19201391 = new Switch { SwitchId = "19201391", SwitchType = "101", SwitchBit = "7209"};
+        public static readonly Switch Switch_19201392 = new Switch { SwitchId = "19201392", SwitchType = "101", SwitchBit = "7210"};
+        public static readonly Switch Switch_19201393 = new Switch { SwitchId = "19201393", SwitchType = "101", SwitchBit = "7211"};
+        public static readonly Switch Switch_19201394 = new Switch { SwitchId = "19201394", SwitchType = "101", SwitchBit = "7212"};
+        public static readonly Switch Switch_19201395 = new Switch { SwitchId = "19201395", SwitchType = "101", SwitchBit = "7213"};
+        public static readonly Switch Switch_19201397 = new Switch { SwitchId = "19201397", SwitchType = "101", SwitchBit = "7215"};
+        public static readonly Switch Switch_19201398 = new Switch { SwitchId = "19201398", SwitchType = "101", SwitchBit = "7216"};
+        public static readonly Switch Switch_19201399 = new Switch { SwitchId = "19201399", SwitchType = "101", SwitchBit = "7217"};
+        public static readonly Switch Switch_19201400 = new Switch { SwitchId = "19201400", SwitchType = "101", SwitchBit = "7218"};
+        public static readonly Switch Switch_19201401 = new Switch { SwitchId = "19201401", SwitchType = "101", SwitchBit = "7219"};
+        public static readonly Switch Switch_19201403 = new Switch { SwitchId = "19201403", SwitchType = "101", SwitchBit = "7221"};
+        public static readonly Switch Switch_19201404 = new Switch { SwitchId = "19201404", SwitchType = "101", SwitchBit = "7222"};
+        public static readonly Switch Switch_19201405 = new Switch { SwitchId = "19201405", SwitchType = "101", SwitchBit = "7223"};
+        public static readonly Switch Switch_19201406 = new Switch { SwitchId = "19201406", SwitchType = "101", SwitchBit = "7224"};
+        public static readonly Switch Switch_19201407 = new Switch { SwitchId = "19201407", SwitchType = "101", SwitchBit = "7225"};
+        public static readonly Switch Switch_19201409 = new Switch { SwitchId = "19201409", SwitchType = "101", SwitchBit = "7227"};
+        public static readonly Switch Switch_19201410 = new Switch { SwitchId = "19201410", SwitchType = "101", SwitchBit = "7228"};
+        public static readonly Switch Switch_19201411 = new Switch { SwitchId = "19201411", SwitchType = "101", SwitchBit = "7229"};
+        public static readonly Switch Switch_19201412 = new Switch { SwitchId = "19201412", SwitchType = "101", SwitchBit = "7230"};
+        public static readonly Switch Switch_19201413 = new Switch { SwitchId = "19201413", SwitchType = "101", SwitchBit = "7231"};
+        public static readonly Switch Switch_19201415 = new Switch { SwitchId = "19201415", SwitchType = "101", SwitchBit = "7233"};
+        public static readonly Switch Switch_19201416 = new Switch { SwitchId = "19201416", SwitchType = "101", SwitchBit = "7234"};
+        public static readonly Switch Switch_19201417 = new Switch { SwitchId = "19201417", SwitchType = "101", SwitchBit = "7235"};
+        public static readonly Switch Switch_19201418 = new Switch { SwitchId = "19201418", SwitchType = "101", SwitchBit = "7236"};
+        public static readonly Switch Switch_19201419 = new Switch { SwitchId = "19201419", SwitchType = "101", SwitchBit = "7237"};
+        public static readonly Switch Switch_19201421 = new Switch { SwitchId = "19201421", SwitchType = "101", SwitchBit = "7239"};
+        public static readonly Switch Switch_19201422 = new Switch { SwitchId = "19201422", SwitchType = "101", SwitchBit = "7240"};
+        public static readonly Switch Switch_19201423 = new Switch { SwitchId = "19201423", SwitchType = "101", SwitchBit = "7241"};
+        public static readonly Switch Switch_19201424 = new Switch { SwitchId = "19201424", SwitchType = "101", SwitchBit = "7242"};
+        public static readonly Switch Switch_19201425 = new Switch { SwitchId = "19201425", SwitchType = "101", SwitchBit = "7243"};
+        public static readonly Switch Switch_19201427 = new Switch { SwitchId = "19201427", SwitchType = "101", SwitchBit = "7245"};
+        public static readonly Switch Switch_19201428 = new Switch { SwitchId = "19201428", SwitchType = "101", SwitchBit = "7246"};
+        public static readonly Switch Switch_19201429 = new Switch { SwitchId = "19201429", SwitchType = "101", SwitchBit = "7247"};
+        public static readonly Switch Switch_19201430 = new Switch { SwitchId = "19201430", SwitchType = "101", SwitchBit = "7248"};
+        public static readonly Switch Switch_19201431 = new Switch { SwitchId = "19201431", SwitchType = "101", SwitchBit = "7249"};
+        public static readonly Switch Switch_19201433 = new Switch { SwitchId = "19201433", SwitchType = "101", SwitchBit = "7251"};
+        public static readonly Switch Switch_19201434 = new Switch { SwitchId = "19201434", SwitchType = "101", SwitchBit = "7252"};
+        public static readonly Switch Switch_19201435 = new Switch { SwitchId = "19201435", SwitchType = "101", SwitchBit = "7253"};
+        public static readonly Switch Switch_19201436 = new Switch { SwitchId = "19201436", SwitchType = "101", SwitchBit = "7254"};
+        public static readonly Switch Switch_19201437 = new Switch { SwitchId = "19201437", SwitchType = "101", SwitchBit = "7255"};
+        public static readonly Switch Switch_19201439 = new Switch { SwitchId = "19201439", SwitchType = "101", SwitchBit = "7257"};
+        public static readonly Switch Switch_19201440 = new Switch { SwitchId = "19201440", SwitchType = "101", SwitchBit = "7258"};
+        public static readonly Switch Switch_19201441 = new Switch { SwitchId = "19201441", SwitchType = "101", SwitchBit = "7259"};
+        public static readonly Switch Switch_19201442 = new Switch { SwitchId = "19201442", SwitchType = "101", SwitchBit = "7260"};
+        public static readonly Switch Switch_19201443 = new Switch { SwitchId = "19201443", SwitchType = "101", SwitchBit = "7261"};
+        public static readonly Switch Switch_19201445 = new Switch { SwitchId = "19201445", SwitchType = "101", SwitchBit = "8030"};
+        public static readonly Switch Switch_19201446 = new Switch { SwitchId = "19201446", SwitchType = "101", SwitchBit = "8031"};
+        public static readonly Switch Switch_19201447 = new Switch { SwitchId = "19201447", SwitchType = "101", SwitchBit = "8032"};
+        public static readonly Switch Switch_19201448 = new Switch { SwitchId = "19201448", SwitchType = "101", SwitchBit = "8033"};
+        public static readonly Switch Switch_19201449 = new Switch { SwitchId = "19201449", SwitchType = "101", SwitchBit = "8034"};
+        public static readonly Switch Switch_19201451 = new Switch { SwitchId = "19201451", SwitchType = "101", SwitchBit = "8036"};
+        public static readonly Switch Switch_19201452 = new Switch { SwitchId = "19201452", SwitchType = "101", SwitchBit = "8037"};
+        public static readonly Switch Switch_19201453 = new Switch { SwitchId = "19201453", SwitchType = "101", SwitchBit = "8038"};
+        public static readonly Switch Switch_19201454 = new Switch { SwitchId = "19201454", SwitchType = "101", SwitchBit = "8039"};
+        public static readonly Switch Switch_19201455 = new Switch { SwitchId = "19201455", SwitchType = "101", SwitchBit = "8040"};
+        public static readonly Switch Switch_19201457 = new Switch { SwitchId = "19201457", SwitchType = "101", SwitchBit = "8042"};
+        public static readonly Switch Switch_19201458 = new Switch { SwitchId = "19201458", SwitchType = "101", SwitchBit = "8043"};
+        public static readonly Switch Switch_19201459 = new Switch { SwitchId = "19201459", SwitchType = "101", SwitchBit = "8044"};
+        public static readonly Switch Switch_19201460 = new Switch { SwitchId = "19201460", SwitchType = "101", SwitchBit = "8045"};
+        public static readonly Switch Switch_19201461 = new Switch { SwitchId = "19201461", SwitchType = "101", SwitchBit = "8046"};
+        public static readonly Switch Switch_19201463 = new Switch { SwitchId = "19201463", SwitchType = "101", SwitchBit = "8048"};
+        public static readonly Switch Switch_19201464 = new Switch { SwitchId = "19201464", SwitchType = "101", SwitchBit = "8049"};
+        public static readonly Switch Switch_19201465 = new Switch { SwitchId = "19201465", SwitchType = "101", SwitchBit = "8050"};
+        public static readonly Switch Switch_19201466 = new Switch { SwitchId = "19201466", SwitchType = "101", SwitchBit = "8051"};
+        public static readonly Switch Switch_19201467 = new Switch { SwitchId = "19201467", SwitchType = "101", SwitchBit = "8052"};
+        public static readonly Switch Switch_19201469 = new Switch { SwitchId = "19201469", SwitchType = "101", SwitchBit = "8054"};
+        public static readonly Switch Switch_19201470 = new Switch { SwitchId = "19201470", SwitchType = "101", SwitchBit = "8055"};
+        public static readonly Switch Switch_19201471 = new Switch { SwitchId = "19201471", SwitchType = "101", SwitchBit = "8056"};
+        public static readonly Switch Switch_19201472 = new Switch { SwitchId = "19201472", SwitchType = "101", SwitchBit = "8057"};
+        public static readonly Switch Switch_19201473 = new Switch { SwitchId = "19201473", SwitchType = "101", SwitchBit = "8058"};
+        public static readonly Switch Switch_19201475 = new Switch { SwitchId = "19201475", SwitchType = "101", SwitchBit = "8060"};
+        public static readonly Switch Switch_19201476 = new Switch { SwitchId = "19201476", SwitchType = "101", SwitchBit = "8061"};
+        public static readonly Switch Switch_19201477 = new Switch { SwitchId = "19201477", SwitchType = "101", SwitchBit = "8062"};
+        public static readonly Switch Switch_19201478 = new Switch { SwitchId = "19201478", SwitchType = "101", SwitchBit = "8063"};
+        public static readonly Switch Switch_19201479 = new Switch { SwitchId = "19201479", SwitchType = "101", SwitchBit = "8064"};
+        public static readonly Switch Switch_19201481 = new Switch { SwitchId = "19201481", SwitchType = "101", SwitchBit = "8066"};
+        public static readonly Switch Switch_19201482 = new Switch { SwitchId = "19201482", SwitchType = "101", SwitchBit = "8067"};
+        public static readonly Switch Switch_19201483 = new Switch { SwitchId = "19201483", SwitchType = "101", SwitchBit = "8068"};
+        public static readonly Switch Switch_19201484 = new Switch { SwitchId = "19201484", SwitchType = "101", SwitchBit = "8069"};
+        public static readonly Switch Switch_19201485 = new Switch { SwitchId = "19201485", SwitchType = "101", SwitchBit = "8070"};
+        public static readonly Switch Switch_19201487 = new Switch { SwitchId = "19201487", SwitchType = "101", SwitchBit = "8072"};
+        public static readonly Switch Switch_19201488 = new Switch { SwitchId = "19201488", SwitchType = "101", SwitchBit = "8073"};
+        public static readonly Switch Switch_19201489 = new Switch { SwitchId = "19201489", SwitchType = "101", SwitchBit = "8074"};
+        public static readonly Switch Switch_19201490 = new Switch { SwitchId = "19201490", SwitchType = "101", SwitchBit = "8075"};
+        public static readonly Switch Switch_19201491 = new Switch { SwitchId = "19201491", SwitchType = "101", SwitchBit = "8076"};
+        public static readonly Switch Switch_19201493 = new Switch { SwitchId = "19201493", SwitchType = "101", SwitchBit = "8078"};
+        public static readonly Switch Switch_19201494 = new Switch { SwitchId = "19201494", SwitchType = "101", SwitchBit = "8079"};
+        public static readonly Switch Switch_19201495 = new Switch { SwitchId = "19201495", SwitchType = "101", SwitchBit = "8080"};
+        public static readonly Switch Switch_19201496 = new Switch { SwitchId = "19201496", SwitchType = "101", SwitchBit = "8081"};
+        public static readonly Switch Switch_19201497 = new Switch { SwitchId = "19201497", SwitchType = "101", SwitchBit = "8082"};
+        public static readonly Switch Switch_19201499 = new Switch { SwitchId = "19201499", SwitchType = "101", SwitchBit = "8084"};
+        public static readonly Switch Switch_19201500 = new Switch { SwitchId = "19201500", SwitchType = "101", SwitchBit = "8085"};
+        public static readonly Switch Switch_19201501 = new Switch { SwitchId = "19201501", SwitchType = "101", SwitchBit = "8086"};
+        public static readonly Switch Switch_19201502 = new Switch { SwitchId = "19201502", SwitchType = "101", SwitchBit = "8087"};
+        public static readonly Switch Switch_19201503 = new Switch { SwitchId = "19201503", SwitchType = "101", SwitchBit = "8088"};
+        public static readonly Switch Switch_19201505 = new Switch { SwitchId = "19201505", SwitchType = "101", SwitchBit = "8090"};
+        public static readonly Switch Switch_19201506 = new Switch { SwitchId = "19201506", SwitchType = "101", SwitchBit = "8091"};
+        public static readonly Switch Switch_19201507 = new Switch { SwitchId = "19201507", SwitchType = "101", SwitchBit = "8092"};
+        public static readonly Switch Switch_19201508 = new Switch { SwitchId = "19201508", SwitchType = "101", SwitchBit = "8093"};
+        public static readonly Switch Switch_19201509 = new Switch { SwitchId = "19201509", SwitchType = "101", SwitchBit = "8094"};
+        public static readonly Switch Switch_19201511 = new Switch { SwitchId = "19201511", SwitchType = "101", SwitchBit = "8096"};
+        public static readonly Switch Switch_19201512 = new Switch { SwitchId = "19201512", SwitchType = "101", SwitchBit = "8097"};
+        public static readonly Switch Switch_19201513 = new Switch { SwitchId = "19201513", SwitchType = "101", SwitchBit = "8098"};
+        public static readonly Switch Switch_19201514 = new Switch { SwitchId = "19201514", SwitchType = "101", SwitchBit = "8099"};
+        public static readonly Switch Switch_19201515 = new Switch { SwitchId = "19201515", SwitchType = "101", SwitchBit = "8100"};
+        public static readonly Switch Switch_19201517 = new Switch { SwitchId = "19201517", SwitchType = "101", SwitchBit = "8102"};
+        public static readonly Switch Switch_19201518 = new Switch { SwitchId = "19201518", SwitchType = "101", SwitchBit = "8103"};
+        public static readonly Switch Switch_19201519 = new Switch { SwitchId = "19201519", SwitchType = "101", SwitchBit = "8104"};
+        public static readonly Switch Switch_19201520 = new Switch { SwitchId = "19201520", SwitchType = "101", SwitchBit = "8105"};
+        public static readonly Switch Switch_19201521 = new Switch { SwitchId = "19201521", SwitchType = "101", SwitchBit = "8106"};
+        public static readonly Switch Switch_19201523 = new Switch { SwitchId = "19201523", SwitchType = "101", SwitchBit = "8108"};
+        public static readonly Switch Switch_19201524 = new Switch { SwitchId = "19201524", SwitchType = "101", SwitchBit = "8109"};
+        public static readonly Switch Switch_19201525 = new Switch { SwitchId = "19201525", SwitchType = "101", SwitchBit = "8110"};
+        public static readonly Switch Switch_19201526 = new Switch { SwitchId = "19201526", SwitchType = "101", SwitchBit = "8111"};
+        public static readonly Switch Switch_19201527 = new Switch { SwitchId = "19201527", SwitchType = "101", SwitchBit = "8112"};
+        public static readonly Switch Switch_19201529 = new Switch { SwitchId = "19201529", SwitchType = "101", SwitchBit = "8114"};
+        public static readonly Switch Switch_19201530 = new Switch { SwitchId = "19201530", SwitchType = "101", SwitchBit = "8115"};
+        public static readonly Switch Switch_19201531 = new Switch { SwitchId = "19201531", SwitchType = "101", SwitchBit = "8116"};
+        public static readonly Switch Switch_19201532 = new Switch { SwitchId = "19201532", SwitchType = "101", SwitchBit = "8117"};
+        public static readonly Switch Switch_19201533 = new Switch { SwitchId = "19201533", SwitchType = "101", SwitchBit = "8118"};
+        public static readonly Switch Switch_19201535 = new Switch { SwitchId = "19201535", SwitchType = "101", SwitchBit = "8120"};
+        public static readonly Switch Switch_19201536 = new Switch { SwitchId = "19201536", SwitchType = "101", SwitchBit = "8121"};
+        public static readonly Switch Switch_19201537 = new Switch { SwitchId = "19201537", SwitchType = "101", SwitchBit = "8122"};
+        public static readonly Switch Switch_19201538 = new Switch { SwitchId = "19201538", SwitchType = "101", SwitchBit = "8123"};
+        public static readonly Switch Switch_19201539 = new Switch { SwitchId = "19201539", SwitchType = "101", SwitchBit = "8124"};
+        public static readonly Switch Switch_19201541 = new Switch { SwitchId = "19201541", SwitchType = "101", SwitchBit = "8126"};
+        public static readonly Switch Switch_19201542 = new Switch { SwitchId = "19201542", SwitchType = "101", SwitchBit = "8127"};
+        public static readonly Switch Switch_19201543 = new Switch { SwitchId = "19201543", SwitchType = "101", SwitchBit = "8128"};
+        public static readonly Switch Switch_19201544 = new Switch { SwitchId = "19201544", SwitchType = "101", SwitchBit = "8129"};
+        public static readonly Switch Switch_19201545 = new Switch { SwitchId = "19201545", SwitchType = "101", SwitchBit = "8130"};
+        public static readonly Switch Switch_19201547 = new Switch { SwitchId = "19201547", SwitchType = "101", SwitchBit = "8132"};
+        public static readonly Switch Switch_19201548 = new Switch { SwitchId = "19201548", SwitchType = "101", SwitchBit = "8133"};
+        public static readonly Switch Switch_19201549 = new Switch { SwitchId = "19201549", SwitchType = "101", SwitchBit = "8134"};
+        public static readonly Switch Switch_19201550 = new Switch { SwitchId = "19201550", SwitchType = "101", SwitchBit = "8135"};
+        public static readonly Switch Switch_19201551 = new Switch { SwitchId = "19201551", SwitchType = "101", SwitchBit = "8136"};
+        public static readonly Switch Switch_19201553 = new Switch { SwitchId = "19201553", SwitchType = "101", SwitchBit = "8138"};
+        public static readonly Switch Switch_19201554 = new Switch { SwitchId = "19201554", SwitchType = "101", SwitchBit = "8139"};
+        public static readonly Switch Switch_19201555 = new Switch { SwitchId = "19201555", SwitchType = "101", SwitchBit = "8140"};
+        public static readonly Switch Switch_19201556 = new Switch { SwitchId = "19201556", SwitchType = "101", SwitchBit = "8141"};
+        public static readonly Switch Switch_19201557 = new Switch { SwitchId = "19201557", SwitchType = "101", SwitchBit = "8142"};
         public static readonly Switch Switch_19210100 = new Switch { SwitchId = "19210100", SwitchType = "101", SwitchBit = "2936"};
         public static readonly Switch Switch_19210200 = new Switch { SwitchId = "19210200", SwitchType = "101", SwitchBit = "2937"};
         public static readonly Switch Switch_19210300 = new Switch { SwitchId = "19210300", SwitchType = "101", SwitchBit = "2938"};
@@ -9067,6 +9932,174 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_19260010 = new Switch { SwitchId = "19260010", SwitchType = "101", SwitchBit = "6905"};
         public static readonly Switch Switch_19260011 = new Switch { SwitchId = "19260011", SwitchType = "101", SwitchBit = "6906"};
         public static readonly Switch Switch_19270001 = new Switch { SwitchId = "19270001", SwitchType = "101", SwitchBit = "6970"};
+        public static readonly Switch Switch_19280001 = new Switch { SwitchId = "19280001", SwitchType = "101", SwitchBit = "7044"};
+        public static readonly Switch Switch_19280002 = new Switch { SwitchId = "19280002", SwitchType = "101", SwitchBit = "7045"};
+        public static readonly Switch Switch_19280003 = new Switch { SwitchId = "19280003", SwitchType = "101", SwitchBit = "7046"};
+        public static readonly Switch Switch_19280004 = new Switch { SwitchId = "19280004", SwitchType = "101", SwitchBit = "7047"};
+        public static readonly Switch Switch_19280005 = new Switch { SwitchId = "19280005", SwitchType = "101", SwitchBit = "7048"};
+        public static readonly Switch Switch_19280006 = new Switch { SwitchId = "19280006", SwitchType = "101", SwitchBit = "7049"};
+        public static readonly Switch Switch_19280007 = new Switch { SwitchId = "19280007", SwitchType = "101", SwitchBit = "7050"};
+        public static readonly Switch Switch_19280008 = new Switch { SwitchId = "19280008", SwitchType = "101", SwitchBit = "7051"};
+        public static readonly Switch Switch_19280009 = new Switch { SwitchId = "19280009", SwitchType = "101", SwitchBit = "7052"};
+        public static readonly Switch Switch_19280010 = new Switch { SwitchId = "19280010", SwitchType = "101", SwitchBit = "7053"};
+        public static readonly Switch Switch_19280011 = new Switch { SwitchId = "19280011", SwitchType = "101", SwitchBit = "7054"};
+        public static readonly Switch Switch_19290001 = new Switch { SwitchId = "19290001", SwitchType = "101", SwitchBit = "7292"};
+        public static readonly Switch Switch_19290002 = new Switch { SwitchId = "19290002", SwitchType = "101", SwitchBit = "7293"};
+        public static readonly Switch Switch_19290003 = new Switch { SwitchId = "19290003", SwitchType = "101", SwitchBit = "7294"};
+        public static readonly Switch Switch_19290004 = new Switch { SwitchId = "19290004", SwitchType = "101", SwitchBit = "7295"};
+        public static readonly Switch Switch_19290005 = new Switch { SwitchId = "19290005", SwitchType = "101", SwitchBit = "7296"};
+        public static readonly Switch Switch_19290006 = new Switch { SwitchId = "19290006", SwitchType = "101", SwitchBit = "7297"};
+        public static readonly Switch Switch_19290007 = new Switch { SwitchId = "19290007", SwitchType = "101", SwitchBit = "7298"};
+        public static readonly Switch Switch_19290008 = new Switch { SwitchId = "19290008", SwitchType = "101", SwitchBit = "7299"};
+        public static readonly Switch Switch_19290009 = new Switch { SwitchId = "19290009", SwitchType = "101", SwitchBit = "7300"};
+        public static readonly Switch Switch_19290010 = new Switch { SwitchId = "19290010", SwitchType = "101", SwitchBit = "7301"};
+        public static readonly Switch Switch_19290011 = new Switch { SwitchId = "19290011", SwitchType = "101", SwitchBit = "7302"};
+        public static readonly Switch Switch_19300001 = new Switch { SwitchId = "19300001", SwitchType = "101", SwitchBit = "7378"};
+        public static readonly Switch Switch_19310001 = new Switch { SwitchId = "19310001", SwitchType = "101", SwitchBit = "7379"};
+        public static readonly Switch Switch_19310002 = new Switch { SwitchId = "19310002", SwitchType = "101", SwitchBit = "7380"};
+        public static readonly Switch Switch_19310003 = new Switch { SwitchId = "19310003", SwitchType = "101", SwitchBit = "7381"};
+        public static readonly Switch Switch_19310004 = new Switch { SwitchId = "19310004", SwitchType = "101", SwitchBit = "7382"};
+        public static readonly Switch Switch_19310005 = new Switch { SwitchId = "19310005", SwitchType = "101", SwitchBit = "7383"};
+        public static readonly Switch Switch_19310006 = new Switch { SwitchId = "19310006", SwitchType = "101", SwitchBit = "7384"};
+        public static readonly Switch Switch_19310007 = new Switch { SwitchId = "19310007", SwitchType = "101", SwitchBit = "7385"};
+        public static readonly Switch Switch_19310008 = new Switch { SwitchId = "19310008", SwitchType = "101", SwitchBit = "7386"};
+        public static readonly Switch Switch_19310009 = new Switch { SwitchId = "19310009", SwitchType = "101", SwitchBit = "7387"};
+        public static readonly Switch Switch_19310010 = new Switch { SwitchId = "19310010", SwitchType = "101", SwitchBit = "7388"};
+        public static readonly Switch Switch_19310011 = new Switch { SwitchId = "19310011", SwitchType = "101", SwitchBit = "7389"};
+        public static readonly Switch Switch_19320001 = new Switch { SwitchId = "19320001", SwitchType = "101", SwitchBit = "7495"};
+        public static readonly Switch Switch_19320002 = new Switch { SwitchId = "19320002", SwitchType = "101", SwitchBit = "7496"};
+        public static readonly Switch Switch_19320003 = new Switch { SwitchId = "19320003", SwitchType = "101", SwitchBit = "7497"};
+        public static readonly Switch Switch_19320004 = new Switch { SwitchId = "19320004", SwitchType = "101", SwitchBit = "7498"};
+        public static readonly Switch Switch_19320005 = new Switch { SwitchId = "19320005", SwitchType = "101", SwitchBit = "7499"};
+        public static readonly Switch Switch_19320006 = new Switch { SwitchId = "19320006", SwitchType = "101", SwitchBit = "7500"};
+        public static readonly Switch Switch_19320007 = new Switch { SwitchId = "19320007", SwitchType = "101", SwitchBit = "7501"};
+        public static readonly Switch Switch_19320008 = new Switch { SwitchId = "19320008", SwitchType = "101", SwitchBit = "7502"};
+        public static readonly Switch Switch_19320009 = new Switch { SwitchId = "19320009", SwitchType = "101", SwitchBit = "7503"};
+        public static readonly Switch Switch_19320010 = new Switch { SwitchId = "19320010", SwitchType = "101", SwitchBit = "7504"};
+        public static readonly Switch Switch_19320011 = new Switch { SwitchId = "19320011", SwitchType = "101", SwitchBit = "7505"};
+        public static readonly Switch Switch_19330001 = new Switch { SwitchId = "19330001", SwitchType = "101", SwitchBit = "7567"};
+        public static readonly Switch Switch_19330002 = new Switch { SwitchId = "19330002", SwitchType = "101", SwitchBit = "7568"};
+        public static readonly Switch Switch_19330003 = new Switch { SwitchId = "19330003", SwitchType = "101", SwitchBit = "7569"};
+        public static readonly Switch Switch_19330004 = new Switch { SwitchId = "19330004", SwitchType = "101", SwitchBit = "7570"};
+        public static readonly Switch Switch_19330005 = new Switch { SwitchId = "19330005", SwitchType = "101", SwitchBit = "7571"};
+        public static readonly Switch Switch_19330006 = new Switch { SwitchId = "19330006", SwitchType = "101", SwitchBit = "7572"};
+        public static readonly Switch Switch_19330007 = new Switch { SwitchId = "19330007", SwitchType = "101", SwitchBit = "7573"};
+        public static readonly Switch Switch_19330008 = new Switch { SwitchId = "19330008", SwitchType = "101", SwitchBit = "7574"};
+        public static readonly Switch Switch_19330009 = new Switch { SwitchId = "19330009", SwitchType = "101", SwitchBit = "7575"};
+        public static readonly Switch Switch_19330010 = new Switch { SwitchId = "19330010", SwitchType = "101", SwitchBit = "7576"};
+        public static readonly Switch Switch_19330011 = new Switch { SwitchId = "19330011", SwitchType = "101", SwitchBit = "7577"};
+        public static readonly Switch Switch_19330012 = new Switch { SwitchId = "19330012", SwitchType = "101", SwitchBit = "7578"};
+        public static readonly Switch Switch_19330013 = new Switch { SwitchId = "19330013", SwitchType = "101", SwitchBit = "7579"};
+        public static readonly Switch Switch_19330014 = new Switch { SwitchId = "19330014", SwitchType = "101", SwitchBit = "7580"};
+        public static readonly Switch Switch_19330015 = new Switch { SwitchId = "19330015", SwitchType = "101", SwitchBit = "7581"};
+        public static readonly Switch Switch_19330016 = new Switch { SwitchId = "19330016", SwitchType = "101", SwitchBit = "7582"};
+        public static readonly Switch Switch_19330017 = new Switch { SwitchId = "19330017", SwitchType = "101", SwitchBit = "7583"};
+        public static readonly Switch Switch_19330018 = new Switch { SwitchId = "19330018", SwitchType = "101", SwitchBit = "7584"};
+        public static readonly Switch Switch_19330019 = new Switch { SwitchId = "19330019", SwitchType = "101", SwitchBit = "7585"};
+        public static readonly Switch Switch_19330020 = new Switch { SwitchId = "19330020", SwitchType = "101", SwitchBit = "7586"};
+        public static readonly Switch Switch_19330021 = new Switch { SwitchId = "19330021", SwitchType = "101", SwitchBit = "7587"};
+        public static readonly Switch Switch_19330022 = new Switch { SwitchId = "19330022", SwitchType = "101", SwitchBit = "7588"};
+        public static readonly Switch Switch_19330023 = new Switch { SwitchId = "19330023", SwitchType = "101", SwitchBit = "7660"};
+        public static readonly Switch Switch_19330024 = new Switch { SwitchId = "19330024", SwitchType = "101", SwitchBit = "7661"};
+        public static readonly Switch Switch_19330025 = new Switch { SwitchId = "19330025", SwitchType = "101", SwitchBit = "7662"};
+        public static readonly Switch Switch_19340001 = new Switch { SwitchId = "19340001", SwitchType = "101", SwitchBit = "7724"};
+        public static readonly Switch Switch_19340002 = new Switch { SwitchId = "19340002", SwitchType = "101", SwitchBit = "7725"};
+        public static readonly Switch Switch_19340003 = new Switch { SwitchId = "19340003", SwitchType = "101", SwitchBit = "7726"};
+        public static readonly Switch Switch_19340004 = new Switch { SwitchId = "19340004", SwitchType = "101", SwitchBit = "7727"};
+        public static readonly Switch Switch_19340005 = new Switch { SwitchId = "19340005", SwitchType = "101", SwitchBit = "7728"};
+        public static readonly Switch Switch_19340006 = new Switch { SwitchId = "19340006", SwitchType = "101", SwitchBit = "7729"};
+        public static readonly Switch Switch_19340007 = new Switch { SwitchId = "19340007", SwitchType = "101", SwitchBit = "7730"};
+        public static readonly Switch Switch_19340008 = new Switch { SwitchId = "19340008", SwitchType = "101", SwitchBit = "7731"};
+        public static readonly Switch Switch_19340009 = new Switch { SwitchId = "19340009", SwitchType = "101", SwitchBit = "7732"};
+        public static readonly Switch Switch_19340010 = new Switch { SwitchId = "19340010", SwitchType = "101", SwitchBit = "7733"};
+        public static readonly Switch Switch_19340011 = new Switch { SwitchId = "19340011", SwitchType = "101", SwitchBit = "7734"};
+        public static readonly Switch Switch_19340012 = new Switch { SwitchId = "19340012", SwitchType = "101", SwitchBit = "7735"};
+        public static readonly Switch Switch_19340013 = new Switch { SwitchId = "19340013", SwitchType = "101", SwitchBit = "7736"};
+        public static readonly Switch Switch_19340014 = new Switch { SwitchId = "19340014", SwitchType = "101", SwitchBit = "7737"};
+        public static readonly Switch Switch_19340015 = new Switch { SwitchId = "19340015", SwitchType = "101", SwitchBit = "7738"};
+        public static readonly Switch Switch_19350001 = new Switch { SwitchId = "19350001", SwitchType = "101", SwitchBit = "7934"};
+        public static readonly Switch Switch_19350002 = new Switch { SwitchId = "19350002", SwitchType = "101", SwitchBit = "7935"};
+        public static readonly Switch Switch_19350003 = new Switch { SwitchId = "19350003", SwitchType = "101", SwitchBit = "7936"};
+        public static readonly Switch Switch_19350004 = new Switch { SwitchId = "19350004", SwitchType = "101", SwitchBit = "7937"};
+        public static readonly Switch Switch_19350005 = new Switch { SwitchId = "19350005", SwitchType = "101", SwitchBit = "7938"};
+        public static readonly Switch Switch_19350006 = new Switch { SwitchId = "19350006", SwitchType = "101", SwitchBit = "7939"};
+        public static readonly Switch Switch_19350007 = new Switch { SwitchId = "19350007", SwitchType = "101", SwitchBit = "7940"};
+        public static readonly Switch Switch_19350008 = new Switch { SwitchId = "19350008", SwitchType = "101", SwitchBit = "7941"};
+        public static readonly Switch Switch_19350009 = new Switch { SwitchId = "19350009", SwitchType = "101", SwitchBit = "7942"};
+        public static readonly Switch Switch_19360001 = new Switch { SwitchId = "19360001", SwitchType = "101", SwitchBit = "8221"};
+        public static readonly Switch Switch_19360002 = new Switch { SwitchId = "19360002", SwitchType = "101", SwitchBit = "8222"};
+        public static readonly Switch Switch_19360003 = new Switch { SwitchId = "19360003", SwitchType = "101", SwitchBit = "8223"};
+        public static readonly Switch Switch_19360004 = new Switch { SwitchId = "19360004", SwitchType = "101", SwitchBit = "8224"};
+        public static readonly Switch Switch_19360005 = new Switch { SwitchId = "19360005", SwitchType = "101", SwitchBit = "8225"};
+        public static readonly Switch Switch_19360006 = new Switch { SwitchId = "19360006", SwitchType = "101", SwitchBit = "8226"};
+        public static readonly Switch Switch_19360007 = new Switch { SwitchId = "19360007", SwitchType = "101", SwitchBit = "8227"};
+        public static readonly Switch Switch_19360008 = new Switch { SwitchId = "19360008", SwitchType = "101", SwitchBit = "8228"};
+        public static readonly Switch Switch_19360009 = new Switch { SwitchId = "19360009", SwitchType = "101", SwitchBit = "8229"};
+        public static readonly Switch Switch_19360010 = new Switch { SwitchId = "19360010", SwitchType = "101", SwitchBit = "8230"};
+        public static readonly Switch Switch_19360011 = new Switch { SwitchId = "19360011", SwitchType = "101", SwitchBit = "8231"};
+        public static readonly Switch Switch_19370001 = new Switch { SwitchId = "19370001", SwitchType = "101", SwitchBit = "8309"};
+        public static readonly Switch Switch_19370002 = new Switch { SwitchId = "19370002", SwitchType = "101", SwitchBit = "8310"};
+        public static readonly Switch Switch_19370003 = new Switch { SwitchId = "19370003", SwitchType = "101", SwitchBit = "8311"};
+        public static readonly Switch Switch_19370004 = new Switch { SwitchId = "19370004", SwitchType = "101", SwitchBit = "8312"};
+        public static readonly Switch Switch_19370005 = new Switch { SwitchId = "19370005", SwitchType = "101", SwitchBit = "8313"};
+        public static readonly Switch Switch_19370006 = new Switch { SwitchId = "19370006", SwitchType = "101", SwitchBit = "8314"};
+        public static readonly Switch Switch_19370007 = new Switch { SwitchId = "19370007", SwitchType = "101", SwitchBit = "8315"};
+        public static readonly Switch Switch_19370008 = new Switch { SwitchId = "19370008", SwitchType = "101", SwitchBit = "8316"};
+        public static readonly Switch Switch_19370009 = new Switch { SwitchId = "19370009", SwitchType = "101", SwitchBit = "8317"};
+        public static readonly Switch Switch_19370010 = new Switch { SwitchId = "19370010", SwitchType = "101", SwitchBit = "8318"};
+        public static readonly Switch Switch_19370011 = new Switch { SwitchId = "19370011", SwitchType = "101", SwitchBit = "8319"};
+        public static readonly Switch Switch_19370012 = new Switch { SwitchId = "19370012", SwitchType = "101", SwitchBit = "8320"};
+        public static readonly Switch Switch_19370013 = new Switch { SwitchId = "19370013", SwitchType = "101", SwitchBit = "8321"};
+        public static readonly Switch Switch_19370014 = new Switch { SwitchId = "19370014", SwitchType = "101", SwitchBit = "8322"};
+        public static readonly Switch Switch_19370015 = new Switch { SwitchId = "19370015", SwitchType = "101", SwitchBit = "8323"};
+        public static readonly Switch Switch_19370016 = new Switch { SwitchId = "19370016", SwitchType = "101", SwitchBit = "8324"};
+        public static readonly Switch Switch_19370017 = new Switch { SwitchId = "19370017", SwitchType = "101", SwitchBit = "8325"};
+        public static readonly Switch Switch_19370018 = new Switch { SwitchId = "19370018", SwitchType = "101", SwitchBit = "8326"};
+        public static readonly Switch Switch_19370019 = new Switch { SwitchId = "19370019", SwitchType = "101", SwitchBit = "8327"};
+        public static readonly Switch Switch_19370020 = new Switch { SwitchId = "19370020", SwitchType = "101", SwitchBit = "8328"};
+        public static readonly Switch Switch_19370021 = new Switch { SwitchId = "19370021", SwitchType = "101", SwitchBit = "8329"};
+        public static readonly Switch Switch_19370022 = new Switch { SwitchId = "19370022", SwitchType = "101", SwitchBit = "8330"};
+        public static readonly Switch Switch_19380001 = new Switch { SwitchId = "19380001", SwitchType = "101", SwitchBit = "8401"};
+        public static readonly Switch Switch_19380002 = new Switch { SwitchId = "19380002", SwitchType = "101", SwitchBit = "8402"};
+        public static readonly Switch Switch_19380003 = new Switch { SwitchId = "19380003", SwitchType = "101", SwitchBit = "8403"};
+        public static readonly Switch Switch_19380004 = new Switch { SwitchId = "19380004", SwitchType = "101", SwitchBit = "8404"};
+        public static readonly Switch Switch_19380005 = new Switch { SwitchId = "19380005", SwitchType = "101", SwitchBit = "8405"};
+        public static readonly Switch Switch_19380006 = new Switch { SwitchId = "19380006", SwitchType = "101", SwitchBit = "8406"};
+        public static readonly Switch Switch_19380007 = new Switch { SwitchId = "19380007", SwitchType = "101", SwitchBit = "8407"};
+        public static readonly Switch Switch_19380008 = new Switch { SwitchId = "19380008", SwitchType = "101", SwitchBit = "8408"};
+        public static readonly Switch Switch_19380009 = new Switch { SwitchId = "19380009", SwitchType = "101", SwitchBit = "8409"};
+        public static readonly Switch Switch_19380010 = new Switch { SwitchId = "19380010", SwitchType = "101", SwitchBit = "8410"};
+        public static readonly Switch Switch_19380011 = new Switch { SwitchId = "19380011", SwitchType = "101", SwitchBit = "8411"};
+        public static readonly Switch Switch_19390001 = new Switch { SwitchId = "19390001", SwitchType = "101", SwitchBit = "8471"};
+        public static readonly Switch Switch_19390002 = new Switch { SwitchId = "19390002", SwitchType = "101", SwitchBit = "8472"};
+        public static readonly Switch Switch_19390003 = new Switch { SwitchId = "19390003", SwitchType = "101", SwitchBit = "8473"};
+        public static readonly Switch Switch_19390004 = new Switch { SwitchId = "19390004", SwitchType = "101", SwitchBit = "8474"};
+        public static readonly Switch Switch_19390005 = new Switch { SwitchId = "19390005", SwitchType = "101", SwitchBit = "8487"};
+        public static readonly Switch Switch_19390006 = new Switch { SwitchId = "19390006", SwitchType = "101", SwitchBit = "8488"};
+        public static readonly Switch Switch_19390007 = new Switch { SwitchId = "19390007", SwitchType = "101", SwitchBit = "8489"};
+        public static readonly Switch Switch_19390008 = new Switch { SwitchId = "19390008", SwitchType = "101", SwitchBit = "8490"};
+        public static readonly Switch Switch_19390009 = new Switch { SwitchId = "19390009", SwitchType = "101", SwitchBit = "8491"};
+        public static readonly Switch Switch_19390010 = new Switch { SwitchId = "19390010", SwitchType = "101", SwitchBit = "8492"};
+        public static readonly Switch Switch_19390011 = new Switch { SwitchId = "19390011", SwitchType = "101", SwitchBit = "8493"};
+        public static readonly Switch Switch_19390012 = new Switch { SwitchId = "19390012", SwitchType = "101", SwitchBit = "8494"};
+        public static readonly Switch Switch_19390013 = new Switch { SwitchId = "19390013", SwitchType = "101", SwitchBit = "8495"};
+        public static readonly Switch Switch_19390014 = new Switch { SwitchId = "19390014", SwitchType = "101", SwitchBit = "8496"};
+        public static readonly Switch Switch_19390015 = new Switch { SwitchId = "19390015", SwitchType = "101", SwitchBit = "8497"};
+        public static readonly Switch Switch_19390016 = new Switch { SwitchId = "19390016", SwitchType = "101", SwitchBit = "8498"};
+        public static readonly Switch Switch_19390017 = new Switch { SwitchId = "19390017", SwitchType = "101", SwitchBit = "8499"};
+        public static readonly Switch Switch_19390018 = new Switch { SwitchId = "19390018", SwitchType = "101", SwitchBit = "8500"};
+        public static readonly Switch Switch_19390019 = new Switch { SwitchId = "19390019", SwitchType = "101", SwitchBit = "8501"};
+        public static readonly Switch Switch_19400001 = new Switch { SwitchId = "19400001", SwitchType = "101", SwitchBit = "8553"};
+        public static readonly Switch Switch_19400002 = new Switch { SwitchId = "19400002", SwitchType = "101", SwitchBit = "8554"};
+        public static readonly Switch Switch_19400003 = new Switch { SwitchId = "19400003", SwitchType = "101", SwitchBit = "8555"};
+        public static readonly Switch Switch_19400004 = new Switch { SwitchId = "19400004", SwitchType = "101", SwitchBit = "8556"};
+        public static readonly Switch Switch_19400005 = new Switch { SwitchId = "19400005", SwitchType = "101", SwitchBit = "8557"};
+        public static readonly Switch Switch_19400006 = new Switch { SwitchId = "19400006", SwitchType = "101", SwitchBit = "8558"};
+        public static readonly Switch Switch_19400007 = new Switch { SwitchId = "19400007", SwitchType = "101", SwitchBit = "8559"};
+        public static readonly Switch Switch_19400008 = new Switch { SwitchId = "19400008", SwitchType = "101", SwitchBit = "8560"};
+        public static readonly Switch Switch_19400009 = new Switch { SwitchId = "19400009", SwitchType = "101", SwitchBit = "8561"};
+        public static readonly Switch Switch_19400010 = new Switch { SwitchId = "19400010", SwitchType = "101", SwitchBit = "8562"};
+        public static readonly Switch Switch_19400011 = new Switch { SwitchId = "19400011", SwitchType = "101", SwitchBit = "8563"};
         public static readonly Switch Switch_19500101 = new Switch { SwitchId = "19500101", SwitchType = "101", SwitchBit = "6140"};
         public static readonly Switch Switch_20000000 = new Switch { SwitchId = "20000000", SwitchType = "200", SwitchBit = "0"};
         public static readonly Switch Switch_20004001 = new Switch { SwitchId = "20004001", SwitchType = "200", SwitchBit = "1"};
@@ -12360,6 +13393,31 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_48727002 = new Switch { SwitchId = "48727002", SwitchType = "400", SwitchBit = "1072"};
         public static readonly Switch Switch_48727003 = new Switch { SwitchId = "48727003", SwitchType = "400", SwitchBit = "1073"};
         public static readonly Switch Switch_48727004 = new Switch { SwitchId = "48727004", SwitchType = "400", SwitchBit = "1074"};
+        public static readonly Switch Switch_48738001 = new Switch { SwitchId = "48738001", SwitchType = "400", SwitchBit = "1075"};
+        public static readonly Switch Switch_48738002 = new Switch { SwitchId = "48738002", SwitchType = "400", SwitchBit = "1076"};
+        public static readonly Switch Switch_48748001 = new Switch { SwitchId = "48748001", SwitchType = "400", SwitchBit = "1077"};
+        public static readonly Switch Switch_48748002 = new Switch { SwitchId = "48748002", SwitchType = "400", SwitchBit = "1078"};
+        public static readonly Switch Switch_48802001 = new Switch { SwitchId = "48802001", SwitchType = "400", SwitchBit = "1079"};
+        public static readonly Switch Switch_48802002 = new Switch { SwitchId = "48802002", SwitchType = "400", SwitchBit = "1080"};
+        public static readonly Switch Switch_49001001 = new Switch { SwitchId = "49001001", SwitchType = "400", SwitchBit = "1081"};
+        public static readonly Switch Switch_49001002 = new Switch { SwitchId = "49001002", SwitchType = "400", SwitchBit = "1082"};
+        public static readonly Switch Switch_49001003 = new Switch { SwitchId = "49001003", SwitchType = "400", SwitchBit = "1083"};
+        public static readonly Switch Switch_49002001 = new Switch { SwitchId = "49002001", SwitchType = "401", SwitchBit = "440"};
+        public static readonly Switch Switch_49002002 = new Switch { SwitchId = "49002002", SwitchType = "401", SwitchBit = "441"};
+        public static readonly Switch Switch_49003001 = new Switch { SwitchId = "49003001", SwitchType = "401", SwitchBit = "442"};
+        public static readonly Switch Switch_49003002 = new Switch { SwitchId = "49003002", SwitchType = "401", SwitchBit = "443"};
+        public static readonly Switch Switch_49004001 = new Switch { SwitchId = "49004001", SwitchType = "401", SwitchBit = "444"};
+        public static readonly Switch Switch_49004002 = new Switch { SwitchId = "49004002", SwitchType = "401", SwitchBit = "445"};
+        public static readonly Switch Switch_49005001 = new Switch { SwitchId = "49005001", SwitchType = "401", SwitchBit = "446"};
+        public static readonly Switch Switch_49005002 = new Switch { SwitchId = "49005002", SwitchType = "401", SwitchBit = "447"};
+        public static readonly Switch Switch_49006001 = new Switch { SwitchId = "49006001", SwitchType = "401", SwitchBit = "448"};
+        public static readonly Switch Switch_49006002 = new Switch { SwitchId = "49006002", SwitchType = "401", SwitchBit = "449"};
+        public static readonly Switch Switch_49007001 = new Switch { SwitchId = "49007001", SwitchType = "401", SwitchBit = "450"};
+        public static readonly Switch Switch_49007002 = new Switch { SwitchId = "49007002", SwitchType = "401", SwitchBit = "451"};
+        public static readonly Switch Switch_49008001 = new Switch { SwitchId = "49008001", SwitchType = "401", SwitchBit = "452"};
+        public static readonly Switch Switch_49008002 = new Switch { SwitchId = "49008002", SwitchType = "401", SwitchBit = "453"};
+        public static readonly Switch Switch_49009001 = new Switch { SwitchId = "49009001", SwitchType = "401", SwitchBit = "454"};
+        public static readonly Switch Switch_49009002 = new Switch { SwitchId = "49009002", SwitchType = "401", SwitchBit = "455"};
         public static readonly Switch Switch_50000000 = new Switch { SwitchId = "50000000", SwitchType = "500", SwitchBit = "0"};
         public static readonly Switch Switch_51010001 = new Switch { SwitchId = "51010001", SwitchType = "500", SwitchBit = "1"};
         public static readonly Switch Switch_51010002 = new Switch { SwitchId = "51010002", SwitchType = "500", SwitchBit = "2"};
@@ -12664,6 +13722,21 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_51010301 = new Switch { SwitchId = "51010301", SwitchType = "500", SwitchBit = "219"};
         public static readonly Switch Switch_51010302 = new Switch { SwitchId = "51010302", SwitchType = "500", SwitchBit = "220"};
         public static readonly Switch Switch_51010303 = new Switch { SwitchId = "51010303", SwitchType = "501", SwitchBit = "82"};
+        public static readonly Switch Switch_51010304 = new Switch { SwitchId = "51010304", SwitchType = "500", SwitchBit = "221"};
+        public static readonly Switch Switch_51010305 = new Switch { SwitchId = "51010305", SwitchType = "500", SwitchBit = "222"};
+        public static readonly Switch Switch_51010306 = new Switch { SwitchId = "51010306", SwitchType = "500", SwitchBit = "223"};
+        public static readonly Switch Switch_51010307 = new Switch { SwitchId = "51010307", SwitchType = "500", SwitchBit = "224"};
+        public static readonly Switch Switch_51010308 = new Switch { SwitchId = "51010308", SwitchType = "500", SwitchBit = "225"};
+        public static readonly Switch Switch_51010309 = new Switch { SwitchId = "51010309", SwitchType = "500", SwitchBit = "226"};
+        public static readonly Switch Switch_51010310 = new Switch { SwitchId = "51010310", SwitchType = "500", SwitchBit = "227"};
+        public static readonly Switch Switch_51010311 = new Switch { SwitchId = "51010311", SwitchType = "501", SwitchBit = "83"};
+        public static readonly Switch Switch_51010312 = new Switch { SwitchId = "51010312", SwitchType = "501", SwitchBit = "84"};
+        public static readonly Switch Switch_51010313 = new Switch { SwitchId = "51010313", SwitchType = "501", SwitchBit = "85"};
+        public static readonly Switch Switch_51010314 = new Switch { SwitchId = "51010314", SwitchType = "501", SwitchBit = "86"};
+        public static readonly Switch Switch_51010315 = new Switch { SwitchId = "51010315", SwitchType = "501", SwitchBit = "87"};
+        public static readonly Switch Switch_51010316 = new Switch { SwitchId = "51010316", SwitchType = "501", SwitchBit = "88"};
+        public static readonly Switch Switch_51010317 = new Switch { SwitchId = "51010317", SwitchType = "501", SwitchBit = "89"};
+        public static readonly Switch Switch_51010318 = new Switch { SwitchId = "51010318", SwitchType = "501", SwitchBit = "90"};
         public static readonly Switch Switch_52000000 = new Switch { SwitchId = "52000000", SwitchType = "510", SwitchBit = "0"};
         public static readonly Switch Switch_52000001 = new Switch { SwitchId = "52000001", SwitchType = "511", SwitchBit = "10"};
         public static readonly Switch Switch_52010011 = new Switch { SwitchId = "52010011", SwitchType = "510", SwitchBit = "1"};
@@ -13751,6 +14824,458 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_71000760 = new Switch { SwitchId = "71000760", SwitchType = "710", SwitchBit = "760"};
         public static readonly Switch Switch_71000761 = new Switch { SwitchId = "71000761", SwitchType = "710", SwitchBit = "761"};
         public static readonly Switch Switch_71000762 = new Switch { SwitchId = "71000762", SwitchType = "710", SwitchBit = "762"};
+        public static readonly Switch Switch_71000763 = new Switch { SwitchId = "71000763", SwitchType = "710", SwitchBit = "763"};
+        public static readonly Switch Switch_71000764 = new Switch { SwitchId = "71000764", SwitchType = "710", SwitchBit = "764"};
+        public static readonly Switch Switch_71000765 = new Switch { SwitchId = "71000765", SwitchType = "710", SwitchBit = "765"};
+        public static readonly Switch Switch_71000766 = new Switch { SwitchId = "71000766", SwitchType = "710", SwitchBit = "766"};
+        public static readonly Switch Switch_71000769 = new Switch { SwitchId = "71000769", SwitchType = "710", SwitchBit = "769"};
+        public static readonly Switch Switch_71000770 = new Switch { SwitchId = "71000770", SwitchType = "710", SwitchBit = "770"};
+        public static readonly Switch Switch_71000771 = new Switch { SwitchId = "71000771", SwitchType = "710", SwitchBit = "771"};
+        public static readonly Switch Switch_71000772 = new Switch { SwitchId = "71000772", SwitchType = "710", SwitchBit = "772"};
+        public static readonly Switch Switch_71000773 = new Switch { SwitchId = "71000773", SwitchType = "710", SwitchBit = "773"};
+        public static readonly Switch Switch_71000774 = new Switch { SwitchId = "71000774", SwitchType = "710", SwitchBit = "774"};
+        public static readonly Switch Switch_71000775 = new Switch { SwitchId = "71000775", SwitchType = "710", SwitchBit = "775"};
+        public static readonly Switch Switch_71000776 = new Switch { SwitchId = "71000776", SwitchType = "710", SwitchBit = "776"};
+        public static readonly Switch Switch_71000777 = new Switch { SwitchId = "71000777", SwitchType = "710", SwitchBit = "777"};
+        public static readonly Switch Switch_71000778 = new Switch { SwitchId = "71000778", SwitchType = "710", SwitchBit = "778"};
+        public static readonly Switch Switch_71000779 = new Switch { SwitchId = "71000779", SwitchType = "710", SwitchBit = "779"};
+        public static readonly Switch Switch_71000780 = new Switch { SwitchId = "71000780", SwitchType = "710", SwitchBit = "780"};
+        public static readonly Switch Switch_71000781 = new Switch { SwitchId = "71000781", SwitchType = "710", SwitchBit = "781"};
+        public static readonly Switch Switch_71000782 = new Switch { SwitchId = "71000782", SwitchType = "710", SwitchBit = "782"};
+        public static readonly Switch Switch_71000783 = new Switch { SwitchId = "71000783", SwitchType = "710", SwitchBit = "783"};
+        public static readonly Switch Switch_71000784 = new Switch { SwitchId = "71000784", SwitchType = "710", SwitchBit = "784"};
+        public static readonly Switch Switch_71000785 = new Switch { SwitchId = "71000785", SwitchType = "710", SwitchBit = "785"};
+        public static readonly Switch Switch_71000786 = new Switch { SwitchId = "71000786", SwitchType = "710", SwitchBit = "786"};
+        public static readonly Switch Switch_71000787 = new Switch { SwitchId = "71000787", SwitchType = "710", SwitchBit = "787"};
+        public static readonly Switch Switch_71000788 = new Switch { SwitchId = "71000788", SwitchType = "710", SwitchBit = "788"};
+        public static readonly Switch Switch_71000789 = new Switch { SwitchId = "71000789", SwitchType = "710", SwitchBit = "789"};
+        public static readonly Switch Switch_71000790 = new Switch { SwitchId = "71000790", SwitchType = "710", SwitchBit = "790"};
+        public static readonly Switch Switch_71000791 = new Switch { SwitchId = "71000791", SwitchType = "710", SwitchBit = "791"};
+        public static readonly Switch Switch_71000792 = new Switch { SwitchId = "71000792", SwitchType = "710", SwitchBit = "792"};
+        public static readonly Switch Switch_71000793 = new Switch { SwitchId = "71000793", SwitchType = "710", SwitchBit = "793"};
+        public static readonly Switch Switch_71000794 = new Switch { SwitchId = "71000794", SwitchType = "710", SwitchBit = "794"};
+        public static readonly Switch Switch_71000795 = new Switch { SwitchId = "71000795", SwitchType = "710", SwitchBit = "795"};
+        public static readonly Switch Switch_71000796 = new Switch { SwitchId = "71000796", SwitchType = "710", SwitchBit = "796"};
+        public static readonly Switch Switch_71000797 = new Switch { SwitchId = "71000797", SwitchType = "710", SwitchBit = "797"};
+        public static readonly Switch Switch_71000798 = new Switch { SwitchId = "71000798", SwitchType = "710", SwitchBit = "798"};
+        public static readonly Switch Switch_71000799 = new Switch { SwitchId = "71000799", SwitchType = "710", SwitchBit = "799"};
+        public static readonly Switch Switch_71000800 = new Switch { SwitchId = "71000800", SwitchType = "710", SwitchBit = "800"};
+        public static readonly Switch Switch_71000801 = new Switch { SwitchId = "71000801", SwitchType = "710", SwitchBit = "801"};
+        public static readonly Switch Switch_71000802 = new Switch { SwitchId = "71000802", SwitchType = "710", SwitchBit = "802"};
+        public static readonly Switch Switch_71000803 = new Switch { SwitchId = "71000803", SwitchType = "710", SwitchBit = "803"};
+        public static readonly Switch Switch_71000804 = new Switch { SwitchId = "71000804", SwitchType = "710", SwitchBit = "804"};
+        public static readonly Switch Switch_71000805 = new Switch { SwitchId = "71000805", SwitchType = "710", SwitchBit = "805"};
+        public static readonly Switch Switch_71000806 = new Switch { SwitchId = "71000806", SwitchType = "710", SwitchBit = "806"};
+        public static readonly Switch Switch_71000807 = new Switch { SwitchId = "71000807", SwitchType = "710", SwitchBit = "807"};
+        public static readonly Switch Switch_71000808 = new Switch { SwitchId = "71000808", SwitchType = "710", SwitchBit = "808"};
+        public static readonly Switch Switch_71000809 = new Switch { SwitchId = "71000809", SwitchType = "710", SwitchBit = "809"};
+        public static readonly Switch Switch_71000810 = new Switch { SwitchId = "71000810", SwitchType = "710", SwitchBit = "810"};
+        public static readonly Switch Switch_71000811 = new Switch { SwitchId = "71000811", SwitchType = "710", SwitchBit = "811"};
+        public static readonly Switch Switch_71000812 = new Switch { SwitchId = "71000812", SwitchType = "710", SwitchBit = "812"};
+        public static readonly Switch Switch_71000813 = new Switch { SwitchId = "71000813", SwitchType = "710", SwitchBit = "813"};
+        public static readonly Switch Switch_71000814 = new Switch { SwitchId = "71000814", SwitchType = "710", SwitchBit = "814"};
+        public static readonly Switch Switch_71000815 = new Switch { SwitchId = "71000815", SwitchType = "710", SwitchBit = "815"};
+        public static readonly Switch Switch_71000825 = new Switch { SwitchId = "71000825", SwitchType = "710", SwitchBit = "825"};
+        public static readonly Switch Switch_71000826 = new Switch { SwitchId = "71000826", SwitchType = "710", SwitchBit = "826"};
+        public static readonly Switch Switch_71000827 = new Switch { SwitchId = "71000827", SwitchType = "710", SwitchBit = "827"};
+        public static readonly Switch Switch_71000828 = new Switch { SwitchId = "71000828", SwitchType = "710", SwitchBit = "828"};
+        public static readonly Switch Switch_71000829 = new Switch { SwitchId = "71000829", SwitchType = "710", SwitchBit = "829"};
+        public static readonly Switch Switch_71000830 = new Switch { SwitchId = "71000830", SwitchType = "710", SwitchBit = "830"};
+        public static readonly Switch Switch_71000831 = new Switch { SwitchId = "71000831", SwitchType = "710", SwitchBit = "831"};
+        public static readonly Switch Switch_71000832 = new Switch { SwitchId = "71000832", SwitchType = "710", SwitchBit = "832"};
+        public static readonly Switch Switch_71000833 = new Switch { SwitchId = "71000833", SwitchType = "710", SwitchBit = "833"};
+        public static readonly Switch Switch_71000834 = new Switch { SwitchId = "71000834", SwitchType = "710", SwitchBit = "834"};
+        public static readonly Switch Switch_71000835 = new Switch { SwitchId = "71000835", SwitchType = "710", SwitchBit = "835"};
+        public static readonly Switch Switch_71000839 = new Switch { SwitchId = "71000839", SwitchType = "710", SwitchBit = "839"};
+        public static readonly Switch Switch_71000840 = new Switch { SwitchId = "71000840", SwitchType = "710", SwitchBit = "840"};
+        public static readonly Switch Switch_71000841 = new Switch { SwitchId = "71000841", SwitchType = "710", SwitchBit = "841"};
+        public static readonly Switch Switch_71000842 = new Switch { SwitchId = "71000842", SwitchType = "710", SwitchBit = "842"};
+        public static readonly Switch Switch_71000843 = new Switch { SwitchId = "71000843", SwitchType = "710", SwitchBit = "843"};
+        public static readonly Switch Switch_71000844 = new Switch { SwitchId = "71000844", SwitchType = "710", SwitchBit = "844"};
+        public static readonly Switch Switch_71000845 = new Switch { SwitchId = "71000845", SwitchType = "710", SwitchBit = "845"};
+        public static readonly Switch Switch_71000846 = new Switch { SwitchId = "71000846", SwitchType = "710", SwitchBit = "846"};
+        public static readonly Switch Switch_71000847 = new Switch { SwitchId = "71000847", SwitchType = "710", SwitchBit = "847"};
+        public static readonly Switch Switch_71000848 = new Switch { SwitchId = "71000848", SwitchType = "710", SwitchBit = "848"};
+        public static readonly Switch Switch_71000849 = new Switch { SwitchId = "71000849", SwitchType = "710", SwitchBit = "849"};
+        public static readonly Switch Switch_71000850 = new Switch { SwitchId = "71000850", SwitchType = "710", SwitchBit = "850"};
+        public static readonly Switch Switch_71000851 = new Switch { SwitchId = "71000851", SwitchType = "710", SwitchBit = "851"};
+        public static readonly Switch Switch_71000852 = new Switch { SwitchId = "71000852", SwitchType = "710", SwitchBit = "852"};
+        public static readonly Switch Switch_71000853 = new Switch { SwitchId = "71000853", SwitchType = "710", SwitchBit = "853"};
+        public static readonly Switch Switch_71000854 = new Switch { SwitchId = "71000854", SwitchType = "710", SwitchBit = "854"};
+        public static readonly Switch Switch_71000855 = new Switch { SwitchId = "71000855", SwitchType = "710", SwitchBit = "855"};
+        public static readonly Switch Switch_71000856 = new Switch { SwitchId = "71000856", SwitchType = "710", SwitchBit = "856"};
+        public static readonly Switch Switch_71000857 = new Switch { SwitchId = "71000857", SwitchType = "710", SwitchBit = "857"};
+        public static readonly Switch Switch_71000858 = new Switch { SwitchId = "71000858", SwitchType = "710", SwitchBit = "858"};
+        public static readonly Switch Switch_71000859 = new Switch { SwitchId = "71000859", SwitchType = "710", SwitchBit = "859"};
+        public static readonly Switch Switch_71000860 = new Switch { SwitchId = "71000860", SwitchType = "710", SwitchBit = "860"};
+        public static readonly Switch Switch_71000861 = new Switch { SwitchId = "71000861", SwitchType = "710", SwitchBit = "861"};
+        public static readonly Switch Switch_71000862 = new Switch { SwitchId = "71000862", SwitchType = "710", SwitchBit = "862"};
+        public static readonly Switch Switch_71000863 = new Switch { SwitchId = "71000863", SwitchType = "710", SwitchBit = "863"};
+        public static readonly Switch Switch_71000864 = new Switch { SwitchId = "71000864", SwitchType = "710", SwitchBit = "864"};
+        public static readonly Switch Switch_71000865 = new Switch { SwitchId = "71000865", SwitchType = "710", SwitchBit = "865"};
+        public static readonly Switch Switch_71000866 = new Switch { SwitchId = "71000866", SwitchType = "710", SwitchBit = "866"};
+        public static readonly Switch Switch_71000867 = new Switch { SwitchId = "71000867", SwitchType = "710", SwitchBit = "867"};
+        public static readonly Switch Switch_71000868 = new Switch { SwitchId = "71000868", SwitchType = "710", SwitchBit = "868"};
+        public static readonly Switch Switch_71000869 = new Switch { SwitchId = "71000869", SwitchType = "710", SwitchBit = "869"};
+        public static readonly Switch Switch_71000870 = new Switch { SwitchId = "71000870", SwitchType = "710", SwitchBit = "870"};
+        public static readonly Switch Switch_71000871 = new Switch { SwitchId = "71000871", SwitchType = "710", SwitchBit = "871"};
+        public static readonly Switch Switch_71000872 = new Switch { SwitchId = "71000872", SwitchType = "710", SwitchBit = "872"};
+        public static readonly Switch Switch_71000873 = new Switch { SwitchId = "71000873", SwitchType = "710", SwitchBit = "873"};
+        public static readonly Switch Switch_71000874 = new Switch { SwitchId = "71000874", SwitchType = "710", SwitchBit = "874"};
+        public static readonly Switch Switch_71000875 = new Switch { SwitchId = "71000875", SwitchType = "710", SwitchBit = "875"};
+        public static readonly Switch Switch_71000876 = new Switch { SwitchId = "71000876", SwitchType = "710", SwitchBit = "876"};
+        public static readonly Switch Switch_71000877 = new Switch { SwitchId = "71000877", SwitchType = "710", SwitchBit = "877"};
+        public static readonly Switch Switch_71000878 = new Switch { SwitchId = "71000878", SwitchType = "710", SwitchBit = "878"};
+        public static readonly Switch Switch_71000879 = new Switch { SwitchId = "71000879", SwitchType = "710", SwitchBit = "879"};
+        public static readonly Switch Switch_71000880 = new Switch { SwitchId = "71000880", SwitchType = "710", SwitchBit = "880"};
+        public static readonly Switch Switch_71000881 = new Switch { SwitchId = "71000881", SwitchType = "710", SwitchBit = "881"};
+        public static readonly Switch Switch_71000882 = new Switch { SwitchId = "71000882", SwitchType = "710", SwitchBit = "882"};
+        public static readonly Switch Switch_71000883 = new Switch { SwitchId = "71000883", SwitchType = "710", SwitchBit = "883"};
+        public static readonly Switch Switch_71000884 = new Switch { SwitchId = "71000884", SwitchType = "710", SwitchBit = "884"};
+        public static readonly Switch Switch_71000885 = new Switch { SwitchId = "71000885", SwitchType = "710", SwitchBit = "885"};
+        public static readonly Switch Switch_71000886 = new Switch { SwitchId = "71000886", SwitchType = "710", SwitchBit = "886"};
+        public static readonly Switch Switch_71000887 = new Switch { SwitchId = "71000887", SwitchType = "710", SwitchBit = "887"};
+        public static readonly Switch Switch_71000888 = new Switch { SwitchId = "71000888", SwitchType = "710", SwitchBit = "888"};
+        public static readonly Switch Switch_71000889 = new Switch { SwitchId = "71000889", SwitchType = "710", SwitchBit = "889"};
+        public static readonly Switch Switch_71000890 = new Switch { SwitchId = "71000890", SwitchType = "710", SwitchBit = "890"};
+        public static readonly Switch Switch_71000891 = new Switch { SwitchId = "71000891", SwitchType = "710", SwitchBit = "891"};
+        public static readonly Switch Switch_71000892 = new Switch { SwitchId = "71000892", SwitchType = "710", SwitchBit = "892"};
+        public static readonly Switch Switch_71000893 = new Switch { SwitchId = "71000893", SwitchType = "710", SwitchBit = "893"};
+        public static readonly Switch Switch_71000894 = new Switch { SwitchId = "71000894", SwitchType = "710", SwitchBit = "894"};
+        public static readonly Switch Switch_71000895 = new Switch { SwitchId = "71000895", SwitchType = "710", SwitchBit = "895"};
+        public static readonly Switch Switch_71000896 = new Switch { SwitchId = "71000896", SwitchType = "710", SwitchBit = "896"};
+        public static readonly Switch Switch_71000897 = new Switch { SwitchId = "71000897", SwitchType = "710", SwitchBit = "897"};
+        public static readonly Switch Switch_71000898 = new Switch { SwitchId = "71000898", SwitchType = "710", SwitchBit = "898"};
+        public static readonly Switch Switch_71000899 = new Switch { SwitchId = "71000899", SwitchType = "710", SwitchBit = "899"};
+        public static readonly Switch Switch_71000900 = new Switch { SwitchId = "71000900", SwitchType = "710", SwitchBit = "900"};
+        public static readonly Switch Switch_71000901 = new Switch { SwitchId = "71000901", SwitchType = "710", SwitchBit = "901"};
+        public static readonly Switch Switch_71000902 = new Switch { SwitchId = "71000902", SwitchType = "710", SwitchBit = "902"};
+        public static readonly Switch Switch_71000903 = new Switch { SwitchId = "71000903", SwitchType = "710", SwitchBit = "903"};
+        public static readonly Switch Switch_71000904 = new Switch { SwitchId = "71000904", SwitchType = "710", SwitchBit = "904"};
+        public static readonly Switch Switch_71000905 = new Switch { SwitchId = "71000905", SwitchType = "710", SwitchBit = "905"};
+        public static readonly Switch Switch_71000906 = new Switch { SwitchId = "71000906", SwitchType = "710", SwitchBit = "906"};
+        public static readonly Switch Switch_71000907 = new Switch { SwitchId = "71000907", SwitchType = "710", SwitchBit = "907"};
+        public static readonly Switch Switch_71000908 = new Switch { SwitchId = "71000908", SwitchType = "710", SwitchBit = "908"};
+        public static readonly Switch Switch_71000909 = new Switch { SwitchId = "71000909", SwitchType = "710", SwitchBit = "909"};
+        public static readonly Switch Switch_71000910 = new Switch { SwitchId = "71000910", SwitchType = "710", SwitchBit = "910"};
+        public static readonly Switch Switch_71000911 = new Switch { SwitchId = "71000911", SwitchType = "710", SwitchBit = "911"};
+        public static readonly Switch Switch_71000912 = new Switch { SwitchId = "71000912", SwitchType = "710", SwitchBit = "912"};
+        public static readonly Switch Switch_71000913 = new Switch { SwitchId = "71000913", SwitchType = "710", SwitchBit = "913"};
+        public static readonly Switch Switch_71000914 = new Switch { SwitchId = "71000914", SwitchType = "710", SwitchBit = "914"};
+        public static readonly Switch Switch_71000915 = new Switch { SwitchId = "71000915", SwitchType = "710", SwitchBit = "915"};
+        public static readonly Switch Switch_71000916 = new Switch { SwitchId = "71000916", SwitchType = "710", SwitchBit = "916"};
+        public static readonly Switch Switch_71000917 = new Switch { SwitchId = "71000917", SwitchType = "710", SwitchBit = "917"};
+        public static readonly Switch Switch_71000918 = new Switch { SwitchId = "71000918", SwitchType = "710", SwitchBit = "918"};
+        public static readonly Switch Switch_71000919 = new Switch { SwitchId = "71000919", SwitchType = "710", SwitchBit = "919"};
+        public static readonly Switch Switch_71000920 = new Switch { SwitchId = "71000920", SwitchType = "710", SwitchBit = "920"};
+        public static readonly Switch Switch_71000921 = new Switch { SwitchId = "71000921", SwitchType = "710", SwitchBit = "921"};
+        public static readonly Switch Switch_71000922 = new Switch { SwitchId = "71000922", SwitchType = "710", SwitchBit = "922"};
+        public static readonly Switch Switch_71000923 = new Switch { SwitchId = "71000923", SwitchType = "710", SwitchBit = "923"};
+        public static readonly Switch Switch_71000924 = new Switch { SwitchId = "71000924", SwitchType = "710", SwitchBit = "924"};
+        public static readonly Switch Switch_71000925 = new Switch { SwitchId = "71000925", SwitchType = "710", SwitchBit = "925"};
+        public static readonly Switch Switch_71000926 = new Switch { SwitchId = "71000926", SwitchType = "710", SwitchBit = "926"};
+        public static readonly Switch Switch_71000927 = new Switch { SwitchId = "71000927", SwitchType = "710", SwitchBit = "927"};
+        public static readonly Switch Switch_71000928 = new Switch { SwitchId = "71000928", SwitchType = "710", SwitchBit = "928"};
+        public static readonly Switch Switch_71000929 = new Switch { SwitchId = "71000929", SwitchType = "710", SwitchBit = "929"};
+        public static readonly Switch Switch_71000930 = new Switch { SwitchId = "71000930", SwitchType = "710", SwitchBit = "930"};
+        public static readonly Switch Switch_71000931 = new Switch { SwitchId = "71000931", SwitchType = "710", SwitchBit = "931"};
+        public static readonly Switch Switch_71000932 = new Switch { SwitchId = "71000932", SwitchType = "710", SwitchBit = "932"};
+        public static readonly Switch Switch_71000933 = new Switch { SwitchId = "71000933", SwitchType = "710", SwitchBit = "933"};
+        public static readonly Switch Switch_71000934 = new Switch { SwitchId = "71000934", SwitchType = "710", SwitchBit = "934"};
+        public static readonly Switch Switch_71000935 = new Switch { SwitchId = "71000935", SwitchType = "710", SwitchBit = "935"};
+        public static readonly Switch Switch_71000936 = new Switch { SwitchId = "71000936", SwitchType = "710", SwitchBit = "936"};
+        public static readonly Switch Switch_71000937 = new Switch { SwitchId = "71000937", SwitchType = "710", SwitchBit = "937"};
+        public static readonly Switch Switch_71000938 = new Switch { SwitchId = "71000938", SwitchType = "710", SwitchBit = "938"};
+        public static readonly Switch Switch_71000939 = new Switch { SwitchId = "71000939", SwitchType = "710", SwitchBit = "939"};
+        public static readonly Switch Switch_71000940 = new Switch { SwitchId = "71000940", SwitchType = "710", SwitchBit = "940"};
+        public static readonly Switch Switch_71000941 = new Switch { SwitchId = "71000941", SwitchType = "710", SwitchBit = "941"};
+        public static readonly Switch Switch_71000942 = new Switch { SwitchId = "71000942", SwitchType = "710", SwitchBit = "942"};
+        public static readonly Switch Switch_71000943 = new Switch { SwitchId = "71000943", SwitchType = "710", SwitchBit = "943"};
+        public static readonly Switch Switch_71000944 = new Switch { SwitchId = "71000944", SwitchType = "710", SwitchBit = "944"};
+        public static readonly Switch Switch_71000945 = new Switch { SwitchId = "71000945", SwitchType = "710", SwitchBit = "945"};
+        public static readonly Switch Switch_71000946 = new Switch { SwitchId = "71000946", SwitchType = "710", SwitchBit = "946"};
+        public static readonly Switch Switch_71000947 = new Switch { SwitchId = "71000947", SwitchType = "710", SwitchBit = "947"};
+        public static readonly Switch Switch_71000948 = new Switch { SwitchId = "71000948", SwitchType = "710", SwitchBit = "948"};
+        public static readonly Switch Switch_71000949 = new Switch { SwitchId = "71000949", SwitchType = "710", SwitchBit = "949"};
+        public static readonly Switch Switch_71000950 = new Switch { SwitchId = "71000950", SwitchType = "710", SwitchBit = "950"};
+        public static readonly Switch Switch_71000951 = new Switch { SwitchId = "71000951", SwitchType = "710", SwitchBit = "951"};
+        public static readonly Switch Switch_71000952 = new Switch { SwitchId = "71000952", SwitchType = "710", SwitchBit = "952"};
+        public static readonly Switch Switch_71000953 = new Switch { SwitchId = "71000953", SwitchType = "710", SwitchBit = "953"};
+        public static readonly Switch Switch_71000954 = new Switch { SwitchId = "71000954", SwitchType = "710", SwitchBit = "954"};
+        public static readonly Switch Switch_71000955 = new Switch { SwitchId = "71000955", SwitchType = "710", SwitchBit = "955"};
+        public static readonly Switch Switch_71000956 = new Switch { SwitchId = "71000956", SwitchType = "710", SwitchBit = "956"};
+        public static readonly Switch Switch_71000957 = new Switch { SwitchId = "71000957", SwitchType = "710", SwitchBit = "957"};
+        public static readonly Switch Switch_71000958 = new Switch { SwitchId = "71000958", SwitchType = "710", SwitchBit = "958"};
+        public static readonly Switch Switch_71000959 = new Switch { SwitchId = "71000959", SwitchType = "710", SwitchBit = "959"};
+        public static readonly Switch Switch_71000960 = new Switch { SwitchId = "71000960", SwitchType = "710", SwitchBit = "960"};
+        public static readonly Switch Switch_71000961 = new Switch { SwitchId = "71000961", SwitchType = "710", SwitchBit = "961"};
+        public static readonly Switch Switch_71000962 = new Switch { SwitchId = "71000962", SwitchType = "710", SwitchBit = "962"};
+        public static readonly Switch Switch_71000963 = new Switch { SwitchId = "71000963", SwitchType = "710", SwitchBit = "963"};
+        public static readonly Switch Switch_71000964 = new Switch { SwitchId = "71000964", SwitchType = "710", SwitchBit = "964"};
+        public static readonly Switch Switch_71000965 = new Switch { SwitchId = "71000965", SwitchType = "710", SwitchBit = "965"};
+        public static readonly Switch Switch_71000966 = new Switch { SwitchId = "71000966", SwitchType = "710", SwitchBit = "966"};
+        public static readonly Switch Switch_71000967 = new Switch { SwitchId = "71000967", SwitchType = "710", SwitchBit = "967"};
+        public static readonly Switch Switch_71000968 = new Switch { SwitchId = "71000968", SwitchType = "710", SwitchBit = "968"};
+        public static readonly Switch Switch_71000969 = new Switch { SwitchId = "71000969", SwitchType = "710", SwitchBit = "969"};
+        public static readonly Switch Switch_71000970 = new Switch { SwitchId = "71000970", SwitchType = "710", SwitchBit = "970"};
+        public static readonly Switch Switch_71000971 = new Switch { SwitchId = "71000971", SwitchType = "710", SwitchBit = "971"};
+        public static readonly Switch Switch_71000972 = new Switch { SwitchId = "71000972", SwitchType = "710", SwitchBit = "972"};
+        public static readonly Switch Switch_71000973 = new Switch { SwitchId = "71000973", SwitchType = "710", SwitchBit = "973"};
+        public static readonly Switch Switch_71000974 = new Switch { SwitchId = "71000974", SwitchType = "710", SwitchBit = "974"};
+        public static readonly Switch Switch_71000975 = new Switch { SwitchId = "71000975", SwitchType = "710", SwitchBit = "975"};
+        public static readonly Switch Switch_71000976 = new Switch { SwitchId = "71000976", SwitchType = "710", SwitchBit = "976"};
+        public static readonly Switch Switch_71000977 = new Switch { SwitchId = "71000977", SwitchType = "710", SwitchBit = "977"};
+        public static readonly Switch Switch_71000978 = new Switch { SwitchId = "71000978", SwitchType = "710", SwitchBit = "978"};
+        public static readonly Switch Switch_71000979 = new Switch { SwitchId = "71000979", SwitchType = "710", SwitchBit = "979"};
+        public static readonly Switch Switch_71000980 = new Switch { SwitchId = "71000980", SwitchType = "710", SwitchBit = "980"};
+        public static readonly Switch Switch_71000981 = new Switch { SwitchId = "71000981", SwitchType = "710", SwitchBit = "981"};
+        public static readonly Switch Switch_71000982 = new Switch { SwitchId = "71000982", SwitchType = "710", SwitchBit = "982"};
+        public static readonly Switch Switch_71000983 = new Switch { SwitchId = "71000983", SwitchType = "710", SwitchBit = "983"};
+        public static readonly Switch Switch_71000984 = new Switch { SwitchId = "71000984", SwitchType = "710", SwitchBit = "984"};
+        public static readonly Switch Switch_71000985 = new Switch { SwitchId = "71000985", SwitchType = "710", SwitchBit = "985"};
+        public static readonly Switch Switch_71000986 = new Switch { SwitchId = "71000986", SwitchType = "710", SwitchBit = "986"};
+        public static readonly Switch Switch_71000987 = new Switch { SwitchId = "71000987", SwitchType = "710", SwitchBit = "987"};
+        public static readonly Switch Switch_71000988 = new Switch { SwitchId = "71000988", SwitchType = "710", SwitchBit = "988"};
+        public static readonly Switch Switch_71000989 = new Switch { SwitchId = "71000989", SwitchType = "710", SwitchBit = "989"};
+        public static readonly Switch Switch_71000990 = new Switch { SwitchId = "71000990", SwitchType = "710", SwitchBit = "990"};
+        public static readonly Switch Switch_71000991 = new Switch { SwitchId = "71000991", SwitchType = "710", SwitchBit = "991"};
+        public static readonly Switch Switch_71000992 = new Switch { SwitchId = "71000992", SwitchType = "710", SwitchBit = "992"};
+        public static readonly Switch Switch_71000993 = new Switch { SwitchId = "71000993", SwitchType = "710", SwitchBit = "993"};
+        public static readonly Switch Switch_71000994 = new Switch { SwitchId = "71000994", SwitchType = "710", SwitchBit = "994"};
+        public static readonly Switch Switch_71000995 = new Switch { SwitchId = "71000995", SwitchType = "710", SwitchBit = "995"};
+        public static readonly Switch Switch_71000996 = new Switch { SwitchId = "71000996", SwitchType = "710", SwitchBit = "996"};
+        public static readonly Switch Switch_71000997 = new Switch { SwitchId = "71000997", SwitchType = "710", SwitchBit = "997"};
+        public static readonly Switch Switch_71000998 = new Switch { SwitchId = "71000998", SwitchType = "710", SwitchBit = "998"};
+        public static readonly Switch Switch_71000999 = new Switch { SwitchId = "71000999", SwitchType = "710", SwitchBit = "999"};
+        public static readonly Switch Switch_71001000 = new Switch { SwitchId = "71001000", SwitchType = "710", SwitchBit = "1000"};
+        public static readonly Switch Switch_71001001 = new Switch { SwitchId = "71001001", SwitchType = "710", SwitchBit = "1001"};
+        public static readonly Switch Switch_71001002 = new Switch { SwitchId = "71001002", SwitchType = "710", SwitchBit = "1002"};
+        public static readonly Switch Switch_71001003 = new Switch { SwitchId = "71001003", SwitchType = "710", SwitchBit = "1003"};
+        public static readonly Switch Switch_71001004 = new Switch { SwitchId = "71001004", SwitchType = "710", SwitchBit = "1004"};
+        public static readonly Switch Switch_71001005 = new Switch { SwitchId = "71001005", SwitchType = "710", SwitchBit = "1005"};
+        public static readonly Switch Switch_71001006 = new Switch { SwitchId = "71001006", SwitchType = "710", SwitchBit = "1006"};
+        public static readonly Switch Switch_71001007 = new Switch { SwitchId = "71001007", SwitchType = "710", SwitchBit = "1007"};
+        public static readonly Switch Switch_71001008 = new Switch { SwitchId = "71001008", SwitchType = "710", SwitchBit = "1008"};
+        public static readonly Switch Switch_71001009 = new Switch { SwitchId = "71001009", SwitchType = "710", SwitchBit = "1009"};
+        public static readonly Switch Switch_71001010 = new Switch { SwitchId = "71001010", SwitchType = "710", SwitchBit = "1010"};
+        public static readonly Switch Switch_71001011 = new Switch { SwitchId = "71001011", SwitchType = "710", SwitchBit = "1011"};
+        public static readonly Switch Switch_71001012 = new Switch { SwitchId = "71001012", SwitchType = "710", SwitchBit = "1012"};
+        public static readonly Switch Switch_71001013 = new Switch { SwitchId = "71001013", SwitchType = "710", SwitchBit = "1013"};
+        public static readonly Switch Switch_71001014 = new Switch { SwitchId = "71001014", SwitchType = "710", SwitchBit = "1014"};
+        public static readonly Switch Switch_71001015 = new Switch { SwitchId = "71001015", SwitchType = "710", SwitchBit = "1015"};
+        public static readonly Switch Switch_71001016 = new Switch { SwitchId = "71001016", SwitchType = "710", SwitchBit = "1016"};
+        public static readonly Switch Switch_71001017 = new Switch { SwitchId = "71001017", SwitchType = "710", SwitchBit = "1017"};
+        public static readonly Switch Switch_71001018 = new Switch { SwitchId = "71001018", SwitchType = "710", SwitchBit = "1018"};
+        public static readonly Switch Switch_71001019 = new Switch { SwitchId = "71001019", SwitchType = "710", SwitchBit = "1019"};
+        public static readonly Switch Switch_71001020 = new Switch { SwitchId = "71001020", SwitchType = "710", SwitchBit = "1020"};
+        public static readonly Switch Switch_71001021 = new Switch { SwitchId = "71001021", SwitchType = "710", SwitchBit = "1021"};
+        public static readonly Switch Switch_71001022 = new Switch { SwitchId = "71001022", SwitchType = "710", SwitchBit = "1022"};
+        public static readonly Switch Switch_71001023 = new Switch { SwitchId = "71001023", SwitchType = "710", SwitchBit = "1023"};
+        public static readonly Switch Switch_71001024 = new Switch { SwitchId = "71001024", SwitchType = "710", SwitchBit = "1024"};
+        public static readonly Switch Switch_71001025 = new Switch { SwitchId = "71001025", SwitchType = "710", SwitchBit = "1025"};
+        public static readonly Switch Switch_71001026 = new Switch { SwitchId = "71001026", SwitchType = "710", SwitchBit = "1026"};
+        public static readonly Switch Switch_71001027 = new Switch { SwitchId = "71001027", SwitchType = "710", SwitchBit = "1027"};
+        public static readonly Switch Switch_71001028 = new Switch { SwitchId = "71001028", SwitchType = "710", SwitchBit = "1028"};
+        public static readonly Switch Switch_71001029 = new Switch { SwitchId = "71001029", SwitchType = "710", SwitchBit = "1029"};
+        public static readonly Switch Switch_71001030 = new Switch { SwitchId = "71001030", SwitchType = "710", SwitchBit = "1030"};
+        public static readonly Switch Switch_71001031 = new Switch { SwitchId = "71001031", SwitchType = "710", SwitchBit = "1031"};
+        public static readonly Switch Switch_71001032 = new Switch { SwitchId = "71001032", SwitchType = "710", SwitchBit = "1032"};
+        public static readonly Switch Switch_71001033 = new Switch { SwitchId = "71001033", SwitchType = "710", SwitchBit = "1033"};
+        public static readonly Switch Switch_71001034 = new Switch { SwitchId = "71001034", SwitchType = "710", SwitchBit = "1034"};
+        public static readonly Switch Switch_71001035 = new Switch { SwitchId = "71001035", SwitchType = "710", SwitchBit = "1035"};
+        public static readonly Switch Switch_71001036 = new Switch { SwitchId = "71001036", SwitchType = "710", SwitchBit = "1036"};
+        public static readonly Switch Switch_71001037 = new Switch { SwitchId = "71001037", SwitchType = "710", SwitchBit = "1037"};
+        public static readonly Switch Switch_71001038 = new Switch { SwitchId = "71001038", SwitchType = "710", SwitchBit = "1038"};
+        public static readonly Switch Switch_71001039 = new Switch { SwitchId = "71001039", SwitchType = "710", SwitchBit = "1039"};
+        public static readonly Switch Switch_71001040 = new Switch { SwitchId = "71001040", SwitchType = "710", SwitchBit = "1040"};
+        public static readonly Switch Switch_71001041 = new Switch { SwitchId = "71001041", SwitchType = "710", SwitchBit = "1041"};
+        public static readonly Switch Switch_71001042 = new Switch { SwitchId = "71001042", SwitchType = "710", SwitchBit = "1042"};
+        public static readonly Switch Switch_71001043 = new Switch { SwitchId = "71001043", SwitchType = "710", SwitchBit = "1043"};
+        public static readonly Switch Switch_71001044 = new Switch { SwitchId = "71001044", SwitchType = "710", SwitchBit = "1044"};
+        public static readonly Switch Switch_71001045 = new Switch { SwitchId = "71001045", SwitchType = "710", SwitchBit = "1045"};
+        public static readonly Switch Switch_71001046 = new Switch { SwitchId = "71001046", SwitchType = "710", SwitchBit = "1046"};
+        public static readonly Switch Switch_71001047 = new Switch { SwitchId = "71001047", SwitchType = "710", SwitchBit = "1047"};
+        public static readonly Switch Switch_71001048 = new Switch { SwitchId = "71001048", SwitchType = "710", SwitchBit = "1048"};
+        public static readonly Switch Switch_71001049 = new Switch { SwitchId = "71001049", SwitchType = "710", SwitchBit = "1049"};
+        public static readonly Switch Switch_71001050 = new Switch { SwitchId = "71001050", SwitchType = "710", SwitchBit = "1050"};
+        public static readonly Switch Switch_71001051 = new Switch { SwitchId = "71001051", SwitchType = "710", SwitchBit = "1051"};
+        public static readonly Switch Switch_71001052 = new Switch { SwitchId = "71001052", SwitchType = "710", SwitchBit = "1052"};
+        public static readonly Switch Switch_71001053 = new Switch { SwitchId = "71001053", SwitchType = "710", SwitchBit = "1053"};
+        public static readonly Switch Switch_71001054 = new Switch { SwitchId = "71001054", SwitchType = "710", SwitchBit = "1054"};
+        public static readonly Switch Switch_71001055 = new Switch { SwitchId = "71001055", SwitchType = "710", SwitchBit = "1055"};
+        public static readonly Switch Switch_71001056 = new Switch { SwitchId = "71001056", SwitchType = "710", SwitchBit = "1056"};
+        public static readonly Switch Switch_71001057 = new Switch { SwitchId = "71001057", SwitchType = "710", SwitchBit = "1057"};
+        public static readonly Switch Switch_71001058 = new Switch { SwitchId = "71001058", SwitchType = "710", SwitchBit = "1058"};
+        public static readonly Switch Switch_71001059 = new Switch { SwitchId = "71001059", SwitchType = "710", SwitchBit = "1059"};
+        public static readonly Switch Switch_71001060 = new Switch { SwitchId = "71001060", SwitchType = "710", SwitchBit = "1060"};
+        public static readonly Switch Switch_71001061 = new Switch { SwitchId = "71001061", SwitchType = "710", SwitchBit = "1061"};
+        public static readonly Switch Switch_71001062 = new Switch { SwitchId = "71001062", SwitchType = "710", SwitchBit = "1062"};
+        public static readonly Switch Switch_71001063 = new Switch { SwitchId = "71001063", SwitchType = "710", SwitchBit = "1063"};
+        public static readonly Switch Switch_71001064 = new Switch { SwitchId = "71001064", SwitchType = "710", SwitchBit = "1064"};
+        public static readonly Switch Switch_71001065 = new Switch { SwitchId = "71001065", SwitchType = "710", SwitchBit = "1065"};
+        public static readonly Switch Switch_71001066 = new Switch { SwitchId = "71001066", SwitchType = "710", SwitchBit = "1066"};
+        public static readonly Switch Switch_71001067 = new Switch { SwitchId = "71001067", SwitchType = "710", SwitchBit = "1067"};
+        public static readonly Switch Switch_71001068 = new Switch { SwitchId = "71001068", SwitchType = "710", SwitchBit = "1068"};
+        public static readonly Switch Switch_71001069 = new Switch { SwitchId = "71001069", SwitchType = "710", SwitchBit = "1069"};
+        public static readonly Switch Switch_71001070 = new Switch { SwitchId = "71001070", SwitchType = "710", SwitchBit = "1070"};
+        public static readonly Switch Switch_71001071 = new Switch { SwitchId = "71001071", SwitchType = "710", SwitchBit = "1071"};
+        public static readonly Switch Switch_71001072 = new Switch { SwitchId = "71001072", SwitchType = "710", SwitchBit = "1072"};
+        public static readonly Switch Switch_71001073 = new Switch { SwitchId = "71001073", SwitchType = "710", SwitchBit = "1073"};
+        public static readonly Switch Switch_71001074 = new Switch { SwitchId = "71001074", SwitchType = "710", SwitchBit = "1074"};
+        public static readonly Switch Switch_71001075 = new Switch { SwitchId = "71001075", SwitchType = "710", SwitchBit = "1075"};
+        public static readonly Switch Switch_71001076 = new Switch { SwitchId = "71001076", SwitchType = "710", SwitchBit = "1076"};
+        public static readonly Switch Switch_71001077 = new Switch { SwitchId = "71001077", SwitchType = "710", SwitchBit = "1077"};
+        public static readonly Switch Switch_71001078 = new Switch { SwitchId = "71001078", SwitchType = "710", SwitchBit = "1078"};
+        public static readonly Switch Switch_71001079 = new Switch { SwitchId = "71001079", SwitchType = "710", SwitchBit = "1079"};
+        public static readonly Switch Switch_71001080 = new Switch { SwitchId = "71001080", SwitchType = "710", SwitchBit = "1080"};
+        public static readonly Switch Switch_71001081 = new Switch { SwitchId = "71001081", SwitchType = "710", SwitchBit = "1081"};
+        public static readonly Switch Switch_71001082 = new Switch { SwitchId = "71001082", SwitchType = "710", SwitchBit = "1082"};
+        public static readonly Switch Switch_71001083 = new Switch { SwitchId = "71001083", SwitchType = "710", SwitchBit = "1083"};
+        public static readonly Switch Switch_71001084 = new Switch { SwitchId = "71001084", SwitchType = "710", SwitchBit = "1084"};
+        public static readonly Switch Switch_71001085 = new Switch { SwitchId = "71001085", SwitchType = "710", SwitchBit = "1085"};
+        public static readonly Switch Switch_71001086 = new Switch { SwitchId = "71001086", SwitchType = "710", SwitchBit = "1086"};
+        public static readonly Switch Switch_71001087 = new Switch { SwitchId = "71001087", SwitchType = "710", SwitchBit = "1087"};
+        public static readonly Switch Switch_71001088 = new Switch { SwitchId = "71001088", SwitchType = "710", SwitchBit = "1088"};
+        public static readonly Switch Switch_71001089 = new Switch { SwitchId = "71001089", SwitchType = "710", SwitchBit = "1089"};
+        public static readonly Switch Switch_71001090 = new Switch { SwitchId = "71001090", SwitchType = "710", SwitchBit = "1090"};
+        public static readonly Switch Switch_71001091 = new Switch { SwitchId = "71001091", SwitchType = "710", SwitchBit = "1091"};
+        public static readonly Switch Switch_71001092 = new Switch { SwitchId = "71001092", SwitchType = "710", SwitchBit = "1092"};
+        public static readonly Switch Switch_71001093 = new Switch { SwitchId = "71001093", SwitchType = "710", SwitchBit = "1093"};
+        public static readonly Switch Switch_71001094 = new Switch { SwitchId = "71001094", SwitchType = "710", SwitchBit = "1094"};
+        public static readonly Switch Switch_71001095 = new Switch { SwitchId = "71001095", SwitchType = "710", SwitchBit = "1095"};
+        public static readonly Switch Switch_71001096 = new Switch { SwitchId = "71001096", SwitchType = "710", SwitchBit = "1096"};
+        public static readonly Switch Switch_71001097 = new Switch { SwitchId = "71001097", SwitchType = "710", SwitchBit = "1097"};
+        public static readonly Switch Switch_71001098 = new Switch { SwitchId = "71001098", SwitchType = "710", SwitchBit = "1098"};
+        public static readonly Switch Switch_71001099 = new Switch { SwitchId = "71001099", SwitchType = "710", SwitchBit = "1099"};
+        public static readonly Switch Switch_71001100 = new Switch { SwitchId = "71001100", SwitchType = "710", SwitchBit = "1100"};
+        public static readonly Switch Switch_71001101 = new Switch { SwitchId = "71001101", SwitchType = "710", SwitchBit = "1101"};
+        public static readonly Switch Switch_71001102 = new Switch { SwitchId = "71001102", SwitchType = "710", SwitchBit = "1102"};
+        public static readonly Switch Switch_71001103 = new Switch { SwitchId = "71001103", SwitchType = "710", SwitchBit = "1103"};
+        public static readonly Switch Switch_71001104 = new Switch { SwitchId = "71001104", SwitchType = "710", SwitchBit = "1104"};
+        public static readonly Switch Switch_71001105 = new Switch { SwitchId = "71001105", SwitchType = "710", SwitchBit = "1105"};
+        public static readonly Switch Switch_71001106 = new Switch { SwitchId = "71001106", SwitchType = "710", SwitchBit = "1106"};
+        public static readonly Switch Switch_71001107 = new Switch { SwitchId = "71001107", SwitchType = "710", SwitchBit = "1107"};
+        public static readonly Switch Switch_71001108 = new Switch { SwitchId = "71001108", SwitchType = "710", SwitchBit = "1108"};
+        public static readonly Switch Switch_71001109 = new Switch { SwitchId = "71001109", SwitchType = "710", SwitchBit = "1109"};
+        public static readonly Switch Switch_71001110 = new Switch { SwitchId = "71001110", SwitchType = "710", SwitchBit = "1110"};
+        public static readonly Switch Switch_71001111 = new Switch { SwitchId = "71001111", SwitchType = "710", SwitchBit = "1111"};
+        public static readonly Switch Switch_71001112 = new Switch { SwitchId = "71001112", SwitchType = "710", SwitchBit = "1112"};
+        public static readonly Switch Switch_71001113 = new Switch { SwitchId = "71001113", SwitchType = "710", SwitchBit = "1113"};
+        public static readonly Switch Switch_71001114 = new Switch { SwitchId = "71001114", SwitchType = "710", SwitchBit = "1114"};
+        public static readonly Switch Switch_71001115 = new Switch { SwitchId = "71001115", SwitchType = "710", SwitchBit = "1115"};
+        public static readonly Switch Switch_71001116 = new Switch { SwitchId = "71001116", SwitchType = "710", SwitchBit = "1116"};
+        public static readonly Switch Switch_71001117 = new Switch { SwitchId = "71001117", SwitchType = "710", SwitchBit = "1117"};
+        public static readonly Switch Switch_71001118 = new Switch { SwitchId = "71001118", SwitchType = "710", SwitchBit = "1118"};
+        public static readonly Switch Switch_71001119 = new Switch { SwitchId = "71001119", SwitchType = "710", SwitchBit = "1119"};
+        public static readonly Switch Switch_71001120 = new Switch { SwitchId = "71001120", SwitchType = "710", SwitchBit = "1120"};
+        public static readonly Switch Switch_71001121 = new Switch { SwitchId = "71001121", SwitchType = "710", SwitchBit = "1121"};
+        public static readonly Switch Switch_71001122 = new Switch { SwitchId = "71001122", SwitchType = "710", SwitchBit = "1122"};
+        public static readonly Switch Switch_71001123 = new Switch { SwitchId = "71001123", SwitchType = "710", SwitchBit = "1123"};
+        public static readonly Switch Switch_71001124 = new Switch { SwitchId = "71001124", SwitchType = "710", SwitchBit = "1124"};
+        public static readonly Switch Switch_71001125 = new Switch { SwitchId = "71001125", SwitchType = "710", SwitchBit = "1125"};
+        public static readonly Switch Switch_71001126 = new Switch { SwitchId = "71001126", SwitchType = "710", SwitchBit = "1126"};
+        public static readonly Switch Switch_71001127 = new Switch { SwitchId = "71001127", SwitchType = "710", SwitchBit = "1127"};
+        public static readonly Switch Switch_71001128 = new Switch { SwitchId = "71001128", SwitchType = "710", SwitchBit = "1128"};
+        public static readonly Switch Switch_71001129 = new Switch { SwitchId = "71001129", SwitchType = "710", SwitchBit = "1129"};
+        public static readonly Switch Switch_71001130 = new Switch { SwitchId = "71001130", SwitchType = "710", SwitchBit = "1130"};
+        public static readonly Switch Switch_71001131 = new Switch { SwitchId = "71001131", SwitchType = "710", SwitchBit = "1131"};
+        public static readonly Switch Switch_71001132 = new Switch { SwitchId = "71001132", SwitchType = "710", SwitchBit = "1132"};
+        public static readonly Switch Switch_71001133 = new Switch { SwitchId = "71001133", SwitchType = "710", SwitchBit = "1133"};
+        public static readonly Switch Switch_71001134 = new Switch { SwitchId = "71001134", SwitchType = "710", SwitchBit = "1134"};
+        public static readonly Switch Switch_71001135 = new Switch { SwitchId = "71001135", SwitchType = "710", SwitchBit = "1135"};
+        public static readonly Switch Switch_71001136 = new Switch { SwitchId = "71001136", SwitchType = "710", SwitchBit = "1136"};
+        public static readonly Switch Switch_71001137 = new Switch { SwitchId = "71001137", SwitchType = "710", SwitchBit = "1137"};
+        public static readonly Switch Switch_71001138 = new Switch { SwitchId = "71001138", SwitchType = "710", SwitchBit = "1138"};
+        public static readonly Switch Switch_71001139 = new Switch { SwitchId = "71001139", SwitchType = "710", SwitchBit = "1139"};
+        public static readonly Switch Switch_71001140 = new Switch { SwitchId = "71001140", SwitchType = "710", SwitchBit = "1140"};
+        public static readonly Switch Switch_71001141 = new Switch { SwitchId = "71001141", SwitchType = "710", SwitchBit = "1141"};
+        public static readonly Switch Switch_71001142 = new Switch { SwitchId = "71001142", SwitchType = "710", SwitchBit = "1142"};
+        public static readonly Switch Switch_71001143 = new Switch { SwitchId = "71001143", SwitchType = "710", SwitchBit = "1143"};
+        public static readonly Switch Switch_71001144 = new Switch { SwitchId = "71001144", SwitchType = "710", SwitchBit = "1144"};
+        public static readonly Switch Switch_71001145 = new Switch { SwitchId = "71001145", SwitchType = "710", SwitchBit = "1145"};
+        public static readonly Switch Switch_71001146 = new Switch { SwitchId = "71001146", SwitchType = "710", SwitchBit = "1146"};
+        public static readonly Switch Switch_71001147 = new Switch { SwitchId = "71001147", SwitchType = "710", SwitchBit = "1147"};
+        public static readonly Switch Switch_71001148 = new Switch { SwitchId = "71001148", SwitchType = "710", SwitchBit = "1148"};
+        public static readonly Switch Switch_71001149 = new Switch { SwitchId = "71001149", SwitchType = "710", SwitchBit = "1149"};
+        public static readonly Switch Switch_71001150 = new Switch { SwitchId = "71001150", SwitchType = "710", SwitchBit = "1150"};
+        public static readonly Switch Switch_71001151 = new Switch { SwitchId = "71001151", SwitchType = "710", SwitchBit = "1151"};
+        public static readonly Switch Switch_71001152 = new Switch { SwitchId = "71001152", SwitchType = "710", SwitchBit = "1152"};
+        public static readonly Switch Switch_71001153 = new Switch { SwitchId = "71001153", SwitchType = "710", SwitchBit = "1153"};
+        public static readonly Switch Switch_71001154 = new Switch { SwitchId = "71001154", SwitchType = "710", SwitchBit = "1154"};
+        public static readonly Switch Switch_71001155 = new Switch { SwitchId = "71001155", SwitchType = "710", SwitchBit = "1155"};
+        public static readonly Switch Switch_71001156 = new Switch { SwitchId = "71001156", SwitchType = "710", SwitchBit = "1156"};
+        public static readonly Switch Switch_71001157 = new Switch { SwitchId = "71001157", SwitchType = "710", SwitchBit = "1157"};
+        public static readonly Switch Switch_71001158 = new Switch { SwitchId = "71001158", SwitchType = "710", SwitchBit = "1158"};
+        public static readonly Switch Switch_71001159 = new Switch { SwitchId = "71001159", SwitchType = "710", SwitchBit = "1159"};
+        public static readonly Switch Switch_71001160 = new Switch { SwitchId = "71001160", SwitchType = "710", SwitchBit = "1160"};
+        public static readonly Switch Switch_71001161 = new Switch { SwitchId = "71001161", SwitchType = "710", SwitchBit = "1161"};
+        public static readonly Switch Switch_71001162 = new Switch { SwitchId = "71001162", SwitchType = "710", SwitchBit = "1162"};
+        public static readonly Switch Switch_71001163 = new Switch { SwitchId = "71001163", SwitchType = "710", SwitchBit = "1163"};
+        public static readonly Switch Switch_71001164 = new Switch { SwitchId = "71001164", SwitchType = "710", SwitchBit = "1164"};
+        public static readonly Switch Switch_71001165 = new Switch { SwitchId = "71001165", SwitchType = "710", SwitchBit = "1165"};
+        public static readonly Switch Switch_71001166 = new Switch { SwitchId = "71001166", SwitchType = "710", SwitchBit = "1166"};
+        public static readonly Switch Switch_71001167 = new Switch { SwitchId = "71001167", SwitchType = "710", SwitchBit = "1167"};
+        public static readonly Switch Switch_71001168 = new Switch { SwitchId = "71001168", SwitchType = "710", SwitchBit = "1168"};
+        public static readonly Switch Switch_71001169 = new Switch { SwitchId = "71001169", SwitchType = "710", SwitchBit = "1169"};
+        public static readonly Switch Switch_71001170 = new Switch { SwitchId = "71001170", SwitchType = "710", SwitchBit = "1170"};
+        public static readonly Switch Switch_71001171 = new Switch { SwitchId = "71001171", SwitchType = "710", SwitchBit = "1171"};
+        public static readonly Switch Switch_71001172 = new Switch { SwitchId = "71001172", SwitchType = "710", SwitchBit = "1172"};
+        public static readonly Switch Switch_71001173 = new Switch { SwitchId = "71001173", SwitchType = "710", SwitchBit = "1173"};
+        public static readonly Switch Switch_71001174 = new Switch { SwitchId = "71001174", SwitchType = "710", SwitchBit = "1174"};
+        public static readonly Switch Switch_71001175 = new Switch { SwitchId = "71001175", SwitchType = "710", SwitchBit = "1175"};
+        public static readonly Switch Switch_71001176 = new Switch { SwitchId = "71001176", SwitchType = "710", SwitchBit = "1176"};
+        public static readonly Switch Switch_71001177 = new Switch { SwitchId = "71001177", SwitchType = "710", SwitchBit = "1177"};
+        public static readonly Switch Switch_71001178 = new Switch { SwitchId = "71001178", SwitchType = "710", SwitchBit = "1178"};
+        public static readonly Switch Switch_71001179 = new Switch { SwitchId = "71001179", SwitchType = "710", SwitchBit = "1179"};
+        public static readonly Switch Switch_71001180 = new Switch { SwitchId = "71001180", SwitchType = "710", SwitchBit = "1180"};
+        public static readonly Switch Switch_71001181 = new Switch { SwitchId = "71001181", SwitchType = "710", SwitchBit = "1181"};
+        public static readonly Switch Switch_71001182 = new Switch { SwitchId = "71001182", SwitchType = "710", SwitchBit = "1182"};
+        public static readonly Switch Switch_71001183 = new Switch { SwitchId = "71001183", SwitchType = "710", SwitchBit = "1183"};
+        public static readonly Switch Switch_71001184 = new Switch { SwitchId = "71001184", SwitchType = "710", SwitchBit = "1184"};
+        public static readonly Switch Switch_71001185 = new Switch { SwitchId = "71001185", SwitchType = "710", SwitchBit = "1185"};
+        public static readonly Switch Switch_71001186 = new Switch { SwitchId = "71001186", SwitchType = "710", SwitchBit = "1186"};
+        public static readonly Switch Switch_71001187 = new Switch { SwitchId = "71001187", SwitchType = "710", SwitchBit = "1187"};
+        public static readonly Switch Switch_71001188 = new Switch { SwitchId = "71001188", SwitchType = "710", SwitchBit = "1188"};
+        public static readonly Switch Switch_71001189 = new Switch { SwitchId = "71001189", SwitchType = "710", SwitchBit = "1189"};
+        public static readonly Switch Switch_71001190 = new Switch { SwitchId = "71001190", SwitchType = "710", SwitchBit = "1190"};
+        public static readonly Switch Switch_71001191 = new Switch { SwitchId = "71001191", SwitchType = "710", SwitchBit = "1191"};
+        public static readonly Switch Switch_71001192 = new Switch { SwitchId = "71001192", SwitchType = "710", SwitchBit = "1192"};
+        public static readonly Switch Switch_71001193 = new Switch { SwitchId = "71001193", SwitchType = "710", SwitchBit = "1193"};
+        public static readonly Switch Switch_71001194 = new Switch { SwitchId = "71001194", SwitchType = "710", SwitchBit = "1194"};
+        public static readonly Switch Switch_71001195 = new Switch { SwitchId = "71001195", SwitchType = "710", SwitchBit = "1195"};
+        public static readonly Switch Switch_71001196 = new Switch { SwitchId = "71001196", SwitchType = "710", SwitchBit = "1196"};
+        public static readonly Switch Switch_71001197 = new Switch { SwitchId = "71001197", SwitchType = "710", SwitchBit = "1197"};
+        public static readonly Switch Switch_71001198 = new Switch { SwitchId = "71001198", SwitchType = "710", SwitchBit = "1198"};
+        public static readonly Switch Switch_71001199 = new Switch { SwitchId = "71001199", SwitchType = "710", SwitchBit = "1199"};
+        public static readonly Switch Switch_71001200 = new Switch { SwitchId = "71001200", SwitchType = "710", SwitchBit = "1200"};
+        public static readonly Switch Switch_71001201 = new Switch { SwitchId = "71001201", SwitchType = "710", SwitchBit = "1201"};
+        public static readonly Switch Switch_71001202 = new Switch { SwitchId = "71001202", SwitchType = "710", SwitchBit = "1202"};
+        public static readonly Switch Switch_71001203 = new Switch { SwitchId = "71001203", SwitchType = "710", SwitchBit = "1203"};
+        public static readonly Switch Switch_71001204 = new Switch { SwitchId = "71001204", SwitchType = "710", SwitchBit = "1204"};
+        public static readonly Switch Switch_71001205 = new Switch { SwitchId = "71001205", SwitchType = "710", SwitchBit = "1205"};
+        public static readonly Switch Switch_71001206 = new Switch { SwitchId = "71001206", SwitchType = "710", SwitchBit = "1206"};
+        public static readonly Switch Switch_71001207 = new Switch { SwitchId = "71001207", SwitchType = "710", SwitchBit = "1207"};
+        public static readonly Switch Switch_71001208 = new Switch { SwitchId = "71001208", SwitchType = "710", SwitchBit = "1208"};
+        public static readonly Switch Switch_71001209 = new Switch { SwitchId = "71001209", SwitchType = "710", SwitchBit = "1209"};
+        public static readonly Switch Switch_71001210 = new Switch { SwitchId = "71001210", SwitchType = "710", SwitchBit = "1210"};
+        public static readonly Switch Switch_71001211 = new Switch { SwitchId = "71001211", SwitchType = "710", SwitchBit = "1211"};
+        public static readonly Switch Switch_71001212 = new Switch { SwitchId = "71001212", SwitchType = "710", SwitchBit = "1212"};
+        public static readonly Switch Switch_71001213 = new Switch { SwitchId = "71001213", SwitchType = "710", SwitchBit = "1213"};
+        public static readonly Switch Switch_71001214 = new Switch { SwitchId = "71001214", SwitchType = "710", SwitchBit = "1214"};
+        public static readonly Switch Switch_71001215 = new Switch { SwitchId = "71001215", SwitchType = "710", SwitchBit = "1215"};
+        public static readonly Switch Switch_71001216 = new Switch { SwitchId = "71001216", SwitchType = "710", SwitchBit = "1216"};
+        public static readonly Switch Switch_71001217 = new Switch { SwitchId = "71001217", SwitchType = "710", SwitchBit = "1217"};
+        public static readonly Switch Switch_71001218 = new Switch { SwitchId = "71001218", SwitchType = "710", SwitchBit = "1218"};
+        public static readonly Switch Switch_71001219 = new Switch { SwitchId = "71001219", SwitchType = "710", SwitchBit = "1219"};
+        public static readonly Switch Switch_71001220 = new Switch { SwitchId = "71001220", SwitchType = "710", SwitchBit = "1220"};
+        public static readonly Switch Switch_71001221 = new Switch { SwitchId = "71001221", SwitchType = "710", SwitchBit = "1221"};
+        public static readonly Switch Switch_71001222 = new Switch { SwitchId = "71001222", SwitchType = "710", SwitchBit = "1222"};
+        public static readonly Switch Switch_71001223 = new Switch { SwitchId = "71001223", SwitchType = "710", SwitchBit = "1223"};
+        public static readonly Switch Switch_71001224 = new Switch { SwitchId = "71001224", SwitchType = "710", SwitchBit = "1224"};
+        public static readonly Switch Switch_71001225 = new Switch { SwitchId = "71001225", SwitchType = "710", SwitchBit = "1225"};
+        public static readonly Switch Switch_71001226 = new Switch { SwitchId = "71001226", SwitchType = "710", SwitchBit = "1226"};
+        public static readonly Switch Switch_71001227 = new Switch { SwitchId = "71001227", SwitchType = "710", SwitchBit = "1227"};
+        public static readonly Switch Switch_71001228 = new Switch { SwitchId = "71001228", SwitchType = "710", SwitchBit = "1228"};
         public static readonly Switch Switch_72000001 = new Switch { SwitchId = "72000001", SwitchType = "720", SwitchBit = "1"};
         public static readonly Switch Switch_72000002 = new Switch { SwitchId = "72000002", SwitchType = "720", SwitchBit = "2"};
         public static readonly Switch Switch_72000003 = new Switch { SwitchId = "72000003", SwitchType = "720", SwitchBit = "3"};
@@ -14299,6 +15824,99 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_80273005 = new Switch { SwitchId = "80273005", SwitchType = "800", SwitchBit = "1380"};
         public static readonly Switch Switch_80273006 = new Switch { SwitchId = "80273006", SwitchType = "800", SwitchBit = "1381"};
         public static readonly Switch Switch_80273007 = new Switch { SwitchId = "80273007", SwitchType = "800", SwitchBit = "1382"};
+        public static readonly Switch Switch_80274000 = new Switch { SwitchId = "80274000", SwitchType = "800", SwitchBit = "1403"};
+        public static readonly Switch Switch_80274001 = new Switch { SwitchId = "80274001", SwitchType = "800", SwitchBit = "1404"};
+        public static readonly Switch Switch_80274002 = new Switch { SwitchId = "80274002", SwitchType = "800", SwitchBit = "1405"};
+        public static readonly Switch Switch_80274003 = new Switch { SwitchId = "80274003", SwitchType = "800", SwitchBit = "1406"};
+        public static readonly Switch Switch_80274004 = new Switch { SwitchId = "80274004", SwitchType = "800", SwitchBit = "1407"};
+        public static readonly Switch Switch_80274005 = new Switch { SwitchId = "80274005", SwitchType = "800", SwitchBit = "1408"};
+        public static readonly Switch Switch_80274006 = new Switch { SwitchId = "80274006", SwitchType = "800", SwitchBit = "1409"};
+        public static readonly Switch Switch_80274007 = new Switch { SwitchId = "80274007", SwitchType = "800", SwitchBit = "1410"};
+        public static readonly Switch Switch_80275000 = new Switch { SwitchId = "80275000", SwitchType = "800", SwitchBit = "1441"};
+        public static readonly Switch Switch_80275001 = new Switch { SwitchId = "80275001", SwitchType = "800", SwitchBit = "1442"};
+        public static readonly Switch Switch_80275002 = new Switch { SwitchId = "80275002", SwitchType = "800", SwitchBit = "1443"};
+        public static readonly Switch Switch_80275003 = new Switch { SwitchId = "80275003", SwitchType = "800", SwitchBit = "1444"};
+        public static readonly Switch Switch_80275004 = new Switch { SwitchId = "80275004", SwitchType = "800", SwitchBit = "1445"};
+        public static readonly Switch Switch_80275005 = new Switch { SwitchId = "80275005", SwitchType = "800", SwitchBit = "1446"};
+        public static readonly Switch Switch_80275006 = new Switch { SwitchId = "80275006", SwitchType = "800", SwitchBit = "1447"};
+        public static readonly Switch Switch_80275007 = new Switch { SwitchId = "80275007", SwitchType = "800", SwitchBit = "1448"};
+        public static readonly Switch Switch_80276000 = new Switch { SwitchId = "80276000", SwitchType = "800", SwitchBit = "1469"};
+        public static readonly Switch Switch_80276001 = new Switch { SwitchId = "80276001", SwitchType = "800", SwitchBit = "1470"};
+        public static readonly Switch Switch_80276002 = new Switch { SwitchId = "80276002", SwitchType = "800", SwitchBit = "1471"};
+        public static readonly Switch Switch_80276003 = new Switch { SwitchId = "80276003", SwitchType = "800", SwitchBit = "1472"};
+        public static readonly Switch Switch_80276004 = new Switch { SwitchId = "80276004", SwitchType = "800", SwitchBit = "1473"};
+        public static readonly Switch Switch_80276005 = new Switch { SwitchId = "80276005", SwitchType = "800", SwitchBit = "1474"};
+        public static readonly Switch Switch_80276006 = new Switch { SwitchId = "80276006", SwitchType = "800", SwitchBit = "1475"};
+        public static readonly Switch Switch_80276007 = new Switch { SwitchId = "80276007", SwitchType = "800", SwitchBit = "1476"};
+        public static readonly Switch Switch_80277000 = new Switch { SwitchId = "80277000", SwitchType = "800", SwitchBit = "1496"};
+        public static readonly Switch Switch_80277001 = new Switch { SwitchId = "80277001", SwitchType = "800", SwitchBit = "1497"};
+        public static readonly Switch Switch_80277002 = new Switch { SwitchId = "80277002", SwitchType = "800", SwitchBit = "1498"};
+        public static readonly Switch Switch_80277003 = new Switch { SwitchId = "80277003", SwitchType = "800", SwitchBit = "1499"};
+        public static readonly Switch Switch_80277004 = new Switch { SwitchId = "80277004", SwitchType = "800", SwitchBit = "1500"};
+        public static readonly Switch Switch_80277005 = new Switch { SwitchId = "80277005", SwitchType = "800", SwitchBit = "1501"};
+        public static readonly Switch Switch_80277006 = new Switch { SwitchId = "80277006", SwitchType = "800", SwitchBit = "1502"};
+        public static readonly Switch Switch_80277007 = new Switch { SwitchId = "80277007", SwitchType = "800", SwitchBit = "1503"};
+        public static readonly Switch Switch_80278000 = new Switch { SwitchId = "80278000", SwitchType = "800", SwitchBit = "1534"};
+        public static readonly Switch Switch_80278001 = new Switch { SwitchId = "80278001", SwitchType = "800", SwitchBit = "1535"};
+        public static readonly Switch Switch_80278002 = new Switch { SwitchId = "80278002", SwitchType = "800", SwitchBit = "1536"};
+        public static readonly Switch Switch_80278003 = new Switch { SwitchId = "80278003", SwitchType = "800", SwitchBit = "1537"};
+        public static readonly Switch Switch_80278004 = new Switch { SwitchId = "80278004", SwitchType = "800", SwitchBit = "1538"};
+        public static readonly Switch Switch_80278005 = new Switch { SwitchId = "80278005", SwitchType = "800", SwitchBit = "1539"};
+        public static readonly Switch Switch_80278006 = new Switch { SwitchId = "80278006", SwitchType = "800", SwitchBit = "1540"};
+        public static readonly Switch Switch_80278007 = new Switch { SwitchId = "80278007", SwitchType = "800", SwitchBit = "1541"};
+        public static readonly Switch Switch_80279001 = new Switch { SwitchId = "80279001", SwitchType = "800", SwitchBit = "1577"};
+        public static readonly Switch Switch_80279002 = new Switch { SwitchId = "80279002", SwitchType = "800", SwitchBit = "1578"};
+        public static readonly Switch Switch_80279003 = new Switch { SwitchId = "80279003", SwitchType = "800", SwitchBit = "1579"};
+        public static readonly Switch Switch_80279004 = new Switch { SwitchId = "80279004", SwitchType = "800", SwitchBit = "1580"};
+        public static readonly Switch Switch_80279005 = new Switch { SwitchId = "80279005", SwitchType = "800", SwitchBit = "1581"};
+        public static readonly Switch Switch_80279006 = new Switch { SwitchId = "80279006", SwitchType = "800", SwitchBit = "1582"};
+        public static readonly Switch Switch_80279007 = new Switch { SwitchId = "80279007", SwitchType = "800", SwitchBit = "1583"};
+        public static readonly Switch Switch_80279008 = new Switch { SwitchId = "80279008", SwitchType = "800", SwitchBit = "1584"};
+        public static readonly Switch Switch_80279009 = new Switch { SwitchId = "80279009", SwitchType = "800", SwitchBit = "1585"};
+        public static readonly Switch Switch_80279010 = new Switch { SwitchId = "80279010", SwitchType = "800", SwitchBit = "1586"};
+        public static readonly Switch Switch_80279011 = new Switch { SwitchId = "80279011", SwitchType = "800", SwitchBit = "1587"};
+        public static readonly Switch Switch_80279012 = new Switch { SwitchId = "80279012", SwitchType = "800", SwitchBit = "1596"};
+        public static readonly Switch Switch_80280001 = new Switch { SwitchId = "80280001", SwitchType = "800", SwitchBit = "1597"};
+        public static readonly Switch Switch_80280002 = new Switch { SwitchId = "80280002", SwitchType = "800", SwitchBit = "1598"};
+        public static readonly Switch Switch_80280003 = new Switch { SwitchId = "80280003", SwitchType = "800", SwitchBit = "1599"};
+        public static readonly Switch Switch_80280004 = new Switch { SwitchId = "80280004", SwitchType = "800", SwitchBit = "1600"};
+        public static readonly Switch Switch_80280005 = new Switch { SwitchId = "80280005", SwitchType = "800", SwitchBit = "1601"};
+        public static readonly Switch Switch_80280006 = new Switch { SwitchId = "80280006", SwitchType = "800", SwitchBit = "1602"};
+        public static readonly Switch Switch_80280007 = new Switch { SwitchId = "80280007", SwitchType = "800", SwitchBit = "1603"};
+        public static readonly Switch Switch_80280008 = new Switch { SwitchId = "80280008", SwitchType = "800", SwitchBit = "1604"};
+        public static readonly Switch Switch_80280009 = new Switch { SwitchId = "80280009", SwitchType = "800", SwitchBit = "1605"};
+        public static readonly Switch Switch_80280010 = new Switch { SwitchId = "80280010", SwitchType = "800", SwitchBit = "1606"};
+        public static readonly Switch Switch_80281001 = new Switch { SwitchId = "80281001", SwitchType = "800", SwitchBit = "1635"};
+        public static readonly Switch Switch_80281002 = new Switch { SwitchId = "80281002", SwitchType = "800", SwitchBit = "1636"};
+        public static readonly Switch Switch_80281003 = new Switch { SwitchId = "80281003", SwitchType = "800", SwitchBit = "1637"};
+        public static readonly Switch Switch_80281004 = new Switch { SwitchId = "80281004", SwitchType = "800", SwitchBit = "1638"};
+        public static readonly Switch Switch_80281005 = new Switch { SwitchId = "80281005", SwitchType = "800", SwitchBit = "1639"};
+        public static readonly Switch Switch_80281006 = new Switch { SwitchId = "80281006", SwitchType = "800", SwitchBit = "1640"};
+        public static readonly Switch Switch_80281007 = new Switch { SwitchId = "80281007", SwitchType = "800", SwitchBit = "1641"};
+        public static readonly Switch Switch_80281008 = new Switch { SwitchId = "80281008", SwitchType = "800", SwitchBit = "1642"};
+        public static readonly Switch Switch_80281009 = new Switch { SwitchId = "80281009", SwitchType = "800", SwitchBit = "1643"};
+        public static readonly Switch Switch_80281010 = new Switch { SwitchId = "80281010", SwitchType = "800", SwitchBit = "1644"};
+        public static readonly Switch Switch_80281011 = new Switch { SwitchId = "80281011", SwitchType = "800", SwitchBit = "1651"};
+        public static readonly Switch Switch_80281012 = new Switch { SwitchId = "80281012", SwitchType = "800", SwitchBit = "1652"};
+        public static readonly Switch Switch_80281013 = new Switch { SwitchId = "80281013", SwitchType = "800", SwitchBit = "1653"};
+        public static readonly Switch Switch_80281014 = new Switch { SwitchId = "80281014", SwitchType = "800", SwitchBit = "1654"};
+        public static readonly Switch Switch_80281015 = new Switch { SwitchId = "80281015", SwitchType = "800", SwitchBit = "1655"};
+        public static readonly Switch Switch_80281016 = new Switch { SwitchId = "80281016", SwitchType = "800", SwitchBit = "1656"};
+        public static readonly Switch Switch_80281017 = new Switch { SwitchId = "80281017", SwitchType = "800", SwitchBit = "1657"};
+        public static readonly Switch Switch_80281018 = new Switch { SwitchId = "80281018", SwitchType = "800", SwitchBit = "1658"};
+        public static readonly Switch Switch_80281019 = new Switch { SwitchId = "80281019", SwitchType = "800", SwitchBit = "1659"};
+        public static readonly Switch Switch_80281020 = new Switch { SwitchId = "80281020", SwitchType = "800", SwitchBit = "1660"};
+        public static readonly Switch Switch_80281021 = new Switch { SwitchId = "80281021", SwitchType = "800", SwitchBit = "1661"};
+        public static readonly Switch Switch_80281022 = new Switch { SwitchId = "80281022", SwitchType = "800", SwitchBit = "1686"};
+        public static readonly Switch Switch_80281023 = new Switch { SwitchId = "80281023", SwitchType = "800", SwitchBit = "1687"};
+        public static readonly Switch Switch_80281024 = new Switch { SwitchId = "80281024", SwitchType = "800", SwitchBit = "1688"};
+        public static readonly Switch Switch_80281025 = new Switch { SwitchId = "80281025", SwitchType = "800", SwitchBit = "1689"};
+        public static readonly Switch Switch_80281026 = new Switch { SwitchId = "80281026", SwitchType = "800", SwitchBit = "1690"};
+        public static readonly Switch Switch_80281027 = new Switch { SwitchId = "80281027", SwitchType = "800", SwitchBit = "1691"};
+        public static readonly Switch Switch_80281028 = new Switch { SwitchId = "80281028", SwitchType = "800", SwitchBit = "1692"};
+        public static readonly Switch Switch_80281029 = new Switch { SwitchId = "80281029", SwitchType = "800", SwitchBit = "1693"};
+        public static readonly Switch Switch_80281030 = new Switch { SwitchId = "80281030", SwitchType = "800", SwitchBit = "1694"};
+        public static readonly Switch Switch_80281031 = new Switch { SwitchId = "80281031", SwitchType = "800", SwitchBit = "1695"};
         public static readonly Switch Switch_81000000 = new Switch { SwitchId = "81000000", SwitchType = "810", SwitchBit = "0"};
         public static readonly Switch Switch_81001001 = new Switch { SwitchId = "81001001", SwitchType = "810", SwitchBit = "1"};
         public static readonly Switch Switch_81001002 = new Switch { SwitchId = "81001002", SwitchType = "810", SwitchBit = "2"};
@@ -15259,6 +16877,161 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_89200166 = new Switch { SwitchId = "89200166", SwitchType = "800", SwitchBit = "1392"};
         public static readonly Switch Switch_89200167 = new Switch { SwitchId = "89200167", SwitchType = "800", SwitchBit = "1393"};
         public static readonly Switch Switch_89200168 = new Switch { SwitchId = "89200168", SwitchType = "800", SwitchBit = "1394"};
+        public static readonly Switch Switch_89200169 = new Switch { SwitchId = "89200169", SwitchType = "800", SwitchBit = "1411"};
+        public static readonly Switch Switch_89200170 = new Switch { SwitchId = "89200170", SwitchType = "800", SwitchBit = "1412"};
+        public static readonly Switch Switch_89200171 = new Switch { SwitchId = "89200171", SwitchType = "800", SwitchBit = "1413"};
+        public static readonly Switch Switch_89200172 = new Switch { SwitchId = "89200172", SwitchType = "800", SwitchBit = "1414"};
+        public static readonly Switch Switch_89200173 = new Switch { SwitchId = "89200173", SwitchType = "800", SwitchBit = "1415"};
+        public static readonly Switch Switch_89200174 = new Switch { SwitchId = "89200174", SwitchType = "800", SwitchBit = "1416"};
+        public static readonly Switch Switch_89200175 = new Switch { SwitchId = "89200175", SwitchType = "800", SwitchBit = "1417"};
+        public static readonly Switch Switch_89200176 = new Switch { SwitchId = "89200176", SwitchType = "800", SwitchBit = "1418"};
+        public static readonly Switch Switch_89200177 = new Switch { SwitchId = "89200177", SwitchType = "800", SwitchBit = "1419"};
+        public static readonly Switch Switch_89200178 = new Switch { SwitchId = "89200178", SwitchType = "800", SwitchBit = "1420"};
+        public static readonly Switch Switch_89200179 = new Switch { SwitchId = "89200179", SwitchType = "800", SwitchBit = "1421"};
+        public static readonly Switch Switch_89200180 = new Switch { SwitchId = "89200180", SwitchType = "800", SwitchBit = "1430"};
+        public static readonly Switch Switch_89200181 = new Switch { SwitchId = "89200181", SwitchType = "800", SwitchBit = "1431"};
+        public static readonly Switch Switch_89200182 = new Switch { SwitchId = "89200182", SwitchType = "800", SwitchBit = "1432"};
+        public static readonly Switch Switch_89200183 = new Switch { SwitchId = "89200183", SwitchType = "800", SwitchBit = "1433"};
+        public static readonly Switch Switch_89200184 = new Switch { SwitchId = "89200184", SwitchType = "800", SwitchBit = "1434"};
+        public static readonly Switch Switch_89200185 = new Switch { SwitchId = "89200185", SwitchType = "800", SwitchBit = "1435"};
+        public static readonly Switch Switch_89200186 = new Switch { SwitchId = "89200186", SwitchType = "800", SwitchBit = "1436"};
+        public static readonly Switch Switch_89200187 = new Switch { SwitchId = "89200187", SwitchType = "800", SwitchBit = "1437"};
+        public static readonly Switch Switch_89200188 = new Switch { SwitchId = "89200188", SwitchType = "800", SwitchBit = "1438"};
+        public static readonly Switch Switch_89200189 = new Switch { SwitchId = "89200189", SwitchType = "800", SwitchBit = "1439"};
+        public static readonly Switch Switch_89200190 = new Switch { SwitchId = "89200190", SwitchType = "800", SwitchBit = "1440"};
+        public static readonly Switch Switch_89200191 = new Switch { SwitchId = "89200191", SwitchType = "800", SwitchBit = "1457"};
+        public static readonly Switch Switch_89200192 = new Switch { SwitchId = "89200192", SwitchType = "800", SwitchBit = "1458"};
+        public static readonly Switch Switch_89200193 = new Switch { SwitchId = "89200193", SwitchType = "800", SwitchBit = "1459"};
+        public static readonly Switch Switch_89200194 = new Switch { SwitchId = "89200194", SwitchType = "800", SwitchBit = "1460"};
+        public static readonly Switch Switch_89200195 = new Switch { SwitchId = "89200195", SwitchType = "800", SwitchBit = "1461"};
+        public static readonly Switch Switch_89200196 = new Switch { SwitchId = "89200196", SwitchType = "800", SwitchBit = "1462"};
+        public static readonly Switch Switch_89200197 = new Switch { SwitchId = "89200197", SwitchType = "800", SwitchBit = "1463"};
+        public static readonly Switch Switch_89200198 = new Switch { SwitchId = "89200198", SwitchType = "800", SwitchBit = "1464"};
+        public static readonly Switch Switch_89200199 = new Switch { SwitchId = "89200199", SwitchType = "800", SwitchBit = "1465"};
+        public static readonly Switch Switch_89200200 = new Switch { SwitchId = "89200200", SwitchType = "800", SwitchBit = "1466"};
+        public static readonly Switch Switch_89200201 = new Switch { SwitchId = "89200201", SwitchType = "800", SwitchBit = "1467"};
+        public static readonly Switch Switch_89200202 = new Switch { SwitchId = "89200202", SwitchType = "800", SwitchBit = "1468"};
+        public static readonly Switch Switch_89200203 = new Switch { SwitchId = "89200203", SwitchType = "800", SwitchBit = "1485"};
+        public static readonly Switch Switch_89200204 = new Switch { SwitchId = "89200204", SwitchType = "800", SwitchBit = "1486"};
+        public static readonly Switch Switch_89200205 = new Switch { SwitchId = "89200205", SwitchType = "800", SwitchBit = "1487"};
+        public static readonly Switch Switch_89200206 = new Switch { SwitchId = "89200206", SwitchType = "800", SwitchBit = "1488"};
+        public static readonly Switch Switch_89200207 = new Switch { SwitchId = "89200207", SwitchType = "800", SwitchBit = "1489"};
+        public static readonly Switch Switch_89200208 = new Switch { SwitchId = "89200208", SwitchType = "800", SwitchBit = "1490"};
+        public static readonly Switch Switch_89200209 = new Switch { SwitchId = "89200209", SwitchType = "800", SwitchBit = "1491"};
+        public static readonly Switch Switch_89200210 = new Switch { SwitchId = "89200210", SwitchType = "800", SwitchBit = "1492"};
+        public static readonly Switch Switch_89200211 = new Switch { SwitchId = "89200211", SwitchType = "800", SwitchBit = "1493"};
+        public static readonly Switch Switch_89200212 = new Switch { SwitchId = "89200212", SwitchType = "800", SwitchBit = "1494"};
+        public static readonly Switch Switch_89200213 = new Switch { SwitchId = "89200213", SwitchType = "800", SwitchBit = "1495"};
+        public static readonly Switch Switch_89200214 = new Switch { SwitchId = "89200214", SwitchType = "800", SwitchBit = "1504"};
+        public static readonly Switch Switch_89200215 = new Switch { SwitchId = "89200215", SwitchType = "800", SwitchBit = "1505"};
+        public static readonly Switch Switch_89200216 = new Switch { SwitchId = "89200216", SwitchType = "800", SwitchBit = "1506"};
+        public static readonly Switch Switch_89200217 = new Switch { SwitchId = "89200217", SwitchType = "800", SwitchBit = "1507"};
+        public static readonly Switch Switch_89200218 = new Switch { SwitchId = "89200218", SwitchType = "800", SwitchBit = "1508"};
+        public static readonly Switch Switch_89200219 = new Switch { SwitchId = "89200219", SwitchType = "800", SwitchBit = "1509"};
+        public static readonly Switch Switch_89200220 = new Switch { SwitchId = "89200220", SwitchType = "800", SwitchBit = "1510"};
+        public static readonly Switch Switch_89200221 = new Switch { SwitchId = "89200221", SwitchType = "800", SwitchBit = "1511"};
+        public static readonly Switch Switch_89200222 = new Switch { SwitchId = "89200222", SwitchType = "800", SwitchBit = "1512"};
+        public static readonly Switch Switch_89200223 = new Switch { SwitchId = "89200223", SwitchType = "800", SwitchBit = "1513"};
+        public static readonly Switch Switch_89200224 = new Switch { SwitchId = "89200224", SwitchType = "800", SwitchBit = "1514"};
+        public static readonly Switch Switch_89200225 = new Switch { SwitchId = "89200225", SwitchType = "800", SwitchBit = "1515"};
+        public static readonly Switch Switch_89200226 = new Switch { SwitchId = "89200226", SwitchType = "800", SwitchBit = "1516"};
+        public static readonly Switch Switch_89200227 = new Switch { SwitchId = "89200227", SwitchType = "800", SwitchBit = "1517"};
+        public static readonly Switch Switch_89200228 = new Switch { SwitchId = "89200228", SwitchType = "800", SwitchBit = "1518"};
+        public static readonly Switch Switch_89200229 = new Switch { SwitchId = "89200229", SwitchType = "800", SwitchBit = "1519"};
+        public static readonly Switch Switch_89200230 = new Switch { SwitchId = "89200230", SwitchType = "800", SwitchBit = "1520"};
+        public static readonly Switch Switch_89200231 = new Switch { SwitchId = "89200231", SwitchType = "800", SwitchBit = "1521"};
+        public static readonly Switch Switch_89200232 = new Switch { SwitchId = "89200232", SwitchType = "800", SwitchBit = "1522"};
+        public static readonly Switch Switch_89200233 = new Switch { SwitchId = "89200233", SwitchType = "800", SwitchBit = "1523"};
+        public static readonly Switch Switch_89200234 = new Switch { SwitchId = "89200234", SwitchType = "800", SwitchBit = "1524"};
+        public static readonly Switch Switch_89200235 = new Switch { SwitchId = "89200235", SwitchType = "800", SwitchBit = "1525"};
+        public static readonly Switch Switch_89200236 = new Switch { SwitchId = "89200236", SwitchType = "800", SwitchBit = "1542"};
+        public static readonly Switch Switch_89200237 = new Switch { SwitchId = "89200237", SwitchType = "800", SwitchBit = "1543"};
+        public static readonly Switch Switch_89200238 = new Switch { SwitchId = "89200238", SwitchType = "800", SwitchBit = "1544"};
+        public static readonly Switch Switch_89200239 = new Switch { SwitchId = "89200239", SwitchType = "800", SwitchBit = "1553"};
+        public static readonly Switch Switch_89200240 = new Switch { SwitchId = "89200240", SwitchType = "800", SwitchBit = "1554"};
+        public static readonly Switch Switch_89200241 = new Switch { SwitchId = "89200241", SwitchType = "800", SwitchBit = "1555"};
+        public static readonly Switch Switch_89200242 = new Switch { SwitchId = "89200242", SwitchType = "800", SwitchBit = "1556"};
+        public static readonly Switch Switch_89200243 = new Switch { SwitchId = "89200243", SwitchType = "800", SwitchBit = "1557"};
+        public static readonly Switch Switch_89200244 = new Switch { SwitchId = "89200244", SwitchType = "800", SwitchBit = "1558"};
+        public static readonly Switch Switch_89200245 = new Switch { SwitchId = "89200245", SwitchType = "800", SwitchBit = "1559"};
+        public static readonly Switch Switch_89200246 = new Switch { SwitchId = "89200246", SwitchType = "800", SwitchBit = "1560"};
+        public static readonly Switch Switch_89200247 = new Switch { SwitchId = "89200247", SwitchType = "800", SwitchBit = "1561"};
+        public static readonly Switch Switch_89200248 = new Switch { SwitchId = "89200248", SwitchType = "800", SwitchBit = "1562"};
+        public static readonly Switch Switch_89200249 = new Switch { SwitchId = "89200249", SwitchType = "800", SwitchBit = "1563"};
+        public static readonly Switch Switch_89200250 = new Switch { SwitchId = "89200250", SwitchType = "800", SwitchBit = "1564"};
+        public static readonly Switch Switch_89200251 = new Switch { SwitchId = "89200251", SwitchType = "800", SwitchBit = "1565"};
+        public static readonly Switch Switch_89200252 = new Switch { SwitchId = "89200252", SwitchType = "800", SwitchBit = "1566"};
+        public static readonly Switch Switch_89200253 = new Switch { SwitchId = "89200253", SwitchType = "800", SwitchBit = "1567"};
+        public static readonly Switch Switch_89200254 = new Switch { SwitchId = "89200254", SwitchType = "800", SwitchBit = "1568"};
+        public static readonly Switch Switch_89200255 = new Switch { SwitchId = "89200255", SwitchType = "800", SwitchBit = "1569"};
+        public static readonly Switch Switch_89200256 = new Switch { SwitchId = "89200256", SwitchType = "800", SwitchBit = "1570"};
+        public static readonly Switch Switch_89200257 = new Switch { SwitchId = "89200257", SwitchType = "800", SwitchBit = "1571"};
+        public static readonly Switch Switch_89200258 = new Switch { SwitchId = "89200258", SwitchType = "800", SwitchBit = "1572"};
+        public static readonly Switch Switch_89200259 = new Switch { SwitchId = "89200259", SwitchType = "800", SwitchBit = "1573"};
+        public static readonly Switch Switch_89200260 = new Switch { SwitchId = "89200260", SwitchType = "800", SwitchBit = "1574"};
+        public static readonly Switch Switch_89200261 = new Switch { SwitchId = "89200261", SwitchType = "800", SwitchBit = "1575"};
+        public static readonly Switch Switch_89200262 = new Switch { SwitchId = "89200262", SwitchType = "800", SwitchBit = "1576"};
+        public static readonly Switch Switch_89200263 = new Switch { SwitchId = "89200263", SwitchType = "800", SwitchBit = "1607"};
+        public static readonly Switch Switch_89200264 = new Switch { SwitchId = "89200264", SwitchType = "800", SwitchBit = "1608"};
+        public static readonly Switch Switch_89200265 = new Switch { SwitchId = "89200265", SwitchType = "800", SwitchBit = "1609"};
+        public static readonly Switch Switch_89200266 = new Switch { SwitchId = "89200266", SwitchType = "800", SwitchBit = "1610"};
+        public static readonly Switch Switch_89200267 = new Switch { SwitchId = "89200267", SwitchType = "800", SwitchBit = "1611"};
+        public static readonly Switch Switch_89200268 = new Switch { SwitchId = "89200268", SwitchType = "800", SwitchBit = "1612"};
+        public static readonly Switch Switch_89200269 = new Switch { SwitchId = "89200269", SwitchType = "800", SwitchBit = "1613"};
+        public static readonly Switch Switch_89200270 = new Switch { SwitchId = "89200270", SwitchType = "800", SwitchBit = "1614"};
+        public static readonly Switch Switch_89200271 = new Switch { SwitchId = "89200271", SwitchType = "800", SwitchBit = "1615"};
+        public static readonly Switch Switch_89200272 = new Switch { SwitchId = "89200272", SwitchType = "800", SwitchBit = "1616"};
+        public static readonly Switch Switch_89200273 = new Switch { SwitchId = "89200273", SwitchType = "800", SwitchBit = "1617"};
+        public static readonly Switch Switch_89200274 = new Switch { SwitchId = "89200274", SwitchType = "800", SwitchBit = "1618"};
+        public static readonly Switch Switch_89200275 = new Switch { SwitchId = "89200275", SwitchType = "800", SwitchBit = "1619"};
+        public static readonly Switch Switch_89200276 = new Switch { SwitchId = "89200276", SwitchType = "800", SwitchBit = "1620"};
+        public static readonly Switch Switch_89200277 = new Switch { SwitchId = "89200277", SwitchType = "800", SwitchBit = "1621"};
+        public static readonly Switch Switch_89200278 = new Switch { SwitchId = "89200278", SwitchType = "800", SwitchBit = "1622"};
+        public static readonly Switch Switch_89200279 = new Switch { SwitchId = "89200279", SwitchType = "800", SwitchBit = "1623"};
+        public static readonly Switch Switch_89200280 = new Switch { SwitchId = "89200280", SwitchType = "800", SwitchBit = "1624"};
+        public static readonly Switch Switch_89200281 = new Switch { SwitchId = "89200281", SwitchType = "800", SwitchBit = "1625"};
+        public static readonly Switch Switch_89200282 = new Switch { SwitchId = "89200282", SwitchType = "800", SwitchBit = "1626"};
+        public static readonly Switch Switch_89200283 = new Switch { SwitchId = "89200283", SwitchType = "800", SwitchBit = "1645"};
+        public static readonly Switch Switch_89200284 = new Switch { SwitchId = "89200284", SwitchType = "800", SwitchBit = "1646"};
+        public static readonly Switch Switch_89200285 = new Switch { SwitchId = "89200285", SwitchType = "800", SwitchBit = "1647"};
+        public static readonly Switch Switch_89200286 = new Switch { SwitchId = "89200286", SwitchType = "800", SwitchBit = "1648"};
+        public static readonly Switch Switch_89200287 = new Switch { SwitchId = "89200287", SwitchType = "800", SwitchBit = "1649"};
+        public static readonly Switch Switch_89200288 = new Switch { SwitchId = "89200288", SwitchType = "800", SwitchBit = "1650"};
+        public static readonly Switch Switch_89200289 = new Switch { SwitchId = "89200289", SwitchType = "800", SwitchBit = "1662"};
+        public static readonly Switch Switch_89200290 = new Switch { SwitchId = "89200290", SwitchType = "800", SwitchBit = "1663"};
+        public static readonly Switch Switch_89200291 = new Switch { SwitchId = "89200291", SwitchType = "800", SwitchBit = "1664"};
+        public static readonly Switch Switch_89200292 = new Switch { SwitchId = "89200292", SwitchType = "800", SwitchBit = "1665"};
+        public static readonly Switch Switch_89200293 = new Switch { SwitchId = "89200293", SwitchType = "800", SwitchBit = "1666"};
+        public static readonly Switch Switch_89200294 = new Switch { SwitchId = "89200294", SwitchType = "800", SwitchBit = "1667"};
+        public static readonly Switch Switch_89200295 = new Switch { SwitchId = "89200295", SwitchType = "800", SwitchBit = "1668"};
+        public static readonly Switch Switch_89200296 = new Switch { SwitchId = "89200296", SwitchType = "800", SwitchBit = "1669"};
+        public static readonly Switch Switch_89200297 = new Switch { SwitchId = "89200297", SwitchType = "800", SwitchBit = "1670"};
+        public static readonly Switch Switch_89200298 = new Switch { SwitchId = "89200298", SwitchType = "800", SwitchBit = "1671"};
+        public static readonly Switch Switch_89200299 = new Switch { SwitchId = "89200299", SwitchType = "800", SwitchBit = "1672"};
+        public static readonly Switch Switch_89200300 = new Switch { SwitchId = "89200300", SwitchType = "800", SwitchBit = "1673"};
+        public static readonly Switch Switch_89200301 = new Switch { SwitchId = "89200301", SwitchType = "800", SwitchBit = "1674"};
+        public static readonly Switch Switch_89200302 = new Switch { SwitchId = "89200302", SwitchType = "800", SwitchBit = "1675"};
+        public static readonly Switch Switch_89200303 = new Switch { SwitchId = "89200303", SwitchType = "800", SwitchBit = "1676"};
+        public static readonly Switch Switch_89200304 = new Switch { SwitchId = "89200304", SwitchType = "800", SwitchBit = "1677"};
+        public static readonly Switch Switch_89200305 = new Switch { SwitchId = "89200305", SwitchType = "800", SwitchBit = "1678"};
+        public static readonly Switch Switch_89200306 = new Switch { SwitchId = "89200306", SwitchType = "800", SwitchBit = "1679"};
+        public static readonly Switch Switch_89200307 = new Switch { SwitchId = "89200307", SwitchType = "800", SwitchBit = "1680"};
+        public static readonly Switch Switch_89200308 = new Switch { SwitchId = "89200308", SwitchType = "800", SwitchBit = "1681"};
+        public static readonly Switch Switch_89200309 = new Switch { SwitchId = "89200309", SwitchType = "800", SwitchBit = "1682"};
+        public static readonly Switch Switch_89200310 = new Switch { SwitchId = "89200310", SwitchType = "800", SwitchBit = "1683"};
+        public static readonly Switch Switch_89200311 = new Switch { SwitchId = "89200311", SwitchType = "800", SwitchBit = "1684"};
+        public static readonly Switch Switch_89200312 = new Switch { SwitchId = "89200312", SwitchType = "800", SwitchBit = "1685"};
+        public static readonly Switch Switch_89200313 = new Switch { SwitchId = "89200313", SwitchType = "800", SwitchBit = "1697"};
+        public static readonly Switch Switch_89200314 = new Switch { SwitchId = "89200314", SwitchType = "800", SwitchBit = "1698"};
+        public static readonly Switch Switch_89200315 = new Switch { SwitchId = "89200315", SwitchType = "800", SwitchBit = "1699"};
+        public static readonly Switch Switch_89200316 = new Switch { SwitchId = "89200316", SwitchType = "800", SwitchBit = "1700"};
+        public static readonly Switch Switch_89200317 = new Switch { SwitchId = "89200317", SwitchType = "800", SwitchBit = "1701"};
+        public static readonly Switch Switch_89200318 = new Switch { SwitchId = "89200318", SwitchType = "800", SwitchBit = "1702"};
+        public static readonly Switch Switch_89200319 = new Switch { SwitchId = "89200319", SwitchType = "800", SwitchBit = "1703"};
+        public static readonly Switch Switch_89200320 = new Switch { SwitchId = "89200320", SwitchType = "800", SwitchBit = "1704"};
+        public static readonly Switch Switch_89200321 = new Switch { SwitchId = "89200321", SwitchType = "800", SwitchBit = "1705"};
+        public static readonly Switch Switch_89200322 = new Switch { SwitchId = "89200322", SwitchType = "800", SwitchBit = "1706"};
+        public static readonly Switch Switch_89200323 = new Switch { SwitchId = "89200323", SwitchType = "800", SwitchBit = "1707"};
         public static readonly Switch Switch_90000000 = new Switch { SwitchId = "90000000", SwitchType = "900", SwitchBit = "0"};
         public static readonly Switch Switch_90000010 = new Switch { SwitchId = "90000010", SwitchType = "101", SwitchBit = "9005"};
         public static readonly Switch Switch_90000011 = new Switch { SwitchId = "90000011", SwitchType = "103", SwitchBit = "9006"};
@@ -16425,6 +18198,12 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_90002216 = new Switch { SwitchId = "90002216", SwitchType = "101", SwitchBit = "10285"};
         public static readonly Switch Switch_90002217 = new Switch { SwitchId = "90002217", SwitchType = "101", SwitchBit = "10286"};
         public static readonly Switch Switch_90002218 = new Switch { SwitchId = "90002218", SwitchType = "101", SwitchBit = "10287"};
+        public static readonly Switch Switch_90002219 = new Switch { SwitchId = "90002219", SwitchType = "710", SwitchBit = "10288"};
+        public static readonly Switch Switch_90002220 = new Switch { SwitchId = "90002220", SwitchType = "710", SwitchBit = "10289"};
+        public static readonly Switch Switch_90002221 = new Switch { SwitchId = "90002221", SwitchType = "710", SwitchBit = "10290"};
+        public static readonly Switch Switch_90002222 = new Switch { SwitchId = "90002222", SwitchType = "710", SwitchBit = "10291"};
+        public static readonly Switch Switch_90002223 = new Switch { SwitchId = "90002223", SwitchType = "710", SwitchBit = "10292"};
+        public static readonly Switch Switch_90002224 = new Switch { SwitchId = "90002224", SwitchType = "710", SwitchBit = "10293"};
         public static readonly Switch Switch_90002225 = new Switch { SwitchId = "90002225", SwitchType = "101", SwitchBit = "10294"};
         public static readonly Switch Switch_90002226 = new Switch { SwitchId = "90002226", SwitchType = "101", SwitchBit = "10295"};
         public static readonly Switch Switch_90002227 = new Switch { SwitchId = "90002227", SwitchType = "101", SwitchBit = "10296"};
@@ -16437,6 +18216,382 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_90002234 = new Switch { SwitchId = "90002234", SwitchType = "101", SwitchBit = "10303"};
         public static readonly Switch Switch_90002235 = new Switch { SwitchId = "90002235", SwitchType = "101", SwitchBit = "10304"};
         public static readonly Switch Switch_90002236 = new Switch { SwitchId = "90002236", SwitchType = "101", SwitchBit = "10305"};
+        public static readonly Switch Switch_90002237 = new Switch { SwitchId = "90002237", SwitchType = "101", SwitchBit = "10306"};
+        public static readonly Switch Switch_90002238 = new Switch { SwitchId = "90002238", SwitchType = "101", SwitchBit = "10307"};
+        public static readonly Switch Switch_90002239 = new Switch { SwitchId = "90002239", SwitchType = "101", SwitchBit = "10308"};
+        public static readonly Switch Switch_90002240 = new Switch { SwitchId = "90002240", SwitchType = "101", SwitchBit = "10309"};
+        public static readonly Switch Switch_90002241 = new Switch { SwitchId = "90002241", SwitchType = "101", SwitchBit = "10310"};
+        public static readonly Switch Switch_90002242 = new Switch { SwitchId = "90002242", SwitchType = "101", SwitchBit = "10311"};
+        public static readonly Switch Switch_90002243 = new Switch { SwitchId = "90002243", SwitchType = "101", SwitchBit = "10312"};
+        public static readonly Switch Switch_90002244 = new Switch { SwitchId = "90002244", SwitchType = "101", SwitchBit = "10313"};
+        public static readonly Switch Switch_90002245 = new Switch { SwitchId = "90002245", SwitchType = "101", SwitchBit = "10314"};
+        public static readonly Switch Switch_90002246 = new Switch { SwitchId = "90002246", SwitchType = "101", SwitchBit = "10315"};
+        public static readonly Switch Switch_90002247 = new Switch { SwitchId = "90002247", SwitchType = "101", SwitchBit = "10316"};
+        public static readonly Switch Switch_90002248 = new Switch { SwitchId = "90002248", SwitchType = "101", SwitchBit = "10317"};
+        public static readonly Switch Switch_90002249 = new Switch { SwitchId = "90002249", SwitchType = "101", SwitchBit = "10318"};
+        public static readonly Switch Switch_90002250 = new Switch { SwitchId = "90002250", SwitchType = "101", SwitchBit = "10319"};
+        public static readonly Switch Switch_90002251 = new Switch { SwitchId = "90002251", SwitchType = "101", SwitchBit = "10320"};
+        public static readonly Switch Switch_90002252 = new Switch { SwitchId = "90002252", SwitchType = "101", SwitchBit = "10321"};
+        public static readonly Switch Switch_90002253 = new Switch { SwitchId = "90002253", SwitchType = "101", SwitchBit = "10322"};
+        public static readonly Switch Switch_90002254 = new Switch { SwitchId = "90002254", SwitchType = "101", SwitchBit = "10323"};
+        public static readonly Switch Switch_90002255 = new Switch { SwitchId = "90002255", SwitchType = "101", SwitchBit = "10324"};
+        public static readonly Switch Switch_90002256 = new Switch { SwitchId = "90002256", SwitchType = "101", SwitchBit = "10325"};
+        public static readonly Switch Switch_90002257 = new Switch { SwitchId = "90002257", SwitchType = "101", SwitchBit = "10326"};
+        public static readonly Switch Switch_90002258 = new Switch { SwitchId = "90002258", SwitchType = "101", SwitchBit = "10327"};
+        public static readonly Switch Switch_90002259 = new Switch { SwitchId = "90002259", SwitchType = "101", SwitchBit = "10328"};
+        public static readonly Switch Switch_90002260 = new Switch { SwitchId = "90002260", SwitchType = "101", SwitchBit = "10329"};
+        public static readonly Switch Switch_90002261 = new Switch { SwitchId = "90002261", SwitchType = "101", SwitchBit = "10330"};
+        public static readonly Switch Switch_90002262 = new Switch { SwitchId = "90002262", SwitchType = "101", SwitchBit = "10331"};
+        public static readonly Switch Switch_90002263 = new Switch { SwitchId = "90002263", SwitchType = "101", SwitchBit = "10332"};
+        public static readonly Switch Switch_90002264 = new Switch { SwitchId = "90002264", SwitchType = "101", SwitchBit = "10333"};
+        public static readonly Switch Switch_90002265 = new Switch { SwitchId = "90002265", SwitchType = "101", SwitchBit = "10334"};
+        public static readonly Switch Switch_90002266 = new Switch { SwitchId = "90002266", SwitchType = "101", SwitchBit = "10335"};
+        public static readonly Switch Switch_90002267 = new Switch { SwitchId = "90002267", SwitchType = "101", SwitchBit = "10336"};
+        public static readonly Switch Switch_90002268 = new Switch { SwitchId = "90002268", SwitchType = "101", SwitchBit = "10337"};
+        public static readonly Switch Switch_90002269 = new Switch { SwitchId = "90002269", SwitchType = "101", SwitchBit = "10338"};
+        public static readonly Switch Switch_90002270 = new Switch { SwitchId = "90002270", SwitchType = "101", SwitchBit = "10339"};
+        public static readonly Switch Switch_90002271 = new Switch { SwitchId = "90002271", SwitchType = "101", SwitchBit = "10340"};
+        public static readonly Switch Switch_90002272 = new Switch { SwitchId = "90002272", SwitchType = "101", SwitchBit = "10341"};
+        public static readonly Switch Switch_90002273 = new Switch { SwitchId = "90002273", SwitchType = "101", SwitchBit = "10342"};
+        public static readonly Switch Switch_90002274 = new Switch { SwitchId = "90002274", SwitchType = "101", SwitchBit = "10343"};
+        public static readonly Switch Switch_90002275 = new Switch { SwitchId = "90002275", SwitchType = "101", SwitchBit = "10344"};
+        public static readonly Switch Switch_90002276 = new Switch { SwitchId = "90002276", SwitchType = "101", SwitchBit = "10345"};
+        public static readonly Switch Switch_90002277 = new Switch { SwitchId = "90002277", SwitchType = "101", SwitchBit = "10346"};
+        public static readonly Switch Switch_90002278 = new Switch { SwitchId = "90002278", SwitchType = "101", SwitchBit = "10347"};
+        public static readonly Switch Switch_90002279 = new Switch { SwitchId = "90002279", SwitchType = "101", SwitchBit = "10348"};
+        public static readonly Switch Switch_90002280 = new Switch { SwitchId = "90002280", SwitchType = "101", SwitchBit = "10349"};
+        public static readonly Switch Switch_90002281 = new Switch { SwitchId = "90002281", SwitchType = "101", SwitchBit = "10355"};
+        public static readonly Switch Switch_90002282 = new Switch { SwitchId = "90002282", SwitchType = "101", SwitchBit = "10356"};
+        public static readonly Switch Switch_90002283 = new Switch { SwitchId = "90002283", SwitchType = "101", SwitchBit = "10357"};
+        public static readonly Switch Switch_90002284 = new Switch { SwitchId = "90002284", SwitchType = "101", SwitchBit = "10358"};
+        public static readonly Switch Switch_90002285 = new Switch { SwitchId = "90002285", SwitchType = "101", SwitchBit = "10359"};
+        public static readonly Switch Switch_90002286 = new Switch { SwitchId = "90002286", SwitchType = "101", SwitchBit = "10360"};
+        public static readonly Switch Switch_90002287 = new Switch { SwitchId = "90002287", SwitchType = "101", SwitchBit = "10361"};
+        public static readonly Switch Switch_90002288 = new Switch { SwitchId = "90002288", SwitchType = "101", SwitchBit = "10362"};
+        public static readonly Switch Switch_90002289 = new Switch { SwitchId = "90002289", SwitchType = "101", SwitchBit = "10363"};
+        public static readonly Switch Switch_90002290 = new Switch { SwitchId = "90002290", SwitchType = "101", SwitchBit = "10364"};
+        public static readonly Switch Switch_90002291 = new Switch { SwitchId = "90002291", SwitchType = "101", SwitchBit = "10365"};
+        public static readonly Switch Switch_90002292 = new Switch { SwitchId = "90002292", SwitchType = "101", SwitchBit = "10366"};
+        public static readonly Switch Switch_90002293 = new Switch { SwitchId = "90002293", SwitchType = "101", SwitchBit = "10367"};
+        public static readonly Switch Switch_90002294 = new Switch { SwitchId = "90002294", SwitchType = "101", SwitchBit = "10368"};
+        public static readonly Switch Switch_90002295 = new Switch { SwitchId = "90002295", SwitchType = "101", SwitchBit = "10369"};
+        public static readonly Switch Switch_90002296 = new Switch { SwitchId = "90002296", SwitchType = "101", SwitchBit = "10370"};
+        public static readonly Switch Switch_90002297 = new Switch { SwitchId = "90002297", SwitchType = "101", SwitchBit = "10371"};
+        public static readonly Switch Switch_90002298 = new Switch { SwitchId = "90002298", SwitchType = "101", SwitchBit = "10372"};
+        public static readonly Switch Switch_90002299 = new Switch { SwitchId = "90002299", SwitchType = "710", SwitchBit = "10373"};
+        public static readonly Switch Switch_90002300 = new Switch { SwitchId = "90002300", SwitchType = "710", SwitchBit = "10374"};
+        public static readonly Switch Switch_90002301 = new Switch { SwitchId = "90002301", SwitchType = "710", SwitchBit = "10375"};
+        public static readonly Switch Switch_90002302 = new Switch { SwitchId = "90002302", SwitchType = "710", SwitchBit = "10376"};
+        public static readonly Switch Switch_90002303 = new Switch { SwitchId = "90002303", SwitchType = "710", SwitchBit = "10377"};
+        public static readonly Switch Switch_90002304 = new Switch { SwitchId = "90002304", SwitchType = "710", SwitchBit = "10378"};
+        public static readonly Switch Switch_90002305 = new Switch { SwitchId = "90002305", SwitchType = "101", SwitchBit = "10379"};
+        public static readonly Switch Switch_90002306 = new Switch { SwitchId = "90002306", SwitchType = "101", SwitchBit = "10380"};
+        public static readonly Switch Switch_90002307 = new Switch { SwitchId = "90002307", SwitchType = "101", SwitchBit = "10381"};
+        public static readonly Switch Switch_90002308 = new Switch { SwitchId = "90002308", SwitchType = "101", SwitchBit = "10382"};
+        public static readonly Switch Switch_90002309 = new Switch { SwitchId = "90002309", SwitchType = "101", SwitchBit = "10383"};
+        public static readonly Switch Switch_90002310 = new Switch { SwitchId = "90002310", SwitchType = "101", SwitchBit = "10384"};
+        public static readonly Switch Switch_90002311 = new Switch { SwitchId = "90002311", SwitchType = "101", SwitchBit = "10385"};
+        public static readonly Switch Switch_90002312 = new Switch { SwitchId = "90002312", SwitchType = "101", SwitchBit = "10386"};
+        public static readonly Switch Switch_90002313 = new Switch { SwitchId = "90002313", SwitchType = "101", SwitchBit = "10387"};
+        public static readonly Switch Switch_90002314 = new Switch { SwitchId = "90002314", SwitchType = "10", SwitchBit = "10388"};
+        public static readonly Switch Switch_90002315 = new Switch { SwitchId = "90002315", SwitchType = "101", SwitchBit = "10389"};
+        public static readonly Switch Switch_90002316 = new Switch { SwitchId = "90002316", SwitchType = "101", SwitchBit = "10390"};
+        public static readonly Switch Switch_90002317 = new Switch { SwitchId = "90002317", SwitchType = "101", SwitchBit = "10391"};
+        public static readonly Switch Switch_90002318 = new Switch { SwitchId = "90002318", SwitchType = "101", SwitchBit = "10392"};
+        public static readonly Switch Switch_90002319 = new Switch { SwitchId = "90002319", SwitchType = "101", SwitchBit = "10393"};
+        public static readonly Switch Switch_90002320 = new Switch { SwitchId = "90002320", SwitchType = "101", SwitchBit = "10394"};
+        public static readonly Switch Switch_90002322 = new Switch { SwitchId = "90002322", SwitchType = "710", SwitchBit = "10400"};
+        public static readonly Switch Switch_90002323 = new Switch { SwitchId = "90002323", SwitchType = "710", SwitchBit = "10401"};
+        public static readonly Switch Switch_90002324 = new Switch { SwitchId = "90002324", SwitchType = "710", SwitchBit = "10402"};
+        public static readonly Switch Switch_90002325 = new Switch { SwitchId = "90002325", SwitchType = "710", SwitchBit = "10403"};
+        public static readonly Switch Switch_90002326 = new Switch { SwitchId = "90002326", SwitchType = "101", SwitchBit = "10404"};
+        public static readonly Switch Switch_90002327 = new Switch { SwitchId = "90002327", SwitchType = "101", SwitchBit = "10405"};
+        public static readonly Switch Switch_90002328 = new Switch { SwitchId = "90002328", SwitchType = "101", SwitchBit = "10406"};
+        public static readonly Switch Switch_90002330 = new Switch { SwitchId = "90002330", SwitchType = "101", SwitchBit = "10408"};
+        public static readonly Switch Switch_90002331 = new Switch { SwitchId = "90002331", SwitchType = "10", SwitchBit = "10409"};
+        public static readonly Switch Switch_90002332 = new Switch { SwitchId = "90002332", SwitchType = "10", SwitchBit = "10410"};
+        public static readonly Switch Switch_90002333 = new Switch { SwitchId = "90002333", SwitchType = "10", SwitchBit = "10411"};
+        public static readonly Switch Switch_90002334 = new Switch { SwitchId = "90002334", SwitchType = "10", SwitchBit = "10412"};
+        public static readonly Switch Switch_90002335 = new Switch { SwitchId = "90002335", SwitchType = "101", SwitchBit = "10413"};
+        public static readonly Switch Switch_90002336 = new Switch { SwitchId = "90002336", SwitchType = "101", SwitchBit = "10414"};
+        public static readonly Switch Switch_90002337 = new Switch { SwitchId = "90002337", SwitchType = "101", SwitchBit = "10415"};
+        public static readonly Switch Switch_90002338 = new Switch { SwitchId = "90002338", SwitchType = "101", SwitchBit = "10416"};
+        public static readonly Switch Switch_90002339 = new Switch { SwitchId = "90002339", SwitchType = "101", SwitchBit = "10417"};
+        public static readonly Switch Switch_90002340 = new Switch { SwitchId = "90002340", SwitchType = "101", SwitchBit = "10418"};
+        public static readonly Switch Switch_90002341 = new Switch { SwitchId = "90002341", SwitchType = "101", SwitchBit = "10419"};
+        public static readonly Switch Switch_90002342 = new Switch { SwitchId = "90002342", SwitchType = "101", SwitchBit = "10420"};
+        public static readonly Switch Switch_90002343 = new Switch { SwitchId = "90002343", SwitchType = "101", SwitchBit = "10421"};
+        public static readonly Switch Switch_90002344 = new Switch { SwitchId = "90002344", SwitchType = "101", SwitchBit = "10422"};
+        public static readonly Switch Switch_90002345 = new Switch { SwitchId = "90002345", SwitchType = "101", SwitchBit = "10423"};
+        public static readonly Switch Switch_90002346 = new Switch { SwitchId = "90002346", SwitchType = "101", SwitchBit = "10424"};
+        public static readonly Switch Switch_90002347 = new Switch { SwitchId = "90002347", SwitchType = "101", SwitchBit = "10425"};
+        public static readonly Switch Switch_90002348 = new Switch { SwitchId = "90002348", SwitchType = "710", SwitchBit = "10426"};
+        public static readonly Switch Switch_90002349 = new Switch { SwitchId = "90002349", SwitchType = "710", SwitchBit = "10427"};
+        public static readonly Switch Switch_90002350 = new Switch { SwitchId = "90002350", SwitchType = "710", SwitchBit = "10428"};
+        public static readonly Switch Switch_90002351 = new Switch { SwitchId = "90002351", SwitchType = "710", SwitchBit = "10429"};
+        public static readonly Switch Switch_90002352 = new Switch { SwitchId = "90002352", SwitchType = "101", SwitchBit = "10430"};
+        public static readonly Switch Switch_90002353 = new Switch { SwitchId = "90002353", SwitchType = "101", SwitchBit = "10431"};
+        public static readonly Switch Switch_90002354 = new Switch { SwitchId = "90002354", SwitchType = "101", SwitchBit = "10432"};
+        public static readonly Switch Switch_90002355 = new Switch { SwitchId = "90002355", SwitchType = "101", SwitchBit = "10433"};
+        public static readonly Switch Switch_90002356 = new Switch { SwitchId = "90002356", SwitchType = "101", SwitchBit = "10434"};
+        public static readonly Switch Switch_90002357 = new Switch { SwitchId = "90002357", SwitchType = "101", SwitchBit = "10435"};
+        public static readonly Switch Switch_90002358 = new Switch { SwitchId = "90002358", SwitchType = "101", SwitchBit = "10436"};
+        public static readonly Switch Switch_90002359 = new Switch { SwitchId = "90002359", SwitchType = "101", SwitchBit = "10437"};
+        public static readonly Switch Switch_90002360 = new Switch { SwitchId = "90002360", SwitchType = "101", SwitchBit = "10438"};
+        public static readonly Switch Switch_90002361 = new Switch { SwitchId = "90002361", SwitchType = "101", SwitchBit = "10439"};
+        public static readonly Switch Switch_90002362 = new Switch { SwitchId = "90002362", SwitchType = "101", SwitchBit = "10440"};
+        public static readonly Switch Switch_90002363 = new Switch { SwitchId = "90002363", SwitchType = "101", SwitchBit = "10441"};
+        public static readonly Switch Switch_90002364 = new Switch { SwitchId = "90002364", SwitchType = "101", SwitchBit = "10442"};
+        public static readonly Switch Switch_90002365 = new Switch { SwitchId = "90002365", SwitchType = "101", SwitchBit = "10443"};
+        public static readonly Switch Switch_90002366 = new Switch { SwitchId = "90002366", SwitchType = "101", SwitchBit = "10444"};
+        public static readonly Switch Switch_90002367 = new Switch { SwitchId = "90002367", SwitchType = "101", SwitchBit = "10445"};
+        public static readonly Switch Switch_90002368 = new Switch { SwitchId = "90002368", SwitchType = "101", SwitchBit = "10446"};
+        public static readonly Switch Switch_90002369 = new Switch { SwitchId = "90002369", SwitchType = "101", SwitchBit = "10447"};
+        public static readonly Switch Switch_90002370 = new Switch { SwitchId = "90002370", SwitchType = "101", SwitchBit = "10448"};
+        public static readonly Switch Switch_90002371 = new Switch { SwitchId = "90002371", SwitchType = "101", SwitchBit = "10449"};
+        public static readonly Switch Switch_90002372 = new Switch { SwitchId = "90002372", SwitchType = "101", SwitchBit = "10450"};
+        public static readonly Switch Switch_90002373 = new Switch { SwitchId = "90002373", SwitchType = "101", SwitchBit = "10451"};
+        public static readonly Switch Switch_90002374 = new Switch { SwitchId = "90002374", SwitchType = "710", SwitchBit = "10452"};
+        public static readonly Switch Switch_90002375 = new Switch { SwitchId = "90002375", SwitchType = "710", SwitchBit = "10453"};
+        public static readonly Switch Switch_90002376 = new Switch { SwitchId = "90002376", SwitchType = "710", SwitchBit = "10454"};
+        public static readonly Switch Switch_90002377 = new Switch { SwitchId = "90002377", SwitchType = "710", SwitchBit = "10455"};
+        public static readonly Switch Switch_90002378 = new Switch { SwitchId = "90002378", SwitchType = "101", SwitchBit = "10456"};
+        public static readonly Switch Switch_90002379 = new Switch { SwitchId = "90002379", SwitchType = "101", SwitchBit = "10457"};
+        public static readonly Switch Switch_90002380 = new Switch { SwitchId = "90002380", SwitchType = "101", SwitchBit = "10458"};
+        public static readonly Switch Switch_90002381 = new Switch { SwitchId = "90002381", SwitchType = "101", SwitchBit = "10459"};
+        public static readonly Switch Switch_90002382 = new Switch { SwitchId = "90002382", SwitchType = "101", SwitchBit = "10460"};
+        public static readonly Switch Switch_90002383 = new Switch { SwitchId = "90002383", SwitchType = "101", SwitchBit = "10461"};
+        public static readonly Switch Switch_90002384 = new Switch { SwitchId = "90002384", SwitchType = "101", SwitchBit = "10462"};
+        public static readonly Switch Switch_90002385 = new Switch { SwitchId = "90002385", SwitchType = "101", SwitchBit = "10463"};
+        public static readonly Switch Switch_90002386 = new Switch { SwitchId = "90002386", SwitchType = "101", SwitchBit = "10464"};
+        public static readonly Switch Switch_90002387 = new Switch { SwitchId = "90002387", SwitchType = "101", SwitchBit = "10465"};
+        public static readonly Switch Switch_90002388 = new Switch { SwitchId = "90002388", SwitchType = "101", SwitchBit = "10466"};
+        public static readonly Switch Switch_90002389 = new Switch { SwitchId = "90002389", SwitchType = "101", SwitchBit = "10467"};
+        public static readonly Switch Switch_90002390 = new Switch { SwitchId = "90002390", SwitchType = "101", SwitchBit = "10468"};
+        public static readonly Switch Switch_90002391 = new Switch { SwitchId = "90002391", SwitchType = "710", SwitchBit = "10469"};
+        public static readonly Switch Switch_90002392 = new Switch { SwitchId = "90002392", SwitchType = "710", SwitchBit = "10470"};
+        public static readonly Switch Switch_90002393 = new Switch { SwitchId = "90002393", SwitchType = "710", SwitchBit = "10471"};
+        public static readonly Switch Switch_90002394 = new Switch { SwitchId = "90002394", SwitchType = "710", SwitchBit = "10472"};
+        public static readonly Switch Switch_90002395 = new Switch { SwitchId = "90002395", SwitchType = "710", SwitchBit = "10473"};
+        public static readonly Switch Switch_90002396 = new Switch { SwitchId = "90002396", SwitchType = "710", SwitchBit = "10474"};
+        public static readonly Switch Switch_90002397 = new Switch { SwitchId = "90002397", SwitchType = "710", SwitchBit = "10475"};
+        public static readonly Switch Switch_90002398 = new Switch { SwitchId = "90002398", SwitchType = "710", SwitchBit = "10476"};
+        public static readonly Switch Switch_90002399 = new Switch { SwitchId = "90002399", SwitchType = "710", SwitchBit = "10477"};
+        public static readonly Switch Switch_90002400 = new Switch { SwitchId = "90002400", SwitchType = "710", SwitchBit = "10478"};
+        public static readonly Switch Switch_90002401 = new Switch { SwitchId = "90002401", SwitchType = "710", SwitchBit = "10479"};
+        public static readonly Switch Switch_90002402 = new Switch { SwitchId = "90002402", SwitchType = "710", SwitchBit = "10480"};
+        public static readonly Switch Switch_90002403 = new Switch { SwitchId = "90002403", SwitchType = "710", SwitchBit = "10481"};
+        public static readonly Switch Switch_90002404 = new Switch { SwitchId = "90002404", SwitchType = "710", SwitchBit = "10482"};
+        public static readonly Switch Switch_90002405 = new Switch { SwitchId = "90002405", SwitchType = "710", SwitchBit = "10483"};
+        public static readonly Switch Switch_90002406 = new Switch { SwitchId = "90002406", SwitchType = "710", SwitchBit = "10484"};
+        public static readonly Switch Switch_90002407 = new Switch { SwitchId = "90002407", SwitchType = "710", SwitchBit = "10485"};
+        public static readonly Switch Switch_90002408 = new Switch { SwitchId = "90002408", SwitchType = "710", SwitchBit = "10486"};
+        public static readonly Switch Switch_90002409 = new Switch { SwitchId = "90002409", SwitchType = "710", SwitchBit = "10487"};
+        public static readonly Switch Switch_90002410 = new Switch { SwitchId = "90002410", SwitchType = "710", SwitchBit = "10488"};
+        public static readonly Switch Switch_90002411 = new Switch { SwitchId = "90002411", SwitchType = "710", SwitchBit = "10489"};
+        public static readonly Switch Switch_90002412 = new Switch { SwitchId = "90002412", SwitchType = "710", SwitchBit = "10490"};
+        public static readonly Switch Switch_90002413 = new Switch { SwitchId = "90002413", SwitchType = "710", SwitchBit = "10491"};
+        public static readonly Switch Switch_90002414 = new Switch { SwitchId = "90002414", SwitchType = "710", SwitchBit = "10492"};
+        public static readonly Switch Switch_90002415 = new Switch { SwitchId = "90002415", SwitchType = "710", SwitchBit = "10493"};
+        public static readonly Switch Switch_90002416 = new Switch { SwitchId = "90002416", SwitchType = "710", SwitchBit = "10494"};
+        public static readonly Switch Switch_90002417 = new Switch { SwitchId = "90002417", SwitchType = "101", SwitchBit = "10495"};
+        public static readonly Switch Switch_90002418 = new Switch { SwitchId = "90002418", SwitchType = "101", SwitchBit = "10496"};
+        public static readonly Switch Switch_90002419 = new Switch { SwitchId = "90002419", SwitchType = "101", SwitchBit = "10497"};
+        public static readonly Switch Switch_90002420 = new Switch { SwitchId = "90002420", SwitchType = "101", SwitchBit = "10498"};
+        public static readonly Switch Switch_90002421 = new Switch { SwitchId = "90002421", SwitchType = "101", SwitchBit = "10499"};
+        public static readonly Switch Switch_90002422 = new Switch { SwitchId = "90002422", SwitchType = "101", SwitchBit = "10500"};
+        public static readonly Switch Switch_90002423 = new Switch { SwitchId = "90002423", SwitchType = "101", SwitchBit = "10501"};
+        public static readonly Switch Switch_90002424 = new Switch { SwitchId = "90002424", SwitchType = "101", SwitchBit = "10502"};
+        public static readonly Switch Switch_90002425 = new Switch { SwitchId = "90002425", SwitchType = "101", SwitchBit = "10503"};
+        public static readonly Switch Switch_90002426 = new Switch { SwitchId = "90002426", SwitchType = "101", SwitchBit = "10504"};
+        public static readonly Switch Switch_90002427 = new Switch { SwitchId = "90002427", SwitchType = "101", SwitchBit = "10505"};
+        public static readonly Switch Switch_90002428 = new Switch { SwitchId = "90002428", SwitchType = "101", SwitchBit = "10506"};
+        public static readonly Switch Switch_90002429 = new Switch { SwitchId = "90002429", SwitchType = "101", SwitchBit = "10507"};
+        public static readonly Switch Switch_90002430 = new Switch { SwitchId = "90002430", SwitchType = "101", SwitchBit = "10508"};
+        public static readonly Switch Switch_90002431 = new Switch { SwitchId = "90002431", SwitchType = "101", SwitchBit = "10509"};
+        public static readonly Switch Switch_90002432 = new Switch { SwitchId = "90002432", SwitchType = "101", SwitchBit = "10510"};
+        public static readonly Switch Switch_90002433 = new Switch { SwitchId = "90002433", SwitchType = "101", SwitchBit = "10511"};
+        public static readonly Switch Switch_90002434 = new Switch { SwitchId = "90002434", SwitchType = "101", SwitchBit = "10512"};
+        public static readonly Switch Switch_90002435 = new Switch { SwitchId = "90002435", SwitchType = "101", SwitchBit = "10513"};
+        public static readonly Switch Switch_90002436 = new Switch { SwitchId = "90002436", SwitchType = "101", SwitchBit = "10514"};
+        public static readonly Switch Switch_90002437 = new Switch { SwitchId = "90002437", SwitchType = "101", SwitchBit = "10515"};
+        public static readonly Switch Switch_90002438 = new Switch { SwitchId = "90002438", SwitchType = "101", SwitchBit = "10516"};
+        public static readonly Switch Switch_90002439 = new Switch { SwitchId = "90002439", SwitchType = "101", SwitchBit = "10517"};
+        public static readonly Switch Switch_90002440 = new Switch { SwitchId = "90002440", SwitchType = "101", SwitchBit = "10518"};
+        public static readonly Switch Switch_90002441 = new Switch { SwitchId = "90002441", SwitchType = "101", SwitchBit = "10519"};
+        public static readonly Switch Switch_90002442 = new Switch { SwitchId = "90002442", SwitchType = "101", SwitchBit = "10520"};
+        public static readonly Switch Switch_90002443 = new Switch { SwitchId = "90002443", SwitchType = "101", SwitchBit = "10521"};
+        public static readonly Switch Switch_90002444 = new Switch { SwitchId = "90002444", SwitchType = "101", SwitchBit = "10522"};
+        public static readonly Switch Switch_90002445 = new Switch { SwitchId = "90002445", SwitchType = "101", SwitchBit = "10523"};
+        public static readonly Switch Switch_90002446 = new Switch { SwitchId = "90002446", SwitchType = "10", SwitchBit = "10524"};
+        public static readonly Switch Switch_90002447 = new Switch { SwitchId = "90002447", SwitchType = "101", SwitchBit = "10525"};
+        public static readonly Switch Switch_90002448 = new Switch { SwitchId = "90002448", SwitchType = "101", SwitchBit = "10526"};
+        public static readonly Switch Switch_90002449 = new Switch { SwitchId = "90002449", SwitchType = "101", SwitchBit = "10527"};
+        public static readonly Switch Switch_90002450 = new Switch { SwitchId = "90002450", SwitchType = "101", SwitchBit = "10528"};
+        public static readonly Switch Switch_90002451 = new Switch { SwitchId = "90002451", SwitchType = "101", SwitchBit = "10529"};
+        public static readonly Switch Switch_90002452 = new Switch { SwitchId = "90002452", SwitchType = "101", SwitchBit = "10530"};
+        public static readonly Switch Switch_90002453 = new Switch { SwitchId = "90002453", SwitchType = "101", SwitchBit = "10531"};
+        public static readonly Switch Switch_90002454 = new Switch { SwitchId = "90002454", SwitchType = "101", SwitchBit = "10532"};
+        public static readonly Switch Switch_90002455 = new Switch { SwitchId = "90002455", SwitchType = "101", SwitchBit = "10533"};
+        public static readonly Switch Switch_90002456 = new Switch { SwitchId = "90002456", SwitchType = "101", SwitchBit = "10534"};
+        public static readonly Switch Switch_90002457 = new Switch { SwitchId = "90002457", SwitchType = "101", SwitchBit = "10464"};
+        public static readonly Switch Switch_90002458 = new Switch { SwitchId = "90002458", SwitchType = "101", SwitchBit = "10536"};
+        public static readonly Switch Switch_90002469 = new Switch { SwitchId = "90002469", SwitchType = "710", SwitchBit = "10547"};
+        public static readonly Switch Switch_90002470 = new Switch { SwitchId = "90002470", SwitchType = "101", SwitchBit = "10548"};
+        public static readonly Switch Switch_90002471 = new Switch { SwitchId = "90002471", SwitchType = "101", SwitchBit = "10549"};
+        public static readonly Switch Switch_90002472 = new Switch { SwitchId = "90002472", SwitchType = "101", SwitchBit = "10550"};
+        public static readonly Switch Switch_90002473 = new Switch { SwitchId = "90002473", SwitchType = "101", SwitchBit = "10551"};
+        public static readonly Switch Switch_90002474 = new Switch { SwitchId = "90002474", SwitchType = "101", SwitchBit = "10552"};
+        public static readonly Switch Switch_90002475 = new Switch { SwitchId = "90002475", SwitchType = "101", SwitchBit = "10553"};
+        public static readonly Switch Switch_90002476 = new Switch { SwitchId = "90002476", SwitchType = "101", SwitchBit = "10554"};
+        public static readonly Switch Switch_90002477 = new Switch { SwitchId = "90002477", SwitchType = "101", SwitchBit = "10555"};
+        public static readonly Switch Switch_90002478 = new Switch { SwitchId = "90002478", SwitchType = "101", SwitchBit = "10556"};
+        public static readonly Switch Switch_90002479 = new Switch { SwitchId = "90002479", SwitchType = "101", SwitchBit = "10557"};
+        public static readonly Switch Switch_90002480 = new Switch { SwitchId = "90002480", SwitchType = "101", SwitchBit = "10558"};
+        public static readonly Switch Switch_90002484 = new Switch { SwitchId = "90002484", SwitchType = "710", SwitchBit = "10562"};
+        public static readonly Switch Switch_90002485 = new Switch { SwitchId = "90002485", SwitchType = "710", SwitchBit = "10563"};
+        public static readonly Switch Switch_90002486 = new Switch { SwitchId = "90002486", SwitchType = "710", SwitchBit = "10564"};
+        public static readonly Switch Switch_90002487 = new Switch { SwitchId = "90002487", SwitchType = "710", SwitchBit = "10565"};
+        public static readonly Switch Switch_90002488 = new Switch { SwitchId = "90002488", SwitchType = "710", SwitchBit = "10566"};
+        public static readonly Switch Switch_90002489 = new Switch { SwitchId = "90002489", SwitchType = "710", SwitchBit = "10567"};
+        public static readonly Switch Switch_90002490 = new Switch { SwitchId = "90002490", SwitchType = "101", SwitchBit = "10568"};
+        public static readonly Switch Switch_90002491 = new Switch { SwitchId = "90002491", SwitchType = "101", SwitchBit = "10569"};
+        public static readonly Switch Switch_90002492 = new Switch { SwitchId = "90002492", SwitchType = "101", SwitchBit = "10570"};
+        public static readonly Switch Switch_90002493 = new Switch { SwitchId = "90002493", SwitchType = "101", SwitchBit = "10571"};
+        public static readonly Switch Switch_90002494 = new Switch { SwitchId = "90002494", SwitchType = "101", SwitchBit = "10572"};
+        public static readonly Switch Switch_90002495 = new Switch { SwitchId = "90002495", SwitchType = "101", SwitchBit = "10573"};
+        public static readonly Switch Switch_90002496 = new Switch { SwitchId = "90002496", SwitchType = "101", SwitchBit = "10574"};
+        public static readonly Switch Switch_90002497 = new Switch { SwitchId = "90002497", SwitchType = "101", SwitchBit = "10575"};
+        public static readonly Switch Switch_90002498 = new Switch { SwitchId = "90002498", SwitchType = "101", SwitchBit = "10576"};
+        public static readonly Switch Switch_90002499 = new Switch { SwitchId = "90002499", SwitchType = "101", SwitchBit = "10577"};
+        public static readonly Switch Switch_90002500 = new Switch { SwitchId = "90002500", SwitchType = "101", SwitchBit = "10578"};
+        public static readonly Switch Switch_90002501 = new Switch { SwitchId = "90002501", SwitchType = "710", SwitchBit = "10579"};
+        public static readonly Switch Switch_90002502 = new Switch { SwitchId = "90002502", SwitchType = "101", SwitchBit = "10580"};
+        public static readonly Switch Switch_90002503 = new Switch { SwitchId = "90002503", SwitchType = "101", SwitchBit = "10581"};
+        public static readonly Switch Switch_90002504 = new Switch { SwitchId = "90002504", SwitchType = "101", SwitchBit = "10582"};
+        public static readonly Switch Switch_90002505 = new Switch { SwitchId = "90002505", SwitchType = "101", SwitchBit = "10583"};
+        public static readonly Switch Switch_90002506 = new Switch { SwitchId = "90002506", SwitchType = "101", SwitchBit = "10584"};
+        public static readonly Switch Switch_90002507 = new Switch { SwitchId = "90002507", SwitchType = "101", SwitchBit = "10585"};
+        public static readonly Switch Switch_90002508 = new Switch { SwitchId = "90002508", SwitchType = "101", SwitchBit = "10586"};
+        public static readonly Switch Switch_90002509 = new Switch { SwitchId = "90002509", SwitchType = "101", SwitchBit = "10587"};
+        public static readonly Switch Switch_90002510 = new Switch { SwitchId = "90002510", SwitchType = "101", SwitchBit = "10588"};
+        public static readonly Switch Switch_90002511 = new Switch { SwitchId = "90002511", SwitchType = "101", SwitchBit = "10589"};
+        public static readonly Switch Switch_90002512 = new Switch { SwitchId = "90002512", SwitchType = "101", SwitchBit = "10590"};
+        public static readonly Switch Switch_90002513 = new Switch { SwitchId = "90002513", SwitchType = "101", SwitchBit = "10591"};
+        public static readonly Switch Switch_90002514 = new Switch { SwitchId = "90002514", SwitchType = "101", SwitchBit = "10592"};
+        public static readonly Switch Switch_90002515 = new Switch { SwitchId = "90002515", SwitchType = "101", SwitchBit = "10593"};
+        public static readonly Switch Switch_90002516 = new Switch { SwitchId = "90002516", SwitchType = "101", SwitchBit = "10594"};
+        public static readonly Switch Switch_90002517 = new Switch { SwitchId = "90002517", SwitchType = "101", SwitchBit = "10595"};
+        public static readonly Switch Switch_90002518 = new Switch { SwitchId = "90002518", SwitchType = "101", SwitchBit = "10596"};
+        public static readonly Switch Switch_90002519 = new Switch { SwitchId = "90002519", SwitchType = "101", SwitchBit = "10597"};
+        public static readonly Switch Switch_90002520 = new Switch { SwitchId = "90002520", SwitchType = "101", SwitchBit = "10598"};
+        public static readonly Switch Switch_90002521 = new Switch { SwitchId = "90002521", SwitchType = "101", SwitchBit = "10599"};
+        public static readonly Switch Switch_90002522 = new Switch { SwitchId = "90002522", SwitchType = "101", SwitchBit = "10600"};
+        public static readonly Switch Switch_90002523 = new Switch { SwitchId = "90002523", SwitchType = "101", SwitchBit = "10601"};
+        public static readonly Switch Switch_90002524 = new Switch { SwitchId = "90002524", SwitchType = "101", SwitchBit = "10602"};
+        public static readonly Switch Switch_90002525 = new Switch { SwitchId = "90002525", SwitchType = "101", SwitchBit = "10603"};
+        public static readonly Switch Switch_90002526 = new Switch { SwitchId = "90002526", SwitchType = "101", SwitchBit = "10604"};
+        public static readonly Switch Switch_90002527 = new Switch { SwitchId = "90002527", SwitchType = "101", SwitchBit = "10605"};
+        public static readonly Switch Switch_90002528 = new Switch { SwitchId = "90002528", SwitchType = "101", SwitchBit = "10606"};
+        public static readonly Switch Switch_90002529 = new Switch { SwitchId = "90002529", SwitchType = "101", SwitchBit = "10607"};
+        public static readonly Switch Switch_90002530 = new Switch { SwitchId = "90002530", SwitchType = "101", SwitchBit = "10608"};
+        public static readonly Switch Switch_90002531 = new Switch { SwitchId = "90002531", SwitchType = "101", SwitchBit = "10609"};
+        public static readonly Switch Switch_90002532 = new Switch { SwitchId = "90002532", SwitchType = "101", SwitchBit = "10610"};
+        public static readonly Switch Switch_90002533 = new Switch { SwitchId = "90002533", SwitchType = "101", SwitchBit = "10611"};
+        public static readonly Switch Switch_90002534 = new Switch { SwitchId = "90002534", SwitchType = "101", SwitchBit = "10612"};
+        public static readonly Switch Switch_90002535 = new Switch { SwitchId = "90002535", SwitchType = "101", SwitchBit = "10613"};
+        public static readonly Switch Switch_90002536 = new Switch { SwitchId = "90002536", SwitchType = "101", SwitchBit = "10614"};
+        public static readonly Switch Switch_90002537 = new Switch { SwitchId = "90002537", SwitchType = "101", SwitchBit = "10615"};
+        public static readonly Switch Switch_90002538 = new Switch { SwitchId = "90002538", SwitchType = "101", SwitchBit = "10616"};
+        public static readonly Switch Switch_90002539 = new Switch { SwitchId = "90002539", SwitchType = "101", SwitchBit = "10617"};
+        public static readonly Switch Switch_90002540 = new Switch { SwitchId = "90002540", SwitchType = "101", SwitchBit = "10618"};
+        public static readonly Switch Switch_90002541 = new Switch { SwitchId = "90002541", SwitchType = "101", SwitchBit = "10619"};
+        public static readonly Switch Switch_90002542 = new Switch { SwitchId = "90002542", SwitchType = "101", SwitchBit = "10620"};
+        public static readonly Switch Switch_90002543 = new Switch { SwitchId = "90002543", SwitchType = "101", SwitchBit = "10621"};
+        public static readonly Switch Switch_90002544 = new Switch { SwitchId = "90002544", SwitchType = "101", SwitchBit = "10622"};
+        public static readonly Switch Switch_90002545 = new Switch { SwitchId = "90002545", SwitchType = "101", SwitchBit = "10623"};
+        public static readonly Switch Switch_90002546 = new Switch { SwitchId = "90002546", SwitchType = "101", SwitchBit = "10624"};
+        public static readonly Switch Switch_90002547 = new Switch { SwitchId = "90002547", SwitchType = "101", SwitchBit = "10625"};
+        public static readonly Switch Switch_90002548 = new Switch { SwitchId = "90002548", SwitchType = "101", SwitchBit = "10626"};
+        public static readonly Switch Switch_90002549 = new Switch { SwitchId = "90002549", SwitchType = "101", SwitchBit = "10627"};
+        public static readonly Switch Switch_90002550 = new Switch { SwitchId = "90002550", SwitchType = "101", SwitchBit = "10628"};
+        public static readonly Switch Switch_90002551 = new Switch { SwitchId = "90002551", SwitchType = "101", SwitchBit = "10629"};
+        public static readonly Switch Switch_90002552 = new Switch { SwitchId = "90002552", SwitchType = "101", SwitchBit = "10630"};
+        public static readonly Switch Switch_90002553 = new Switch { SwitchId = "90002553", SwitchType = "101", SwitchBit = "10631"};
+        public static readonly Switch Switch_90002554 = new Switch { SwitchId = "90002554", SwitchType = "101", SwitchBit = "10632"};
+        public static readonly Switch Switch_90002555 = new Switch { SwitchId = "90002555", SwitchType = "101", SwitchBit = "10633"};
+        public static readonly Switch Switch_90002556 = new Switch { SwitchId = "90002556", SwitchType = "101", SwitchBit = "10634"};
+        public static readonly Switch Switch_90002557 = new Switch { SwitchId = "90002557", SwitchType = "101", SwitchBit = "10568"};
+        public static readonly Switch Switch_90002558 = new Switch { SwitchId = "90002558", SwitchType = "101", SwitchBit = "10569"};
+        public static readonly Switch Switch_90002559 = new Switch { SwitchId = "90002559", SwitchType = "101", SwitchBit = "10570"};
+        public static readonly Switch Switch_90002560 = new Switch { SwitchId = "90002560", SwitchType = "101", SwitchBit = "10571"};
+        public static readonly Switch Switch_90002561 = new Switch { SwitchId = "90002561", SwitchType = "101", SwitchBit = "10572"};
+        public static readonly Switch Switch_90002562 = new Switch { SwitchId = "90002562", SwitchType = "101", SwitchBit = "10573"};
+        public static readonly Switch Switch_90002563 = new Switch { SwitchId = "90002563", SwitchType = "101", SwitchBit = "10574"};
+        public static readonly Switch Switch_90002564 = new Switch { SwitchId = "90002564", SwitchType = "101", SwitchBit = "10575"};
+        public static readonly Switch Switch_90002565 = new Switch { SwitchId = "90002565", SwitchType = "101", SwitchBit = "10576"};
+        public static readonly Switch Switch_90002566 = new Switch { SwitchId = "90002566", SwitchType = "101", SwitchBit = "10577"};
+        public static readonly Switch Switch_90002574 = new Switch { SwitchId = "90002574", SwitchType = "710", SwitchBit = "10652"};
+        public static readonly Switch Switch_90002575 = new Switch { SwitchId = "90002575", SwitchType = "710", SwitchBit = "10653"};
+        public static readonly Switch Switch_90002576 = new Switch { SwitchId = "90002576", SwitchType = "710", SwitchBit = "10654"};
+        public static readonly Switch Switch_90002577 = new Switch { SwitchId = "90002577", SwitchType = "710", SwitchBit = "10655"};
+        public static readonly Switch Switch_90002578 = new Switch { SwitchId = "90002578", SwitchType = "710", SwitchBit = "10656"};
+        public static readonly Switch Switch_90002579 = new Switch { SwitchId = "90002579", SwitchType = "710", SwitchBit = "10657"};
+        public static readonly Switch Switch_90002580 = new Switch { SwitchId = "90002580", SwitchType = "710", SwitchBit = "10658"};
+        public static readonly Switch Switch_90002581 = new Switch { SwitchId = "90002581", SwitchType = "710", SwitchBit = "10659"};
+        public static readonly Switch Switch_90002582 = new Switch { SwitchId = "90002582", SwitchType = "710", SwitchBit = "10660"};
+        public static readonly Switch Switch_90002583 = new Switch { SwitchId = "90002583", SwitchType = "710", SwitchBit = "10661"};
+        public static readonly Switch Switch_90002584 = new Switch { SwitchId = "90002584", SwitchType = "710", SwitchBit = "10662"};
+        public static readonly Switch Switch_90002585 = new Switch { SwitchId = "90002585", SwitchType = "710", SwitchBit = "10663"};
+        public static readonly Switch Switch_90002586 = new Switch { SwitchId = "90002586", SwitchType = "710", SwitchBit = "10664"};
+        public static readonly Switch Switch_90002587 = new Switch { SwitchId = "90002587", SwitchType = "710", SwitchBit = "10665"};
+        public static readonly Switch Switch_90002588 = new Switch { SwitchId = "90002588", SwitchType = "710", SwitchBit = "10666"};
+        public static readonly Switch Switch_90002589 = new Switch { SwitchId = "90002589", SwitchType = "710", SwitchBit = "10667"};
+        public static readonly Switch Switch_90002590 = new Switch { SwitchId = "90002590", SwitchType = "710", SwitchBit = "10668"};
+        public static readonly Switch Switch_90002591 = new Switch { SwitchId = "90002591", SwitchType = "101", SwitchBit = "10669"};
+        public static readonly Switch Switch_90002592 = new Switch { SwitchId = "90002592", SwitchType = "101", SwitchBit = "10670"};
+        public static readonly Switch Switch_90002593 = new Switch { SwitchId = "90002593", SwitchType = "101", SwitchBit = "10671"};
+        public static readonly Switch Switch_90002594 = new Switch { SwitchId = "90002594", SwitchType = "101", SwitchBit = "10672"};
+        public static readonly Switch Switch_90002595 = new Switch { SwitchId = "90002595", SwitchType = "101", SwitchBit = "10673"};
+        public static readonly Switch Switch_90002596 = new Switch { SwitchId = "90002596", SwitchType = "101", SwitchBit = "10674"};
+        public static readonly Switch Switch_90002597 = new Switch { SwitchId = "90002597", SwitchType = "101", SwitchBit = "10675"};
+        public static readonly Switch Switch_90002598 = new Switch { SwitchId = "90002598", SwitchType = "101", SwitchBit = "10676"};
+        public static readonly Switch Switch_90002602 = new Switch { SwitchId = "90002602", SwitchType = "101", SwitchBit = "10680"};
+        public static readonly Switch Switch_90002603 = new Switch { SwitchId = "90002603", SwitchType = "101", SwitchBit = "10681"};
+        public static readonly Switch Switch_90002604 = new Switch { SwitchId = "90002604", SwitchType = "101", SwitchBit = "10682"};
+        public static readonly Switch Switch_90002605 = new Switch { SwitchId = "90002605", SwitchType = "101", SwitchBit = "10683"};
+        public static readonly Switch Switch_90002606 = new Switch { SwitchId = "90002606", SwitchType = "101", SwitchBit = "10684"};
+        public static readonly Switch Switch_90002607 = new Switch { SwitchId = "90002607", SwitchType = "101", SwitchBit = "10685"};
+        public static readonly Switch Switch_90002608 = new Switch { SwitchId = "90002608", SwitchType = "101", SwitchBit = "10686"};
+        public static readonly Switch Switch_90002609 = new Switch { SwitchId = "90002609", SwitchType = "101", SwitchBit = "10687"};
+        public static readonly Switch Switch_90002610 = new Switch { SwitchId = "90002610", SwitchType = "101", SwitchBit = "10688"};
+        public static readonly Switch Switch_90002611 = new Switch { SwitchId = "90002611", SwitchType = "101", SwitchBit = "10689"};
+        public static readonly Switch Switch_90002612 = new Switch { SwitchId = "90002612", SwitchType = "101", SwitchBit = "10690"};
+        public static readonly Switch Switch_90002613 = new Switch { SwitchId = "90002613", SwitchType = "101", SwitchBit = "10691"};
+        public static readonly Switch Switch_90002614 = new Switch { SwitchId = "90002614", SwitchType = "101", SwitchBit = "10692"};
+        public static readonly Switch Switch_90002615 = new Switch { SwitchId = "90002615", SwitchType = "101", SwitchBit = "10693"};
+        public static readonly Switch Switch_90002616 = new Switch { SwitchId = "90002616", SwitchType = "101", SwitchBit = "10694"};
+        public static readonly Switch Switch_90002617 = new Switch { SwitchId = "90002617", SwitchType = "101", SwitchBit = "10695"};
+        public static readonly Switch Switch_90002618 = new Switch { SwitchId = "90002618", SwitchType = "101", SwitchBit = "10696"};
+        public static readonly Switch Switch_90002619 = new Switch { SwitchId = "90002619", SwitchType = "101", SwitchBit = "10697"};
+        public static readonly Switch Switch_90002620 = new Switch { SwitchId = "90002620", SwitchType = "710", SwitchBit = "10698"};
+        public static readonly Switch Switch_90002621 = new Switch { SwitchId = "90002621", SwitchType = "710", SwitchBit = "10699"};
+        public static readonly Switch Switch_90002622 = new Switch { SwitchId = "90002622", SwitchType = "710", SwitchBit = "10700"};
+        public static readonly Switch Switch_90002623 = new Switch { SwitchId = "90002623", SwitchType = "101", SwitchBit = "10701"};
+        public static readonly Switch Switch_90002624 = new Switch { SwitchId = "90002624", SwitchType = "710", SwitchBit = "10702"};
+        public static readonly Switch Switch_90002628 = new Switch { SwitchId = "90002628", SwitchType = "101", SwitchBit = "10706"};
+        public static readonly Switch Switch_90002629 = new Switch { SwitchId = "90002629", SwitchType = "101", SwitchBit = "10707"};
+        public static readonly Switch Switch_90002630 = new Switch { SwitchId = "90002630", SwitchType = "101", SwitchBit = "10708"};
+        public static readonly Switch Switch_90002631 = new Switch { SwitchId = "90002631", SwitchType = "101", SwitchBit = "10709"};
+        public static readonly Switch Switch_90002632 = new Switch { SwitchId = "90002632", SwitchType = "101", SwitchBit = "10710"};
+        public static readonly Switch Switch_90002633 = new Switch { SwitchId = "90002633", SwitchType = "101", SwitchBit = "10711"};
+        public static readonly Switch Switch_90002634 = new Switch { SwitchId = "90002634", SwitchType = "101", SwitchBit = "10712"};
+        public static readonly Switch Switch_90002635 = new Switch { SwitchId = "90002635", SwitchType = "101", SwitchBit = "10713"};
+        public static readonly Switch Switch_90002636 = new Switch { SwitchId = "90002636", SwitchType = "101", SwitchBit = "10714"};
+        public static readonly Switch Switch_90002637 = new Switch { SwitchId = "90002637", SwitchType = "101", SwitchBit = "10715"};
+        public static readonly Switch Switch_90002638 = new Switch { SwitchId = "90002638", SwitchType = "101", SwitchBit = "10716"};
+        public static readonly Switch Switch_90002639 = new Switch { SwitchId = "90002639", SwitchType = "101", SwitchBit = "10717"};
+        public static readonly Switch Switch_90002693 = new Switch { SwitchId = "90002693", SwitchType = "101", SwitchBit = "10717"};
         public static readonly Switch Switch_90100000 = new Switch { SwitchId = "90100000", SwitchType = "710", SwitchBit = "5000"};
         public static readonly Switch Switch_90100001 = new Switch { SwitchId = "90100001", SwitchType = "710", SwitchBit = "5001"};
         public static readonly Switch Switch_90100002 = new Switch { SwitchId = "90100002", SwitchType = "710", SwitchBit = "5002"};
@@ -16538,6 +18693,20 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_91000016 = new Switch { SwitchId = "91000016", SwitchType = "10", SwitchBit = "20017"};
         public static readonly Switch Switch_91000017 = new Switch { SwitchId = "91000017", SwitchType = "10", SwitchBit = "20018"};
         public static readonly Switch Switch_91000018 = new Switch { SwitchId = "91000018", SwitchType = "10", SwitchBit = "20019"};
+        public static readonly Switch Switch_91000019 = new Switch { SwitchId = "91000019", SwitchType = "10", SwitchBit = "20020"};
+        public static readonly Switch Switch_91000020 = new Switch { SwitchId = "91000020", SwitchType = "10", SwitchBit = "20021"};
+        public static readonly Switch Switch_91000021 = new Switch { SwitchId = "91000021", SwitchType = "101", SwitchBit = "20022"};
+        public static readonly Switch Switch_91000022 = new Switch { SwitchId = "91000022", SwitchType = "101", SwitchBit = "20023"};
+        public static readonly Switch Switch_91000023 = new Switch { SwitchId = "91000023", SwitchType = "10", SwitchBit = "20024"};
+        public static readonly Switch Switch_91000024 = new Switch { SwitchId = "91000024", SwitchType = "10", SwitchBit = "20025"};
+        public static readonly Switch Switch_91000025 = new Switch { SwitchId = "91000025", SwitchType = "101", SwitchBit = "20026"};
+        public static readonly Switch Switch_91000026 = new Switch { SwitchId = "91000026", SwitchType = "101", SwitchBit = "20027"};
+        public static readonly Switch Switch_91000027 = new Switch { SwitchId = "91000027", SwitchType = "101", SwitchBit = "20028"};
+        public static readonly Switch Switch_91000028 = new Switch { SwitchId = "91000028", SwitchType = "101", SwitchBit = "20029"};
+        public static readonly Switch Switch_91000029 = new Switch { SwitchId = "91000029", SwitchType = "101", SwitchBit = "20030"};
+        public static readonly Switch Switch_91000030 = new Switch { SwitchId = "91000030", SwitchType = "101", SwitchBit = "20031"};
+        public static readonly Switch Switch_91000031 = new Switch { SwitchId = "91000031", SwitchType = "101", SwitchBit = "20032"};
+        public static readonly Switch Switch_91000032 = new Switch { SwitchId = "91000032", SwitchType = "101", SwitchBit = "20033"};
         public static readonly Switch Switch_92000011 = new Switch { SwitchId = "92000011", SwitchType = "101", SwitchBit = "6744"};
         public static readonly Switch Switch_92000012 = new Switch { SwitchId = "92000012", SwitchType = "101", SwitchBit = "6745"};
         public static readonly Switch Switch_92000013 = new Switch { SwitchId = "92000013", SwitchType = "101", SwitchBit = "6746"};
@@ -16556,6 +18725,36 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_92000026 = new Switch { SwitchId = "92000026", SwitchType = "101", SwitchBit = "6967"};
         public static readonly Switch Switch_92000027 = new Switch { SwitchId = "92000027", SwitchType = "101", SwitchBit = "6968"};
         public static readonly Switch Switch_92000028 = new Switch { SwitchId = "92000028", SwitchType = "101", SwitchBit = "6969"};
+        public static readonly Switch Switch_92000029 = new Switch { SwitchId = "92000029", SwitchType = "101", SwitchBit = "6970"};
+        public static readonly Switch Switch_92000030 = new Switch { SwitchId = "92000030", SwitchType = "101", SwitchBit = "6971"};
+        public static readonly Switch Switch_92000031 = new Switch { SwitchId = "92000031", SwitchType = "101", SwitchBit = "6972"};
+        public static readonly Switch Switch_92000032 = new Switch { SwitchId = "92000032", SwitchType = "101", SwitchBit = "6973"};
+        public static readonly Switch Switch_92000033 = new Switch { SwitchId = "92000033", SwitchType = "101", SwitchBit = "6974"};
+        public static readonly Switch Switch_92000034 = new Switch { SwitchId = "92000034", SwitchType = "101", SwitchBit = "6975"};
+        public static readonly Switch Switch_92000035 = new Switch { SwitchId = "92000035", SwitchType = "101", SwitchBit = "6976"};
+        public static readonly Switch Switch_92000036 = new Switch { SwitchId = "92000036", SwitchType = "101", SwitchBit = "6977"};
+        public static readonly Switch Switch_92000037 = new Switch { SwitchId = "92000037", SwitchType = "101", SwitchBit = "6978"};
+        public static readonly Switch Switch_92000038 = new Switch { SwitchId = "92000038", SwitchType = "101", SwitchBit = "7445"};
+        public static readonly Switch Switch_92000039 = new Switch { SwitchId = "92000039", SwitchType = "101", SwitchBit = "7446"};
+        public static readonly Switch Switch_92000040 = new Switch { SwitchId = "92000040", SwitchType = "101", SwitchBit = "7447"};
+        public static readonly Switch Switch_92000041 = new Switch { SwitchId = "92000041", SwitchType = "101", SwitchBit = "7448"};
+        public static readonly Switch Switch_92000042 = new Switch { SwitchId = "92000042", SwitchType = "101", SwitchBit = "7449"};
+        public static readonly Switch Switch_92000043 = new Switch { SwitchId = "92000043", SwitchType = "101", SwitchBit = "7450"};
+        public static readonly Switch Switch_92000044 = new Switch { SwitchId = "92000044", SwitchType = "101", SwitchBit = "7451"};
+        public static readonly Switch Switch_93000001 = new Switch { SwitchId = "93000001", SwitchType = "10", SwitchBit = "616"};
+        public static readonly Switch Switch_93000002 = new Switch { SwitchId = "93000002", SwitchType = "10", SwitchBit = "629"};
+        public static readonly Switch Switch_93000003 = new Switch { SwitchId = "93000003", SwitchType = "10", SwitchBit = "631"};
+        public static readonly Switch Switch_93000004 = new Switch { SwitchId = "93000004", SwitchType = "10", SwitchBit = "632"};
+        public static readonly Switch Switch_93000005 = new Switch { SwitchId = "93000005", SwitchType = "10", SwitchBit = "643"};
+        public static readonly Switch Switch_93000006 = new Switch { SwitchId = "93000006", SwitchType = "10", SwitchBit = "645"};
+        public static readonly Switch Switch_93000007 = new Switch { SwitchId = "93000007", SwitchType = "10", SwitchBit = "654"};
+        public static readonly Switch Switch_93000008 = new Switch { SwitchId = "93000008", SwitchType = "10", SwitchBit = "655"};
+        public static readonly Switch Switch_93000009 = new Switch { SwitchId = "93000009", SwitchType = "10", SwitchBit = "656"};
+        public static readonly Switch Switch_93000010 = new Switch { SwitchId = "93000010", SwitchType = "10", SwitchBit = "657"};
+        public static readonly Switch Switch_93000011 = new Switch { SwitchId = "93000011", SwitchType = "10", SwitchBit = "658"};
+        public static readonly Switch Switch_93000012 = new Switch { SwitchId = "93000012", SwitchType = "10", SwitchBit = "659"};
+        public static readonly Switch Switch_93000013 = new Switch { SwitchId = "93000013", SwitchType = "10", SwitchBit = "659"};
+        public static readonly Switch Switch_93000014 = new Switch { SwitchId = "93000014", SwitchType = "10", SwitchBit = "660"};
         public static readonly Switch Switch_99000200 = new Switch { SwitchId = "99000200", SwitchType = "101", SwitchBit = "99020"};
         public static readonly Switch Switch_99000300 = new Switch { SwitchId = "99000300", SwitchType = "101", SwitchBit = "99030"};
         public static readonly Switch Switch_99000400 = new Switch { SwitchId = "99000400", SwitchType = "101", SwitchBit = "99040"};
@@ -16630,6 +18829,32 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_180650068 = new Switch { SwitchId = "180650068", SwitchType = "101", SwitchBit = "6387"};
         public static readonly Switch Switch_180650069 = new Switch { SwitchId = "180650069", SwitchType = "101", SwitchBit = "6521"};
         public static readonly Switch Switch_180650070 = new Switch { SwitchId = "180650070", SwitchType = "100", SwitchBit = "1683"};
+        public static readonly Switch Switch_180650071 = new Switch { SwitchId = "180650071", SwitchType = "101", SwitchBit = "7929"};
+        public static readonly Switch Switch_180650072 = new Switch { SwitchId = "180650072", SwitchType = "101", SwitchBit = "7930"};
+        public static readonly Switch Switch_180650073 = new Switch { SwitchId = "180650073", SwitchType = "101", SwitchBit = "7931"};
+        public static readonly Switch Switch_180650074 = new Switch { SwitchId = "180650074", SwitchType = "101", SwitchBit = "7932"};
+        public static readonly Switch Switch_180650075 = new Switch { SwitchId = "180650075", SwitchType = "101", SwitchBit = "7933"};
+        public static readonly Switch Switch_180650076 = new Switch { SwitchId = "180650076", SwitchType = "101", SwitchBit = "7998"};
+        public static readonly Switch Switch_180650077 = new Switch { SwitchId = "180650077", SwitchType = "101", SwitchBit = "7999"};
+        public static readonly Switch Switch_180650078 = new Switch { SwitchId = "180650078", SwitchType = "101", SwitchBit = "8000"};
+        public static readonly Switch Switch_180650079 = new Switch { SwitchId = "180650079", SwitchType = "101", SwitchBit = "8001"};
+        public static readonly Switch Switch_180650080 = new Switch { SwitchId = "180650080", SwitchType = "101", SwitchBit = "8002"};
+        public static readonly Switch Switch_180650081 = new Switch { SwitchId = "180650081", SwitchType = "101", SwitchBit = "8003"};
+        public static readonly Switch Switch_180650082 = new Switch { SwitchId = "180650082", SwitchType = "101", SwitchBit = "8004"};
+        public static readonly Switch Switch_180650083 = new Switch { SwitchId = "180650083", SwitchType = "101", SwitchBit = "8005"};
+        public static readonly Switch Switch_180650084 = new Switch { SwitchId = "180650084", SwitchType = "101", SwitchBit = "8006"};
+        public static readonly Switch Switch_180650085 = new Switch { SwitchId = "180650085", SwitchType = "101", SwitchBit = "8232"};
+        public static readonly Switch Switch_180650086 = new Switch { SwitchId = "180650086", SwitchType = "101", SwitchBit = "8233"};
+        public static readonly Switch Switch_180650087 = new Switch { SwitchId = "180650087", SwitchType = "101", SwitchBit = "8279"};
+        public static readonly Switch Switch_180650088 = new Switch { SwitchId = "180650088", SwitchType = "101", SwitchBit = "8280"};
+        public static readonly Switch Switch_180650089 = new Switch { SwitchId = "180650089", SwitchType = "101", SwitchBit = "8281"};
+        public static readonly Switch Switch_180650090 = new Switch { SwitchId = "180650090", SwitchType = "101", SwitchBit = "8282"};
+        public static readonly Switch Switch_180650091 = new Switch { SwitchId = "180650091", SwitchType = "101", SwitchBit = "8283"};
+        public static readonly Switch Switch_180650092 = new Switch { SwitchId = "180650092", SwitchType = "101", SwitchBit = "8284"};
+        public static readonly Switch Switch_180650093 = new Switch { SwitchId = "180650093", SwitchType = "101", SwitchBit = "8285"};
+        public static readonly Switch Switch_180650094 = new Switch { SwitchId = "180650094", SwitchType = "101", SwitchBit = "8286"};
+        public static readonly Switch Switch_180650095 = new Switch { SwitchId = "180650095", SwitchType = "101", SwitchBit = "8287"};
+        public static readonly Switch Switch_180650096 = new Switch { SwitchId = "180650096", SwitchType = "101", SwitchBit = "8288"};
         public static readonly Switch Switch_186100010 = new Switch { SwitchId = "186100010", SwitchType = "101", SwitchBit = "5338"};
         public static readonly Switch Switch_186100020 = new Switch { SwitchId = "186100020", SwitchType = "101", SwitchBit = "5405"};
         public static readonly Switch Switch_186101010 = new Switch { SwitchId = "186101010", SwitchType = "101", SwitchBit = "5339"};
@@ -17223,6 +19448,8 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_186228002 = new Switch { SwitchId = "186228002", SwitchType = "101", SwitchBit = "6946"};
         public static readonly Switch Switch_186229001 = new Switch { SwitchId = "186229001", SwitchType = "101", SwitchBit = "6947"};
         public static readonly Switch Switch_186229002 = new Switch { SwitchId = "186229002", SwitchType = "101", SwitchBit = "6948"};
+        public static readonly Switch Switch_186230001 = new Switch { SwitchId = "186230001", SwitchType = "101", SwitchBit = "6949"};
+        public static readonly Switch Switch_186230002 = new Switch { SwitchId = "186230002", SwitchType = "101", SwitchBit = "6950"};
         public static readonly Switch Switch_186231001 = new Switch { SwitchId = "186231001", SwitchType = "101", SwitchBit = "6957"};
         public static readonly Switch Switch_186231002 = new Switch { SwitchId = "186231002", SwitchType = "101", SwitchBit = "6958"};
         public static readonly Switch Switch_186231003 = new Switch { SwitchId = "186231003", SwitchType = "101", SwitchBit = "6959"};
@@ -17230,6 +19457,624 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_186231111 = new Switch { SwitchId = "186231111", SwitchType = "103", SwitchBit = "715"};
         public static readonly Switch Switch_186231112 = new Switch { SwitchId = "186231112", SwitchType = "103", SwitchBit = "716"};
         public static readonly Switch Switch_186232001 = new Switch { SwitchId = "186232001", SwitchType = "101", SwitchBit = "6961"};
+        public static readonly Switch Switch_186233010 = new Switch { SwitchId = "186233010", SwitchType = "101", SwitchBit = "7266"};
+        public static readonly Switch Switch_186233020 = new Switch { SwitchId = "186233020", SwitchType = "101", SwitchBit = "7267"};
+        public static readonly Switch Switch_186233030 = new Switch { SwitchId = "186233030", SwitchType = "101", SwitchBit = "7268"};
+        public static readonly Switch Switch_186233040 = new Switch { SwitchId = "186233040", SwitchType = "101", SwitchBit = "7269"};
+        public static readonly Switch Switch_186233050 = new Switch { SwitchId = "186233050", SwitchType = "101", SwitchBit = "7270"};
+        public static readonly Switch Switch_186233060 = new Switch { SwitchId = "186233060", SwitchType = "101", SwitchBit = "7271"};
+        public static readonly Switch Switch_186233070 = new Switch { SwitchId = "186233070", SwitchType = "101", SwitchBit = "7272"};
+        public static readonly Switch Switch_186233080 = new Switch { SwitchId = "186233080", SwitchType = "101", SwitchBit = "7273"};
+        public static readonly Switch Switch_186234010 = new Switch { SwitchId = "186234010", SwitchType = "101", SwitchBit = "6979"};
+        public static readonly Switch Switch_186234020 = new Switch { SwitchId = "186234020", SwitchType = "101", SwitchBit = "6980"};
+        public static readonly Switch Switch_186234030 = new Switch { SwitchId = "186234030", SwitchType = "101", SwitchBit = "6981"};
+        public static readonly Switch Switch_186234040 = new Switch { SwitchId = "186234040", SwitchType = "101", SwitchBit = "6982"};
+        public static readonly Switch Switch_186234050 = new Switch { SwitchId = "186234050", SwitchType = "101", SwitchBit = "6983"};
+        public static readonly Switch Switch_186234060 = new Switch { SwitchId = "186234060", SwitchType = "101", SwitchBit = "6984"};
+        public static readonly Switch Switch_186234070 = new Switch { SwitchId = "186234070", SwitchType = "101", SwitchBit = "6985"};
+        public static readonly Switch Switch_186234080 = new Switch { SwitchId = "186234080", SwitchType = "101", SwitchBit = "6986"};
+        public static readonly Switch Switch_186234090 = new Switch { SwitchId = "186234090", SwitchType = "101", SwitchBit = "6987"};
+        public static readonly Switch Switch_186234100 = new Switch { SwitchId = "186234100", SwitchType = "101", SwitchBit = "6988"};
+        public static readonly Switch Switch_186234110 = new Switch { SwitchId = "186234110", SwitchType = "101", SwitchBit = "6989"};
+        public static readonly Switch Switch_186234120 = new Switch { SwitchId = "186234120", SwitchType = "101", SwitchBit = "6990"};
+        public static readonly Switch Switch_186234130 = new Switch { SwitchId = "186234130", SwitchType = "101", SwitchBit = "6991"};
+        public static readonly Switch Switch_186234140 = new Switch { SwitchId = "186234140", SwitchType = "101", SwitchBit = "6992"};
+        public static readonly Switch Switch_186236101 = new Switch { SwitchId = "186236101", SwitchType = "101", SwitchBit = "7055"};
+        public static readonly Switch Switch_186236102 = new Switch { SwitchId = "186236102", SwitchType = "101", SwitchBit = "7056"};
+        public static readonly Switch Switch_186236103 = new Switch { SwitchId = "186236103", SwitchType = "101", SwitchBit = "7057"};
+        public static readonly Switch Switch_186237101 = new Switch { SwitchId = "186237101", SwitchType = "101", SwitchBit = "7058"};
+        public static readonly Switch Switch_186238101 = new Switch { SwitchId = "186238101", SwitchType = "101", SwitchBit = "7059"};
+        public static readonly Switch Switch_186238111 = new Switch { SwitchId = "186238111", SwitchType = "103", SwitchBit = "717"};
+        public static readonly Switch Switch_186238112 = new Switch { SwitchId = "186238112", SwitchType = "103", SwitchBit = "718"};
+        public static readonly Switch Switch_186239001 = new Switch { SwitchId = "186239001", SwitchType = "101", SwitchBit = "7060"};
+        public static readonly Switch Switch_186239002 = new Switch { SwitchId = "186239002", SwitchType = "101", SwitchBit = "7061"};
+        public static readonly Switch Switch_186240001 = new Switch { SwitchId = "186240001", SwitchType = "101", SwitchBit = "7062"};
+        public static readonly Switch Switch_186240002 = new Switch { SwitchId = "186240002", SwitchType = "101", SwitchBit = "7063"};
+        public static readonly Switch Switch_186241001 = new Switch { SwitchId = "186241001", SwitchType = "101", SwitchBit = "7068"};
+        public static readonly Switch Switch_186241002 = new Switch { SwitchId = "186241002", SwitchType = "101", SwitchBit = "7069"};
+        public static readonly Switch Switch_186242001 = new Switch { SwitchId = "186242001", SwitchType = "101", SwitchBit = "7262"};
+        public static readonly Switch Switch_186242002 = new Switch { SwitchId = "186242002", SwitchType = "101", SwitchBit = "7263"};
+        public static readonly Switch Switch_186242003 = new Switch { SwitchId = "186242003", SwitchType = "101", SwitchBit = "7264"};
+        public static readonly Switch Switch_186243001 = new Switch { SwitchId = "186243001", SwitchType = "101", SwitchBit = "7265"};
+        public static readonly Switch Switch_186244010 = new Switch { SwitchId = "186244010", SwitchType = "101", SwitchBit = "7274"};
+        public static readonly Switch Switch_186244020 = new Switch { SwitchId = "186244020", SwitchType = "101", SwitchBit = "7275"};
+        public static readonly Switch Switch_186244030 = new Switch { SwitchId = "186244030", SwitchType = "101", SwitchBit = "7276"};
+        public static readonly Switch Switch_186244040 = new Switch { SwitchId = "186244040", SwitchType = "101", SwitchBit = "7277"};
+        public static readonly Switch Switch_186244050 = new Switch { SwitchId = "186244050", SwitchType = "101", SwitchBit = "7278"};
+        public static readonly Switch Switch_186244060 = new Switch { SwitchId = "186244060", SwitchType = "101", SwitchBit = "7279"};
+        public static readonly Switch Switch_186244070 = new Switch { SwitchId = "186244070", SwitchType = "101", SwitchBit = "7280"};
+        public static readonly Switch Switch_186244080 = new Switch { SwitchId = "186244080", SwitchType = "101", SwitchBit = "7281"};
+        public static readonly Switch Switch_186245010 = new Switch { SwitchId = "186245010", SwitchType = "101", SwitchBit = "7282"};
+        public static readonly Switch Switch_186245020 = new Switch { SwitchId = "186245020", SwitchType = "101", SwitchBit = "7283"};
+        public static readonly Switch Switch_186245030 = new Switch { SwitchId = "186245030", SwitchType = "101", SwitchBit = "7284"};
+        public static readonly Switch Switch_186245040 = new Switch { SwitchId = "186245040", SwitchType = "101", SwitchBit = "7285"};
+        public static readonly Switch Switch_186245050 = new Switch { SwitchId = "186245050", SwitchType = "101", SwitchBit = "7286"};
+        public static readonly Switch Switch_186245060 = new Switch { SwitchId = "186245060", SwitchType = "101", SwitchBit = "7287"};
+        public static readonly Switch Switch_186245070 = new Switch { SwitchId = "186245070", SwitchType = "101", SwitchBit = "7288"};
+        public static readonly Switch Switch_186245080 = new Switch { SwitchId = "186245080", SwitchType = "101", SwitchBit = "7289"};
+        public static readonly Switch Switch_186245090 = new Switch { SwitchId = "186245090", SwitchType = "101", SwitchBit = "7290"};
+        public static readonly Switch Switch_186245100 = new Switch { SwitchId = "186245100", SwitchType = "101", SwitchBit = "7291"};
+        public static readonly Switch Switch_186245110 = new Switch { SwitchId = "186245110", SwitchType = "101", SwitchBit = "10396"};
+        public static readonly Switch Switch_186245120 = new Switch { SwitchId = "186245120", SwitchType = "101", SwitchBit = "10397"};
+        public static readonly Switch Switch_186245130 = new Switch { SwitchId = "186245130", SwitchType = "101", SwitchBit = "10398"};
+        public static readonly Switch Switch_186245140 = new Switch { SwitchId = "186245140", SwitchType = "101", SwitchBit = "10399"};
+        public static readonly Switch Switch_186246101 = new Switch { SwitchId = "186246101", SwitchType = "101", SwitchBit = "7334"};
+        public static readonly Switch Switch_186246102 = new Switch { SwitchId = "186246102", SwitchType = "101", SwitchBit = "7335"};
+        public static readonly Switch Switch_186246103 = new Switch { SwitchId = "186246103", SwitchType = "101", SwitchBit = "7336"};
+        public static readonly Switch Switch_186246104 = new Switch { SwitchId = "186246104", SwitchType = "101", SwitchBit = "7349"};
+        public static readonly Switch Switch_186246105 = new Switch { SwitchId = "186246105", SwitchType = "101", SwitchBit = "7350"};
+        public static readonly Switch Switch_186247101 = new Switch { SwitchId = "186247101", SwitchType = "101", SwitchBit = "7337"};
+        public static readonly Switch Switch_186248101 = new Switch { SwitchId = "186248101", SwitchType = "101", SwitchBit = "7338"};
+        public static readonly Switch Switch_186248111 = new Switch { SwitchId = "186248111", SwitchType = "103", SwitchBit = "719"};
+        public static readonly Switch Switch_186248112 = new Switch { SwitchId = "186248112", SwitchType = "103", SwitchBit = "720"};
+        public static readonly Switch Switch_186249001 = new Switch { SwitchId = "186249001", SwitchType = "101", SwitchBit = "7339"};
+        public static readonly Switch Switch_186249002 = new Switch { SwitchId = "186249002", SwitchType = "101", SwitchBit = "7340"};
+        public static readonly Switch Switch_186249003 = new Switch { SwitchId = "186249003", SwitchType = "101", SwitchBit = "7341"};
+        public static readonly Switch Switch_186250001 = new Switch { SwitchId = "186250001", SwitchType = "101", SwitchBit = "7342"};
+        public static readonly Switch Switch_186250002 = new Switch { SwitchId = "186250002", SwitchType = "101", SwitchBit = "7390"};
+        public static readonly Switch Switch_186250003 = new Switch { SwitchId = "186250003", SwitchType = "101", SwitchBit = "7391"};
+        public static readonly Switch Switch_186250004 = new Switch { SwitchId = "186250004", SwitchType = "101", SwitchBit = "7392"};
+        public static readonly Switch Switch_186250005 = new Switch { SwitchId = "186250005", SwitchType = "101", SwitchBit = "7393"};
+        public static readonly Switch Switch_186251001 = new Switch { SwitchId = "186251001", SwitchType = "101", SwitchBit = "7343"};
+        public static readonly Switch Switch_186251002 = new Switch { SwitchId = "186251002", SwitchType = "101", SwitchBit = "7344"};
+        public static readonly Switch Switch_186252001 = new Switch { SwitchId = "186252001", SwitchType = "101", SwitchBit = "7345"};
+        public static readonly Switch Switch_186252002 = new Switch { SwitchId = "186252002", SwitchType = "101", SwitchBit = "7346"};
+        public static readonly Switch Switch_186253001 = new Switch { SwitchId = "186253001", SwitchType = "101", SwitchBit = "7347"};
+        public static readonly Switch Switch_186253002 = new Switch { SwitchId = "186253002", SwitchType = "101", SwitchBit = "7348"};
+        public static readonly Switch Switch_186255000 = new Switch { SwitchId = "186255000", SwitchType = "101", SwitchBit = "7353"};
+        public static readonly Switch Switch_186255001 = new Switch { SwitchId = "186255001", SwitchType = "103", SwitchBit = "721"};
+        public static readonly Switch Switch_186255002 = new Switch { SwitchId = "186255002", SwitchType = "103", SwitchBit = "724"};
+        public static readonly Switch Switch_186256000 = new Switch { SwitchId = "186256000", SwitchType = "101", SwitchBit = "7354"};
+        public static readonly Switch Switch_186256001 = new Switch { SwitchId = "186256001", SwitchType = "103", SwitchBit = "722"};
+        public static readonly Switch Switch_186256002 = new Switch { SwitchId = "186256002", SwitchType = "103", SwitchBit = "725"};
+        public static readonly Switch Switch_186257000 = new Switch { SwitchId = "186257000", SwitchType = "101", SwitchBit = "7355"};
+        public static readonly Switch Switch_186257001 = new Switch { SwitchId = "186257001", SwitchType = "103", SwitchBit = "723"};
+        public static readonly Switch Switch_186257002 = new Switch { SwitchId = "186257002", SwitchType = "103", SwitchBit = "726"};
+        public static readonly Switch Switch_186258001 = new Switch { SwitchId = "186258001", SwitchType = "101", SwitchBit = "7458"};
+        public static readonly Switch Switch_186258002 = new Switch { SwitchId = "186258002", SwitchType = "101", SwitchBit = "7459"};
+        public static readonly Switch Switch_187400001 = new Switch { SwitchId = "187400001", SwitchType = "101", SwitchBit = "7436"};
+        public static readonly Switch Switch_187400002 = new Switch { SwitchId = "187400002", SwitchType = "101", SwitchBit = "7437"};
+        public static readonly Switch Switch_187400003 = new Switch { SwitchId = "187400003", SwitchType = "101", SwitchBit = "7438"};
+        public static readonly Switch Switch_187400004 = new Switch { SwitchId = "187400004", SwitchType = "101", SwitchBit = "7439"};
+        public static readonly Switch Switch_187400005 = new Switch { SwitchId = "187400005", SwitchType = "101", SwitchBit = "7440"};
+        public static readonly Switch Switch_187400101 = new Switch { SwitchId = "187400101", SwitchType = "101", SwitchBit = "7441"};
+        public static readonly Switch Switch_187400201 = new Switch { SwitchId = "187400201", SwitchType = "101", SwitchBit = "7442"};
+        public static readonly Switch Switch_187400202 = new Switch { SwitchId = "187400202", SwitchType = "101", SwitchBit = "7443"};
+        public static readonly Switch Switch_187400203 = new Switch { SwitchId = "187400203", SwitchType = "101", SwitchBit = "7444"};
+        public static readonly Switch Switch_187400204 = new Switch { SwitchId = "187400204", SwitchType = "103", SwitchBit = "727"};
+        public static readonly Switch Switch_187400205 = new Switch { SwitchId = "187400205", SwitchType = "103", SwitchBit = "728"};
+        public static readonly Switch Switch_187401001 = new Switch { SwitchId = "187401001", SwitchType = "101", SwitchBit = "7557"};
+        public static readonly Switch Switch_187401002 = new Switch { SwitchId = "187401002", SwitchType = "101", SwitchBit = "7558"};
+        public static readonly Switch Switch_187401003 = new Switch { SwitchId = "187401003", SwitchType = "101", SwitchBit = "7559"};
+        public static readonly Switch Switch_187401004 = new Switch { SwitchId = "187401004", SwitchType = "101", SwitchBit = "7560"};
+        public static readonly Switch Switch_187401005 = new Switch { SwitchId = "187401005", SwitchType = "101", SwitchBit = "7561"};
+        public static readonly Switch Switch_187401006 = new Switch { SwitchId = "187401006", SwitchType = "103", SwitchBit = "729"};
+        public static readonly Switch Switch_187401007 = new Switch { SwitchId = "187401007", SwitchType = "103", SwitchBit = "730"};
+        public static readonly Switch Switch_187401101 = new Switch { SwitchId = "187401101", SwitchType = "101", SwitchBit = "7562"};
+        public static readonly Switch Switch_187402001 = new Switch { SwitchId = "187402001", SwitchType = "101", SwitchBit = "7654"};
+        public static readonly Switch Switch_187402002 = new Switch { SwitchId = "187402002", SwitchType = "101", SwitchBit = "7655"};
+        public static readonly Switch Switch_187402003 = new Switch { SwitchId = "187402003", SwitchType = "101", SwitchBit = "7656"};
+        public static readonly Switch Switch_187402004 = new Switch { SwitchId = "187402004", SwitchType = "101", SwitchBit = "7657"};
+        public static readonly Switch Switch_187402005 = new Switch { SwitchId = "187402005", SwitchType = "101", SwitchBit = "7658"};
+        public static readonly Switch Switch_187402006 = new Switch { SwitchId = "187402006", SwitchType = "100", SwitchBit = "1819"};
+        public static readonly Switch Switch_187402007 = new Switch { SwitchId = "187402007", SwitchType = "100", SwitchBit = "1820"};
+        public static readonly Switch Switch_187402008 = new Switch { SwitchId = "187402008", SwitchType = "103", SwitchBit = "731"};
+        public static readonly Switch Switch_187402009 = new Switch { SwitchId = "187402009", SwitchType = "103", SwitchBit = "732"};
+        public static readonly Switch Switch_187402010 = new Switch { SwitchId = "187402010", SwitchType = "103", SwitchBit = "733"};
+        public static readonly Switch Switch_187402101 = new Switch { SwitchId = "187402101", SwitchType = "101", SwitchBit = "7659"};
+        public static readonly Switch Switch_187403001 = new Switch { SwitchId = "187403001", SwitchType = "101", SwitchBit = "7716"};
+        public static readonly Switch Switch_187403002 = new Switch { SwitchId = "187403002", SwitchType = "101", SwitchBit = "7717"};
+        public static readonly Switch Switch_187403003 = new Switch { SwitchId = "187403003", SwitchType = "101", SwitchBit = "7718"};
+        public static readonly Switch Switch_187403004 = new Switch { SwitchId = "187403004", SwitchType = "101", SwitchBit = "7719"};
+        public static readonly Switch Switch_187403005 = new Switch { SwitchId = "187403005", SwitchType = "101", SwitchBit = "7720"};
+        public static readonly Switch Switch_187403006 = new Switch { SwitchId = "187403006", SwitchType = "100", SwitchBit = "1821"};
+        public static readonly Switch Switch_187403007 = new Switch { SwitchId = "187403007", SwitchType = "100", SwitchBit = "1822"};
+        public static readonly Switch Switch_187403101 = new Switch { SwitchId = "187403101", SwitchType = "101", SwitchBit = "7721"};
+        public static readonly Switch Switch_187403102 = new Switch { SwitchId = "187403102", SwitchType = "101", SwitchBit = "7739"};
+        public static readonly Switch Switch_187404001 = new Switch { SwitchId = "187404001", SwitchType = "101", SwitchBit = "7859"};
+        public static readonly Switch Switch_187404002 = new Switch { SwitchId = "187404002", SwitchType = "101", SwitchBit = "7860"};
+        public static readonly Switch Switch_187404003 = new Switch { SwitchId = "187404003", SwitchType = "101", SwitchBit = "7861"};
+        public static readonly Switch Switch_187404004 = new Switch { SwitchId = "187404004", SwitchType = "101", SwitchBit = "7862"};
+        public static readonly Switch Switch_187404005 = new Switch { SwitchId = "187404005", SwitchType = "101", SwitchBit = "7863"};
+        public static readonly Switch Switch_187404006 = new Switch { SwitchId = "187404006", SwitchType = "100", SwitchBit = "1842"};
+        public static readonly Switch Switch_187404101 = new Switch { SwitchId = "187404101", SwitchType = "101", SwitchBit = "7864"};
+        public static readonly Switch Switch_187405001 = new Switch { SwitchId = "187405001", SwitchType = "101", SwitchBit = "7866"};
+        public static readonly Switch Switch_187405002 = new Switch { SwitchId = "187405002", SwitchType = "101", SwitchBit = "7867"};
+        public static readonly Switch Switch_187405003 = new Switch { SwitchId = "187405003", SwitchType = "101", SwitchBit = "7868"};
+        public static readonly Switch Switch_187405004 = new Switch { SwitchId = "187405004", SwitchType = "101", SwitchBit = "7869"};
+        public static readonly Switch Switch_187405005 = new Switch { SwitchId = "187405005", SwitchType = "101", SwitchBit = "7870"};
+        public static readonly Switch Switch_187405006 = new Switch { SwitchId = "187405006", SwitchType = "101", SwitchBit = "8278"};
+        public static readonly Switch Switch_187405007 = new Switch { SwitchId = "187405007", SwitchType = "100", SwitchBit = "1864"};
+        public static readonly Switch Switch_187405008 = new Switch { SwitchId = "187405008", SwitchType = "100", SwitchBit = "1865"};
+        public static readonly Switch Switch_187405101 = new Switch { SwitchId = "187405101", SwitchType = "101", SwitchBit = "7871"};
+        public static readonly Switch Switch_187406001 = new Switch { SwitchId = "187406001", SwitchType = "101", SwitchBit = "7873"};
+        public static readonly Switch Switch_187406002 = new Switch { SwitchId = "187406002", SwitchType = "101", SwitchBit = "7874"};
+        public static readonly Switch Switch_187406003 = new Switch { SwitchId = "187406003", SwitchType = "101", SwitchBit = "7875"};
+        public static readonly Switch Switch_187406004 = new Switch { SwitchId = "187406004", SwitchType = "101", SwitchBit = "7876"};
+        public static readonly Switch Switch_187406005 = new Switch { SwitchId = "187406005", SwitchType = "101", SwitchBit = "7877"};
+        public static readonly Switch Switch_187406006 = new Switch { SwitchId = "187406006", SwitchType = "100", SwitchBit = "1885"};
+        public static readonly Switch Switch_187406101 = new Switch { SwitchId = "187406101", SwitchType = "101", SwitchBit = "7878"};
+        public static readonly Switch Switch_187406102 = new Switch { SwitchId = "187406102", SwitchType = "101", SwitchBit = "7879"};
+        public static readonly Switch Switch_187406201 = new Switch { SwitchId = "187406201", SwitchType = "101", SwitchBit = "8331"};
+        public static readonly Switch Switch_187406202 = new Switch { SwitchId = "187406202", SwitchType = "101", SwitchBit = "8332"};
+        public static readonly Switch Switch_187407001 = new Switch { SwitchId = "187407001", SwitchType = "101", SwitchBit = "7880"};
+        public static readonly Switch Switch_187407002 = new Switch { SwitchId = "187407002", SwitchType = "101", SwitchBit = "7881"};
+        public static readonly Switch Switch_187407003 = new Switch { SwitchId = "187407003", SwitchType = "101", SwitchBit = "7882"};
+        public static readonly Switch Switch_187407004 = new Switch { SwitchId = "187407004", SwitchType = "101", SwitchBit = "7883"};
+        public static readonly Switch Switch_187407005 = new Switch { SwitchId = "187407005", SwitchType = "101", SwitchBit = "7884"};
+        public static readonly Switch Switch_187407006 = new Switch { SwitchId = "187407006", SwitchType = "101", SwitchBit = "8423"};
+        public static readonly Switch Switch_187407007 = new Switch { SwitchId = "187407007", SwitchType = "101", SwitchBit = "8424"};
+        public static readonly Switch Switch_187407008 = new Switch { SwitchId = "187407008", SwitchType = "100", SwitchBit = "1886"};
+        public static readonly Switch Switch_187407009 = new Switch { SwitchId = "187407009", SwitchType = "100", SwitchBit = "1887"};
+        public static readonly Switch Switch_187407101 = new Switch { SwitchId = "187407101", SwitchType = "101", SwitchBit = "7885"};
+        public static readonly Switch Switch_187407102 = new Switch { SwitchId = "187407102", SwitchType = "101", SwitchBit = "7886"};
+        public static readonly Switch Switch_187408001 = new Switch { SwitchId = "187408001", SwitchType = "101", SwitchBit = "7887"};
+        public static readonly Switch Switch_187408002 = new Switch { SwitchId = "187408002", SwitchType = "101", SwitchBit = "7888"};
+        public static readonly Switch Switch_187408003 = new Switch { SwitchId = "187408003", SwitchType = "101", SwitchBit = "7889"};
+        public static readonly Switch Switch_187408004 = new Switch { SwitchId = "187408004", SwitchType = "101", SwitchBit = "7890"};
+        public static readonly Switch Switch_187408005 = new Switch { SwitchId = "187408005", SwitchType = "101", SwitchBit = "7891"};
+        public static readonly Switch Switch_187408006 = new Switch { SwitchId = "187408006", SwitchType = "100", SwitchBit = "1904"};
+        public static readonly Switch Switch_187408101 = new Switch { SwitchId = "187408101", SwitchType = "101", SwitchBit = "7892"};
+        public static readonly Switch Switch_187408102 = new Switch { SwitchId = "187408102", SwitchType = "101", SwitchBit = "7893"};
+        public static readonly Switch Switch_187408201 = new Switch { SwitchId = "187408201", SwitchType = "101", SwitchBit = "8456"};
+        public static readonly Switch Switch_187408202 = new Switch { SwitchId = "187408202", SwitchType = "101", SwitchBit = "8457"};
+        public static readonly Switch Switch_187408203 = new Switch { SwitchId = "187408203", SwitchType = "101", SwitchBit = "8458"};
+        public static readonly Switch Switch_187408204 = new Switch { SwitchId = "187408204", SwitchType = "101", SwitchBit = "8459"};
+        public static readonly Switch Switch_187408205 = new Switch { SwitchId = "187408205", SwitchType = "101", SwitchBit = "8460"};
+        public static readonly Switch Switch_187409001 = new Switch { SwitchId = "187409001", SwitchType = "101", SwitchBit = "7894"};
+        public static readonly Switch Switch_187409002 = new Switch { SwitchId = "187409002", SwitchType = "101", SwitchBit = "7895"};
+        public static readonly Switch Switch_187409003 = new Switch { SwitchId = "187409003", SwitchType = "101", SwitchBit = "7896"};
+        public static readonly Switch Switch_187409004 = new Switch { SwitchId = "187409004", SwitchType = "101", SwitchBit = "7897"};
+        public static readonly Switch Switch_187409005 = new Switch { SwitchId = "187409005", SwitchType = "101", SwitchBit = "7898"};
+        public static readonly Switch Switch_187409006 = new Switch { SwitchId = "187409006", SwitchType = "100", SwitchBit = "1923"};
+        public static readonly Switch Switch_187409101 = new Switch { SwitchId = "187409101", SwitchType = "101", SwitchBit = "7899"};
+        public static readonly Switch Switch_187409102 = new Switch { SwitchId = "187409102", SwitchType = "101", SwitchBit = "7900"};
+        public static readonly Switch Switch_187409201 = new Switch { SwitchId = "187409201", SwitchType = "101", SwitchBit = "8550"};
+        public static readonly Switch Switch_187500001 = new Switch { SwitchId = "187500001", SwitchType = "101", SwitchBit = "7360"};
+        public static readonly Switch Switch_187500002 = new Switch { SwitchId = "187500002", SwitchType = "101", SwitchBit = "7361"};
+        public static readonly Switch Switch_187500003 = new Switch { SwitchId = "187500003", SwitchType = "101", SwitchBit = "7362"};
+        public static readonly Switch Switch_187500004 = new Switch { SwitchId = "187500004", SwitchType = "101", SwitchBit = "7363"};
+        public static readonly Switch Switch_187500005 = new Switch { SwitchId = "187500005", SwitchType = "101", SwitchBit = "7364"};
+        public static readonly Switch Switch_187500006 = new Switch { SwitchId = "187500006", SwitchType = "101", SwitchBit = "7365"};
+        public static readonly Switch Switch_187500007 = new Switch { SwitchId = "187500007", SwitchType = "101", SwitchBit = "7366"};
+        public static readonly Switch Switch_187500008 = new Switch { SwitchId = "187500008", SwitchType = "101", SwitchBit = "7367"};
+        public static readonly Switch Switch_187500101 = new Switch { SwitchId = "187500101", SwitchType = "101", SwitchBit = "7368"};
+        public static readonly Switch Switch_187500102 = new Switch { SwitchId = "187500102", SwitchType = "101", SwitchBit = "7369"};
+        public static readonly Switch Switch_187500103 = new Switch { SwitchId = "187500103", SwitchType = "101", SwitchBit = "7370"};
+        public static readonly Switch Switch_187500104 = new Switch { SwitchId = "187500104", SwitchType = "101", SwitchBit = "7371"};
+        public static readonly Switch Switch_187500105 = new Switch { SwitchId = "187500105", SwitchType = "101", SwitchBit = "7372"};
+        public static readonly Switch Switch_187500106 = new Switch { SwitchId = "187500106", SwitchType = "101", SwitchBit = "7373"};
+        public static readonly Switch Switch_187500107 = new Switch { SwitchId = "187500107", SwitchType = "101", SwitchBit = "7374"};
+        public static readonly Switch Switch_187500108 = new Switch { SwitchId = "187500108", SwitchType = "101", SwitchBit = "7375"};
+        public static readonly Switch Switch_187500109 = new Switch { SwitchId = "187500109", SwitchType = "101", SwitchBit = "7376"};
+        public static readonly Switch Switch_187501001 = new Switch { SwitchId = "187501001", SwitchType = "101", SwitchBit = "7478"};
+        public static readonly Switch Switch_187501002 = new Switch { SwitchId = "187501002", SwitchType = "101", SwitchBit = "7479"};
+        public static readonly Switch Switch_187501003 = new Switch { SwitchId = "187501003", SwitchType = "101", SwitchBit = "7480"};
+        public static readonly Switch Switch_187501004 = new Switch { SwitchId = "187501004", SwitchType = "101", SwitchBit = "7481"};
+        public static readonly Switch Switch_187501005 = new Switch { SwitchId = "187501005", SwitchType = "101", SwitchBit = "7482"};
+        public static readonly Switch Switch_187501006 = new Switch { SwitchId = "187501006", SwitchType = "101", SwitchBit = "7483"};
+        public static readonly Switch Switch_187501007 = new Switch { SwitchId = "187501007", SwitchType = "101", SwitchBit = "7484"};
+        public static readonly Switch Switch_187501008 = new Switch { SwitchId = "187501008", SwitchType = "101", SwitchBit = "7485"};
+        public static readonly Switch Switch_187501101 = new Switch { SwitchId = "187501101", SwitchType = "101", SwitchBit = "7486"};
+        public static readonly Switch Switch_187501102 = new Switch { SwitchId = "187501102", SwitchType = "101", SwitchBit = "7487"};
+        public static readonly Switch Switch_187501103 = new Switch { SwitchId = "187501103", SwitchType = "101", SwitchBit = "7488"};
+        public static readonly Switch Switch_187501104 = new Switch { SwitchId = "187501104", SwitchType = "101", SwitchBit = "7489"};
+        public static readonly Switch Switch_187501105 = new Switch { SwitchId = "187501105", SwitchType = "101", SwitchBit = "7490"};
+        public static readonly Switch Switch_187501106 = new Switch { SwitchId = "187501106", SwitchType = "101", SwitchBit = "7491"};
+        public static readonly Switch Switch_187501107 = new Switch { SwitchId = "187501107", SwitchType = "101", SwitchBit = "7492"};
+        public static readonly Switch Switch_187501108 = new Switch { SwitchId = "187501108", SwitchType = "101", SwitchBit = "7493"};
+        public static readonly Switch Switch_187501109 = new Switch { SwitchId = "187501109", SwitchType = "101", SwitchBit = "7494"};
+        public static readonly Switch Switch_187501110 = new Switch { SwitchId = "187501110", SwitchType = "101", SwitchBit = "7495"};
+        public static readonly Switch Switch_187501111 = new Switch { SwitchId = "187501111", SwitchType = "101", SwitchBit = "7496"};
+        public static readonly Switch Switch_187501112 = new Switch { SwitchId = "187501112", SwitchType = "101", SwitchBit = "7497"};
+        public static readonly Switch Switch_187501113 = new Switch { SwitchId = "187501113", SwitchType = "101", SwitchBit = "7498"};
+        public static readonly Switch Switch_187501114 = new Switch { SwitchId = "187501114", SwitchType = "101", SwitchBit = "7499"};
+        public static readonly Switch Switch_187502001 = new Switch { SwitchId = "187502001", SwitchType = "101", SwitchBit = "7609"};
+        public static readonly Switch Switch_187502002 = new Switch { SwitchId = "187502002", SwitchType = "101", SwitchBit = "7610"};
+        public static readonly Switch Switch_187502003 = new Switch { SwitchId = "187502003", SwitchType = "101", SwitchBit = "7611"};
+        public static readonly Switch Switch_187502004 = new Switch { SwitchId = "187502004", SwitchType = "101", SwitchBit = "7612"};
+        public static readonly Switch Switch_187502005 = new Switch { SwitchId = "187502005", SwitchType = "101", SwitchBit = "7613"};
+        public static readonly Switch Switch_187502006 = new Switch { SwitchId = "187502006", SwitchType = "101", SwitchBit = "7614"};
+        public static readonly Switch Switch_187502007 = new Switch { SwitchId = "187502007", SwitchType = "101", SwitchBit = "7615"};
+        public static readonly Switch Switch_187502008 = new Switch { SwitchId = "187502008", SwitchType = "101", SwitchBit = "7616"};
+        public static readonly Switch Switch_187502101 = new Switch { SwitchId = "187502101", SwitchType = "101", SwitchBit = "7617"};
+        public static readonly Switch Switch_187502102 = new Switch { SwitchId = "187502102", SwitchType = "101", SwitchBit = "7618"};
+        public static readonly Switch Switch_187502103 = new Switch { SwitchId = "187502103", SwitchType = "101", SwitchBit = "7619"};
+        public static readonly Switch Switch_187502104 = new Switch { SwitchId = "187502104", SwitchType = "101", SwitchBit = "7620"};
+        public static readonly Switch Switch_187502105 = new Switch { SwitchId = "187502105", SwitchType = "101", SwitchBit = "7621"};
+        public static readonly Switch Switch_187502106 = new Switch { SwitchId = "187502106", SwitchType = "101", SwitchBit = "7622"};
+        public static readonly Switch Switch_187502107 = new Switch { SwitchId = "187502107", SwitchType = "101", SwitchBit = "7623"};
+        public static readonly Switch Switch_187502108 = new Switch { SwitchId = "187502108", SwitchType = "101", SwitchBit = "7624"};
+        public static readonly Switch Switch_187502109 = new Switch { SwitchId = "187502109", SwitchType = "101", SwitchBit = "7625"};
+        public static readonly Switch Switch_187503001 = new Switch { SwitchId = "187503001", SwitchType = "101", SwitchBit = "7663"};
+        public static readonly Switch Switch_187503002 = new Switch { SwitchId = "187503002", SwitchType = "101", SwitchBit = "7664"};
+        public static readonly Switch Switch_187503003 = new Switch { SwitchId = "187503003", SwitchType = "101", SwitchBit = "7665"};
+        public static readonly Switch Switch_187503004 = new Switch { SwitchId = "187503004", SwitchType = "101", SwitchBit = "7666"};
+        public static readonly Switch Switch_187503005 = new Switch { SwitchId = "187503005", SwitchType = "101", SwitchBit = "7667"};
+        public static readonly Switch Switch_187503006 = new Switch { SwitchId = "187503006", SwitchType = "101", SwitchBit = "7668"};
+        public static readonly Switch Switch_187503007 = new Switch { SwitchId = "187503007", SwitchType = "101", SwitchBit = "7669"};
+        public static readonly Switch Switch_187503008 = new Switch { SwitchId = "187503008", SwitchType = "101", SwitchBit = "7670"};
+        public static readonly Switch Switch_187503101 = new Switch { SwitchId = "187503101", SwitchType = "101", SwitchBit = "7671"};
+        public static readonly Switch Switch_187503102 = new Switch { SwitchId = "187503102", SwitchType = "101", SwitchBit = "7672"};
+        public static readonly Switch Switch_187503103 = new Switch { SwitchId = "187503103", SwitchType = "101", SwitchBit = "7673"};
+        public static readonly Switch Switch_187503104 = new Switch { SwitchId = "187503104", SwitchType = "101", SwitchBit = "7674"};
+        public static readonly Switch Switch_187503105 = new Switch { SwitchId = "187503105", SwitchType = "101", SwitchBit = "7675"};
+        public static readonly Switch Switch_187503106 = new Switch { SwitchId = "187503106", SwitchType = "101", SwitchBit = "7676"};
+        public static readonly Switch Switch_187503107 = new Switch { SwitchId = "187503107", SwitchType = "101", SwitchBit = "7677"};
+        public static readonly Switch Switch_187503108 = new Switch { SwitchId = "187503108", SwitchType = "101", SwitchBit = "7678"};
+        public static readonly Switch Switch_187503109 = new Switch { SwitchId = "187503109", SwitchType = "101", SwitchBit = "7679"};
+        public static readonly Switch Switch_187503110 = new Switch { SwitchId = "187503110", SwitchType = "101", SwitchBit = "7722"};
+        public static readonly Switch Switch_187503111 = new Switch { SwitchId = "187503111", SwitchType = "101", SwitchBit = "7723"};
+        public static readonly Switch Switch_187504001 = new Switch { SwitchId = "187504001", SwitchType = "101", SwitchBit = "7979"};
+        public static readonly Switch Switch_187504002 = new Switch { SwitchId = "187504002", SwitchType = "101", SwitchBit = "7980"};
+        public static readonly Switch Switch_187504003 = new Switch { SwitchId = "187504003", SwitchType = "101", SwitchBit = "7981"};
+        public static readonly Switch Switch_187504004 = new Switch { SwitchId = "187504004", SwitchType = "101", SwitchBit = "7982"};
+        public static readonly Switch Switch_187504005 = new Switch { SwitchId = "187504005", SwitchType = "101", SwitchBit = "7983"};
+        public static readonly Switch Switch_187504006 = new Switch { SwitchId = "187504006", SwitchType = "101", SwitchBit = "7984"};
+        public static readonly Switch Switch_187504007 = new Switch { SwitchId = "187504007", SwitchType = "101", SwitchBit = "7985"};
+        public static readonly Switch Switch_187504008 = new Switch { SwitchId = "187504008", SwitchType = "101", SwitchBit = "7986"};
+        public static readonly Switch Switch_187504101 = new Switch { SwitchId = "187504101", SwitchType = "101", SwitchBit = "7987"};
+        public static readonly Switch Switch_187504102 = new Switch { SwitchId = "187504102", SwitchType = "101", SwitchBit = "7988"};
+        public static readonly Switch Switch_187504103 = new Switch { SwitchId = "187504103", SwitchType = "101", SwitchBit = "7989"};
+        public static readonly Switch Switch_187504104 = new Switch { SwitchId = "187504104", SwitchType = "101", SwitchBit = "7990"};
+        public static readonly Switch Switch_187504105 = new Switch { SwitchId = "187504105", SwitchType = "101", SwitchBit = "7991"};
+        public static readonly Switch Switch_187504106 = new Switch { SwitchId = "187504106", SwitchType = "101", SwitchBit = "7992"};
+        public static readonly Switch Switch_187504107 = new Switch { SwitchId = "187504107", SwitchType = "101", SwitchBit = "7993"};
+        public static readonly Switch Switch_187504108 = new Switch { SwitchId = "187504108", SwitchType = "101", SwitchBit = "7994"};
+        public static readonly Switch Switch_187504109 = new Switch { SwitchId = "187504109", SwitchType = "101", SwitchBit = "7995"};
+        public static readonly Switch Switch_187504110 = new Switch { SwitchId = "187504110", SwitchType = "101", SwitchBit = "7996"};
+        public static readonly Switch Switch_187504111 = new Switch { SwitchId = "187504111", SwitchType = "101", SwitchBit = "7997"};
+        public static readonly Switch Switch_187505001 = new Switch { SwitchId = "187505001", SwitchType = "101", SwitchBit = "8333"};
+        public static readonly Switch Switch_187505002 = new Switch { SwitchId = "187505002", SwitchType = "101", SwitchBit = "8334"};
+        public static readonly Switch Switch_187505003 = new Switch { SwitchId = "187505003", SwitchType = "101", SwitchBit = "8335"};
+        public static readonly Switch Switch_187505004 = new Switch { SwitchId = "187505004", SwitchType = "101", SwitchBit = "8336"};
+        public static readonly Switch Switch_187505005 = new Switch { SwitchId = "187505005", SwitchType = "101", SwitchBit = "8337"};
+        public static readonly Switch Switch_187505006 = new Switch { SwitchId = "187505006", SwitchType = "101", SwitchBit = "8338"};
+        public static readonly Switch Switch_187505007 = new Switch { SwitchId = "187505007", SwitchType = "101", SwitchBit = "8339"};
+        public static readonly Switch Switch_187505008 = new Switch { SwitchId = "187505008", SwitchType = "101", SwitchBit = "8340"};
+        public static readonly Switch Switch_187600001 = new Switch { SwitchId = "187600001", SwitchType = "101", SwitchBit = "7460"};
+        public static readonly Switch Switch_187600002 = new Switch { SwitchId = "187600002", SwitchType = "101", SwitchBit = "7461"};
+        public static readonly Switch Switch_187600003 = new Switch { SwitchId = "187600003", SwitchType = "101", SwitchBit = "7462"};
+        public static readonly Switch Switch_187600101 = new Switch { SwitchId = "187600101", SwitchType = "101", SwitchBit = "7463"};
+        public static readonly Switch Switch_187600102 = new Switch { SwitchId = "187600102", SwitchType = "101", SwitchBit = "7464"};
+        public static readonly Switch Switch_187600103 = new Switch { SwitchId = "187600103", SwitchType = "101", SwitchBit = "7465"};
+        public static readonly Switch Switch_187600104 = new Switch { SwitchId = "187600104", SwitchType = "101", SwitchBit = "7466"};
+        public static readonly Switch Switch_187600105 = new Switch { SwitchId = "187600105", SwitchType = "101", SwitchBit = "7467"};
+        public static readonly Switch Switch_187601001 = new Switch { SwitchId = "187601001", SwitchType = "101", SwitchBit = "7688"};
+        public static readonly Switch Switch_187601002 = new Switch { SwitchId = "187601002", SwitchType = "101", SwitchBit = "7689"};
+        public static readonly Switch Switch_187601003 = new Switch { SwitchId = "187601003", SwitchType = "101", SwitchBit = "7690"};
+        public static readonly Switch Switch_187601101 = new Switch { SwitchId = "187601101", SwitchType = "101", SwitchBit = "7691"};
+        public static readonly Switch Switch_187601102 = new Switch { SwitchId = "187601102", SwitchType = "101", SwitchBit = "7692"};
+        public static readonly Switch Switch_187601103 = new Switch { SwitchId = "187601103", SwitchType = "101", SwitchBit = "7693"};
+        public static readonly Switch Switch_187601104 = new Switch { SwitchId = "187601104", SwitchType = "101", SwitchBit = "7694"};
+        public static readonly Switch Switch_187601105 = new Switch { SwitchId = "187601105", SwitchType = "101", SwitchBit = "7695"};
+        public static readonly Switch Switch_187602001 = new Switch { SwitchId = "187602001", SwitchType = "101", SwitchBit = "7740"};
+        public static readonly Switch Switch_187602002 = new Switch { SwitchId = "187602002", SwitchType = "101", SwitchBit = "7741"};
+        public static readonly Switch Switch_187602003 = new Switch { SwitchId = "187602003", SwitchType = "101", SwitchBit = "7742"};
+        public static readonly Switch Switch_187602101 = new Switch { SwitchId = "187602101", SwitchType = "101", SwitchBit = "7743"};
+        public static readonly Switch Switch_187602102 = new Switch { SwitchId = "187602102", SwitchType = "101", SwitchBit = "7744"};
+        public static readonly Switch Switch_187602103 = new Switch { SwitchId = "187602103", SwitchType = "101", SwitchBit = "7745"};
+        public static readonly Switch Switch_187602104 = new Switch { SwitchId = "187602104", SwitchType = "101", SwitchBit = "7746"};
+        public static readonly Switch Switch_187602105 = new Switch { SwitchId = "187602105", SwitchType = "101", SwitchBit = "7747"};
+        public static readonly Switch Switch_187602106 = new Switch { SwitchId = "187602106", SwitchType = "101", SwitchBit = "7748"};
+        public static readonly Switch Switch_187603001 = new Switch { SwitchId = "187603001", SwitchType = "101", SwitchBit = "7749"};
+        public static readonly Switch Switch_187603002 = new Switch { SwitchId = "187603002", SwitchType = "101", SwitchBit = "7750"};
+        public static readonly Switch Switch_187603003 = new Switch { SwitchId = "187603003", SwitchType = "101", SwitchBit = "7751"};
+        public static readonly Switch Switch_187603101 = new Switch { SwitchId = "187603101", SwitchType = "101", SwitchBit = "7752"};
+        public static readonly Switch Switch_187603102 = new Switch { SwitchId = "187603102", SwitchType = "101", SwitchBit = "7753"};
+        public static readonly Switch Switch_187603103 = new Switch { SwitchId = "187603103", SwitchType = "101", SwitchBit = "7754"};
+        public static readonly Switch Switch_187603104 = new Switch { SwitchId = "187603104", SwitchType = "101", SwitchBit = "7755"};
+        public static readonly Switch Switch_187603105 = new Switch { SwitchId = "187603105", SwitchType = "101", SwitchBit = "7756"};
+        public static readonly Switch Switch_187604001 = new Switch { SwitchId = "187604001", SwitchType = "101", SwitchBit = "7758"};
+        public static readonly Switch Switch_187604002 = new Switch { SwitchId = "187604002", SwitchType = "101", SwitchBit = "7759"};
+        public static readonly Switch Switch_187604003 = new Switch { SwitchId = "187604003", SwitchType = "101", SwitchBit = "7760"};
+        public static readonly Switch Switch_187604101 = new Switch { SwitchId = "187604101", SwitchType = "101", SwitchBit = "7761"};
+        public static readonly Switch Switch_187604102 = new Switch { SwitchId = "187604102", SwitchType = "101", SwitchBit = "7762"};
+        public static readonly Switch Switch_187604103 = new Switch { SwitchId = "187604103", SwitchType = "101", SwitchBit = "7763"};
+        public static readonly Switch Switch_187604104 = new Switch { SwitchId = "187604104", SwitchType = "101", SwitchBit = "7764"};
+        public static readonly Switch Switch_187604105 = new Switch { SwitchId = "187604105", SwitchType = "101", SwitchBit = "7765"};
+        public static readonly Switch Switch_187604106 = new Switch { SwitchId = "187604106", SwitchType = "101", SwitchBit = "7766"};
+        public static readonly Switch Switch_187604107 = new Switch { SwitchId = "187604107", SwitchType = "101", SwitchBit = "7757"};
+        public static readonly Switch Switch_187605001 = new Switch { SwitchId = "187605001", SwitchType = "101", SwitchBit = "7767"};
+        public static readonly Switch Switch_187605002 = new Switch { SwitchId = "187605002", SwitchType = "101", SwitchBit = "7768"};
+        public static readonly Switch Switch_187605003 = new Switch { SwitchId = "187605003", SwitchType = "101", SwitchBit = "7769"};
+        public static readonly Switch Switch_187605101 = new Switch { SwitchId = "187605101", SwitchType = "101", SwitchBit = "7770"};
+        public static readonly Switch Switch_187605102 = new Switch { SwitchId = "187605102", SwitchType = "101", SwitchBit = "7771"};
+        public static readonly Switch Switch_187605103 = new Switch { SwitchId = "187605103", SwitchType = "101", SwitchBit = "7772"};
+        public static readonly Switch Switch_187605104 = new Switch { SwitchId = "187605104", SwitchType = "101", SwitchBit = "7773"};
+        public static readonly Switch Switch_187605105 = new Switch { SwitchId = "187605105", SwitchType = "101", SwitchBit = "7774"};
+        public static readonly Switch Switch_187605106 = new Switch { SwitchId = "187605106", SwitchType = "101", SwitchBit = "7775"};
+        public static readonly Switch Switch_187606001 = new Switch { SwitchId = "187606001", SwitchType = "101", SwitchBit = "7776"};
+        public static readonly Switch Switch_187606002 = new Switch { SwitchId = "187606002", SwitchType = "101", SwitchBit = "7777"};
+        public static readonly Switch Switch_187606003 = new Switch { SwitchId = "187606003", SwitchType = "101", SwitchBit = "7778"};
+        public static readonly Switch Switch_187606101 = new Switch { SwitchId = "187606101", SwitchType = "101", SwitchBit = "7779"};
+        public static readonly Switch Switch_187606102 = new Switch { SwitchId = "187606102", SwitchType = "101", SwitchBit = "7780"};
+        public static readonly Switch Switch_187606103 = new Switch { SwitchId = "187606103", SwitchType = "101", SwitchBit = "7781"};
+        public static readonly Switch Switch_187606104 = new Switch { SwitchId = "187606104", SwitchType = "101", SwitchBit = "7782"};
+        public static readonly Switch Switch_187606105 = new Switch { SwitchId = "187606105", SwitchType = "101", SwitchBit = "7783"};
+        public static readonly Switch Switch_187607001 = new Switch { SwitchId = "187607001", SwitchType = "101", SwitchBit = "7785"};
+        public static readonly Switch Switch_187607002 = new Switch { SwitchId = "187607002", SwitchType = "101", SwitchBit = "7786"};
+        public static readonly Switch Switch_187607003 = new Switch { SwitchId = "187607003", SwitchType = "101", SwitchBit = "7787"};
+        public static readonly Switch Switch_187607101 = new Switch { SwitchId = "187607101", SwitchType = "101", SwitchBit = "7788"};
+        public static readonly Switch Switch_187607102 = new Switch { SwitchId = "187607102", SwitchType = "101", SwitchBit = "7789"};
+        public static readonly Switch Switch_187607103 = new Switch { SwitchId = "187607103", SwitchType = "101", SwitchBit = "7790"};
+        public static readonly Switch Switch_187607104 = new Switch { SwitchId = "187607104", SwitchType = "101", SwitchBit = "7791"};
+        public static readonly Switch Switch_187607105 = new Switch { SwitchId = "187607105", SwitchType = "101", SwitchBit = "7792"};
+        public static readonly Switch Switch_187608001 = new Switch { SwitchId = "187608001", SwitchType = "101", SwitchBit = "7794"};
+        public static readonly Switch Switch_187608002 = new Switch { SwitchId = "187608002", SwitchType = "101", SwitchBit = "7795"};
+        public static readonly Switch Switch_187608003 = new Switch { SwitchId = "187608003", SwitchType = "101", SwitchBit = "7796"};
+        public static readonly Switch Switch_187608101 = new Switch { SwitchId = "187608101", SwitchType = "101", SwitchBit = "7797"};
+        public static readonly Switch Switch_187608102 = new Switch { SwitchId = "187608102", SwitchType = "101", SwitchBit = "7798"};
+        public static readonly Switch Switch_187608103 = new Switch { SwitchId = "187608103", SwitchType = "101", SwitchBit = "7799"};
+        public static readonly Switch Switch_187608104 = new Switch { SwitchId = "187608104", SwitchType = "101", SwitchBit = "7800"};
+        public static readonly Switch Switch_187608105 = new Switch { SwitchId = "187608105", SwitchType = "101", SwitchBit = "7801"};
+        public static readonly Switch Switch_187608106 = new Switch { SwitchId = "187608106", SwitchType = "101", SwitchBit = "7802"};
+        public static readonly Switch Switch_187615001 = new Switch { SwitchId = "187615001", SwitchType = "101", SwitchBit = "8548"};
+        public static readonly Switch Switch_187615002 = new Switch { SwitchId = "187615002", SwitchType = "101", SwitchBit = "8549"};
+        public static readonly Switch Switch_187700001 = new Switch { SwitchId = "187700001", SwitchType = "101", SwitchBit = "7416"};
+        public static readonly Switch Switch_187700002 = new Switch { SwitchId = "187700002", SwitchType = "101", SwitchBit = "7417"};
+        public static readonly Switch Switch_187700003 = new Switch { SwitchId = "187700003", SwitchType = "101", SwitchBit = "7418"};
+        public static readonly Switch Switch_187700004 = new Switch { SwitchId = "187700004", SwitchType = "101", SwitchBit = "7419"};
+        public static readonly Switch Switch_187700005 = new Switch { SwitchId = "187700005", SwitchType = "101", SwitchBit = "7420"};
+        public static readonly Switch Switch_187700006 = new Switch { SwitchId = "187700006", SwitchType = "101", SwitchBit = "7421"};
+        public static readonly Switch Switch_187700007 = new Switch { SwitchId = "187700007", SwitchType = "101", SwitchBit = "7422"};
+        public static readonly Switch Switch_187700008 = new Switch { SwitchId = "187700008", SwitchType = "101", SwitchBit = "7423"};
+        public static readonly Switch Switch_187700009 = new Switch { SwitchId = "187700009", SwitchType = "101", SwitchBit = "7424"};
+        public static readonly Switch Switch_187700010 = new Switch { SwitchId = "187700010", SwitchType = "101", SwitchBit = "7425"};
+        public static readonly Switch Switch_187700011 = new Switch { SwitchId = "187700011", SwitchType = "101", SwitchBit = "7426"};
+        public static readonly Switch Switch_187700012 = new Switch { SwitchId = "187700012", SwitchType = "101", SwitchBit = "7427"};
+        public static readonly Switch Switch_187700013 = new Switch { SwitchId = "187700013", SwitchType = "101", SwitchBit = "7428"};
+        public static readonly Switch Switch_187700014 = new Switch { SwitchId = "187700014", SwitchType = "101", SwitchBit = "7429"};
+        public static readonly Switch Switch_187700015 = new Switch { SwitchId = "187700015", SwitchType = "101", SwitchBit = "7430"};
+        public static readonly Switch Switch_187700016 = new Switch { SwitchId = "187700016", SwitchType = "101", SwitchBit = "7431"};
+        public static readonly Switch Switch_187700017 = new Switch { SwitchId = "187700017", SwitchType = "101", SwitchBit = "7432"};
+        public static readonly Switch Switch_187700018 = new Switch { SwitchId = "187700018", SwitchType = "101", SwitchBit = "7433"};
+        public static readonly Switch Switch_187700019 = new Switch { SwitchId = "187700019", SwitchType = "101", SwitchBit = "7434"};
+        public static readonly Switch Switch_187700020 = new Switch { SwitchId = "187700020", SwitchType = "101", SwitchBit = "7435"};
+        public static readonly Switch Switch_187700021 = new Switch { SwitchId = "187700021", SwitchType = "101", SwitchBit = "7468"};
+        public static readonly Switch Switch_187700022 = new Switch { SwitchId = "187700022", SwitchType = "101", SwitchBit = "7469"};
+        public static readonly Switch Switch_187700023 = new Switch { SwitchId = "187700023", SwitchType = "101", SwitchBit = "7470"};
+        public static readonly Switch Switch_187700024 = new Switch { SwitchId = "187700024", SwitchType = "101", SwitchBit = "7471"};
+        public static readonly Switch Switch_187700025 = new Switch { SwitchId = "187700025", SwitchType = "101", SwitchBit = "7472"};
+        public static readonly Switch Switch_187700026 = new Switch { SwitchId = "187700026", SwitchType = "101", SwitchBit = "7473"};
+        public static readonly Switch Switch_187700027 = new Switch { SwitchId = "187700027", SwitchType = "101", SwitchBit = "7474"};
+        public static readonly Switch Switch_187700028 = new Switch { SwitchId = "187700028", SwitchType = "101", SwitchBit = "7475"};
+        public static readonly Switch Switch_187700029 = new Switch { SwitchId = "187700029", SwitchType = "101", SwitchBit = "7476"};
+        public static readonly Switch Switch_187700030 = new Switch { SwitchId = "187700030", SwitchType = "101", SwitchBit = "7477"};
+        public static readonly Switch Switch_187700031 = new Switch { SwitchId = "187700031", SwitchType = "101", SwitchBit = "7537"};
+        public static readonly Switch Switch_187700032 = new Switch { SwitchId = "187700032", SwitchType = "101", SwitchBit = "7538"};
+        public static readonly Switch Switch_187700033 = new Switch { SwitchId = "187700033", SwitchType = "101", SwitchBit = "7539"};
+        public static readonly Switch Switch_187700034 = new Switch { SwitchId = "187700034", SwitchType = "101", SwitchBit = "7540"};
+        public static readonly Switch Switch_187700035 = new Switch { SwitchId = "187700035", SwitchType = "101", SwitchBit = "7541"};
+        public static readonly Switch Switch_187700036 = new Switch { SwitchId = "187700036", SwitchType = "101", SwitchBit = "7542"};
+        public static readonly Switch Switch_187700037 = new Switch { SwitchId = "187700037", SwitchType = "101", SwitchBit = "7543"};
+        public static readonly Switch Switch_187700038 = new Switch { SwitchId = "187700038", SwitchType = "101", SwitchBit = "7544"};
+        public static readonly Switch Switch_187700039 = new Switch { SwitchId = "187700039", SwitchType = "101", SwitchBit = "7545"};
+        public static readonly Switch Switch_187700040 = new Switch { SwitchId = "187700040", SwitchType = "101", SwitchBit = "7546"};
+        public static readonly Switch Switch_187700041 = new Switch { SwitchId = "187700041", SwitchType = "101", SwitchBit = "7547"};
+        public static readonly Switch Switch_187700042 = new Switch { SwitchId = "187700042", SwitchType = "101", SwitchBit = "7548"};
+        public static readonly Switch Switch_187700043 = new Switch { SwitchId = "187700043", SwitchType = "101", SwitchBit = "7549"};
+        public static readonly Switch Switch_187700044 = new Switch { SwitchId = "187700044", SwitchType = "101", SwitchBit = "7550"};
+        public static readonly Switch Switch_187700045 = new Switch { SwitchId = "187700045", SwitchType = "101", SwitchBit = "7551"};
+        public static readonly Switch Switch_187700046 = new Switch { SwitchId = "187700046", SwitchType = "101", SwitchBit = "7552"};
+        public static readonly Switch Switch_187700047 = new Switch { SwitchId = "187700047", SwitchType = "101", SwitchBit = "7553"};
+        public static readonly Switch Switch_187700048 = new Switch { SwitchId = "187700048", SwitchType = "101", SwitchBit = "7554"};
+        public static readonly Switch Switch_187700049 = new Switch { SwitchId = "187700049", SwitchType = "101", SwitchBit = "7555"};
+        public static readonly Switch Switch_187700050 = new Switch { SwitchId = "187700050", SwitchType = "101", SwitchBit = "7556"};
+        public static readonly Switch Switch_187700051 = new Switch { SwitchId = "187700051", SwitchType = "101", SwitchBit = "7589"};
+        public static readonly Switch Switch_187700052 = new Switch { SwitchId = "187700052", SwitchType = "101", SwitchBit = "7590"};
+        public static readonly Switch Switch_187700053 = new Switch { SwitchId = "187700053", SwitchType = "101", SwitchBit = "7591"};
+        public static readonly Switch Switch_187700054 = new Switch { SwitchId = "187700054", SwitchType = "101", SwitchBit = "7592"};
+        public static readonly Switch Switch_187700055 = new Switch { SwitchId = "187700055", SwitchType = "101", SwitchBit = "7593"};
+        public static readonly Switch Switch_187700056 = new Switch { SwitchId = "187700056", SwitchType = "101", SwitchBit = "7594"};
+        public static readonly Switch Switch_187700057 = new Switch { SwitchId = "187700057", SwitchType = "101", SwitchBit = "7595"};
+        public static readonly Switch Switch_187700058 = new Switch { SwitchId = "187700058", SwitchType = "101", SwitchBit = "7596"};
+        public static readonly Switch Switch_187700059 = new Switch { SwitchId = "187700059", SwitchType = "101", SwitchBit = "7597"};
+        public static readonly Switch Switch_187700060 = new Switch { SwitchId = "187700060", SwitchType = "101", SwitchBit = "7598"};
+        public static readonly Switch Switch_187700061 = new Switch { SwitchId = "187700061", SwitchType = "101", SwitchBit = "7599"};
+        public static readonly Switch Switch_187700062 = new Switch { SwitchId = "187700062", SwitchType = "101", SwitchBit = "7600"};
+        public static readonly Switch Switch_187700063 = new Switch { SwitchId = "187700063", SwitchType = "101", SwitchBit = "7601"};
+        public static readonly Switch Switch_187700064 = new Switch { SwitchId = "187700064", SwitchType = "101", SwitchBit = "7602"};
+        public static readonly Switch Switch_187700065 = new Switch { SwitchId = "187700065", SwitchType = "101", SwitchBit = "7603"};
+        public static readonly Switch Switch_187700066 = new Switch { SwitchId = "187700066", SwitchType = "101", SwitchBit = "7604"};
+        public static readonly Switch Switch_187700067 = new Switch { SwitchId = "187700067", SwitchType = "101", SwitchBit = "7605"};
+        public static readonly Switch Switch_187700068 = new Switch { SwitchId = "187700068", SwitchType = "101", SwitchBit = "7606"};
+        public static readonly Switch Switch_187700069 = new Switch { SwitchId = "187700069", SwitchType = "101", SwitchBit = "7607"};
+        public static readonly Switch Switch_187700070 = new Switch { SwitchId = "187700070", SwitchType = "101", SwitchBit = "7608"};
+        public static readonly Switch Switch_187700071 = new Switch { SwitchId = "187700071", SwitchType = "101", SwitchBit = "7696"};
+        public static readonly Switch Switch_187700072 = new Switch { SwitchId = "187700072", SwitchType = "101", SwitchBit = "7697"};
+        public static readonly Switch Switch_187700073 = new Switch { SwitchId = "187700073", SwitchType = "101", SwitchBit = "7698"};
+        public static readonly Switch Switch_187700074 = new Switch { SwitchId = "187700074", SwitchType = "101", SwitchBit = "7699"};
+        public static readonly Switch Switch_187700075 = new Switch { SwitchId = "187700075", SwitchType = "101", SwitchBit = "7700"};
+        public static readonly Switch Switch_187700076 = new Switch { SwitchId = "187700076", SwitchType = "101", SwitchBit = "7701"};
+        public static readonly Switch Switch_187700077 = new Switch { SwitchId = "187700077", SwitchType = "101", SwitchBit = "7702"};
+        public static readonly Switch Switch_187700078 = new Switch { SwitchId = "187700078", SwitchType = "101", SwitchBit = "7703"};
+        public static readonly Switch Switch_187700079 = new Switch { SwitchId = "187700079", SwitchType = "101", SwitchBit = "7704"};
+        public static readonly Switch Switch_187700080 = new Switch { SwitchId = "187700080", SwitchType = "101", SwitchBit = "7705"};
+        public static readonly Switch Switch_187700081 = new Switch { SwitchId = "187700081", SwitchType = "101", SwitchBit = "7706"};
+        public static readonly Switch Switch_187700082 = new Switch { SwitchId = "187700082", SwitchType = "101", SwitchBit = "7707"};
+        public static readonly Switch Switch_187700083 = new Switch { SwitchId = "187700083", SwitchType = "101", SwitchBit = "7708"};
+        public static readonly Switch Switch_187700084 = new Switch { SwitchId = "187700084", SwitchType = "101", SwitchBit = "7709"};
+        public static readonly Switch Switch_187700085 = new Switch { SwitchId = "187700085", SwitchType = "101", SwitchBit = "7710"};
+        public static readonly Switch Switch_187700086 = new Switch { SwitchId = "187700086", SwitchType = "101", SwitchBit = "7711"};
+        public static readonly Switch Switch_187700087 = new Switch { SwitchId = "187700087", SwitchType = "101", SwitchBit = "7712"};
+        public static readonly Switch Switch_187700088 = new Switch { SwitchId = "187700088", SwitchType = "101", SwitchBit = "7713"};
+        public static readonly Switch Switch_187700089 = new Switch { SwitchId = "187700089", SwitchType = "101", SwitchBit = "7714"};
+        public static readonly Switch Switch_187700090 = new Switch { SwitchId = "187700090", SwitchType = "101", SwitchBit = "7715"};
+        public static readonly Switch Switch_187700091 = new Switch { SwitchId = "187700091", SwitchType = "101", SwitchBit = "7839"};
+        public static readonly Switch Switch_187700092 = new Switch { SwitchId = "187700092", SwitchType = "101", SwitchBit = "7840"};
+        public static readonly Switch Switch_187700093 = new Switch { SwitchId = "187700093", SwitchType = "101", SwitchBit = "7841"};
+        public static readonly Switch Switch_187700094 = new Switch { SwitchId = "187700094", SwitchType = "101", SwitchBit = "7842"};
+        public static readonly Switch Switch_187700095 = new Switch { SwitchId = "187700095", SwitchType = "101", SwitchBit = "7843"};
+        public static readonly Switch Switch_187700096 = new Switch { SwitchId = "187700096", SwitchType = "101", SwitchBit = "7844"};
+        public static readonly Switch Switch_187700097 = new Switch { SwitchId = "187700097", SwitchType = "101", SwitchBit = "7845"};
+        public static readonly Switch Switch_187700098 = new Switch { SwitchId = "187700098", SwitchType = "101", SwitchBit = "7846"};
+        public static readonly Switch Switch_187700099 = new Switch { SwitchId = "187700099", SwitchType = "101", SwitchBit = "7847"};
+        public static readonly Switch Switch_187700100 = new Switch { SwitchId = "187700100", SwitchType = "101", SwitchBit = "7848"};
+        public static readonly Switch Switch_187700101 = new Switch { SwitchId = "187700101", SwitchType = "101", SwitchBit = "7849"};
+        public static readonly Switch Switch_187700111 = new Switch { SwitchId = "187700111", SwitchType = "101", SwitchBit = "7969"};
+        public static readonly Switch Switch_187700112 = new Switch { SwitchId = "187700112", SwitchType = "101", SwitchBit = "7970"};
+        public static readonly Switch Switch_187700113 = new Switch { SwitchId = "187700113", SwitchType = "101", SwitchBit = "7971"};
+        public static readonly Switch Switch_187700114 = new Switch { SwitchId = "187700114", SwitchType = "101", SwitchBit = "7972"};
+        public static readonly Switch Switch_187700115 = new Switch { SwitchId = "187700115", SwitchType = "101", SwitchBit = "7973"};
+        public static readonly Switch Switch_187700116 = new Switch { SwitchId = "187700116", SwitchType = "101", SwitchBit = "7974"};
+        public static readonly Switch Switch_187700117 = new Switch { SwitchId = "187700117", SwitchType = "101", SwitchBit = "7975"};
+        public static readonly Switch Switch_187700118 = new Switch { SwitchId = "187700118", SwitchType = "101", SwitchBit = "7976"};
+        public static readonly Switch Switch_187700119 = new Switch { SwitchId = "187700119", SwitchType = "101", SwitchBit = "7977"};
+        public static readonly Switch Switch_187700120 = new Switch { SwitchId = "187700120", SwitchType = "101", SwitchBit = "7978"};
+        public static readonly Switch Switch_187700121 = new Switch { SwitchId = "187700121", SwitchType = "101", SwitchBit = "8007"};
+        public static readonly Switch Switch_187700122 = new Switch { SwitchId = "187700122", SwitchType = "101", SwitchBit = "8008"};
+        public static readonly Switch Switch_187700123 = new Switch { SwitchId = "187700123", SwitchType = "101", SwitchBit = "8009"};
+        public static readonly Switch Switch_187700124 = new Switch { SwitchId = "187700124", SwitchType = "101", SwitchBit = "8010"};
+        public static readonly Switch Switch_187700125 = new Switch { SwitchId = "187700125", SwitchType = "101", SwitchBit = "8011"};
+        public static readonly Switch Switch_187700126 = new Switch { SwitchId = "187700126", SwitchType = "101", SwitchBit = "8012"};
+        public static readonly Switch Switch_187700127 = new Switch { SwitchId = "187700127", SwitchType = "101", SwitchBit = "8013"};
+        public static readonly Switch Switch_187700128 = new Switch { SwitchId = "187700128", SwitchType = "101", SwitchBit = "8014"};
+        public static readonly Switch Switch_187700129 = new Switch { SwitchId = "187700129", SwitchType = "101", SwitchBit = "8015"};
+        public static readonly Switch Switch_187700130 = new Switch { SwitchId = "187700130", SwitchType = "101", SwitchBit = "8016"};
+        public static readonly Switch Switch_187700131 = new Switch { SwitchId = "187700131", SwitchType = "101", SwitchBit = "8017"};
+        public static readonly Switch Switch_187700132 = new Switch { SwitchId = "187700132", SwitchType = "101", SwitchBit = "8018"};
+        public static readonly Switch Switch_187700133 = new Switch { SwitchId = "187700133", SwitchType = "101", SwitchBit = "8019"};
+        public static readonly Switch Switch_187700134 = new Switch { SwitchId = "187700134", SwitchType = "101", SwitchBit = "8020"};
+        public static readonly Switch Switch_187700135 = new Switch { SwitchId = "187700135", SwitchType = "101", SwitchBit = "8021"};
+        public static readonly Switch Switch_187700136 = new Switch { SwitchId = "187700136", SwitchType = "101", SwitchBit = "8022"};
+        public static readonly Switch Switch_187700137 = new Switch { SwitchId = "187700137", SwitchType = "101", SwitchBit = "8023"};
+        public static readonly Switch Switch_187700138 = new Switch { SwitchId = "187700138", SwitchType = "101", SwitchBit = "8024"};
+        public static readonly Switch Switch_187700139 = new Switch { SwitchId = "187700139", SwitchType = "101", SwitchBit = "8025"};
+        public static readonly Switch Switch_187700140 = new Switch { SwitchId = "187700140", SwitchType = "101", SwitchBit = "8026"};
+        public static readonly Switch Switch_187700141 = new Switch { SwitchId = "187700141", SwitchType = "101", SwitchBit = "8027"};
+        public static readonly Switch Switch_187700142 = new Switch { SwitchId = "187700142", SwitchType = "101", SwitchBit = "8028"};
+        public static readonly Switch Switch_187700143 = new Switch { SwitchId = "187700143", SwitchType = "101", SwitchBit = "8234"};
+        public static readonly Switch Switch_187700144 = new Switch { SwitchId = "187700144", SwitchType = "101", SwitchBit = "8235"};
+        public static readonly Switch Switch_187700145 = new Switch { SwitchId = "187700145", SwitchType = "101", SwitchBit = "8236"};
+        public static readonly Switch Switch_187700146 = new Switch { SwitchId = "187700146", SwitchType = "101", SwitchBit = "8237"};
+        public static readonly Switch Switch_187700147 = new Switch { SwitchId = "187700147", SwitchType = "101", SwitchBit = "8238"};
+        public static readonly Switch Switch_187700148 = new Switch { SwitchId = "187700148", SwitchType = "101", SwitchBit = "8239"};
+        public static readonly Switch Switch_187700149 = new Switch { SwitchId = "187700149", SwitchType = "101", SwitchBit = "8240"};
+        public static readonly Switch Switch_187700150 = new Switch { SwitchId = "187700150", SwitchType = "101", SwitchBit = "8241"};
+        public static readonly Switch Switch_187700151 = new Switch { SwitchId = "187700151", SwitchType = "101", SwitchBit = "8242"};
+        public static readonly Switch Switch_187700152 = new Switch { SwitchId = "187700152", SwitchType = "101", SwitchBit = "8243"};
+        public static readonly Switch Switch_187700153 = new Switch { SwitchId = "187700153", SwitchType = "101", SwitchBit = "8244"};
+        public static readonly Switch Switch_187700154 = new Switch { SwitchId = "187700154", SwitchType = "101", SwitchBit = "8245"};
+        public static readonly Switch Switch_187700155 = new Switch { SwitchId = "187700155", SwitchType = "101", SwitchBit = "8246"};
+        public static readonly Switch Switch_187700156 = new Switch { SwitchId = "187700156", SwitchType = "101", SwitchBit = "8247"};
+        public static readonly Switch Switch_187700157 = new Switch { SwitchId = "187700157", SwitchType = "101", SwitchBit = "8248"};
+        public static readonly Switch Switch_187700158 = new Switch { SwitchId = "187700158", SwitchType = "101", SwitchBit = "8249"};
+        public static readonly Switch Switch_187700159 = new Switch { SwitchId = "187700159", SwitchType = "101", SwitchBit = "8250"};
+        public static readonly Switch Switch_187700160 = new Switch { SwitchId = "187700160", SwitchType = "101", SwitchBit = "8251"};
+        public static readonly Switch Switch_187700161 = new Switch { SwitchId = "187700161", SwitchType = "101", SwitchBit = "8252"};
+        public static readonly Switch Switch_187700162 = new Switch { SwitchId = "187700162", SwitchType = "101", SwitchBit = "8253"};
+        public static readonly Switch Switch_187700163 = new Switch { SwitchId = "187700163", SwitchType = "101", SwitchBit = "8254"};
+        public static readonly Switch Switch_187700164 = new Switch { SwitchId = "187700164", SwitchType = "101", SwitchBit = "8289"};
+        public static readonly Switch Switch_187700165 = new Switch { SwitchId = "187700165", SwitchType = "101", SwitchBit = "8290"};
+        public static readonly Switch Switch_187700166 = new Switch { SwitchId = "187700166", SwitchType = "101", SwitchBit = "8291"};
+        public static readonly Switch Switch_187700167 = new Switch { SwitchId = "187700167", SwitchType = "101", SwitchBit = "8292"};
+        public static readonly Switch Switch_187700168 = new Switch { SwitchId = "187700168", SwitchType = "101", SwitchBit = "8293"};
+        public static readonly Switch Switch_187700169 = new Switch { SwitchId = "187700169", SwitchType = "101", SwitchBit = "8294"};
+        public static readonly Switch Switch_187700170 = new Switch { SwitchId = "187700170", SwitchType = "101", SwitchBit = "8295"};
+        public static readonly Switch Switch_187700171 = new Switch { SwitchId = "187700171", SwitchType = "101", SwitchBit = "8296"};
+        public static readonly Switch Switch_187700172 = new Switch { SwitchId = "187700172", SwitchType = "101", SwitchBit = "8297"};
+        public static readonly Switch Switch_187700173 = new Switch { SwitchId = "187700173", SwitchType = "101", SwitchBit = "8298"};
+        public static readonly Switch Switch_187700174 = new Switch { SwitchId = "187700174", SwitchType = "101", SwitchBit = "8299"};
+        public static readonly Switch Switch_187700175 = new Switch { SwitchId = "187700175", SwitchType = "101", SwitchBit = "8300"};
+        public static readonly Switch Switch_187700176 = new Switch { SwitchId = "187700176", SwitchType = "101", SwitchBit = "8301"};
+        public static readonly Switch Switch_187700177 = new Switch { SwitchId = "187700177", SwitchType = "101", SwitchBit = "8302"};
+        public static readonly Switch Switch_187700178 = new Switch { SwitchId = "187700178", SwitchType = "101", SwitchBit = "8303"};
+        public static readonly Switch Switch_187700179 = new Switch { SwitchId = "187700179", SwitchType = "101", SwitchBit = "8304"};
+        public static readonly Switch Switch_187700180 = new Switch { SwitchId = "187700180", SwitchType = "101", SwitchBit = "8305"};
+        public static readonly Switch Switch_187700181 = new Switch { SwitchId = "187700181", SwitchType = "101", SwitchBit = "8306"};
+        public static readonly Switch Switch_187700182 = new Switch { SwitchId = "187700182", SwitchType = "101", SwitchBit = "8307"};
+        public static readonly Switch Switch_187700183 = new Switch { SwitchId = "187700183", SwitchType = "101", SwitchBit = "8308"};
+        public static readonly Switch Switch_187700184 = new Switch { SwitchId = "187700184", SwitchType = "101", SwitchBit = "8385"};
+        public static readonly Switch Switch_187700185 = new Switch { SwitchId = "187700185", SwitchType = "101", SwitchBit = "8386"};
+        public static readonly Switch Switch_187700186 = new Switch { SwitchId = "187700186", SwitchType = "101", SwitchBit = "8387"};
+        public static readonly Switch Switch_187700187 = new Switch { SwitchId = "187700187", SwitchType = "101", SwitchBit = "8388"};
+        public static readonly Switch Switch_187700188 = new Switch { SwitchId = "187700188", SwitchType = "101", SwitchBit = "8389"};
+        public static readonly Switch Switch_187700189 = new Switch { SwitchId = "187700189", SwitchType = "101", SwitchBit = "8390"};
+        public static readonly Switch Switch_187700190 = new Switch { SwitchId = "187700190", SwitchType = "101", SwitchBit = "8391"};
+        public static readonly Switch Switch_187700191 = new Switch { SwitchId = "187700191", SwitchType = "101", SwitchBit = "8392"};
+        public static readonly Switch Switch_187700192 = new Switch { SwitchId = "187700192", SwitchType = "101", SwitchBit = "8393"};
+        public static readonly Switch Switch_187700193 = new Switch { SwitchId = "187700193", SwitchType = "101", SwitchBit = "8394"};
+        public static readonly Switch Switch_187700194 = new Switch { SwitchId = "187700194", SwitchType = "101", SwitchBit = "8395"};
+        public static readonly Switch Switch_187700195 = new Switch { SwitchId = "187700195", SwitchType = "101", SwitchBit = "8396"};
+        public static readonly Switch Switch_187700196 = new Switch { SwitchId = "187700196", SwitchType = "101", SwitchBit = "8397"};
+        public static readonly Switch Switch_187700197 = new Switch { SwitchId = "187700197", SwitchType = "101", SwitchBit = "8398"};
+        public static readonly Switch Switch_187700198 = new Switch { SwitchId = "187700198", SwitchType = "101", SwitchBit = "8399"};
+        public static readonly Switch Switch_187700199 = new Switch { SwitchId = "187700199", SwitchType = "101", SwitchBit = "8400"};
+        public static readonly Switch Switch_187700200 = new Switch { SwitchId = "187700200", SwitchType = "101", SwitchBit = "8412"};
+        public static readonly Switch Switch_187700201 = new Switch { SwitchId = "187700201", SwitchType = "101", SwitchBit = "8413"};
+        public static readonly Switch Switch_187700202 = new Switch { SwitchId = "187700202", SwitchType = "101", SwitchBit = "8414"};
+        public static readonly Switch Switch_187700203 = new Switch { SwitchId = "187700203", SwitchType = "101", SwitchBit = "8415"};
+        public static readonly Switch Switch_187700204 = new Switch { SwitchId = "187700204", SwitchType = "101", SwitchBit = "8416"};
+        public static readonly Switch Switch_187700205 = new Switch { SwitchId = "187700205", SwitchType = "101", SwitchBit = "8417"};
+        public static readonly Switch Switch_187700206 = new Switch { SwitchId = "187700206", SwitchType = "101", SwitchBit = "8418"};
+        public static readonly Switch Switch_187700207 = new Switch { SwitchId = "187700207", SwitchType = "101", SwitchBit = "8419"};
+        public static readonly Switch Switch_187700208 = new Switch { SwitchId = "187700208", SwitchType = "101", SwitchBit = "8420"};
+        public static readonly Switch Switch_187700209 = new Switch { SwitchId = "187700209", SwitchType = "101", SwitchBit = "8421"};
+        public static readonly Switch Switch_187700210 = new Switch { SwitchId = "187700210", SwitchType = "101", SwitchBit = "8422"};
+        public static readonly Switch Switch_187700211 = new Switch { SwitchId = "187700211", SwitchType = "101", SwitchBit = "8436"};
+        public static readonly Switch Switch_187700212 = new Switch { SwitchId = "187700212", SwitchType = "101", SwitchBit = "8437"};
+        public static readonly Switch Switch_187700213 = new Switch { SwitchId = "187700213", SwitchType = "101", SwitchBit = "8438"};
+        public static readonly Switch Switch_187700214 = new Switch { SwitchId = "187700214", SwitchType = "101", SwitchBit = "8439"};
+        public static readonly Switch Switch_187700215 = new Switch { SwitchId = "187700215", SwitchType = "101", SwitchBit = "8440"};
+        public static readonly Switch Switch_187700216 = new Switch { SwitchId = "187700216", SwitchType = "101", SwitchBit = "8441"};
+        public static readonly Switch Switch_187700217 = new Switch { SwitchId = "187700217", SwitchType = "101", SwitchBit = "8442"};
+        public static readonly Switch Switch_187700218 = new Switch { SwitchId = "187700218", SwitchType = "101", SwitchBit = "8461"};
+        public static readonly Switch Switch_187700219 = new Switch { SwitchId = "187700219", SwitchType = "101", SwitchBit = "8462"};
+        public static readonly Switch Switch_187700220 = new Switch { SwitchId = "187700220", SwitchType = "101", SwitchBit = "8463"};
+        public static readonly Switch Switch_187700221 = new Switch { SwitchId = "187700221", SwitchType = "101", SwitchBit = "8464"};
+        public static readonly Switch Switch_187700222 = new Switch { SwitchId = "187700222", SwitchType = "101", SwitchBit = "8465"};
+        public static readonly Switch Switch_187700223 = new Switch { SwitchId = "187700223", SwitchType = "101", SwitchBit = "8466"};
+        public static readonly Switch Switch_187700224 = new Switch { SwitchId = "187700224", SwitchType = "101", SwitchBit = "8467"};
+        public static readonly Switch Switch_187700225 = new Switch { SwitchId = "187700225", SwitchType = "101", SwitchBit = "8468"};
+        public static readonly Switch Switch_187700226 = new Switch { SwitchId = "187700226", SwitchType = "101", SwitchBit = "8469"};
+        public static readonly Switch Switch_187700227 = new Switch { SwitchId = "187700227", SwitchType = "101", SwitchBit = "8470"};
+        public static readonly Switch Switch_187700228 = new Switch { SwitchId = "187700228", SwitchType = "101", SwitchBit = "8476"};
+        public static readonly Switch Switch_187700229 = new Switch { SwitchId = "187700229", SwitchType = "101", SwitchBit = "8477"};
+        public static readonly Switch Switch_187700230 = new Switch { SwitchId = "187700230", SwitchType = "101", SwitchBit = "8478"};
+        public static readonly Switch Switch_187700231 = new Switch { SwitchId = "187700231", SwitchType = "101", SwitchBit = "8479"};
+        public static readonly Switch Switch_187700232 = new Switch { SwitchId = "187700232", SwitchType = "101", SwitchBit = "8480"};
+        public static readonly Switch Switch_187700233 = new Switch { SwitchId = "187700233", SwitchType = "101", SwitchBit = "8481"};
+        public static readonly Switch Switch_187700234 = new Switch { SwitchId = "187700234", SwitchType = "101", SwitchBit = "8482"};
+        public static readonly Switch Switch_187700235 = new Switch { SwitchId = "187700235", SwitchType = "101", SwitchBit = "8483"};
+        public static readonly Switch Switch_187700236 = new Switch { SwitchId = "187700236", SwitchType = "101", SwitchBit = "8484"};
+        public static readonly Switch Switch_187700237 = new Switch { SwitchId = "187700237", SwitchType = "101", SwitchBit = "8485"};
+        public static readonly Switch Switch_187700238 = new Switch { SwitchId = "187700238", SwitchType = "101", SwitchBit = "8486"};
+        public static readonly Switch Switch_187700239 = new Switch { SwitchId = "187700239", SwitchType = "101", SwitchBit = "8502"};
+        public static readonly Switch Switch_187700240 = new Switch { SwitchId = "187700240", SwitchType = "101", SwitchBit = "8545"};
+        public static readonly Switch Switch_187700241 = new Switch { SwitchId = "187700241", SwitchType = "101", SwitchBit = "8546"};
+        public static readonly Switch Switch_187700242 = new Switch { SwitchId = "187700242", SwitchType = "101", SwitchBit = "8547"};
+        public static readonly Switch Switch_187700243 = new Switch { SwitchId = "187700243", SwitchType = "101", SwitchBit = "8564"};
+        public static readonly Switch Switch_187700244 = new Switch { SwitchId = "187700244", SwitchType = "101", SwitchBit = "8565"};
+        public static readonly Switch Switch_187700245 = new Switch { SwitchId = "187700245", SwitchType = "101", SwitchBit = "8566"};
+        public static readonly Switch Switch_187700246 = new Switch { SwitchId = "187700246", SwitchType = "101", SwitchBit = "8567"};
+        public static readonly Switch Switch_187700247 = new Switch { SwitchId = "187700247", SwitchType = "101", SwitchBit = "8568"};
+        public static readonly Switch Switch_187700248 = new Switch { SwitchId = "187700248", SwitchType = "101", SwitchBit = "8569"};
+        public static readonly Switch Switch_187700249 = new Switch { SwitchId = "187700249", SwitchType = "101", SwitchBit = "8570"};
+        public static readonly Switch Switch_187700250 = new Switch { SwitchId = "187700250", SwitchType = "101", SwitchBit = "8571"};
+        public static readonly Switch Switch_187700251 = new Switch { SwitchId = "187700251", SwitchType = "101", SwitchBit = "8572"};
+        public static readonly Switch Switch_187700252 = new Switch { SwitchId = "187700252", SwitchType = "101", SwitchBit = "8573"};
+        public static readonly Switch Switch_187700253 = new Switch { SwitchId = "187700253", SwitchType = "101", SwitchBit = "8574"};
         public static readonly Switch Switch_620010100 = new Switch { SwitchId = "620010100", SwitchType = "101", SwitchBit = "6000"};
         public static readonly Switch Switch_620010101 = new Switch { SwitchId = "620010101", SwitchType = "101", SwitchBit = "6001"};
         public static readonly Switch Switch_620010102 = new Switch { SwitchId = "620010102", SwitchType = "101", SwitchBit = "6002"};
@@ -17378,6 +20223,70 @@ namespace BraveHaxvius.Data
         public static readonly Switch Switch_832190601 = new Switch { SwitchId = "832190601", SwitchType = "800", SwitchBit = "1372"};
         public static readonly Switch Switch_832190701 = new Switch { SwitchId = "832190701", SwitchType = "800", SwitchBit = "1373"};
         public static readonly Switch Switch_832190801 = new Switch { SwitchId = "832190801", SwitchType = "800", SwitchBit = "1374"};
+        public static readonly Switch Switch_832330101 = new Switch { SwitchId = "832330101", SwitchType = "800", SwitchBit = "1395"};
+        public static readonly Switch Switch_832330201 = new Switch { SwitchId = "832330201", SwitchType = "800", SwitchBit = "1396"};
+        public static readonly Switch Switch_832330301 = new Switch { SwitchId = "832330301", SwitchType = "800", SwitchBit = "1397"};
+        public static readonly Switch Switch_832330401 = new Switch { SwitchId = "832330401", SwitchType = "800", SwitchBit = "1398"};
+        public static readonly Switch Switch_832330501 = new Switch { SwitchId = "832330501", SwitchType = "800", SwitchBit = "1399"};
+        public static readonly Switch Switch_832330601 = new Switch { SwitchId = "832330601", SwitchType = "800", SwitchBit = "1400"};
+        public static readonly Switch Switch_832330701 = new Switch { SwitchId = "832330701", SwitchType = "800", SwitchBit = "1401"};
+        public static readonly Switch Switch_832330801 = new Switch { SwitchId = "832330801", SwitchType = "800", SwitchBit = "1402"};
+        public static readonly Switch Switch_832440101 = new Switch { SwitchId = "832440101", SwitchType = "800", SwitchBit = "1422"};
+        public static readonly Switch Switch_832440201 = new Switch { SwitchId = "832440201", SwitchType = "800", SwitchBit = "1423"};
+        public static readonly Switch Switch_832440301 = new Switch { SwitchId = "832440301", SwitchType = "800", SwitchBit = "1424"};
+        public static readonly Switch Switch_832440401 = new Switch { SwitchId = "832440401", SwitchType = "800", SwitchBit = "1425"};
+        public static readonly Switch Switch_832440501 = new Switch { SwitchId = "832440501", SwitchType = "800", SwitchBit = "1426"};
+        public static readonly Switch Switch_832440601 = new Switch { SwitchId = "832440601", SwitchType = "800", SwitchBit = "1427"};
+        public static readonly Switch Switch_832440701 = new Switch { SwitchId = "832440701", SwitchType = "800", SwitchBit = "1428"};
+        public static readonly Switch Switch_832440801 = new Switch { SwitchId = "832440801", SwitchType = "800", SwitchBit = "1429"};
+        public static readonly Switch Switch_850000001 = new Switch { SwitchId = "850000001", SwitchType = "800", SwitchBit = "1449"};
+        public static readonly Switch Switch_850000002 = new Switch { SwitchId = "850000002", SwitchType = "800", SwitchBit = "1450"};
+        public static readonly Switch Switch_850000003 = new Switch { SwitchId = "850000003", SwitchType = "800", SwitchBit = "1451"};
+        public static readonly Switch Switch_850000004 = new Switch { SwitchId = "850000004", SwitchType = "800", SwitchBit = "1452"};
+        public static readonly Switch Switch_850000005 = new Switch { SwitchId = "850000005", SwitchType = "800", SwitchBit = "1453"};
+        public static readonly Switch Switch_850000006 = new Switch { SwitchId = "850000006", SwitchType = "800", SwitchBit = "1454"};
+        public static readonly Switch Switch_850000007 = new Switch { SwitchId = "850000007", SwitchType = "800", SwitchBit = "1455"};
+        public static readonly Switch Switch_850000008 = new Switch { SwitchId = "850000008", SwitchType = "800", SwitchBit = "1456"};
+        public static readonly Switch Switch_850100001 = new Switch { SwitchId = "850100001", SwitchType = "800", SwitchBit = "1477"};
+        public static readonly Switch Switch_850100002 = new Switch { SwitchId = "850100002", SwitchType = "800", SwitchBit = "1478"};
+        public static readonly Switch Switch_850100003 = new Switch { SwitchId = "850100003", SwitchType = "800", SwitchBit = "1479"};
+        public static readonly Switch Switch_850100004 = new Switch { SwitchId = "850100004", SwitchType = "800", SwitchBit = "1480"};
+        public static readonly Switch Switch_850100005 = new Switch { SwitchId = "850100005", SwitchType = "800", SwitchBit = "1481"};
+        public static readonly Switch Switch_850100006 = new Switch { SwitchId = "850100006", SwitchType = "800", SwitchBit = "1482"};
+        public static readonly Switch Switch_850100007 = new Switch { SwitchId = "850100007", SwitchType = "800", SwitchBit = "1483"};
+        public static readonly Switch Switch_850100008 = new Switch { SwitchId = "850100008", SwitchType = "800", SwitchBit = "1484"};
+        public static readonly Switch Switch_850200001 = new Switch { SwitchId = "850200001", SwitchType = "800", SwitchBit = "1526"};
+        public static readonly Switch Switch_850200002 = new Switch { SwitchId = "850200002", SwitchType = "800", SwitchBit = "1527"};
+        public static readonly Switch Switch_850200003 = new Switch { SwitchId = "850200003", SwitchType = "800", SwitchBit = "1528"};
+        public static readonly Switch Switch_850200004 = new Switch { SwitchId = "850200004", SwitchType = "800", SwitchBit = "1529"};
+        public static readonly Switch Switch_850200005 = new Switch { SwitchId = "850200005", SwitchType = "800", SwitchBit = "1530"};
+        public static readonly Switch Switch_850200006 = new Switch { SwitchId = "850200006", SwitchType = "800", SwitchBit = "1531"};
+        public static readonly Switch Switch_850200007 = new Switch { SwitchId = "850200007", SwitchType = "800", SwitchBit = "1532"};
+        public static readonly Switch Switch_850200008 = new Switch { SwitchId = "850200008", SwitchType = "800", SwitchBit = "1533"};
+        public static readonly Switch Switch_850300001 = new Switch { SwitchId = "850300001", SwitchType = "800", SwitchBit = "1545"};
+        public static readonly Switch Switch_850300002 = new Switch { SwitchId = "850300002", SwitchType = "800", SwitchBit = "1546"};
+        public static readonly Switch Switch_850300003 = new Switch { SwitchId = "850300003", SwitchType = "800", SwitchBit = "1547"};
+        public static readonly Switch Switch_850300004 = new Switch { SwitchId = "850300004", SwitchType = "800", SwitchBit = "1548"};
+        public static readonly Switch Switch_850300005 = new Switch { SwitchId = "850300005", SwitchType = "800", SwitchBit = "1549"};
+        public static readonly Switch Switch_850300006 = new Switch { SwitchId = "850300006", SwitchType = "800", SwitchBit = "1550"};
+        public static readonly Switch Switch_850300007 = new Switch { SwitchId = "850300007", SwitchType = "800", SwitchBit = "1551"};
+        public static readonly Switch Switch_850300008 = new Switch { SwitchId = "850300008", SwitchType = "800", SwitchBit = "1552"};
+        public static readonly Switch Switch_850400001 = new Switch { SwitchId = "850400001", SwitchType = "800", SwitchBit = "1588"};
+        public static readonly Switch Switch_850400002 = new Switch { SwitchId = "850400002", SwitchType = "800", SwitchBit = "1589"};
+        public static readonly Switch Switch_850400003 = new Switch { SwitchId = "850400003", SwitchType = "800", SwitchBit = "1590"};
+        public static readonly Switch Switch_850400004 = new Switch { SwitchId = "850400004", SwitchType = "800", SwitchBit = "1591"};
+        public static readonly Switch Switch_850400005 = new Switch { SwitchId = "850400005", SwitchType = "800", SwitchBit = "1592"};
+        public static readonly Switch Switch_850400006 = new Switch { SwitchId = "850400006", SwitchType = "800", SwitchBit = "1593"};
+        public static readonly Switch Switch_850400007 = new Switch { SwitchId = "850400007", SwitchType = "800", SwitchBit = "1594"};
+        public static readonly Switch Switch_850400008 = new Switch { SwitchId = "850400008", SwitchType = "800", SwitchBit = "1595"};
+        public static readonly Switch Switch_850500001 = new Switch { SwitchId = "850500001", SwitchType = "800", SwitchBit = "1627"};
+        public static readonly Switch Switch_850500002 = new Switch { SwitchId = "850500002", SwitchType = "800", SwitchBit = "1628"};
+        public static readonly Switch Switch_850500003 = new Switch { SwitchId = "850500003", SwitchType = "800", SwitchBit = "1629"};
+        public static readonly Switch Switch_850500004 = new Switch { SwitchId = "850500004", SwitchType = "800", SwitchBit = "1630"};
+        public static readonly Switch Switch_850500005 = new Switch { SwitchId = "850500005", SwitchType = "800", SwitchBit = "1631"};
+        public static readonly Switch Switch_850500006 = new Switch { SwitchId = "850500006", SwitchType = "800", SwitchBit = "1632"};
+        public static readonly Switch Switch_850500007 = new Switch { SwitchId = "850500007", SwitchType = "800", SwitchBit = "1633"};
+        public static readonly Switch Switch_850500008 = new Switch { SwitchId = "850500008", SwitchType = "800", SwitchBit = "1634"};
 
 		public static readonly List<Switch> Switchs = new List<Switch>
 		{
@@ -17489,6 +20398,11 @@ namespace BraveHaxvius.Data
            Switch_10000221,
            Switch_10000222,
            Switch_10000223,
+           Switch_10000224,
+           Switch_10000225,
+           Switch_10000226,
+           Switch_10000227,
+           Switch_10000228,
            Switch_10000401,
            Switch_10000501,
            Switch_10000502,
@@ -17591,6 +20505,7 @@ namespace BraveHaxvius.Data
            Switch_10000625,
            Switch_10000626,
            Switch_10000627,
+           Switch_10000628,
            Switch_10000700,
            Switch_10000701,
            Switch_10000702,
@@ -17936,6 +20851,51 @@ namespace BraveHaxvius.Data
            Switch_10001051,
            Switch_10001052,
            Switch_10001053,
+           Switch_10001054,
+           Switch_10001055,
+           Switch_10001056,
+           Switch_10001057,
+           Switch_10001058,
+           Switch_10001059,
+           Switch_10001060,
+           Switch_10001061,
+           Switch_10001062,
+           Switch_10001063,
+           Switch_10001064,
+           Switch_10001065,
+           Switch_10001066,
+           Switch_10001067,
+           Switch_10001068,
+           Switch_10001069,
+           Switch_10001070,
+           Switch_10001071,
+           Switch_10001072,
+           Switch_10001073,
+           Switch_10001075,
+           Switch_10001076,
+           Switch_10001077,
+           Switch_10001078,
+           Switch_10001079,
+           Switch_10001080,
+           Switch_10001081,
+           Switch_10001082,
+           Switch_10001083,
+           Switch_10001084,
+           Switch_10001085,
+           Switch_10001086,
+           Switch_10001087,
+           Switch_10001088,
+           Switch_10001089,
+           Switch_10001090,
+           Switch_10001091,
+           Switch_10001092,
+           Switch_10001093,
+           Switch_10001094,
+           Switch_10001095,
+           Switch_10001096,
+           Switch_10001097,
+           Switch_10001098,
+           Switch_10001099,
            Switch_10001100,
            Switch_10002001,
            Switch_10002002,
@@ -19253,6 +22213,7 @@ namespace BraveHaxvius.Data
            Switch_10171004,
            Switch_10171100,
            Switch_10171200,
+           Switch_10171300,
            Switch_10172001,
            Switch_10172002,
            Switch_10172100,
@@ -21354,6 +24315,496 @@ namespace BraveHaxvius.Data
            Switch_11167401,
            Switch_11167500,
            Switch_11167501,
+           Switch_11167502,
+           Switch_11168001,
+           Switch_11168100,
+           Switch_11168200,
+           Switch_11168300,
+           Switch_11168301,
+           Switch_11168400,
+           Switch_11168401,
+           Switch_11169100,
+           Switch_11169200,
+           Switch_11169300,
+           Switch_11169400,
+           Switch_11169401,
+           Switch_11170001,
+           Switch_11170100,
+           Switch_11170200,
+           Switch_11170300,
+           Switch_11170400,
+           Switch_11170401,
+           Switch_11171001,
+           Switch_11171100,
+           Switch_11171200,
+           Switch_11171300,
+           Switch_11171301,
+           Switch_11171400,
+           Switch_11171401,
+           Switch_11172100,
+           Switch_11172200,
+           Switch_11172300,
+           Switch_11172400,
+           Switch_11172401,
+           Switch_11172500,
+           Switch_11172501,
+           Switch_11173001,
+           Switch_11173100,
+           Switch_11173200,
+           Switch_11173300,
+           Switch_11173400,
+           Switch_11173500,
+           Switch_11173501,
+           Switch_11174001,
+           Switch_11174100,
+           Switch_11174200,
+           Switch_11174300,
+           Switch_11174400,
+           Switch_11174401,
+           Switch_11174500,
+           Switch_11174501,
+           Switch_11174502,
+           Switch_11175001,
+           Switch_11175100,
+           Switch_11175200,
+           Switch_11175300,
+           Switch_11175400,
+           Switch_11175401,
+           Switch_11176001,
+           Switch_11176100,
+           Switch_11176200,
+           Switch_11176201,
+           Switch_11176300,
+           Switch_11176400,
+           Switch_11176401,
+           Switch_11177001,
+           Switch_11177100,
+           Switch_11177200,
+           Switch_11177201,
+           Switch_11177300,
+           Switch_11177400,
+           Switch_11177401,
+           Switch_11178001,
+           Switch_11178100,
+           Switch_11178200,
+           Switch_11178300,
+           Switch_11178400,
+           Switch_11178401,
+           Switch_11179100,
+           Switch_11179200,
+           Switch_11179300,
+           Switch_11179400,
+           Switch_11179401,
+           Switch_11179500,
+           Switch_11179501,
+           Switch_11180001,
+           Switch_11180100,
+           Switch_11180200,
+           Switch_11180201,
+           Switch_11180300,
+           Switch_11180400,
+           Switch_11180500,
+           Switch_11180501,
+           Switch_11181001,
+           Switch_11181100,
+           Switch_11181200,
+           Switch_11181300,
+           Switch_11181400,
+           Switch_11181500,
+           Switch_11181501,
+           Switch_11181502,
+           Switch_11182100,
+           Switch_11182101,
+           Switch_11183001,
+           Switch_11183100,
+           Switch_11183101,
+           Switch_11184001,
+           Switch_11184100,
+           Switch_11184101,
+           Switch_11184200,
+           Switch_11184201,
+           Switch_11185100,
+           Switch_11185200,
+           Switch_11185300,
+           Switch_11185400,
+           Switch_11185401,
+           Switch_11186001,
+           Switch_11186100,
+           Switch_11186200,
+           Switch_11186300,
+           Switch_11186400,
+           Switch_11186401,
+           Switch_11187001,
+           Switch_11187100,
+           Switch_11187200,
+           Switch_11187300,
+           Switch_11187400,
+           Switch_11187401,
+           Switch_11188001,
+           Switch_11188100,
+           Switch_11188200,
+           Switch_11188300,
+           Switch_11188400,
+           Switch_11188401,
+           Switch_11188500,
+           Switch_11188501,
+           Switch_11188502,
+           Switch_11189100,
+           Switch_11189200,
+           Switch_11189201,
+           Switch_11189300,
+           Switch_11189400,
+           Switch_11189401,
+           Switch_11190100,
+           Switch_11190200,
+           Switch_11190201,
+           Switch_11190300,
+           Switch_11190301,
+           Switch_11190400,
+           Switch_11190401,
+           Switch_11191001,
+           Switch_11191100,
+           Switch_11191200,
+           Switch_11191300,
+           Switch_11191400,
+           Switch_11192001,
+           Switch_11192100,
+           Switch_11192200,
+           Switch_11192300,
+           Switch_11192400,
+           Switch_11192401,
+           Switch_11193001,
+           Switch_11193100,
+           Switch_11193200,
+           Switch_11193201,
+           Switch_11193300,
+           Switch_11193400,
+           Switch_11193500,
+           Switch_11194100,
+           Switch_11194200,
+           Switch_11194300,
+           Switch_11194400,
+           Switch_11194401,
+           Switch_11194402,
+           Switch_11194500,
+           Switch_11194501,
+           Switch_11195100,
+           Switch_11195200,
+           Switch_11195300,
+           Switch_11195400,
+           Switch_11195401,
+           Switch_11195500,
+           Switch_11195501,
+           Switch_11195502,
+           Switch_11195600,
+           Switch_11195601,
+           Switch_11195700,
+           Switch_11195701,
+           Switch_11196001,
+           Switch_11196100,
+           Switch_11196200,
+           Switch_11196300,
+           Switch_11196400,
+           Switch_11196401,
+           Switch_11197001,
+           Switch_11197100,
+           Switch_11197200,
+           Switch_11197300,
+           Switch_11197400,
+           Switch_11197401,
+           Switch_11198001,
+           Switch_11198100,
+           Switch_11198200,
+           Switch_11198300,
+           Switch_11198400,
+           Switch_11198401,
+           Switch_11199001,
+           Switch_11199100,
+           Switch_11199200,
+           Switch_11199300,
+           Switch_11199400,
+           Switch_11199401,
+           Switch_11200001,
+           Switch_11200100,
+           Switch_11200200,
+           Switch_11200300,
+           Switch_11200400,
+           Switch_11200401,
+           Switch_11201001,
+           Switch_11201100,
+           Switch_11201200,
+           Switch_11201300,
+           Switch_11201301,
+           Switch_11201400,
+           Switch_11201401,
+           Switch_11202001,
+           Switch_11202100,
+           Switch_11202101,
+           Switch_11203001,
+           Switch_11203100,
+           Switch_11203101,
+           Switch_11204001,
+           Switch_11204100,
+           Switch_11204101,
+           Switch_11204200,
+           Switch_11204300,
+           Switch_11205001,
+           Switch_11205100,
+           Switch_11205101,
+           Switch_11205200,
+           Switch_11205300,
+           Switch_11205301,
+           Switch_11205400,
+           Switch_11206001,
+           Switch_11206100,
+           Switch_11206200,
+           Switch_11206300,
+           Switch_11206301,
+           Switch_11207001,
+           Switch_11207100,
+           Switch_11207200,
+           Switch_11207300,
+           Switch_11207301,
+           Switch_11208100,
+           Switch_11208101,
+           Switch_11208200,
+           Switch_11208201,
+           Switch_11208300,
+           Switch_11208301,
+           Switch_11208400,
+           Switch_11208401,
+           Switch_11208500,
+           Switch_11209100,
+           Switch_11209200,
+           Switch_11209300,
+           Switch_11209301,
+           Switch_11210001,
+           Switch_11210100,
+           Switch_11210101,
+           Switch_11210200,
+           Switch_11210301,
+           Switch_11210400,
+           Switch_11210401,
+           Switch_11210500,
+           Switch_11210501,
+           Switch_11211001,
+           Switch_11211100,
+           Switch_11211101,
+           Switch_11212000,
+           Switch_11212001,
+           Switch_11212100,
+           Switch_11212200,
+           Switch_11212201,
+           Switch_11213001,
+           Switch_11213100,
+           Switch_11213200,
+           Switch_11213201,
+           Switch_11213300,
+           Switch_11213301,
+           Switch_11214000,
+           Switch_11214001,
+           Switch_11214100,
+           Switch_11214101,
+           Switch_11214200,
+           Switch_11214201,
+           Switch_11214300,
+           Switch_11215001,
+           Switch_11215100,
+           Switch_11215101,
+           Switch_11215200,
+           Switch_11215300,
+           Switch_11216001,
+           Switch_11216100,
+           Switch_11216101,
+           Switch_11216200,
+           Switch_11216201,
+           Switch_11216300,
+           Switch_11216301,
+           Switch_11217001,
+           Switch_11217100,
+           Switch_11217200,
+           Switch_11217201,
+           Switch_11217300,
+           Switch_11217301,
+           Switch_11217400,
+           Switch_11217500,
+           Switch_11217601,
+           Switch_11218001,
+           Switch_11218100,
+           Switch_11218200,
+           Switch_11218300,
+           Switch_11218301,
+           Switch_11219000,
+           Switch_11219100,
+           Switch_11219101,
+           Switch_11219200,
+           Switch_11219201,
+           Switch_11219300,
+           Switch_11219400,
+           Switch_11220001,
+           Switch_11220100,
+           Switch_11220200,
+           Switch_11220201,
+           Switch_11220300,
+           Switch_11220301,
+           Switch_11220400,
+           Switch_11221001,
+           Switch_11221100,
+           Switch_11221200,
+           Switch_11221201,
+           Switch_11221300,
+           Switch_11221301,
+           Switch_11222000,
+           Switch_11222100,
+           Switch_11222101,
+           Switch_11222200,
+           Switch_11222201,
+           Switch_11223001,
+           Switch_11223100,
+           Switch_11223200,
+           Switch_11223201,
+           Switch_11223300,
+           Switch_11223301,
+           Switch_11224001,
+           Switch_11224100,
+           Switch_11224200,
+           Switch_11224201,
+           Switch_11224300,
+           Switch_11224301,
+           Switch_11224401,
+           Switch_11225100,
+           Switch_11225101,
+           Switch_11225200,
+           Switch_11225201,
+           Switch_11225300,
+           Switch_11225301,
+           Switch_11226100,
+           Switch_11227000,
+           Switch_11227100,
+           Switch_11227101,
+           Switch_11227200,
+           Switch_11227201,
+           Switch_11228100,
+           Switch_11229001,
+           Switch_11229100,
+           Switch_11229200,
+           Switch_11229201,
+           Switch_11229300,
+           Switch_11229301,
+           Switch_11230001,
+           Switch_11230100,
+           Switch_11230200,
+           Switch_11230300,
+           Switch_11230301,
+           Switch_11231100,
+           Switch_11231200,
+           Switch_11231300,
+           Switch_11231301,
+           Switch_11232000,
+           Switch_11232100,
+           Switch_11232101,
+           Switch_11232200,
+           Switch_11232201,
+           Switch_11242000,
+           Switch_11242100,
+           Switch_11242101,
+           Switch_11242200,
+           Switch_11242201,
+           Switch_11243100,
+           Switch_11244001,
+           Switch_11245001,
+           Switch_11245100,
+           Switch_11245200,
+           Switch_11245201,
+           Switch_11245300,
+           Switch_11245301,
+           Switch_11246100,
+           Switch_11247001,
+           Switch_11247100,
+           Switch_11247200,
+           Switch_11247300,
+           Switch_11247301,
+           Switch_11248000,
+           Switch_11248100,
+           Switch_11248101,
+           Switch_11248200,
+           Switch_11248201,
+           Switch_11249100,
+           Switch_11250001,
+           Switch_11250100,
+           Switch_11250200,
+           Switch_11250201,
+           Switch_11250300,
+           Switch_11250301,
+           Switch_11251100,
+           Switch_11252100,
+           Switch_11252200,
+           Switch_11252300,
+           Switch_11252301,
+           Switch_11253001,
+           Switch_11253100,
+           Switch_11253101,
+           Switch_11253200,
+           Switch_11253201,
+           Switch_11254000,
+           Switch_11254001,
+           Switch_11254100,
+           Switch_11254101,
+           Switch_11254200,
+           Switch_11254201,
+           Switch_13000000,
+           Switch_13000001,
+           Switch_13000002,
+           Switch_13000003,
+           Switch_13000004,
+           Switch_13000005,
+           Switch_13000006,
+           Switch_13000007,
+           Switch_13000008,
+           Switch_13000009,
+           Switch_13000010,
+           Switch_13000011,
+           Switch_13000012,
+           Switch_13000013,
+           Switch_13000014,
+           Switch_13000015,
+           Switch_13000016,
+           Switch_13000017,
+           Switch_13000018,
+           Switch_13000019,
+           Switch_13000020,
+           Switch_13000021,
+           Switch_13000022,
+           Switch_13000023,
+           Switch_13000024,
+           Switch_13000025,
+           Switch_13000026,
+           Switch_13000027,
+           Switch_13000028,
+           Switch_13000029,
+           Switch_13000030,
+           Switch_13000031,
+           Switch_13000032,
+           Switch_13000033,
+           Switch_13000034,
+           Switch_13000035,
+           Switch_13000036,
+           Switch_13000037,
+           Switch_13000038,
+           Switch_13000039,
+           Switch_13000040,
+           Switch_13000041,
+           Switch_13000042,
+           Switch_13000043,
+           Switch_13000044,
+           Switch_13000045,
+           Switch_13000046,
+           Switch_13000047,
+           Switch_13000048,
+           Switch_13000049,
+           Switch_13000050,
+           Switch_13000051,
+           Switch_13000052,
            Switch_18001100,
            Switch_18001200,
            Switch_18001300,
@@ -21858,6 +25309,19 @@ namespace BraveHaxvius.Data
            Switch_18127004,
            Switch_18127005,
            Switch_18127006,
+           Switch_18128001,
+           Switch_18128002,
+           Switch_18128003,
+           Switch_18128004,
+           Switch_18128005,
+           Switch_18128006,
+           Switch_18128007,
+           Switch_18128008,
+           Switch_18128009,
+           Switch_18128010,
+           Switch_18128011,
+           Switch_18128012,
+           Switch_18128013,
            Switch_18130101,
            Switch_18130102,
            Switch_18130103,
@@ -22335,6 +25799,23 @@ namespace BraveHaxvius.Data
            Switch_18231018,
            Switch_18231019,
            Switch_18231020,
+           Switch_18231100,
+           Switch_18231101,
+           Switch_18231102,
+           Switch_18231103,
+           Switch_18231104,
+           Switch_18231105,
+           Switch_18231106,
+           Switch_18231107,
+           Switch_18231108,
+           Switch_18231109,
+           Switch_18231110,
+           Switch_18231111,
+           Switch_18231112,
+           Switch_18231113,
+           Switch_18231114,
+           Switch_18231115,
+           Switch_18231116,
            Switch_18301100,
            Switch_18301200,
            Switch_18301300,
@@ -24888,6 +28369,7 @@ namespace BraveHaxvius.Data
            Switch_18901310,
            Switch_18901320,
            Switch_18901330,
+           Switch_18901340,
            Switch_18901400,
            Switch_18901410,
            Switch_18901420,
@@ -24937,6 +28419,23 @@ namespace BraveHaxvius.Data
            Switch_18903010,
            Switch_18903100,
            Switch_18903110,
+           Switch_18903500,
+           Switch_18903510,
+           Switch_18903520,
+           Switch_18903600,
+           Switch_18903610,
+           Switch_18903700,
+           Switch_18903710,
+           Switch_18903800,
+           Switch_18903810,
+           Switch_18903900,
+           Switch_18903910,
+           Switch_18904100,
+           Switch_18904110,
+           Switch_18904200,
+           Switch_18904210,
+           Switch_18904300,
+           Switch_18904310,
            Switch_18915300,
            Switch_18915301,
            Switch_18915302,
@@ -26172,6 +29671,281 @@ namespace BraveHaxvius.Data
            Switch_19201231,
            Switch_19201232,
            Switch_19201233,
+           Switch_19201234,
+           Switch_19201235,
+           Switch_19201236,
+           Switch_19201237,
+           Switch_19201238,
+           Switch_19201239,
+           Switch_19201240,
+           Switch_19201241,
+           Switch_19201242,
+           Switch_19201243,
+           Switch_19201244,
+           Switch_19201245,
+           Switch_19201246,
+           Switch_19201247,
+           Switch_19201248,
+           Switch_19201249,
+           Switch_19201250,
+           Switch_19201251,
+           Switch_19201252,
+           Switch_19201253,
+           Switch_19201254,
+           Switch_19201255,
+           Switch_19201256,
+           Switch_19201257,
+           Switch_19201258,
+           Switch_19201259,
+           Switch_19201260,
+           Switch_19201261,
+           Switch_19201262,
+           Switch_19201263,
+           Switch_19201265,
+           Switch_19201266,
+           Switch_19201267,
+           Switch_19201268,
+           Switch_19201269,
+           Switch_19201271,
+           Switch_19201272,
+           Switch_19201273,
+           Switch_19201274,
+           Switch_19201275,
+           Switch_19201277,
+           Switch_19201278,
+           Switch_19201279,
+           Switch_19201280,
+           Switch_19201281,
+           Switch_19201283,
+           Switch_19201284,
+           Switch_19201285,
+           Switch_19201286,
+           Switch_19201287,
+           Switch_19201289,
+           Switch_19201290,
+           Switch_19201291,
+           Switch_19201292,
+           Switch_19201293,
+           Switch_19201295,
+           Switch_19201296,
+           Switch_19201297,
+           Switch_19201298,
+           Switch_19201299,
+           Switch_19201301,
+           Switch_19201302,
+           Switch_19201303,
+           Switch_19201304,
+           Switch_19201305,
+           Switch_19201307,
+           Switch_19201308,
+           Switch_19201309,
+           Switch_19201310,
+           Switch_19201311,
+           Switch_19201313,
+           Switch_19201314,
+           Switch_19201315,
+           Switch_19201316,
+           Switch_19201317,
+           Switch_19201319,
+           Switch_19201320,
+           Switch_19201321,
+           Switch_19201322,
+           Switch_19201323,
+           Switch_19201325,
+           Switch_19201326,
+           Switch_19201327,
+           Switch_19201328,
+           Switch_19201329,
+           Switch_19201331,
+           Switch_19201332,
+           Switch_19201333,
+           Switch_19201334,
+           Switch_19201335,
+           Switch_19201337,
+           Switch_19201338,
+           Switch_19201339,
+           Switch_19201340,
+           Switch_19201341,
+           Switch_19201343,
+           Switch_19201344,
+           Switch_19201345,
+           Switch_19201346,
+           Switch_19201347,
+           Switch_19201349,
+           Switch_19201350,
+           Switch_19201351,
+           Switch_19201352,
+           Switch_19201353,
+           Switch_19201355,
+           Switch_19201356,
+           Switch_19201357,
+           Switch_19201358,
+           Switch_19201359,
+           Switch_19201361,
+           Switch_19201362,
+           Switch_19201363,
+           Switch_19201364,
+           Switch_19201365,
+           Switch_19201367,
+           Switch_19201368,
+           Switch_19201369,
+           Switch_19201370,
+           Switch_19201371,
+           Switch_19201373,
+           Switch_19201374,
+           Switch_19201375,
+           Switch_19201376,
+           Switch_19201377,
+           Switch_19201379,
+           Switch_19201380,
+           Switch_19201381,
+           Switch_19201382,
+           Switch_19201383,
+           Switch_19201385,
+           Switch_19201386,
+           Switch_19201387,
+           Switch_19201388,
+           Switch_19201389,
+           Switch_19201391,
+           Switch_19201392,
+           Switch_19201393,
+           Switch_19201394,
+           Switch_19201395,
+           Switch_19201397,
+           Switch_19201398,
+           Switch_19201399,
+           Switch_19201400,
+           Switch_19201401,
+           Switch_19201403,
+           Switch_19201404,
+           Switch_19201405,
+           Switch_19201406,
+           Switch_19201407,
+           Switch_19201409,
+           Switch_19201410,
+           Switch_19201411,
+           Switch_19201412,
+           Switch_19201413,
+           Switch_19201415,
+           Switch_19201416,
+           Switch_19201417,
+           Switch_19201418,
+           Switch_19201419,
+           Switch_19201421,
+           Switch_19201422,
+           Switch_19201423,
+           Switch_19201424,
+           Switch_19201425,
+           Switch_19201427,
+           Switch_19201428,
+           Switch_19201429,
+           Switch_19201430,
+           Switch_19201431,
+           Switch_19201433,
+           Switch_19201434,
+           Switch_19201435,
+           Switch_19201436,
+           Switch_19201437,
+           Switch_19201439,
+           Switch_19201440,
+           Switch_19201441,
+           Switch_19201442,
+           Switch_19201443,
+           Switch_19201445,
+           Switch_19201446,
+           Switch_19201447,
+           Switch_19201448,
+           Switch_19201449,
+           Switch_19201451,
+           Switch_19201452,
+           Switch_19201453,
+           Switch_19201454,
+           Switch_19201455,
+           Switch_19201457,
+           Switch_19201458,
+           Switch_19201459,
+           Switch_19201460,
+           Switch_19201461,
+           Switch_19201463,
+           Switch_19201464,
+           Switch_19201465,
+           Switch_19201466,
+           Switch_19201467,
+           Switch_19201469,
+           Switch_19201470,
+           Switch_19201471,
+           Switch_19201472,
+           Switch_19201473,
+           Switch_19201475,
+           Switch_19201476,
+           Switch_19201477,
+           Switch_19201478,
+           Switch_19201479,
+           Switch_19201481,
+           Switch_19201482,
+           Switch_19201483,
+           Switch_19201484,
+           Switch_19201485,
+           Switch_19201487,
+           Switch_19201488,
+           Switch_19201489,
+           Switch_19201490,
+           Switch_19201491,
+           Switch_19201493,
+           Switch_19201494,
+           Switch_19201495,
+           Switch_19201496,
+           Switch_19201497,
+           Switch_19201499,
+           Switch_19201500,
+           Switch_19201501,
+           Switch_19201502,
+           Switch_19201503,
+           Switch_19201505,
+           Switch_19201506,
+           Switch_19201507,
+           Switch_19201508,
+           Switch_19201509,
+           Switch_19201511,
+           Switch_19201512,
+           Switch_19201513,
+           Switch_19201514,
+           Switch_19201515,
+           Switch_19201517,
+           Switch_19201518,
+           Switch_19201519,
+           Switch_19201520,
+           Switch_19201521,
+           Switch_19201523,
+           Switch_19201524,
+           Switch_19201525,
+           Switch_19201526,
+           Switch_19201527,
+           Switch_19201529,
+           Switch_19201530,
+           Switch_19201531,
+           Switch_19201532,
+           Switch_19201533,
+           Switch_19201535,
+           Switch_19201536,
+           Switch_19201537,
+           Switch_19201538,
+           Switch_19201539,
+           Switch_19201541,
+           Switch_19201542,
+           Switch_19201543,
+           Switch_19201544,
+           Switch_19201545,
+           Switch_19201547,
+           Switch_19201548,
+           Switch_19201549,
+           Switch_19201550,
+           Switch_19201551,
+           Switch_19201553,
+           Switch_19201554,
+           Switch_19201555,
+           Switch_19201556,
+           Switch_19201557,
            Switch_19210100,
            Switch_19210200,
            Switch_19210300,
@@ -26439,6 +30213,174 @@ namespace BraveHaxvius.Data
            Switch_19260010,
            Switch_19260011,
            Switch_19270001,
+           Switch_19280001,
+           Switch_19280002,
+           Switch_19280003,
+           Switch_19280004,
+           Switch_19280005,
+           Switch_19280006,
+           Switch_19280007,
+           Switch_19280008,
+           Switch_19280009,
+           Switch_19280010,
+           Switch_19280011,
+           Switch_19290001,
+           Switch_19290002,
+           Switch_19290003,
+           Switch_19290004,
+           Switch_19290005,
+           Switch_19290006,
+           Switch_19290007,
+           Switch_19290008,
+           Switch_19290009,
+           Switch_19290010,
+           Switch_19290011,
+           Switch_19300001,
+           Switch_19310001,
+           Switch_19310002,
+           Switch_19310003,
+           Switch_19310004,
+           Switch_19310005,
+           Switch_19310006,
+           Switch_19310007,
+           Switch_19310008,
+           Switch_19310009,
+           Switch_19310010,
+           Switch_19310011,
+           Switch_19320001,
+           Switch_19320002,
+           Switch_19320003,
+           Switch_19320004,
+           Switch_19320005,
+           Switch_19320006,
+           Switch_19320007,
+           Switch_19320008,
+           Switch_19320009,
+           Switch_19320010,
+           Switch_19320011,
+           Switch_19330001,
+           Switch_19330002,
+           Switch_19330003,
+           Switch_19330004,
+           Switch_19330005,
+           Switch_19330006,
+           Switch_19330007,
+           Switch_19330008,
+           Switch_19330009,
+           Switch_19330010,
+           Switch_19330011,
+           Switch_19330012,
+           Switch_19330013,
+           Switch_19330014,
+           Switch_19330015,
+           Switch_19330016,
+           Switch_19330017,
+           Switch_19330018,
+           Switch_19330019,
+           Switch_19330020,
+           Switch_19330021,
+           Switch_19330022,
+           Switch_19330023,
+           Switch_19330024,
+           Switch_19330025,
+           Switch_19340001,
+           Switch_19340002,
+           Switch_19340003,
+           Switch_19340004,
+           Switch_19340005,
+           Switch_19340006,
+           Switch_19340007,
+           Switch_19340008,
+           Switch_19340009,
+           Switch_19340010,
+           Switch_19340011,
+           Switch_19340012,
+           Switch_19340013,
+           Switch_19340014,
+           Switch_19340015,
+           Switch_19350001,
+           Switch_19350002,
+           Switch_19350003,
+           Switch_19350004,
+           Switch_19350005,
+           Switch_19350006,
+           Switch_19350007,
+           Switch_19350008,
+           Switch_19350009,
+           Switch_19360001,
+           Switch_19360002,
+           Switch_19360003,
+           Switch_19360004,
+           Switch_19360005,
+           Switch_19360006,
+           Switch_19360007,
+           Switch_19360008,
+           Switch_19360009,
+           Switch_19360010,
+           Switch_19360011,
+           Switch_19370001,
+           Switch_19370002,
+           Switch_19370003,
+           Switch_19370004,
+           Switch_19370005,
+           Switch_19370006,
+           Switch_19370007,
+           Switch_19370008,
+           Switch_19370009,
+           Switch_19370010,
+           Switch_19370011,
+           Switch_19370012,
+           Switch_19370013,
+           Switch_19370014,
+           Switch_19370015,
+           Switch_19370016,
+           Switch_19370017,
+           Switch_19370018,
+           Switch_19370019,
+           Switch_19370020,
+           Switch_19370021,
+           Switch_19370022,
+           Switch_19380001,
+           Switch_19380002,
+           Switch_19380003,
+           Switch_19380004,
+           Switch_19380005,
+           Switch_19380006,
+           Switch_19380007,
+           Switch_19380008,
+           Switch_19380009,
+           Switch_19380010,
+           Switch_19380011,
+           Switch_19390001,
+           Switch_19390002,
+           Switch_19390003,
+           Switch_19390004,
+           Switch_19390005,
+           Switch_19390006,
+           Switch_19390007,
+           Switch_19390008,
+           Switch_19390009,
+           Switch_19390010,
+           Switch_19390011,
+           Switch_19390012,
+           Switch_19390013,
+           Switch_19390014,
+           Switch_19390015,
+           Switch_19390016,
+           Switch_19390017,
+           Switch_19390018,
+           Switch_19390019,
+           Switch_19400001,
+           Switch_19400002,
+           Switch_19400003,
+           Switch_19400004,
+           Switch_19400005,
+           Switch_19400006,
+           Switch_19400007,
+           Switch_19400008,
+           Switch_19400009,
+           Switch_19400010,
+           Switch_19400011,
            Switch_19500101,
            Switch_20000000,
            Switch_20004001,
@@ -29732,6 +33674,31 @@ namespace BraveHaxvius.Data
            Switch_48727002,
            Switch_48727003,
            Switch_48727004,
+           Switch_48738001,
+           Switch_48738002,
+           Switch_48748001,
+           Switch_48748002,
+           Switch_48802001,
+           Switch_48802002,
+           Switch_49001001,
+           Switch_49001002,
+           Switch_49001003,
+           Switch_49002001,
+           Switch_49002002,
+           Switch_49003001,
+           Switch_49003002,
+           Switch_49004001,
+           Switch_49004002,
+           Switch_49005001,
+           Switch_49005002,
+           Switch_49006001,
+           Switch_49006002,
+           Switch_49007001,
+           Switch_49007002,
+           Switch_49008001,
+           Switch_49008002,
+           Switch_49009001,
+           Switch_49009002,
            Switch_50000000,
            Switch_51010001,
            Switch_51010002,
@@ -30036,6 +34003,21 @@ namespace BraveHaxvius.Data
            Switch_51010301,
            Switch_51010302,
            Switch_51010303,
+           Switch_51010304,
+           Switch_51010305,
+           Switch_51010306,
+           Switch_51010307,
+           Switch_51010308,
+           Switch_51010309,
+           Switch_51010310,
+           Switch_51010311,
+           Switch_51010312,
+           Switch_51010313,
+           Switch_51010314,
+           Switch_51010315,
+           Switch_51010316,
+           Switch_51010317,
+           Switch_51010318,
            Switch_52000000,
            Switch_52000001,
            Switch_52010011,
@@ -31123,6 +35105,458 @@ namespace BraveHaxvius.Data
            Switch_71000760,
            Switch_71000761,
            Switch_71000762,
+           Switch_71000763,
+           Switch_71000764,
+           Switch_71000765,
+           Switch_71000766,
+           Switch_71000769,
+           Switch_71000770,
+           Switch_71000771,
+           Switch_71000772,
+           Switch_71000773,
+           Switch_71000774,
+           Switch_71000775,
+           Switch_71000776,
+           Switch_71000777,
+           Switch_71000778,
+           Switch_71000779,
+           Switch_71000780,
+           Switch_71000781,
+           Switch_71000782,
+           Switch_71000783,
+           Switch_71000784,
+           Switch_71000785,
+           Switch_71000786,
+           Switch_71000787,
+           Switch_71000788,
+           Switch_71000789,
+           Switch_71000790,
+           Switch_71000791,
+           Switch_71000792,
+           Switch_71000793,
+           Switch_71000794,
+           Switch_71000795,
+           Switch_71000796,
+           Switch_71000797,
+           Switch_71000798,
+           Switch_71000799,
+           Switch_71000800,
+           Switch_71000801,
+           Switch_71000802,
+           Switch_71000803,
+           Switch_71000804,
+           Switch_71000805,
+           Switch_71000806,
+           Switch_71000807,
+           Switch_71000808,
+           Switch_71000809,
+           Switch_71000810,
+           Switch_71000811,
+           Switch_71000812,
+           Switch_71000813,
+           Switch_71000814,
+           Switch_71000815,
+           Switch_71000825,
+           Switch_71000826,
+           Switch_71000827,
+           Switch_71000828,
+           Switch_71000829,
+           Switch_71000830,
+           Switch_71000831,
+           Switch_71000832,
+           Switch_71000833,
+           Switch_71000834,
+           Switch_71000835,
+           Switch_71000839,
+           Switch_71000840,
+           Switch_71000841,
+           Switch_71000842,
+           Switch_71000843,
+           Switch_71000844,
+           Switch_71000845,
+           Switch_71000846,
+           Switch_71000847,
+           Switch_71000848,
+           Switch_71000849,
+           Switch_71000850,
+           Switch_71000851,
+           Switch_71000852,
+           Switch_71000853,
+           Switch_71000854,
+           Switch_71000855,
+           Switch_71000856,
+           Switch_71000857,
+           Switch_71000858,
+           Switch_71000859,
+           Switch_71000860,
+           Switch_71000861,
+           Switch_71000862,
+           Switch_71000863,
+           Switch_71000864,
+           Switch_71000865,
+           Switch_71000866,
+           Switch_71000867,
+           Switch_71000868,
+           Switch_71000869,
+           Switch_71000870,
+           Switch_71000871,
+           Switch_71000872,
+           Switch_71000873,
+           Switch_71000874,
+           Switch_71000875,
+           Switch_71000876,
+           Switch_71000877,
+           Switch_71000878,
+           Switch_71000879,
+           Switch_71000880,
+           Switch_71000881,
+           Switch_71000882,
+           Switch_71000883,
+           Switch_71000884,
+           Switch_71000885,
+           Switch_71000886,
+           Switch_71000887,
+           Switch_71000888,
+           Switch_71000889,
+           Switch_71000890,
+           Switch_71000891,
+           Switch_71000892,
+           Switch_71000893,
+           Switch_71000894,
+           Switch_71000895,
+           Switch_71000896,
+           Switch_71000897,
+           Switch_71000898,
+           Switch_71000899,
+           Switch_71000900,
+           Switch_71000901,
+           Switch_71000902,
+           Switch_71000903,
+           Switch_71000904,
+           Switch_71000905,
+           Switch_71000906,
+           Switch_71000907,
+           Switch_71000908,
+           Switch_71000909,
+           Switch_71000910,
+           Switch_71000911,
+           Switch_71000912,
+           Switch_71000913,
+           Switch_71000914,
+           Switch_71000915,
+           Switch_71000916,
+           Switch_71000917,
+           Switch_71000918,
+           Switch_71000919,
+           Switch_71000920,
+           Switch_71000921,
+           Switch_71000922,
+           Switch_71000923,
+           Switch_71000924,
+           Switch_71000925,
+           Switch_71000926,
+           Switch_71000927,
+           Switch_71000928,
+           Switch_71000929,
+           Switch_71000930,
+           Switch_71000931,
+           Switch_71000932,
+           Switch_71000933,
+           Switch_71000934,
+           Switch_71000935,
+           Switch_71000936,
+           Switch_71000937,
+           Switch_71000938,
+           Switch_71000939,
+           Switch_71000940,
+           Switch_71000941,
+           Switch_71000942,
+           Switch_71000943,
+           Switch_71000944,
+           Switch_71000945,
+           Switch_71000946,
+           Switch_71000947,
+           Switch_71000948,
+           Switch_71000949,
+           Switch_71000950,
+           Switch_71000951,
+           Switch_71000952,
+           Switch_71000953,
+           Switch_71000954,
+           Switch_71000955,
+           Switch_71000956,
+           Switch_71000957,
+           Switch_71000958,
+           Switch_71000959,
+           Switch_71000960,
+           Switch_71000961,
+           Switch_71000962,
+           Switch_71000963,
+           Switch_71000964,
+           Switch_71000965,
+           Switch_71000966,
+           Switch_71000967,
+           Switch_71000968,
+           Switch_71000969,
+           Switch_71000970,
+           Switch_71000971,
+           Switch_71000972,
+           Switch_71000973,
+           Switch_71000974,
+           Switch_71000975,
+           Switch_71000976,
+           Switch_71000977,
+           Switch_71000978,
+           Switch_71000979,
+           Switch_71000980,
+           Switch_71000981,
+           Switch_71000982,
+           Switch_71000983,
+           Switch_71000984,
+           Switch_71000985,
+           Switch_71000986,
+           Switch_71000987,
+           Switch_71000988,
+           Switch_71000989,
+           Switch_71000990,
+           Switch_71000991,
+           Switch_71000992,
+           Switch_71000993,
+           Switch_71000994,
+           Switch_71000995,
+           Switch_71000996,
+           Switch_71000997,
+           Switch_71000998,
+           Switch_71000999,
+           Switch_71001000,
+           Switch_71001001,
+           Switch_71001002,
+           Switch_71001003,
+           Switch_71001004,
+           Switch_71001005,
+           Switch_71001006,
+           Switch_71001007,
+           Switch_71001008,
+           Switch_71001009,
+           Switch_71001010,
+           Switch_71001011,
+           Switch_71001012,
+           Switch_71001013,
+           Switch_71001014,
+           Switch_71001015,
+           Switch_71001016,
+           Switch_71001017,
+           Switch_71001018,
+           Switch_71001019,
+           Switch_71001020,
+           Switch_71001021,
+           Switch_71001022,
+           Switch_71001023,
+           Switch_71001024,
+           Switch_71001025,
+           Switch_71001026,
+           Switch_71001027,
+           Switch_71001028,
+           Switch_71001029,
+           Switch_71001030,
+           Switch_71001031,
+           Switch_71001032,
+           Switch_71001033,
+           Switch_71001034,
+           Switch_71001035,
+           Switch_71001036,
+           Switch_71001037,
+           Switch_71001038,
+           Switch_71001039,
+           Switch_71001040,
+           Switch_71001041,
+           Switch_71001042,
+           Switch_71001043,
+           Switch_71001044,
+           Switch_71001045,
+           Switch_71001046,
+           Switch_71001047,
+           Switch_71001048,
+           Switch_71001049,
+           Switch_71001050,
+           Switch_71001051,
+           Switch_71001052,
+           Switch_71001053,
+           Switch_71001054,
+           Switch_71001055,
+           Switch_71001056,
+           Switch_71001057,
+           Switch_71001058,
+           Switch_71001059,
+           Switch_71001060,
+           Switch_71001061,
+           Switch_71001062,
+           Switch_71001063,
+           Switch_71001064,
+           Switch_71001065,
+           Switch_71001066,
+           Switch_71001067,
+           Switch_71001068,
+           Switch_71001069,
+           Switch_71001070,
+           Switch_71001071,
+           Switch_71001072,
+           Switch_71001073,
+           Switch_71001074,
+           Switch_71001075,
+           Switch_71001076,
+           Switch_71001077,
+           Switch_71001078,
+           Switch_71001079,
+           Switch_71001080,
+           Switch_71001081,
+           Switch_71001082,
+           Switch_71001083,
+           Switch_71001084,
+           Switch_71001085,
+           Switch_71001086,
+           Switch_71001087,
+           Switch_71001088,
+           Switch_71001089,
+           Switch_71001090,
+           Switch_71001091,
+           Switch_71001092,
+           Switch_71001093,
+           Switch_71001094,
+           Switch_71001095,
+           Switch_71001096,
+           Switch_71001097,
+           Switch_71001098,
+           Switch_71001099,
+           Switch_71001100,
+           Switch_71001101,
+           Switch_71001102,
+           Switch_71001103,
+           Switch_71001104,
+           Switch_71001105,
+           Switch_71001106,
+           Switch_71001107,
+           Switch_71001108,
+           Switch_71001109,
+           Switch_71001110,
+           Switch_71001111,
+           Switch_71001112,
+           Switch_71001113,
+           Switch_71001114,
+           Switch_71001115,
+           Switch_71001116,
+           Switch_71001117,
+           Switch_71001118,
+           Switch_71001119,
+           Switch_71001120,
+           Switch_71001121,
+           Switch_71001122,
+           Switch_71001123,
+           Switch_71001124,
+           Switch_71001125,
+           Switch_71001126,
+           Switch_71001127,
+           Switch_71001128,
+           Switch_71001129,
+           Switch_71001130,
+           Switch_71001131,
+           Switch_71001132,
+           Switch_71001133,
+           Switch_71001134,
+           Switch_71001135,
+           Switch_71001136,
+           Switch_71001137,
+           Switch_71001138,
+           Switch_71001139,
+           Switch_71001140,
+           Switch_71001141,
+           Switch_71001142,
+           Switch_71001143,
+           Switch_71001144,
+           Switch_71001145,
+           Switch_71001146,
+           Switch_71001147,
+           Switch_71001148,
+           Switch_71001149,
+           Switch_71001150,
+           Switch_71001151,
+           Switch_71001152,
+           Switch_71001153,
+           Switch_71001154,
+           Switch_71001155,
+           Switch_71001156,
+           Switch_71001157,
+           Switch_71001158,
+           Switch_71001159,
+           Switch_71001160,
+           Switch_71001161,
+           Switch_71001162,
+           Switch_71001163,
+           Switch_71001164,
+           Switch_71001165,
+           Switch_71001166,
+           Switch_71001167,
+           Switch_71001168,
+           Switch_71001169,
+           Switch_71001170,
+           Switch_71001171,
+           Switch_71001172,
+           Switch_71001173,
+           Switch_71001174,
+           Switch_71001175,
+           Switch_71001176,
+           Switch_71001177,
+           Switch_71001178,
+           Switch_71001179,
+           Switch_71001180,
+           Switch_71001181,
+           Switch_71001182,
+           Switch_71001183,
+           Switch_71001184,
+           Switch_71001185,
+           Switch_71001186,
+           Switch_71001187,
+           Switch_71001188,
+           Switch_71001189,
+           Switch_71001190,
+           Switch_71001191,
+           Switch_71001192,
+           Switch_71001193,
+           Switch_71001194,
+           Switch_71001195,
+           Switch_71001196,
+           Switch_71001197,
+           Switch_71001198,
+           Switch_71001199,
+           Switch_71001200,
+           Switch_71001201,
+           Switch_71001202,
+           Switch_71001203,
+           Switch_71001204,
+           Switch_71001205,
+           Switch_71001206,
+           Switch_71001207,
+           Switch_71001208,
+           Switch_71001209,
+           Switch_71001210,
+           Switch_71001211,
+           Switch_71001212,
+           Switch_71001213,
+           Switch_71001214,
+           Switch_71001215,
+           Switch_71001216,
+           Switch_71001217,
+           Switch_71001218,
+           Switch_71001219,
+           Switch_71001220,
+           Switch_71001221,
+           Switch_71001222,
+           Switch_71001223,
+           Switch_71001224,
+           Switch_71001225,
+           Switch_71001226,
+           Switch_71001227,
+           Switch_71001228,
            Switch_72000001,
            Switch_72000002,
            Switch_72000003,
@@ -31671,6 +36105,99 @@ namespace BraveHaxvius.Data
            Switch_80273005,
            Switch_80273006,
            Switch_80273007,
+           Switch_80274000,
+           Switch_80274001,
+           Switch_80274002,
+           Switch_80274003,
+           Switch_80274004,
+           Switch_80274005,
+           Switch_80274006,
+           Switch_80274007,
+           Switch_80275000,
+           Switch_80275001,
+           Switch_80275002,
+           Switch_80275003,
+           Switch_80275004,
+           Switch_80275005,
+           Switch_80275006,
+           Switch_80275007,
+           Switch_80276000,
+           Switch_80276001,
+           Switch_80276002,
+           Switch_80276003,
+           Switch_80276004,
+           Switch_80276005,
+           Switch_80276006,
+           Switch_80276007,
+           Switch_80277000,
+           Switch_80277001,
+           Switch_80277002,
+           Switch_80277003,
+           Switch_80277004,
+           Switch_80277005,
+           Switch_80277006,
+           Switch_80277007,
+           Switch_80278000,
+           Switch_80278001,
+           Switch_80278002,
+           Switch_80278003,
+           Switch_80278004,
+           Switch_80278005,
+           Switch_80278006,
+           Switch_80278007,
+           Switch_80279001,
+           Switch_80279002,
+           Switch_80279003,
+           Switch_80279004,
+           Switch_80279005,
+           Switch_80279006,
+           Switch_80279007,
+           Switch_80279008,
+           Switch_80279009,
+           Switch_80279010,
+           Switch_80279011,
+           Switch_80279012,
+           Switch_80280001,
+           Switch_80280002,
+           Switch_80280003,
+           Switch_80280004,
+           Switch_80280005,
+           Switch_80280006,
+           Switch_80280007,
+           Switch_80280008,
+           Switch_80280009,
+           Switch_80280010,
+           Switch_80281001,
+           Switch_80281002,
+           Switch_80281003,
+           Switch_80281004,
+           Switch_80281005,
+           Switch_80281006,
+           Switch_80281007,
+           Switch_80281008,
+           Switch_80281009,
+           Switch_80281010,
+           Switch_80281011,
+           Switch_80281012,
+           Switch_80281013,
+           Switch_80281014,
+           Switch_80281015,
+           Switch_80281016,
+           Switch_80281017,
+           Switch_80281018,
+           Switch_80281019,
+           Switch_80281020,
+           Switch_80281021,
+           Switch_80281022,
+           Switch_80281023,
+           Switch_80281024,
+           Switch_80281025,
+           Switch_80281026,
+           Switch_80281027,
+           Switch_80281028,
+           Switch_80281029,
+           Switch_80281030,
+           Switch_80281031,
            Switch_81000000,
            Switch_81001001,
            Switch_81001002,
@@ -32631,6 +37158,161 @@ namespace BraveHaxvius.Data
            Switch_89200166,
            Switch_89200167,
            Switch_89200168,
+           Switch_89200169,
+           Switch_89200170,
+           Switch_89200171,
+           Switch_89200172,
+           Switch_89200173,
+           Switch_89200174,
+           Switch_89200175,
+           Switch_89200176,
+           Switch_89200177,
+           Switch_89200178,
+           Switch_89200179,
+           Switch_89200180,
+           Switch_89200181,
+           Switch_89200182,
+           Switch_89200183,
+           Switch_89200184,
+           Switch_89200185,
+           Switch_89200186,
+           Switch_89200187,
+           Switch_89200188,
+           Switch_89200189,
+           Switch_89200190,
+           Switch_89200191,
+           Switch_89200192,
+           Switch_89200193,
+           Switch_89200194,
+           Switch_89200195,
+           Switch_89200196,
+           Switch_89200197,
+           Switch_89200198,
+           Switch_89200199,
+           Switch_89200200,
+           Switch_89200201,
+           Switch_89200202,
+           Switch_89200203,
+           Switch_89200204,
+           Switch_89200205,
+           Switch_89200206,
+           Switch_89200207,
+           Switch_89200208,
+           Switch_89200209,
+           Switch_89200210,
+           Switch_89200211,
+           Switch_89200212,
+           Switch_89200213,
+           Switch_89200214,
+           Switch_89200215,
+           Switch_89200216,
+           Switch_89200217,
+           Switch_89200218,
+           Switch_89200219,
+           Switch_89200220,
+           Switch_89200221,
+           Switch_89200222,
+           Switch_89200223,
+           Switch_89200224,
+           Switch_89200225,
+           Switch_89200226,
+           Switch_89200227,
+           Switch_89200228,
+           Switch_89200229,
+           Switch_89200230,
+           Switch_89200231,
+           Switch_89200232,
+           Switch_89200233,
+           Switch_89200234,
+           Switch_89200235,
+           Switch_89200236,
+           Switch_89200237,
+           Switch_89200238,
+           Switch_89200239,
+           Switch_89200240,
+           Switch_89200241,
+           Switch_89200242,
+           Switch_89200243,
+           Switch_89200244,
+           Switch_89200245,
+           Switch_89200246,
+           Switch_89200247,
+           Switch_89200248,
+           Switch_89200249,
+           Switch_89200250,
+           Switch_89200251,
+           Switch_89200252,
+           Switch_89200253,
+           Switch_89200254,
+           Switch_89200255,
+           Switch_89200256,
+           Switch_89200257,
+           Switch_89200258,
+           Switch_89200259,
+           Switch_89200260,
+           Switch_89200261,
+           Switch_89200262,
+           Switch_89200263,
+           Switch_89200264,
+           Switch_89200265,
+           Switch_89200266,
+           Switch_89200267,
+           Switch_89200268,
+           Switch_89200269,
+           Switch_89200270,
+           Switch_89200271,
+           Switch_89200272,
+           Switch_89200273,
+           Switch_89200274,
+           Switch_89200275,
+           Switch_89200276,
+           Switch_89200277,
+           Switch_89200278,
+           Switch_89200279,
+           Switch_89200280,
+           Switch_89200281,
+           Switch_89200282,
+           Switch_89200283,
+           Switch_89200284,
+           Switch_89200285,
+           Switch_89200286,
+           Switch_89200287,
+           Switch_89200288,
+           Switch_89200289,
+           Switch_89200290,
+           Switch_89200291,
+           Switch_89200292,
+           Switch_89200293,
+           Switch_89200294,
+           Switch_89200295,
+           Switch_89200296,
+           Switch_89200297,
+           Switch_89200298,
+           Switch_89200299,
+           Switch_89200300,
+           Switch_89200301,
+           Switch_89200302,
+           Switch_89200303,
+           Switch_89200304,
+           Switch_89200305,
+           Switch_89200306,
+           Switch_89200307,
+           Switch_89200308,
+           Switch_89200309,
+           Switch_89200310,
+           Switch_89200311,
+           Switch_89200312,
+           Switch_89200313,
+           Switch_89200314,
+           Switch_89200315,
+           Switch_89200316,
+           Switch_89200317,
+           Switch_89200318,
+           Switch_89200319,
+           Switch_89200320,
+           Switch_89200321,
+           Switch_89200322,
+           Switch_89200323,
            Switch_90000000,
            Switch_90000010,
            Switch_90000011,
@@ -33797,6 +38479,12 @@ namespace BraveHaxvius.Data
            Switch_90002216,
            Switch_90002217,
            Switch_90002218,
+           Switch_90002219,
+           Switch_90002220,
+           Switch_90002221,
+           Switch_90002222,
+           Switch_90002223,
+           Switch_90002224,
            Switch_90002225,
            Switch_90002226,
            Switch_90002227,
@@ -33809,6 +38497,382 @@ namespace BraveHaxvius.Data
            Switch_90002234,
            Switch_90002235,
            Switch_90002236,
+           Switch_90002237,
+           Switch_90002238,
+           Switch_90002239,
+           Switch_90002240,
+           Switch_90002241,
+           Switch_90002242,
+           Switch_90002243,
+           Switch_90002244,
+           Switch_90002245,
+           Switch_90002246,
+           Switch_90002247,
+           Switch_90002248,
+           Switch_90002249,
+           Switch_90002250,
+           Switch_90002251,
+           Switch_90002252,
+           Switch_90002253,
+           Switch_90002254,
+           Switch_90002255,
+           Switch_90002256,
+           Switch_90002257,
+           Switch_90002258,
+           Switch_90002259,
+           Switch_90002260,
+           Switch_90002261,
+           Switch_90002262,
+           Switch_90002263,
+           Switch_90002264,
+           Switch_90002265,
+           Switch_90002266,
+           Switch_90002267,
+           Switch_90002268,
+           Switch_90002269,
+           Switch_90002270,
+           Switch_90002271,
+           Switch_90002272,
+           Switch_90002273,
+           Switch_90002274,
+           Switch_90002275,
+           Switch_90002276,
+           Switch_90002277,
+           Switch_90002278,
+           Switch_90002279,
+           Switch_90002280,
+           Switch_90002281,
+           Switch_90002282,
+           Switch_90002283,
+           Switch_90002284,
+           Switch_90002285,
+           Switch_90002286,
+           Switch_90002287,
+           Switch_90002288,
+           Switch_90002289,
+           Switch_90002290,
+           Switch_90002291,
+           Switch_90002292,
+           Switch_90002293,
+           Switch_90002294,
+           Switch_90002295,
+           Switch_90002296,
+           Switch_90002297,
+           Switch_90002298,
+           Switch_90002299,
+           Switch_90002300,
+           Switch_90002301,
+           Switch_90002302,
+           Switch_90002303,
+           Switch_90002304,
+           Switch_90002305,
+           Switch_90002306,
+           Switch_90002307,
+           Switch_90002308,
+           Switch_90002309,
+           Switch_90002310,
+           Switch_90002311,
+           Switch_90002312,
+           Switch_90002313,
+           Switch_90002314,
+           Switch_90002315,
+           Switch_90002316,
+           Switch_90002317,
+           Switch_90002318,
+           Switch_90002319,
+           Switch_90002320,
+           Switch_90002322,
+           Switch_90002323,
+           Switch_90002324,
+           Switch_90002325,
+           Switch_90002326,
+           Switch_90002327,
+           Switch_90002328,
+           Switch_90002330,
+           Switch_90002331,
+           Switch_90002332,
+           Switch_90002333,
+           Switch_90002334,
+           Switch_90002335,
+           Switch_90002336,
+           Switch_90002337,
+           Switch_90002338,
+           Switch_90002339,
+           Switch_90002340,
+           Switch_90002341,
+           Switch_90002342,
+           Switch_90002343,
+           Switch_90002344,
+           Switch_90002345,
+           Switch_90002346,
+           Switch_90002347,
+           Switch_90002348,
+           Switch_90002349,
+           Switch_90002350,
+           Switch_90002351,
+           Switch_90002352,
+           Switch_90002353,
+           Switch_90002354,
+           Switch_90002355,
+           Switch_90002356,
+           Switch_90002357,
+           Switch_90002358,
+           Switch_90002359,
+           Switch_90002360,
+           Switch_90002361,
+           Switch_90002362,
+           Switch_90002363,
+           Switch_90002364,
+           Switch_90002365,
+           Switch_90002366,
+           Switch_90002367,
+           Switch_90002368,
+           Switch_90002369,
+           Switch_90002370,
+           Switch_90002371,
+           Switch_90002372,
+           Switch_90002373,
+           Switch_90002374,
+           Switch_90002375,
+           Switch_90002376,
+           Switch_90002377,
+           Switch_90002378,
+           Switch_90002379,
+           Switch_90002380,
+           Switch_90002381,
+           Switch_90002382,
+           Switch_90002383,
+           Switch_90002384,
+           Switch_90002385,
+           Switch_90002386,
+           Switch_90002387,
+           Switch_90002388,
+           Switch_90002389,
+           Switch_90002390,
+           Switch_90002391,
+           Switch_90002392,
+           Switch_90002393,
+           Switch_90002394,
+           Switch_90002395,
+           Switch_90002396,
+           Switch_90002397,
+           Switch_90002398,
+           Switch_90002399,
+           Switch_90002400,
+           Switch_90002401,
+           Switch_90002402,
+           Switch_90002403,
+           Switch_90002404,
+           Switch_90002405,
+           Switch_90002406,
+           Switch_90002407,
+           Switch_90002408,
+           Switch_90002409,
+           Switch_90002410,
+           Switch_90002411,
+           Switch_90002412,
+           Switch_90002413,
+           Switch_90002414,
+           Switch_90002415,
+           Switch_90002416,
+           Switch_90002417,
+           Switch_90002418,
+           Switch_90002419,
+           Switch_90002420,
+           Switch_90002421,
+           Switch_90002422,
+           Switch_90002423,
+           Switch_90002424,
+           Switch_90002425,
+           Switch_90002426,
+           Switch_90002427,
+           Switch_90002428,
+           Switch_90002429,
+           Switch_90002430,
+           Switch_90002431,
+           Switch_90002432,
+           Switch_90002433,
+           Switch_90002434,
+           Switch_90002435,
+           Switch_90002436,
+           Switch_90002437,
+           Switch_90002438,
+           Switch_90002439,
+           Switch_90002440,
+           Switch_90002441,
+           Switch_90002442,
+           Switch_90002443,
+           Switch_90002444,
+           Switch_90002445,
+           Switch_90002446,
+           Switch_90002447,
+           Switch_90002448,
+           Switch_90002449,
+           Switch_90002450,
+           Switch_90002451,
+           Switch_90002452,
+           Switch_90002453,
+           Switch_90002454,
+           Switch_90002455,
+           Switch_90002456,
+           Switch_90002457,
+           Switch_90002458,
+           Switch_90002469,
+           Switch_90002470,
+           Switch_90002471,
+           Switch_90002472,
+           Switch_90002473,
+           Switch_90002474,
+           Switch_90002475,
+           Switch_90002476,
+           Switch_90002477,
+           Switch_90002478,
+           Switch_90002479,
+           Switch_90002480,
+           Switch_90002484,
+           Switch_90002485,
+           Switch_90002486,
+           Switch_90002487,
+           Switch_90002488,
+           Switch_90002489,
+           Switch_90002490,
+           Switch_90002491,
+           Switch_90002492,
+           Switch_90002493,
+           Switch_90002494,
+           Switch_90002495,
+           Switch_90002496,
+           Switch_90002497,
+           Switch_90002498,
+           Switch_90002499,
+           Switch_90002500,
+           Switch_90002501,
+           Switch_90002502,
+           Switch_90002503,
+           Switch_90002504,
+           Switch_90002505,
+           Switch_90002506,
+           Switch_90002507,
+           Switch_90002508,
+           Switch_90002509,
+           Switch_90002510,
+           Switch_90002511,
+           Switch_90002512,
+           Switch_90002513,
+           Switch_90002514,
+           Switch_90002515,
+           Switch_90002516,
+           Switch_90002517,
+           Switch_90002518,
+           Switch_90002519,
+           Switch_90002520,
+           Switch_90002521,
+           Switch_90002522,
+           Switch_90002523,
+           Switch_90002524,
+           Switch_90002525,
+           Switch_90002526,
+           Switch_90002527,
+           Switch_90002528,
+           Switch_90002529,
+           Switch_90002530,
+           Switch_90002531,
+           Switch_90002532,
+           Switch_90002533,
+           Switch_90002534,
+           Switch_90002535,
+           Switch_90002536,
+           Switch_90002537,
+           Switch_90002538,
+           Switch_90002539,
+           Switch_90002540,
+           Switch_90002541,
+           Switch_90002542,
+           Switch_90002543,
+           Switch_90002544,
+           Switch_90002545,
+           Switch_90002546,
+           Switch_90002547,
+           Switch_90002548,
+           Switch_90002549,
+           Switch_90002550,
+           Switch_90002551,
+           Switch_90002552,
+           Switch_90002553,
+           Switch_90002554,
+           Switch_90002555,
+           Switch_90002556,
+           Switch_90002557,
+           Switch_90002558,
+           Switch_90002559,
+           Switch_90002560,
+           Switch_90002561,
+           Switch_90002562,
+           Switch_90002563,
+           Switch_90002564,
+           Switch_90002565,
+           Switch_90002566,
+           Switch_90002574,
+           Switch_90002575,
+           Switch_90002576,
+           Switch_90002577,
+           Switch_90002578,
+           Switch_90002579,
+           Switch_90002580,
+           Switch_90002581,
+           Switch_90002582,
+           Switch_90002583,
+           Switch_90002584,
+           Switch_90002585,
+           Switch_90002586,
+           Switch_90002587,
+           Switch_90002588,
+           Switch_90002589,
+           Switch_90002590,
+           Switch_90002591,
+           Switch_90002592,
+           Switch_90002593,
+           Switch_90002594,
+           Switch_90002595,
+           Switch_90002596,
+           Switch_90002597,
+           Switch_90002598,
+           Switch_90002602,
+           Switch_90002603,
+           Switch_90002604,
+           Switch_90002605,
+           Switch_90002606,
+           Switch_90002607,
+           Switch_90002608,
+           Switch_90002609,
+           Switch_90002610,
+           Switch_90002611,
+           Switch_90002612,
+           Switch_90002613,
+           Switch_90002614,
+           Switch_90002615,
+           Switch_90002616,
+           Switch_90002617,
+           Switch_90002618,
+           Switch_90002619,
+           Switch_90002620,
+           Switch_90002621,
+           Switch_90002622,
+           Switch_90002623,
+           Switch_90002624,
+           Switch_90002628,
+           Switch_90002629,
+           Switch_90002630,
+           Switch_90002631,
+           Switch_90002632,
+           Switch_90002633,
+           Switch_90002634,
+           Switch_90002635,
+           Switch_90002636,
+           Switch_90002637,
+           Switch_90002638,
+           Switch_90002639,
+           Switch_90002693,
            Switch_90100000,
            Switch_90100001,
            Switch_90100002,
@@ -33910,6 +38974,20 @@ namespace BraveHaxvius.Data
            Switch_91000016,
            Switch_91000017,
            Switch_91000018,
+           Switch_91000019,
+           Switch_91000020,
+           Switch_91000021,
+           Switch_91000022,
+           Switch_91000023,
+           Switch_91000024,
+           Switch_91000025,
+           Switch_91000026,
+           Switch_91000027,
+           Switch_91000028,
+           Switch_91000029,
+           Switch_91000030,
+           Switch_91000031,
+           Switch_91000032,
            Switch_92000011,
            Switch_92000012,
            Switch_92000013,
@@ -33928,6 +39006,36 @@ namespace BraveHaxvius.Data
            Switch_92000026,
            Switch_92000027,
            Switch_92000028,
+           Switch_92000029,
+           Switch_92000030,
+           Switch_92000031,
+           Switch_92000032,
+           Switch_92000033,
+           Switch_92000034,
+           Switch_92000035,
+           Switch_92000036,
+           Switch_92000037,
+           Switch_92000038,
+           Switch_92000039,
+           Switch_92000040,
+           Switch_92000041,
+           Switch_92000042,
+           Switch_92000043,
+           Switch_92000044,
+           Switch_93000001,
+           Switch_93000002,
+           Switch_93000003,
+           Switch_93000004,
+           Switch_93000005,
+           Switch_93000006,
+           Switch_93000007,
+           Switch_93000008,
+           Switch_93000009,
+           Switch_93000010,
+           Switch_93000011,
+           Switch_93000012,
+           Switch_93000013,
+           Switch_93000014,
            Switch_99000200,
            Switch_99000300,
            Switch_99000400,
@@ -34002,6 +39110,32 @@ namespace BraveHaxvius.Data
            Switch_180650068,
            Switch_180650069,
            Switch_180650070,
+           Switch_180650071,
+           Switch_180650072,
+           Switch_180650073,
+           Switch_180650074,
+           Switch_180650075,
+           Switch_180650076,
+           Switch_180650077,
+           Switch_180650078,
+           Switch_180650079,
+           Switch_180650080,
+           Switch_180650081,
+           Switch_180650082,
+           Switch_180650083,
+           Switch_180650084,
+           Switch_180650085,
+           Switch_180650086,
+           Switch_180650087,
+           Switch_180650088,
+           Switch_180650089,
+           Switch_180650090,
+           Switch_180650091,
+           Switch_180650092,
+           Switch_180650093,
+           Switch_180650094,
+           Switch_180650095,
+           Switch_180650096,
            Switch_186100010,
            Switch_186100020,
            Switch_186101010,
@@ -34595,6 +39729,8 @@ namespace BraveHaxvius.Data
            Switch_186228002,
            Switch_186229001,
            Switch_186229002,
+           Switch_186230001,
+           Switch_186230002,
            Switch_186231001,
            Switch_186231002,
            Switch_186231003,
@@ -34602,6 +39738,624 @@ namespace BraveHaxvius.Data
            Switch_186231111,
            Switch_186231112,
            Switch_186232001,
+           Switch_186233010,
+           Switch_186233020,
+           Switch_186233030,
+           Switch_186233040,
+           Switch_186233050,
+           Switch_186233060,
+           Switch_186233070,
+           Switch_186233080,
+           Switch_186234010,
+           Switch_186234020,
+           Switch_186234030,
+           Switch_186234040,
+           Switch_186234050,
+           Switch_186234060,
+           Switch_186234070,
+           Switch_186234080,
+           Switch_186234090,
+           Switch_186234100,
+           Switch_186234110,
+           Switch_186234120,
+           Switch_186234130,
+           Switch_186234140,
+           Switch_186236101,
+           Switch_186236102,
+           Switch_186236103,
+           Switch_186237101,
+           Switch_186238101,
+           Switch_186238111,
+           Switch_186238112,
+           Switch_186239001,
+           Switch_186239002,
+           Switch_186240001,
+           Switch_186240002,
+           Switch_186241001,
+           Switch_186241002,
+           Switch_186242001,
+           Switch_186242002,
+           Switch_186242003,
+           Switch_186243001,
+           Switch_186244010,
+           Switch_186244020,
+           Switch_186244030,
+           Switch_186244040,
+           Switch_186244050,
+           Switch_186244060,
+           Switch_186244070,
+           Switch_186244080,
+           Switch_186245010,
+           Switch_186245020,
+           Switch_186245030,
+           Switch_186245040,
+           Switch_186245050,
+           Switch_186245060,
+           Switch_186245070,
+           Switch_186245080,
+           Switch_186245090,
+           Switch_186245100,
+           Switch_186245110,
+           Switch_186245120,
+           Switch_186245130,
+           Switch_186245140,
+           Switch_186246101,
+           Switch_186246102,
+           Switch_186246103,
+           Switch_186246104,
+           Switch_186246105,
+           Switch_186247101,
+           Switch_186248101,
+           Switch_186248111,
+           Switch_186248112,
+           Switch_186249001,
+           Switch_186249002,
+           Switch_186249003,
+           Switch_186250001,
+           Switch_186250002,
+           Switch_186250003,
+           Switch_186250004,
+           Switch_186250005,
+           Switch_186251001,
+           Switch_186251002,
+           Switch_186252001,
+           Switch_186252002,
+           Switch_186253001,
+           Switch_186253002,
+           Switch_186255000,
+           Switch_186255001,
+           Switch_186255002,
+           Switch_186256000,
+           Switch_186256001,
+           Switch_186256002,
+           Switch_186257000,
+           Switch_186257001,
+           Switch_186257002,
+           Switch_186258001,
+           Switch_186258002,
+           Switch_187400001,
+           Switch_187400002,
+           Switch_187400003,
+           Switch_187400004,
+           Switch_187400005,
+           Switch_187400101,
+           Switch_187400201,
+           Switch_187400202,
+           Switch_187400203,
+           Switch_187400204,
+           Switch_187400205,
+           Switch_187401001,
+           Switch_187401002,
+           Switch_187401003,
+           Switch_187401004,
+           Switch_187401005,
+           Switch_187401006,
+           Switch_187401007,
+           Switch_187401101,
+           Switch_187402001,
+           Switch_187402002,
+           Switch_187402003,
+           Switch_187402004,
+           Switch_187402005,
+           Switch_187402006,
+           Switch_187402007,
+           Switch_187402008,
+           Switch_187402009,
+           Switch_187402010,
+           Switch_187402101,
+           Switch_187403001,
+           Switch_187403002,
+           Switch_187403003,
+           Switch_187403004,
+           Switch_187403005,
+           Switch_187403006,
+           Switch_187403007,
+           Switch_187403101,
+           Switch_187403102,
+           Switch_187404001,
+           Switch_187404002,
+           Switch_187404003,
+           Switch_187404004,
+           Switch_187404005,
+           Switch_187404006,
+           Switch_187404101,
+           Switch_187405001,
+           Switch_187405002,
+           Switch_187405003,
+           Switch_187405004,
+           Switch_187405005,
+           Switch_187405006,
+           Switch_187405007,
+           Switch_187405008,
+           Switch_187405101,
+           Switch_187406001,
+           Switch_187406002,
+           Switch_187406003,
+           Switch_187406004,
+           Switch_187406005,
+           Switch_187406006,
+           Switch_187406101,
+           Switch_187406102,
+           Switch_187406201,
+           Switch_187406202,
+           Switch_187407001,
+           Switch_187407002,
+           Switch_187407003,
+           Switch_187407004,
+           Switch_187407005,
+           Switch_187407006,
+           Switch_187407007,
+           Switch_187407008,
+           Switch_187407009,
+           Switch_187407101,
+           Switch_187407102,
+           Switch_187408001,
+           Switch_187408002,
+           Switch_187408003,
+           Switch_187408004,
+           Switch_187408005,
+           Switch_187408006,
+           Switch_187408101,
+           Switch_187408102,
+           Switch_187408201,
+           Switch_187408202,
+           Switch_187408203,
+           Switch_187408204,
+           Switch_187408205,
+           Switch_187409001,
+           Switch_187409002,
+           Switch_187409003,
+           Switch_187409004,
+           Switch_187409005,
+           Switch_187409006,
+           Switch_187409101,
+           Switch_187409102,
+           Switch_187409201,
+           Switch_187500001,
+           Switch_187500002,
+           Switch_187500003,
+           Switch_187500004,
+           Switch_187500005,
+           Switch_187500006,
+           Switch_187500007,
+           Switch_187500008,
+           Switch_187500101,
+           Switch_187500102,
+           Switch_187500103,
+           Switch_187500104,
+           Switch_187500105,
+           Switch_187500106,
+           Switch_187500107,
+           Switch_187500108,
+           Switch_187500109,
+           Switch_187501001,
+           Switch_187501002,
+           Switch_187501003,
+           Switch_187501004,
+           Switch_187501005,
+           Switch_187501006,
+           Switch_187501007,
+           Switch_187501008,
+           Switch_187501101,
+           Switch_187501102,
+           Switch_187501103,
+           Switch_187501104,
+           Switch_187501105,
+           Switch_187501106,
+           Switch_187501107,
+           Switch_187501108,
+           Switch_187501109,
+           Switch_187501110,
+           Switch_187501111,
+           Switch_187501112,
+           Switch_187501113,
+           Switch_187501114,
+           Switch_187502001,
+           Switch_187502002,
+           Switch_187502003,
+           Switch_187502004,
+           Switch_187502005,
+           Switch_187502006,
+           Switch_187502007,
+           Switch_187502008,
+           Switch_187502101,
+           Switch_187502102,
+           Switch_187502103,
+           Switch_187502104,
+           Switch_187502105,
+           Switch_187502106,
+           Switch_187502107,
+           Switch_187502108,
+           Switch_187502109,
+           Switch_187503001,
+           Switch_187503002,
+           Switch_187503003,
+           Switch_187503004,
+           Switch_187503005,
+           Switch_187503006,
+           Switch_187503007,
+           Switch_187503008,
+           Switch_187503101,
+           Switch_187503102,
+           Switch_187503103,
+           Switch_187503104,
+           Switch_187503105,
+           Switch_187503106,
+           Switch_187503107,
+           Switch_187503108,
+           Switch_187503109,
+           Switch_187503110,
+           Switch_187503111,
+           Switch_187504001,
+           Switch_187504002,
+           Switch_187504003,
+           Switch_187504004,
+           Switch_187504005,
+           Switch_187504006,
+           Switch_187504007,
+           Switch_187504008,
+           Switch_187504101,
+           Switch_187504102,
+           Switch_187504103,
+           Switch_187504104,
+           Switch_187504105,
+           Switch_187504106,
+           Switch_187504107,
+           Switch_187504108,
+           Switch_187504109,
+           Switch_187504110,
+           Switch_187504111,
+           Switch_187505001,
+           Switch_187505002,
+           Switch_187505003,
+           Switch_187505004,
+           Switch_187505005,
+           Switch_187505006,
+           Switch_187505007,
+           Switch_187505008,
+           Switch_187600001,
+           Switch_187600002,
+           Switch_187600003,
+           Switch_187600101,
+           Switch_187600102,
+           Switch_187600103,
+           Switch_187600104,
+           Switch_187600105,
+           Switch_187601001,
+           Switch_187601002,
+           Switch_187601003,
+           Switch_187601101,
+           Switch_187601102,
+           Switch_187601103,
+           Switch_187601104,
+           Switch_187601105,
+           Switch_187602001,
+           Switch_187602002,
+           Switch_187602003,
+           Switch_187602101,
+           Switch_187602102,
+           Switch_187602103,
+           Switch_187602104,
+           Switch_187602105,
+           Switch_187602106,
+           Switch_187603001,
+           Switch_187603002,
+           Switch_187603003,
+           Switch_187603101,
+           Switch_187603102,
+           Switch_187603103,
+           Switch_187603104,
+           Switch_187603105,
+           Switch_187604001,
+           Switch_187604002,
+           Switch_187604003,
+           Switch_187604101,
+           Switch_187604102,
+           Switch_187604103,
+           Switch_187604104,
+           Switch_187604105,
+           Switch_187604106,
+           Switch_187604107,
+           Switch_187605001,
+           Switch_187605002,
+           Switch_187605003,
+           Switch_187605101,
+           Switch_187605102,
+           Switch_187605103,
+           Switch_187605104,
+           Switch_187605105,
+           Switch_187605106,
+           Switch_187606001,
+           Switch_187606002,
+           Switch_187606003,
+           Switch_187606101,
+           Switch_187606102,
+           Switch_187606103,
+           Switch_187606104,
+           Switch_187606105,
+           Switch_187607001,
+           Switch_187607002,
+           Switch_187607003,
+           Switch_187607101,
+           Switch_187607102,
+           Switch_187607103,
+           Switch_187607104,
+           Switch_187607105,
+           Switch_187608001,
+           Switch_187608002,
+           Switch_187608003,
+           Switch_187608101,
+           Switch_187608102,
+           Switch_187608103,
+           Switch_187608104,
+           Switch_187608105,
+           Switch_187608106,
+           Switch_187615001,
+           Switch_187615002,
+           Switch_187700001,
+           Switch_187700002,
+           Switch_187700003,
+           Switch_187700004,
+           Switch_187700005,
+           Switch_187700006,
+           Switch_187700007,
+           Switch_187700008,
+           Switch_187700009,
+           Switch_187700010,
+           Switch_187700011,
+           Switch_187700012,
+           Switch_187700013,
+           Switch_187700014,
+           Switch_187700015,
+           Switch_187700016,
+           Switch_187700017,
+           Switch_187700018,
+           Switch_187700019,
+           Switch_187700020,
+           Switch_187700021,
+           Switch_187700022,
+           Switch_187700023,
+           Switch_187700024,
+           Switch_187700025,
+           Switch_187700026,
+           Switch_187700027,
+           Switch_187700028,
+           Switch_187700029,
+           Switch_187700030,
+           Switch_187700031,
+           Switch_187700032,
+           Switch_187700033,
+           Switch_187700034,
+           Switch_187700035,
+           Switch_187700036,
+           Switch_187700037,
+           Switch_187700038,
+           Switch_187700039,
+           Switch_187700040,
+           Switch_187700041,
+           Switch_187700042,
+           Switch_187700043,
+           Switch_187700044,
+           Switch_187700045,
+           Switch_187700046,
+           Switch_187700047,
+           Switch_187700048,
+           Switch_187700049,
+           Switch_187700050,
+           Switch_187700051,
+           Switch_187700052,
+           Switch_187700053,
+           Switch_187700054,
+           Switch_187700055,
+           Switch_187700056,
+           Switch_187700057,
+           Switch_187700058,
+           Switch_187700059,
+           Switch_187700060,
+           Switch_187700061,
+           Switch_187700062,
+           Switch_187700063,
+           Switch_187700064,
+           Switch_187700065,
+           Switch_187700066,
+           Switch_187700067,
+           Switch_187700068,
+           Switch_187700069,
+           Switch_187700070,
+           Switch_187700071,
+           Switch_187700072,
+           Switch_187700073,
+           Switch_187700074,
+           Switch_187700075,
+           Switch_187700076,
+           Switch_187700077,
+           Switch_187700078,
+           Switch_187700079,
+           Switch_187700080,
+           Switch_187700081,
+           Switch_187700082,
+           Switch_187700083,
+           Switch_187700084,
+           Switch_187700085,
+           Switch_187700086,
+           Switch_187700087,
+           Switch_187700088,
+           Switch_187700089,
+           Switch_187700090,
+           Switch_187700091,
+           Switch_187700092,
+           Switch_187700093,
+           Switch_187700094,
+           Switch_187700095,
+           Switch_187700096,
+           Switch_187700097,
+           Switch_187700098,
+           Switch_187700099,
+           Switch_187700100,
+           Switch_187700101,
+           Switch_187700111,
+           Switch_187700112,
+           Switch_187700113,
+           Switch_187700114,
+           Switch_187700115,
+           Switch_187700116,
+           Switch_187700117,
+           Switch_187700118,
+           Switch_187700119,
+           Switch_187700120,
+           Switch_187700121,
+           Switch_187700122,
+           Switch_187700123,
+           Switch_187700124,
+           Switch_187700125,
+           Switch_187700126,
+           Switch_187700127,
+           Switch_187700128,
+           Switch_187700129,
+           Switch_187700130,
+           Switch_187700131,
+           Switch_187700132,
+           Switch_187700133,
+           Switch_187700134,
+           Switch_187700135,
+           Switch_187700136,
+           Switch_187700137,
+           Switch_187700138,
+           Switch_187700139,
+           Switch_187700140,
+           Switch_187700141,
+           Switch_187700142,
+           Switch_187700143,
+           Switch_187700144,
+           Switch_187700145,
+           Switch_187700146,
+           Switch_187700147,
+           Switch_187700148,
+           Switch_187700149,
+           Switch_187700150,
+           Switch_187700151,
+           Switch_187700152,
+           Switch_187700153,
+           Switch_187700154,
+           Switch_187700155,
+           Switch_187700156,
+           Switch_187700157,
+           Switch_187700158,
+           Switch_187700159,
+           Switch_187700160,
+           Switch_187700161,
+           Switch_187700162,
+           Switch_187700163,
+           Switch_187700164,
+           Switch_187700165,
+           Switch_187700166,
+           Switch_187700167,
+           Switch_187700168,
+           Switch_187700169,
+           Switch_187700170,
+           Switch_187700171,
+           Switch_187700172,
+           Switch_187700173,
+           Switch_187700174,
+           Switch_187700175,
+           Switch_187700176,
+           Switch_187700177,
+           Switch_187700178,
+           Switch_187700179,
+           Switch_187700180,
+           Switch_187700181,
+           Switch_187700182,
+           Switch_187700183,
+           Switch_187700184,
+           Switch_187700185,
+           Switch_187700186,
+           Switch_187700187,
+           Switch_187700188,
+           Switch_187700189,
+           Switch_187700190,
+           Switch_187700191,
+           Switch_187700192,
+           Switch_187700193,
+           Switch_187700194,
+           Switch_187700195,
+           Switch_187700196,
+           Switch_187700197,
+           Switch_187700198,
+           Switch_187700199,
+           Switch_187700200,
+           Switch_187700201,
+           Switch_187700202,
+           Switch_187700203,
+           Switch_187700204,
+           Switch_187700205,
+           Switch_187700206,
+           Switch_187700207,
+           Switch_187700208,
+           Switch_187700209,
+           Switch_187700210,
+           Switch_187700211,
+           Switch_187700212,
+           Switch_187700213,
+           Switch_187700214,
+           Switch_187700215,
+           Switch_187700216,
+           Switch_187700217,
+           Switch_187700218,
+           Switch_187700219,
+           Switch_187700220,
+           Switch_187700221,
+           Switch_187700222,
+           Switch_187700223,
+           Switch_187700224,
+           Switch_187700225,
+           Switch_187700226,
+           Switch_187700227,
+           Switch_187700228,
+           Switch_187700229,
+           Switch_187700230,
+           Switch_187700231,
+           Switch_187700232,
+           Switch_187700233,
+           Switch_187700234,
+           Switch_187700235,
+           Switch_187700236,
+           Switch_187700237,
+           Switch_187700238,
+           Switch_187700239,
+           Switch_187700240,
+           Switch_187700241,
+           Switch_187700242,
+           Switch_187700243,
+           Switch_187700244,
+           Switch_187700245,
+           Switch_187700246,
+           Switch_187700247,
+           Switch_187700248,
+           Switch_187700249,
+           Switch_187700250,
+           Switch_187700251,
+           Switch_187700252,
+           Switch_187700253,
            Switch_620010100,
            Switch_620010101,
            Switch_620010102,
@@ -34750,6 +40504,70 @@ namespace BraveHaxvius.Data
            Switch_832190601,
            Switch_832190701,
            Switch_832190801,
+           Switch_832330101,
+           Switch_832330201,
+           Switch_832330301,
+           Switch_832330401,
+           Switch_832330501,
+           Switch_832330601,
+           Switch_832330701,
+           Switch_832330801,
+           Switch_832440101,
+           Switch_832440201,
+           Switch_832440301,
+           Switch_832440401,
+           Switch_832440501,
+           Switch_832440601,
+           Switch_832440701,
+           Switch_832440801,
+           Switch_850000001,
+           Switch_850000002,
+           Switch_850000003,
+           Switch_850000004,
+           Switch_850000005,
+           Switch_850000006,
+           Switch_850000007,
+           Switch_850000008,
+           Switch_850100001,
+           Switch_850100002,
+           Switch_850100003,
+           Switch_850100004,
+           Switch_850100005,
+           Switch_850100006,
+           Switch_850100007,
+           Switch_850100008,
+           Switch_850200001,
+           Switch_850200002,
+           Switch_850200003,
+           Switch_850200004,
+           Switch_850200005,
+           Switch_850200006,
+           Switch_850200007,
+           Switch_850200008,
+           Switch_850300001,
+           Switch_850300002,
+           Switch_850300003,
+           Switch_850300004,
+           Switch_850300005,
+           Switch_850300006,
+           Switch_850300007,
+           Switch_850300008,
+           Switch_850400001,
+           Switch_850400002,
+           Switch_850400003,
+           Switch_850400004,
+           Switch_850400005,
+           Switch_850400006,
+           Switch_850400007,
+           Switch_850400008,
+           Switch_850500001,
+           Switch_850500002,
+           Switch_850500003,
+           Switch_850500004,
+           Switch_850500005,
+           Switch_850500006,
+           Switch_850500007,
+           Switch_850500008,
 		};
     }
 }

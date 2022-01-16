@@ -6,6 +6,9 @@ using System.Threading;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using BraveHaxvius.Data;
+using System.Threading.Tasks;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Auth;
 
 namespace BraveHaxvius
 {
@@ -40,6 +43,23 @@ namespace BraveHaxvius
         public String UserAgent { get { return Device + "_" + OperatingSystem; } }
         public String PurchaseSignature { get { return Device.Contains("iPhone") ? "1" : OperatingSystem.Contains("amazon") ? "101" : "2"; } }
         public String LastSignalKey { get; set; }
+        public int? currentEnergy { get; set; }
+        public int? maxEnergy { get; set; }
+        public String TotalEnergy
+        {
+            get
+            {
+                if (GetUserInfo == null)
+                {
+                    UpdateGetUserInfo();
+                }
+
+                currentEnergy = Int32.Parse(GetUserInfo[GameObject.UserTeamInfo].First()[Variable.Energy].ToString());
+                maxEnergy = Int32.Parse(GetUserInfo[GameObject.UserTeamInfo].First()[Variable.EnergyMax].ToString());
+
+                return $"{currentEnergy} / {maxEnergy}";
+            }
+        }
 
         public Networking Network { get; set; }
 
@@ -49,6 +69,8 @@ namespace BraveHaxvius
         {
             Network = new Networking { client = this };
         }
+        public String P_GOOGLE_ID { get; set; }
+        public String P_GOOGLE_TOKEN { get; set; }
         public JProperty UserInfo
         {
             get
@@ -90,10 +112,15 @@ namespace BraveHaxvius
                     userInfo.Add(new JProperty(Variable.MacroToolRunningStatus, "0"));
                     userInfo.Add(new JProperty(Variable.Ymd, DateTime.Now.ToString("yyyyMMdd")));
                 }
-                if (!String.IsNullOrEmpty(FacebookUserId))
+                if (!String.IsNullOrEmpty(FacebookUserId) && String.IsNullOrEmpty(P_GOOGLE_ID))
                 {
                     userInfo.Add(new JProperty(Variable.FacebookUserId, FacebookUserId));
                     userInfo.Add(new JProperty(Variable.FacebookToken, FacebookToken));
+                }
+                if (!String.IsNullOrEmpty(P_GOOGLE_ID) && String.IsNullOrEmpty(FacebookUserId))
+                {
+                    userInfo.Add(new JProperty("GwtMEDfU", P_GOOGLE_ID));
+                    userInfo.Add(new JProperty("e5zgvyv7", P_GOOGLE_TOKEN));
                 }
                 return new JProperty(GameObject.UserInfo, new JArray(userInfo));
             }
@@ -110,7 +137,7 @@ namespace BraveHaxvius
         public JObject GetUserInfo3;
         public void Login()
         {
-            if (Locale != "JP" && FacebookUserId.Contains("@"))
+            if (FacebookUserId != null && Locale != "JP" && FacebookUserId.Contains("@"))
             {
                 var fb = new Facebook();
                 if (FacebookToken.Contains(" : "))
@@ -131,7 +158,13 @@ namespace BraveHaxvius
             //DeviceId = Guid.NewGuid().ToString().ToUpper();
             //b.ContactId = Crypto.Encrypt(b.DeviceId, "Zy3MDURw");
             //AdvertisingId = Guid.NewGuid().ToString().ToUpper();
-            Initialize();
+            if (P_GOOGLE_ID is null)
+            {
+                Initialize();
+            }
+            else {
+                InitializeGoogle();
+            }
             UpdateGetUserInfo();
             if (Locale != "JP")
             {
@@ -141,6 +174,7 @@ namespace BraveHaxvius
             }
             UpdateMail();
             UpdateGachaList();
+            LoggedIn = true;
         }
         public void LoginUnlinkedAccount(String userId, String pw, String gumiId, String gumiToken)
         {
@@ -798,7 +832,7 @@ namespace BraveHaxvius
                             var items = enemy[dropType].ToString().Split(new char[1] { ',' }, StringSplitOptions.RemoveEmptyEntries);
                             foreach (var item in items)
                             {
-                                    var parts = item.ToString().Separador(':');
+                                    var parts = item.ToString().Split(':');
                                     var id = parts[1];
                                     var count = UInt16.Parse(parts[2]);
                                     switch (parts[0])
@@ -1377,6 +1411,184 @@ namespace BraveHaxvius
             });
 
         }
+
+        public class MyUnit
+        {
+            public MyUnit()
+            {
+                Stats = new Dictionary<string, string>();
+            }
+
+            public MyUnit(Unit unit)
+            {
+                Stats = new Dictionary<string, string>();
+
+                Name = unit.Name;
+                UniqueId = unit.UniqueUnitId;
+                BaseId = unit.BaseUnitId;
+                UnitId = unit.UnitId;
+
+                Stats["hp"] = unit.UnitHp;
+                Stats["mp"] = unit.UnitMp;
+                Stats["atk"] = unit.UnitAtk;
+                Stats["mag"] = unit.UnitMag;
+                Stats["def"] = unit.UnitDef;
+                Stats["spr"] = unit.UnitSpr;
+            }
+
+            public MyUnit(JToken junit, Unit unit)
+            {
+                Stats = new Dictionary<string, string>();
+
+                Name = unit.Name;
+                UniqueId = unit.UniqueUnitId;
+                BaseId = unit.BaseUnitId;
+                UnitId = unit.UnitId;
+
+                Update(junit);
+            }
+
+            public readonly String Name;
+            public readonly String UniqueId;
+            public readonly String BaseId;
+            public readonly String UnitId;
+
+            public int TMR;
+            public int LastTMR;
+            public int STMR; //o6m7L38B
+            public int LastLevel;
+            public int Level;
+            public int LastExp;
+            public int Exp;
+            public Dictionary<String, string> Stats;
+            public int UnitLBLevel;
+
+            public void Update(JToken unit)
+            {
+                LastExp = Exp;
+                LastLevel = Level;
+                LastTMR = TMR;
+
+                Int32.TryParse(unit[Variable.TotalExperience].ToString(), out Exp);
+                Int32.TryParse(unit[Variable.Level].ToString(), out Level);
+                Int32.TryParse(unit[Variable.UnitTmr].ToString(), out TMR);
+                Int32.TryParse(unit[Variable.UnitLbLvl].ToString(), out UnitLBLevel);
+
+                Stats["hp"] = unit[Variable.UnitHp].ToString();
+                Stats["mp"] = unit[Variable.UnitMp].ToString();
+                Stats["atk"] = unit[Variable.UnitAtk].ToString();
+                Stats["mag"] = unit[Variable.UnitMag].ToString();
+                Stats["def"] = unit[Variable.UnitDef].ToString();
+                Stats["spr"] = unit[Variable.UnitSpr].ToString();
+            }
+        }
+
+        public MyParty MyCurrentParty;
+
+        public class MyParty
+        {
+            public MyParty(int partyId)
+            {
+                MyPartyUnits = new List<MyUnit>();
+                MyPartyId = partyId;
+            }
+
+            public int MyPartyId;
+
+            public String CurrentPartyNames
+            {
+                get
+                {
+                    return string.Format("{0}", string.Join(", ", MyPartyUnits.Select(x => x.Name)));
+                }
+            }
+            public JToken PartyDeck { get; set; }
+            public List<String> CurrentPartyUnits { get; set; }
+            public List<MyUnit> MyPartyUnits { get; set; }
+
+            public void SetMyUnits(Unit unit)
+            {
+                var myUnit = MyPartyUnits.FirstOrDefault(x => x.UniqueId == unit.UniqueUnitId);
+                if (myUnit == null)
+                {
+                    MyPartyUnits.Add(new MyUnit(unit));
+                }
+            }
+
+            public void UpdateMyUnits(JToken setPartyUnits, Unit unit)
+            {
+                setPartyUnits.ToList().ForEach(u =>
+                {
+                    var myUnit = MyPartyUnits.FirstOrDefault(x => x.UniqueId == u[Variable.UniqueUnitId].ToString());
+                    if (myUnit != null)
+                    {
+                        myUnit.Update(u);
+                    }
+                    else
+                    {
+                        MyPartyUnits.Add(new MyUnit(u, unit));
+                    }
+                });
+            }
+        }
+
+        private List<MyParty> _myParties;
+        public List<MyParty> MyParties
+        {
+            get
+            {
+                if (_myParties == null)
+                {
+                    _myParties = new List<MyParty>();
+                }
+                return _myParties;
+            }
+        }
+
+        public int SelectedParty { get => _selectedParty; set => _selectedParty = value; }
+
+        public void UpdateCurrentParty(JObject setParty = null, int? newPartyId = null)
+        {
+            // Are we updating or checking existing data?
+            JObject partyCheck = setParty ?? GetUserInfo;
+
+            // get the selected Party
+            /// TODO: FIX THIS! Need to figure out the ID from response.
+            SelectedParty = newPartyId ?? int.Parse(GetUserInfo[GameObject.UserActualInfo].First()[Variable.CurrentParty].ToString()); // only on GetUserInfo
+
+            // Update User Info with correct selected party
+            GetUserInfo[GameObject.UserActualInfo].First()[Variable.CurrentParty] = SelectedParty.ToString();
+
+            // Check if Party exists in our parties
+            if (MyParties.FirstOrDefault(x => x.MyPartyId == SelectedParty) == null)
+            {
+                // Add party
+                MyParties.Add(new MyParty(SelectedParty));
+            }
+
+            // Get the party we just created or already exists
+            MyCurrentParty = MyParties.FirstOrDefault(x => x.MyPartyId == SelectedParty);
+
+            // If we're switching parties, or looking in User Data, go here
+            if (setParty == null || setParty[GameObject.UserPartyDeckInfo_5Eb0Rig6] != null)
+            {
+                var party = partyCheck[GameObject.UserPartyDeckInfo_5Eb0Rig6][SelectedParty]; // only on GetUserInfo
+                MyCurrentParty.CurrentPartyUnits = party[Variable.PartyUnits].ToString().Split(new char[1] { ',' }).ToList(); //  only on GetUserInfo                
+                MyCurrentParty.CurrentPartyUnits.ForEach(x => MyCurrentParty.SetMyUnits(Units.FirstOrDefault(u => u.UniqueUnitId == x.Split(':')[2])));
+                MyCurrentParty.PartyDeck = partyCheck[GameObject.UserPartyDeckInfo_5Eb0Rig6];
+            }
+            else
+            {
+                // If we're updating after battle, go here
+                var jToken = partyCheck[GameObject.UserUnitInfo_8gSkPD6b];
+                // Safety check
+                if (jToken != null)
+                {
+                    MyCurrentParty.CurrentPartyUnits.ForEach(x => MyCurrentParty.UpdateMyUnits(jToken, Units.FirstOrDefault(u => u.UniqueUnitId == x.Split(':')[2])));
+                }
+            }
+        }
+
         public JObject SetParty(String unitId, Int32 partyId)
         {
             var partyDeckInfo = GetUserInfo[GameObject.UserPartyDeckInfo_5Eb0Rig6][partyId];
@@ -1392,6 +1604,26 @@ namespace BraveHaxvius
                     new JProperty(GameObject.UserBeastDeckInfo_49rQB3fP, GetUserInfo[GameObject.UserBeastDeckInfo_49rQB3fP]));
             return PartyDeckEdit;
         }
+
+        public JObject ChangeParty(Int32 partyId)
+        {
+            //var partyDeckInfo = GetUserInfo[GameObject.UserPartyDeckInfo_5Eb0Rig6][partyId];
+            //partyDeckInfo[Variable.PartyUnits] = "0:1:" + unitId;
+            var PartyDeckEdit = Network.SendPacket(Request.PartyDeckEdit,
+                    new JProperty(Variable.PartySelect, new JArray(new JObject(
+                            new JProperty(Variable.PartyId, partyId.ToString()),
+                            new JProperty(Variable.CurrentParty, partyId.ToString()),
+                            new JProperty(Variable.CompanionParty, GetUserInfo[GameObject.UserActualInfo][0][Variable.CompanionParty].ToString()),
+                            new JProperty(Variable.ColosseumParty, GetUserInfo[GameObject.UserActualInfo][0][Variable.ColosseumParty].ToString()),
+                            new JProperty(Variable.ArenaParty, GetUserInfo[GameObject.UserActualInfo][0][Variable.ArenaParty].ToString())))),
+                    new JProperty(GameObject.UserPartyDeckInfo_5Eb0Rig6, GetUserInfo[GameObject.UserPartyDeckInfo_5Eb0Rig6]),
+                    new JProperty(GameObject.UserBeastDeckInfo_49rQB3fP, GetUserInfo[GameObject.UserBeastDeckInfo_49rQB3fP]));
+
+            UpdateCurrentParty(PartyDeckEdit, partyId);
+
+            return PartyDeckEdit;
+        }
+
         public void SetEquipment(String unitId, String equipment, String materia)
         {
             Network.SendPacket(Request.UnitEquip,
@@ -1406,6 +1638,71 @@ namespace BraveHaxvius
         public void Initialize()
         {
             var Initialize = Network.SendPacket(Request.Initialize);
+            if (Initialize[GameObject.VersionInfo] != null)
+            {
+                if (Initialize[GameObject.VersionInfo].Count(f => f[Variable.KeyName].ToString().Contains("F_APP_VERSION")) > 0)
+                {
+                    AppVersion = (Initialize[GameObject.VersionInfo].First(f => f[Variable.KeyName].ToString().Contains("F_APP_VERSION")))[Variable.Value].ToString();
+                    Initialize = Network.SendPacket(Request.Initialize);
+                }
+                if (Initialize[GameObject.VersionInfo].Count(f => f[Variable.KeyName].ToString() == "F_MST_VERSION") > 0)
+                {
+                    MstVersion = (Initialize[GameObject.VersionInfo].First(f => f[Variable.KeyName].ToString() == "F_MST_VERSION"))[Variable.Value].ToString();
+                    Initialize = Network.SendPacket(Request.Initialize);
+                }
+                if (Locale == "JP" && Initialize[GameObject.VersionInfo].Count(f => f[Variable.KeyName].ToString() == "F_RSC_VERSION") > 0)
+                {
+                    RscVersion = (Initialize[GameObject.VersionInfo].First(f => f[Variable.KeyName].ToString() == "F_RSC_VERSION"))[Variable.Value].ToString();
+                    Initialize = Network.SendPacket(Request.Initialize);
+                }
+            }
+            if (String.IsNullOrEmpty(Initialize[GameObject.UserInfo][0][Variable.UserId].ToString()))
+                Initialize = Network.SendPacket(Request.CreateUser);
+            var userInfo = Initialize[GameObject.UserInfo][0];
+            UserId = userInfo[Variable.UserId].ToString();
+            UserName = userInfo[Variable.UserName].ToString();
+            FriendCode = userInfo[Variable.FriendId].ToString();
+            Password = userInfo[Variable.Password].ToString();
+            if (Locale != "JP")
+            {
+                GumiId = userInfo[Variable.GumiId].ToString();
+                GumiToken = userInfo[Variable.GumiToken].ToString();
+            }
+            ModelChangeCnt = userInfo[Variable.ModelChangeCnt].ToString();
+        }
+        private string GetName(string jwt)
+        {
+            //var dd = GoogleJsonWebSignature.ValidateAsync(jwt, new GoogleJsonWebSignature.ValidationSettings() { Audience = new List<string>() { "19797722756-9vdgo0ig340v88pi896mhpqlogm9vivn.apps.googleusercontent.com" } });
+            return GoogleJsonWebSignature.ValidateAsync(jwt).GetAwaiter().GetResult().Subject;
+
+
+        }
+        private async Task GoogleAPI(string profileName)
+        {
+
+            UserCredential credential;
+
+            credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+                new ClientSecrets
+                {
+                    ClientId = "19797722756-9vdgo0ig340v88pi896mhpqlogm9vivn.apps.googleusercontent.com"
+                },
+                new[] { "email profile" },
+                profileName, CancellationToken.None, null);
+            if (credential.Token.IsExpired(Google.Apis.Util.SystemClock.Default))
+            {
+                await credential.RefreshTokenAsync(CancellationToken.None);
+            }
+            P_GOOGLE_ID = GetName(credential.Token.IdToken);
+            P_GOOGLE_TOKEN = credential.Token.AccessToken;
+            
+        }
+        public void InitializeGoogle()
+        {
+            GoogleAPI(P_GOOGLE_TOKEN).GetAwaiter().GetResult();
+            var Initialize = Network.SendPacket(Request.SignInCheck, new JProperty(GameObject.OAuthInfo, new JArray(new JObject(new JProperty("kZdGGshD", "2")))));
+            Initialize = Network.SendPacket(Request.Initialize, new JProperty(GameObject.OAuthInfo, new JArray(new JObject(new JProperty("kZdGGshD", "2")))), new JProperty(Variable.Facebook, new JArray(new JObject(new JProperty(Variable.UsingFacebook, "1")))));
+
             if (Initialize[GameObject.VersionInfo] != null)
             {
                 if (Initialize[GameObject.VersionInfo].Count(f => f[Variable.KeyName].ToString().Contains("F_APP_VERSION")) > 0)
@@ -1577,7 +1874,61 @@ namespace BraveHaxvius
                 Thread.Sleep(15000);
             }
         }
-        public void DumpAcc(String userId, String pw, String gumiId, String gumiToken)
+
+        private int? _raidOrbs = null;
+        public int RaidOrbs
+        {
+            get
+            {
+                if (_raidOrbs == null)
+                {
+                    _raidOrbs = UInt16.Parse(GetUserInfo[GameObject.UserTeamInfo][0][Variable.RaidOrb].ToString());
+                }
+                return _raidOrbs.HasValue ? _raidOrbs.Value : 0;
+            }
+            set
+            {
+                _raidOrbs = value;
+            }
+        }
+
+        private int? _arenaOrbs = null;
+        private int _selectedParty = 0;
+
+        public int ArenaOrbs
+        {
+            get
+            {
+                if (_arenaOrbs == null)
+                {
+                    _arenaOrbs = UInt16.Parse(GetUserInfo[GameObject.UserTeamInfo][0][Variable.RaidOrb].ToString());
+                }
+                return _arenaOrbs.HasValue ? _arenaOrbs.Value : 0;
+            }
+            set
+            {
+                _arenaOrbs = value;
+            }
+        }
+
+        public bool LoggedIn { get; set; }
+
+        public void ClearRaid(Mission doRaidMission, int raidPartyId)
+        {
+            if (raidPartyId >= 0 && raidPartyId < 5 && MyCurrentParty.MyPartyId != raidPartyId)
+            {
+                ChangeParty(raidPartyId);
+            }
+
+            while (RaidOrbs > 0)
+            {
+                var missionResult = DoMission(doRaidMission, collectLoot: true, SleepTime: 1500);
+                RaidOrbs = UInt16.Parse(missionResult[GameObject.UserTeamInfo][0][Variable.RaidOrb].ToString());
+                Thread.Sleep(1500);
+            }
+        }
+
+        /*public void DumpAcc(String userId, String pw, String gumiId, String gumiToken)
         {
             LoginUnlinkedAccount(userId, pw, gumiId, gumiToken);
         }
@@ -1605,6 +1956,6 @@ namespace BraveHaxvius
                 var count = ability.Split(new char[1] { ':' })[1];
              //   Logger.Out("{0} - {1}", Materia.Materias.First(m => m.MateriaId == matIt).Name, count);
             }
-        }
+        }*/
     }
 }
