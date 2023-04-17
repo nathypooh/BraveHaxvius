@@ -1672,7 +1672,7 @@ namespace BraveHaxvius
         }
         private string GetName(string jwt)
         {
-            //var dd = GoogleJsonWebSignature.ValidateAsync(jwt, new GoogleJsonWebSignature.ValidationSettings() { Audience = new List<string>() { "19797722756-9vdgo0ig340v88pi896mhpqlogm9vivn.apps.googleusercontent.com" } });
+            //var dd = GoogleJsonWebSignature.ValidateAsync(jwt, new GoogleJsonWebSignature.ValidationSettings() { Audience = new List<string>() { "gameclientid" } });
             return GoogleJsonWebSignature.ValidateAsync(jwt).GetAwaiter().GetResult().Subject;
 
 
@@ -1685,7 +1685,7 @@ namespace BraveHaxvius
             credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
                 new ClientSecrets
                 {
-                    ClientId = "19797722756-9vdgo0ig340v88pi896mhpqlogm9vivn.apps.googleusercontent.com"
+                    ClientId = "gameclientid"
                 },
                 new[] { "email profile" },
                 profileName, CancellationToken.None, null);
