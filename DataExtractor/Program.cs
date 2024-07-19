@@ -24,6 +24,7 @@ namespace DataExtractor
             public String Id { get; set; }
             public String English { get; set; }
         }
+	static string P_GS_CDN_PATH;
         static WebClient Downloader = new WebClient();
         static string fileHeader = @"using System;
 using System.Collections.Generic;
@@ -48,7 +49,7 @@ namespace BraveHaxvius.Data
             if (name.Contains("F_TEXT"))
                 loc = "localized_texts/en";
             var nameKey = (JToken)fileJson.FirstOrDefault(r => r.Key == name).Value;
-            var datContent = Downloader.DownloadString("http://lapis-dlc.gumi.sg/dlc_assets_prod/" + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat");
+            var datContent = Downloader.DownloadString(P_GS_CDN_PATH + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat");
             var datLines = datContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
             var entireFile = new List<String>();
             foreach (var base64 in datLines)
@@ -67,7 +68,7 @@ namespace BraveHaxvius.Data
                 loc = "localized_texts/en";
             var nameKey = (JToken)fileJson.FirstOrDefault(r => r.Key == name).Value;
             var datContent = "";
-            try { datContent = Downloader.DownloadString("http://lapis-dlc.gumi.sg/dlc_assets_prod/" + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat"); }
+            try { datContent = Downloader.DownloadString(P_GS_CDN_PATH + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat"); }
             catch { return DecodeFile(name, (int.Parse(version) + 1).ToString()); }
             var datLines = datContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
             var entireFile = new List<String>();
@@ -86,7 +87,7 @@ namespace BraveHaxvius.Data
             if (name.Contains("F_TEXT"))
                 loc = "localized_texts/en";
             var nameKey = (JToken)fileJson.FirstOrDefault(r => r.Key == name).Value;
-            var datContent = Downloader.DownloadString("http://lapis-dlc.gumi.sg/dlc_assets_prod/" + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat");
+            var datContent = Downloader.DownloadString(P_GS_CDN_PATH + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat");
             var datLines = datContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
             var entireFile = new List<String>();
             foreach (var base64 in datLines)
@@ -164,7 +165,7 @@ namespace BraveHaxvius.Data
                 }
                 try
                 {
-                    var datContent = Downloader.DownloadString("http://lapis-dlc.gumi.sg/dlc_assets_prod/" + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat");
+                    var datContent = Downloader.DownloadString(P_GS_CDN_PATH + loc + "/Ver" + version + "_" + nameKey["Name"] + ".dat");
                     var datLines = datContent.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
                     var entireFile = new List<String>();
                     foreach (var base64 in datLines)
@@ -417,6 +418,7 @@ namespace BraveHaxvius.Data
                 AppVersion = "99999"
             };
             var init = bot.Network.SendPacket(Request.Initialize);
+	    P_GS_CDN_PATH = "https://" + bot.Network.SendPacket(Request.GameSetting)[GameObject.GameSetting]["P_GS_CDN_PATH"].ToString(); 
             var newMsts = init[GameObject.VersionInfo];
             var F_LOCALIZED_TEXT_MST = DecodeFile(newMsts.First(m => m[Variable.KeyName].ToString() == "F_LOCALIZED_TEXT_MST"));
             F_LOCALIZED_TEXT_MST.ForEach(l =>
