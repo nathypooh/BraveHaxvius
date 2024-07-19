@@ -418,7 +418,7 @@ namespace BraveHaxvius.Data
                 AppVersion = "99999"
             };
             var init = bot.Network.SendPacket(Request.Initialize);
-	    P_GS_CDN_PATH = "https://" + bot.Network.SendPacket(Request.GameSetting)[GameObject.GameSetting]["P_GS_CDN_PATH"].ToString(); 
+	    P_GS_CDN_PATH = "https://" + bot.Network.SendPacket(Request.GameSetting)[GameObject.GameSetting]["P_GS_CDN_PATH"].ToString() + "/"; 
             var newMsts = init[GameObject.VersionInfo];
             var F_LOCALIZED_TEXT_MST = DecodeFile(newMsts.First(m => m[Variable.KeyName].ToString() == "F_LOCALIZED_TEXT_MST"));
             F_LOCALIZED_TEXT_MST.ForEach(l =>
